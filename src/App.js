@@ -8,6 +8,7 @@ function App() {
       <Radionice />
       <Radionice />
       <Hexagon />
+      <Radionice />
     </>
   );
 }
