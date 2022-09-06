@@ -1,11 +1,14 @@
-import './App.css';
-import Radionice from './Components/Radionice/Radionice';
+import "./App.css";
+import Hexagon from "./Components/HexagonOpsti/Hexagon";
+import Radionice from "./Components/Radionice/Radionice";
 
 function App() {
   return (
-    
-    <Radionice />
-
+    <>
+      <Radionice />
+      <Radionice />
+      <Hexagon />
+    </>
   );
 }
 
