@@ -1,6 +1,7 @@
 import React from "react";
 import { number, string, object, node, func, bool } from "prop-types";
 import BackgroundDef from "./BackgroundDef";
+import "../HexagonOpsti/Hexagon.css";
 
 const hexRatio = 0.868217054;
 const numSides = 6;
