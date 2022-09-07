@@ -2,12 +2,13 @@ import "./App.css";
 import Hexagon from "./Components/HexagonOpsti/Hexagon";
 import Radionice from "./Components/Radionice/Radionice";
 import Panda from "./assets/Panda_closeup.jpg";
+import Agenda from "./Components/Agenda/Agenda"
 
 function App() {
   return (
     <>
       <Radionice />
-      <Radionice />
+      {/* <Radionice />
       <Hexagon
         style={{ stroke: "#42203f" }}
         href="https://fonis.rs"
@@ -16,7 +17,9 @@ function App() {
         flatTop={true}
         className = "HexProba"
       />
-      <Radionice />
+      <Radionice /> */}
+
+      <Agenda />
     </>
   );
 }

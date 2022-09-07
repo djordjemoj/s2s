@@ -1,7 +1,15 @@
-*{ box-sizing: border-box; }
+
+/* promenjive */
+
+/* fontovi */
+/* mobilni je baza */
+*{ box-sizing: border-box; 
+  --main-color: #1E5D88;
+  --main-white-color: #F9EEE1;
+  }
 html,body{ height: 100%; width: 100%; }
 /* @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,300|Ubuntu+Condensed|Ubuntu+Mono); */
-body {background: #1E5D88;}
+body {background: var(--main-color);}
 a {text-decoration: none;}
 
 .Hexbuttons {
@@ -18,7 +26,7 @@ a {text-decoration: none;}
   width: 220px;
 }
 .Hexagon {
-  background: #fef9fa;
+  background: var(--main-white-color);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +36,8 @@ a {text-decoration: none;}
   margin: 0 5px 0 0;
   position: relative;
 	width: 100px;
+ 
+  
 }
 .Hexagon:before {
 	content: "";
@@ -38,7 +48,7 @@ a {text-decoration: none;}
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-bottom: 25px solid #f7eaed;
+	border-bottom: 25px solid var(--main-white-color);
 }
 .Hexagon:after {
 	content: "";
@@ -49,7 +59,7 @@ a {text-decoration: none;}
 	height: 0;
 	border-left: 50px solid transparent;
 	border-right: 50px solid transparent;
-	border-top: 25px solid #ffeff3;
+	border-top: 25px solid var(--main-white-color);
 }
 .Hexagon span { 
   display: block; 
@@ -57,10 +67,11 @@ a {text-decoration: none;}
   padding-top: 8px;
   text-align: center;
   width: 100%;
+  
 }
 .Hexagon span::before {
   content: attr(title);
-  background: #ffedf1;
+  background: var(--main-white-color);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,3 +90,38 @@ a {text-decoration: none;}
   top: 5px;
   transition: 0.1s all ease-in-out;
 }
+
+
+/* extra mali mobilni */
+@media screen and (max-width: 340px){
+
+}
+
+/* mali tableti */
+@media screen and (min-width: 620px){
+
+}
+
+/* veliki tableti i mali  */
+@media screen and (min-width: 960px){
+
+ 
+}
+
+/* desktop */
+@media screen and (min-width: 1200px){
+
+    body{
+      font-size: 20px;
+    }
+  
+  }
+
+  /* ultrawide i sve vece od fhd */
+@media screen and (min-width: 1920px){
+
+    body{
+      font-size: 20px;
+    }
+  
+  }

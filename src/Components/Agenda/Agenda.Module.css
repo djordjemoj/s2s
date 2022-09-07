@@ -1,0 +1,80 @@
+/* promenjive */
+
+/* fontovi */
+/* mobilni je baza */
+.Agenda-container {
+
+
+  flex-direction: column;
+  margin-right: 2%;
+
+}
+
+.Agenda-dugmad {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.ag-dug {
+  width: 30%;
+  position: relative;
+
+}
+
+.ag-dug:hover {
+  transform: scale(1.05);
+
+}
+
+.ag-dug:not(:hover) {
+  transform: scale(1);
+
+}
+
+.sub-drop {
+  position: relative;
+
+  width: 30%;
+}
+
+
+
+
+.Kraj-agende {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+
+  /* margin-right: 2%; */
+
+}
+
+/* extra mali mobilni */
+@media screen and (max-width: 340px) {}
+
+/* mali tableti */
+@media screen and (min-width: 620px) {}
+
+/* veliki tableti i mali  */
+@media screen and (min-width: 960px) {}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+
+  body {
+    font-size: 20px;
+  }
+
+}
+
+/* ultrawide i sve vece od fhd */
+@media screen and (min-width: 1920px) {
+
+  body {
+    font-size: 20px;
+  }
+
+}
