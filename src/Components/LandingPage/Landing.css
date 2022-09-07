@@ -2,6 +2,11 @@
 /* fontovi */
 /* mobilni je baza */
 
+
+.navbar-dark{
+    background-color: #0C5073 !important;
+}
+
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {}
 

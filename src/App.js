@@ -2,11 +2,13 @@ import "./App.css";
 import Hexagon from "./Components/HexagonOpsti/Hexagon";
 import Radionice from "./Components/Radionice/Radionice";
 import Panda from "./assets/Panda_closeup.jpg";
-import Agenda from "./Components/Agenda/Agenda"
+import Agenda from "./Components/Agenda/Agenda";
+import LandingPage from "./Components/LandingPage/Landing";
 
 function App() {
   return (
     <>
+      <LandingPage />
       <Radionice />
       {/* <Radionice />
       <Hexagon
