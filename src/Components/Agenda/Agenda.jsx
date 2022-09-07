@@ -27,8 +27,8 @@ const Agenda = () => {
     resolve => setTimeout(resolve, ms)
   );
 
-  return <div className="Agenda-container">
-
+  return <div className="Agenda-sve">
+<div className="Agenda-container">
 <div className="Agenda-dugmad">
   <div className="Subota ag-dug" >
   <svg onClick={() => prikaziSubotu()} viewBox="0 0 338 370" fill="none" >
@@ -52,31 +52,66 @@ const Agenda = () => {
 </svg>
   </div>
 </div>
-<div className="Dropdown-subota">
+<div className="Dropdown-subota Dropdown">
 <motion.div
-        animate={{ height: visibleSubota ? '500px' : '0px' }}
+        animate={{ height: visibleSubota ? 'auto' : '0px' }}
         initial={{ height: '0px' }}
         transition={{ duration:  0.5}}//mozda ima neka funkcija za ovo
         style={{
           overflow: 'hidden',
-          backgroundColor: 'white',
+          
         }}
-        
+        className="DropdownGrid"
       >
         <motion.div
+            className="ag-item agenda-grid-item-1"
+            animate={{ x: visibleSubota ? "0%" : "350%" }}
+            // initial={{ y: '5%' }}
             
-            
-            animate={{ x: visibleSubota ? "65%" : "350%" }}
-            className="sub-drop"
         >
+          
           <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
+<text x="50%" y ="50%" fill = "black" text-anchor="middle" dominant-baseline="middle">14 - 15 h</text>
+
 </svg>
 
         </motion.div>
-        <motion.div>
+        <motion.div
+         className="ag-item agenda-grid-item-2" 
+        >
+          <div className="pravougaonikAgenda">
+          
+          <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
+</svg>
+
+
+          </div>
+        </motion.div>
+        <motion.div
+         className="ag-item agenda-grid-item-3" 
+        >
+          {/* <svg  fill="none" ><rect x="2.956" y="2.792" width="179.905" height="97.423" rx="7.5" fill="#f9eee1" stroke="#000" stroke-width="5"/></svg> */}
 
         </motion.div>
+        <motion.div
+         className="ag-item agenda-grid-item-4" 
+        >
+<svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
+<text x="50%" y ="50%" fill = "black" text-anchor="middle" dominant-baseline="middle">14 - 15 h</text>
+
+</svg>
+        </motion.div>
+        {/* 
+        
+        <motion.div
+         className="ag-item agenda-grid-item-5" 
+        >
+          <svg  fill="none" ><rect x="2.956" y="2.792" width="179.905" height="97.423" rx="7.5" fill="#f9eee1" stroke="#000" stroke-width="5"/></svg>
+
+        </motion.div> */}
       </motion.div>
 
 </div>
@@ -93,6 +128,7 @@ const Agenda = () => {
         
       >
         <motion.div
+        
             
         ></motion.div>
       </motion.div>
@@ -104,6 +140,7 @@ const Agenda = () => {
 </svg>
 </div>
   </div>;
+  </div>
 };
 
 export default Agenda;
