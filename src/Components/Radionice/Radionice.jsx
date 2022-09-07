@@ -1,6 +1,10 @@
 import React from "react";
 import "../Radionice/Radionice.css";
 
+function obavestenje() {
+  alert("Hello! I am an alert box!!");
+}
+
 const Radionice = () => {
   return (
     <div>
@@ -9,7 +13,7 @@ const Radionice = () => {
           <div class="Hexagon">
             <span title="account"></span>
           </div>
-          <div class="Hexagon">
+          <div class="Hexagon" onClick={obavestenje}>
             <span title="navigation"></span>
           </div>
           <div class="Hexagon">
@@ -55,6 +59,7 @@ const Radionice = () => {
           </div>
         </div>
       </div>
+      
     </div>
   );
 };
