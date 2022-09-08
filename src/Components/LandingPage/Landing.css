@@ -2,10 +2,19 @@
 /* fontovi */
 /* mobilni je baza */
 
+/* Rectangle 385 */
 
-.navbar-dark{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-dark {
     background-color: #0C5073 !important;
 }
+
+
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {}
@@ -17,19 +26,7 @@
 @media screen and (min-width: 960px) {}
 
 /* desktop */
-@media screen and (min-width: 1200px) {
-
-    body {
-        font-size: 20px;
-    }
-
-}
+@media screen and (min-width: 1200px) {}
 
 /* ultrawide i sve vece od fhd */
-@media screen and (min-width: 1920px) {
-
-    body {
-        font-size: 20px;
-    }
-
-}
+@media screen and (min-width: 1920px) {}

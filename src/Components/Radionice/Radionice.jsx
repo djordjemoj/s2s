@@ -59,7 +59,6 @@ const Radionice = () => {
           </div>
         </div>
       </div>
-      
     </div>
   );
 };
