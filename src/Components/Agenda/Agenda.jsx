@@ -9,7 +9,7 @@ const Agenda = () => {
   async function prikaziNedelju() {
     if (visibleSubota) {
       setVisibleSubota(false);
-      await sleep(500);
+      await sleep(1500);
     }
 
     setVisibleNedelja(!visibleNedelja);
@@ -17,7 +17,7 @@ const Agenda = () => {
   async function prikaziSubotu() {
     if (visibleNedelja) {
       setVisibleNedelja(false);
-      await sleep(500);
+      await sleep(1500);
     }
 
     setVisibleSubota(!visibleSubota);
@@ -53,7 +53,7 @@ const Agenda = () => {
 <motion.div
         animate={{ height: visibleSubota ? 'auto' : '0px' }}
         initial={{ height: '0px' }}
-        transition={{ duration:  1.2, ease: "linear"}}//mozda ima neka funkcija za ovo
+      transition={{ duration:  1.5, ease: [0.5, 0.48, 0.45, 0.96]}}//mozda ima neka funkcija za ovo
         style={{
           overflow: 'hidden',
           
@@ -63,7 +63,12 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-1 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 100 }}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.05"}}
+            initial={{opacity: 0.5}}
+            exit={{opacity: 0.5}}
+            whileInView={{ opacity: 1 }}
+            
+
             
         >
           
@@ -77,7 +82,8 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-2 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-            transition={{ duration:  0.3}}
+            transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.05"}}
+            // whileHover={{ scale: 1.3 }}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +93,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-3 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ duration:  0.4}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.20"}}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -96,7 +102,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-4 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.20"}}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -108,7 +114,7 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-5 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 100 }}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.35"}}
             
         >
           
@@ -122,7 +128,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-6 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-            transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.35"}}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -132,7 +138,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-7 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ duration:  0.4}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.50"}}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -141,7 +147,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-8 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ duration:  0.3}}
+         transition={{ delay: "1.5", type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.50"}}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -152,7 +158,7 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-9 ag-item-levo-hex "
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 100 }}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.65"}}
             
         >
           
@@ -164,9 +170,9 @@ const Agenda = () => {
 
         </motion.div>
         <motion.div
-         className="ag-item agenda-grid-item-10 ag-item-desno-rect" 
+         className="ag-item agenda-grid-item-10 ag-item-desno-rect" default
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-            transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.65"}}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -176,7 +182,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-11 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ duration:  0.4}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.70"}}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -185,7 +191,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-12 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.70"}}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -197,7 +203,7 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-13 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 100 }}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.85"}}
             
         >
           
@@ -211,7 +217,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-14 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-            transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.85"}}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -221,7 +227,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-15 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ duration:  0.4}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "1"}}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -230,7 +236,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-16 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1"}}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -242,7 +248,7 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-17 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 100 }}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1.15"}}
             
         >
           
@@ -256,7 +262,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-18 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-            transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "1.15"}}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -267,7 +273,7 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-19 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ duration:  0.3}}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1.3"}}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -284,13 +290,14 @@ const Agenda = () => {
         animate={{ height: visibleNedelja ? '300px' : '0px' }}
         // treba umesto px da bude auto, u zav od 
         initial={{ height: '0px' }}
-        transition={{ duration:  0.5}}
+        transition={{ duration:  1.5}}
         style={{
           overflow: 'hidden',
           backgroundColor: '#F5F5F5',
         }}
         
       >
+        <h2>pravimo kad znamo tacno sve, kopiramo iz subote</h2>
         <motion.div
         
             
