@@ -9,7 +9,7 @@ const Agenda = () => {
   async function prikaziNedelju() {
     if (visibleSubota) {
       setVisibleSubota(false);
-      await sleep(1500);
+      await sleep(2700);
     }
 
     setVisibleNedelja(!visibleNedelja);
@@ -17,7 +17,7 @@ const Agenda = () => {
   async function prikaziSubotu() {
     if (visibleNedelja) {
       setVisibleNedelja(false);
-      await sleep(1500);
+      await sleep(2700);
     }
 
     setVisibleSubota(!visibleSubota);
@@ -51,9 +51,9 @@ const Agenda = () => {
 </div>
 <div className="Dropdown-subota Dropdown">
 <motion.div
-        animate={{ height: visibleSubota ? 'auto' : '0px' }}
-        initial={{ height: '0px' }}
-      transition={{ duration:  1.5, ease: [0.5, 0.48, 0.45, 0.96]}}//mozda ima neka funkcija za ovo
+        animate={{ height: visibleSubota ? 'auto' : '0px'}}
+        
+      transition={{ duration:  2.7, ease: [0.5, 0.48, 0.45, 0.96]}}//mozda ima neka funkcija za ovo
         style={{
           overflow: 'hidden',
           
@@ -64,9 +64,9 @@ const Agenda = () => {
             className="ag-item agenda-grid-item-1 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
             transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.05"}}
-            initial={{opacity: 0.5}}
-            exit={{opacity: 0.5}}
-            whileInView={{ opacity: 1 }}
+            //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
             
 
             
@@ -83,7 +83,9 @@ const Agenda = () => {
          className="ag-item agenda-grid-item-2 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
             transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.05"}}
-            // whileHover={{ scale: 1.3 }}
+            //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,7 +95,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-3 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.20"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.3"}}
+         //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -101,8 +106,11 @@ const Agenda = () => {
         </motion.div>
         <motion.div
          className="ag-item agenda-grid-item-4 ag-item-desno-hex"
-         animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.20"}}
+          animate={{ x: visibleSubota ? "0%" : "250%" }}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.3"}}
+         //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -114,7 +122,10 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-5 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.35"}}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.6"}}
+            // initial={{opacity: 0}}
+            // exit={{opacity: 0}}
+            // whileInView={{ opacity: 1 }}
             
         >
           
@@ -128,7 +139,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-6 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.35"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.6"}}
+        //  initial={{opacity: 0}}
+        //     exit={{opacity: 0}}
+        //     whileInView={{ opacity: 1 }}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,7 +152,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-7 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.50"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.9"}}
+        //  initial={{opacity: 0}}
+        //     exit={{opacity: 0}}
+        //     whileInView={{ opacity: 1 }}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -147,7 +164,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-8 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ delay: "1.5", type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.50"}}
+         transition={{ delay: "1.5", type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.9"}}
+         //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -158,7 +178,10 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-9 ag-item-levo-hex "
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.65"}}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1.2"}}
+            //initial={{opacity: 0}}
+            // exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
             
         >
           
@@ -172,7 +195,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-10 ag-item-desno-rect" default
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.65"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "1.2"}}
+        //  initial={{opacity: 0}}
+        //     exit={{opacity: 0}}
+        //     whileInView={{ opacity: 1 }}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -182,7 +208,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-11 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.70"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "1.5"}}
+        //  initial={{opacity: 0}}
+        //     exit={{opacity: 0}}
+        //     whileInView={{ opacity: 1 }}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -191,7 +220,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-12 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.70"}}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1.5"}}
+         //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -203,7 +235,10 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-13 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "0.85"}}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1.5"}}
+            //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
             
         >
           
@@ -217,7 +252,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-14 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.85"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "1.8"}}
+        //  initial={{opacity: 0}}
+        //     exit={{opacity: 0}}
+        //     whileInView={{ opacity: 1 }}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -227,7 +265,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-15 ag-item-levo-rect" 
          animate={{ x: visibleSubota ? "0%" : "-250%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "1"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "2.1"}}
+        //  initial={{opacity: 0}}
+        //     exit={{opacity: 0}}
+        //     whileInView={{ opacity: 1 }}
         >
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="2.55566" y="2.57617" width="198" height="108" rx="7.5" fill="#F9EEE1" stroke="black" stroke-width="5"/>
@@ -236,7 +277,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-16 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1"}}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "2.1"}}
+         //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -248,7 +292,10 @@ const Agenda = () => {
         <motion.div
             className="ag-item agenda-grid-item-17 ag-item-levo-hex"
             animate={{ x: visibleSubota ? "0%" : "-200%" }}
-            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1.15"}}
+            transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "2.4"}}
+            //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
             
         >
           
@@ -262,7 +309,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-18 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
-         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "1.15"}}
+         transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "2.4"}}
+        //  initial={{opacity: 0}}
+        //     exit={{opacity: 0}}
+        //     whileInView={{ opacity: 1 }}
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -273,7 +323,10 @@ const Agenda = () => {
         <motion.div
          className="ag-item agenda-grid-item-19 ag-item-desno-hex"
          animate={{ x: visibleSubota ? "0%" : "250%" }}
-         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "1.3"}}
+         transition={{ type: "spring", stiffness: 500, mass: 0.3, damping: 22, delay: "2.7"}}
+         //initial={{opacity: 0}}
+//            exit={{opacity: 0}}
+ //           whileInView={{ opacity: 1 }}
         >
 <svg  viewBox="0 0 173 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z" fill="#F9CA87" stroke="black" stroke-width="5"/>
@@ -283,7 +336,7 @@ const Agenda = () => {
         </motion.div>
        
       </motion.div>
-
+      
 </div>
 <div className="Dropdown-nedelja">
 <motion.div
@@ -305,12 +358,22 @@ const Agenda = () => {
       </motion.div>
 
 </div>
-<div className="Kraj-agende">
+{/* <div className="Kraj-agende">
 <svg viewBox="0 0 1355 223" fill="none" >
 <path d="M1151.43 134.409L1341.26 10.9554C1343.73 9.34859 1346.39 9.59564 1348.55 11.1451C1350.76 12.7322 1352.5 15.7603 1352.5 19.6833V213C1352.5 217.142 1349.14 220.5 1345 220.5H10C5.85791 220.5 2.5 217.142 2.5 213V19.7788C2.5 15.8463 4.24341 12.8151 6.46399 11.231C8.63135 9.68484 11.2941 9.44476 13.7671 11.0686L201.568 134.387C203.677 135.772 206.121 136.463 208.626 136.418L243.176 135.798C245.545 135.756 247.835 135.058 249.824 133.742L446.356 3.66864C448.592 2.18867 451.23 2.18867 453.466 3.66864L649.888 133.669C651.936 135.024 654.337 135.746 656.793 135.745L691.894 135.729C694.329 135.728 696.711 135.015 698.746 133.679L896.956 3.59825C899.179 2.13924 901.796 2.13924 904.019 3.59825L1102.31 133.732C1104.28 135.027 1106.58 135.737 1108.94 135.78L1144.38 136.428C1146.88 136.473 1149.33 135.77 1151.43 134.409Z" fill="#F99D1D" stroke="black" stroke-width="5"/>
 </svg>
-</div>
-  </div>;
+</div> */}
+<motion.div className="Kraj-agende"
+       animate={{ y: visibleSubota ? "-150%" : "+40%" }}
+       transition={{duration: "1"}}
+
+      >
+      <svg viewBox="0 0 1355 223" fill="none" >
+<path d="M1151.43 134.409L1341.26 10.9554C1343.73 9.34859 1346.39 9.59564 1348.55 11.1451C1350.76 12.7322 1352.5 15.7603 1352.5 19.6833V213C1352.5 217.142 1349.14 220.5 1345 220.5H10C5.85791 220.5 2.5 217.142 2.5 213V19.7788C2.5 15.8463 4.24341 12.8151 6.46399 11.231C8.63135 9.68484 11.2941 9.44476 13.7671 11.0686L201.568 134.387C203.677 135.772 206.121 136.463 208.626 136.418L243.176 135.798C245.545 135.756 247.835 135.058 249.824 133.742L446.356 3.66864C448.592 2.18867 451.23 2.18867 453.466 3.66864L649.888 133.669C651.936 135.024 654.337 135.746 656.793 135.745L691.894 135.729C694.329 135.728 696.711 135.015 698.746 133.679L896.956 3.59825C899.179 2.13924 901.796 2.13924 904.019 3.59825L1102.31 133.732C1104.28 135.027 1106.58 135.737 1108.94 135.78L1144.38 136.428C1146.88 136.473 1149.33 135.77 1151.43 134.409Z" fill="#F99D1D" stroke="black" stroke-width="5"/>
+</svg>
+
+</motion.div>
+  </div>
   </div>
 };
 
