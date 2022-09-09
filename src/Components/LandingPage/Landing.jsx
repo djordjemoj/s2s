@@ -47,7 +47,7 @@ const landing = () => {
         </p>
       </div>
       <div className="img">
-        <img src="logo2.png" alt="" />
+        <img src="logo.png" alt="" />
       </div>
       <div className="btn">
         <button type="button" class="dugmeZaPrijavu">

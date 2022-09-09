@@ -27,7 +27,46 @@ body {
 @media screen and (min-width: 620px) {}
 
 /* veliki tableti i mali  */
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+    .text {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .text #learning {
+        color: #F9CA87;
+    }
+
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 600px;
+        height: 500px;
+        margin-top: -50px;
+    }
+
+    .dugmeZaPrijavu {
+        position: absolute;
+        right: 40%;
+        top: 87%;
+        background: #F9CA87;
+        border: 3px solid #F99D1D;
+        border-radius: 20px;
+        padding: 15px 30px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .dugmeZaPrijavu:hover {
+        transition: 0.3s;
+        background-color: transparent;
+        color: #F99D1D;
+    }
+}
 
 /* desktop */
 @media screen and (min-width: 1200px) {
@@ -56,6 +95,12 @@ body {
         color: #ffffff;
         font-size: 20px;
         font-weight: 700;
+    }
+
+    .dugmeZaPrijavu:hover {
+        transition: 0.3s;
+        background-color: transparent;
+        color: #F99D1D;
     }
 
     .text {
