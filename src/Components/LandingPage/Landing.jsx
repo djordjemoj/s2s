@@ -54,13 +54,11 @@ const landing = () => {
         <div className="img">
           <img className="responsive" src="logo3.png" alt="" />
         </div>
-        <div className="row">
-          <div className="col-md-12">
-            <div className="dugme">
-              <button type="button" class="dugmeZaPrijavu">
-                PRIJAVI SE
-              </button>
-            </div>
+        <div className="dugme-sve">
+          <div className="dugme">
+            <button type="button" class="dugmeZaPrijavu">
+              PRIJAVI SE
+            </button>
           </div>
         </div>
       </div>
