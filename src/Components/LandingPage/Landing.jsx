@@ -19,7 +19,7 @@ const landing = () => {
     <div>
       <Navbar collapseOnSelect expand="lg" variant="dark">
         <Navbar.Brand href="#">Logo</Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="rensponsive-navbar-nav" />
         <Navbar.Offcanvas placement="end" scroll="true">
           <Offcanvas.Header closeButton></Offcanvas.Header>
           <Offcanvas.Body>
@@ -41,6 +41,19 @@ const landing = () => {
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Navbar>
+      <div className="text">
+        <p>
+          WHERE <span id="learning">LEARNING</span> BEGINS!
+        </p>
+      </div>
+      <div className="img">
+        <img src="logo2.png" alt="" />
+      </div>
+      <div className="btn">
+        <button type="button" class="dugmeZaPrijavu">
+          PRIJAVI SE
+        </button>
+      </div>
     </div>
   );
 };

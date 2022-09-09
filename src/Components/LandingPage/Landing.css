@@ -10,6 +10,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .navbar-dark {
     background-color: #0C5073 !important;
 }
@@ -26,7 +30,44 @@
 @media screen and (min-width: 960px) {}
 
 /* desktop */
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    body {
+        position: relative;
+    }
+
+    .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 600px;
+        height: 500px;
+        margin-top: -50px;
+    }
+
+    .dugmeZaPrijavu {
+        position: absolute;
+        right: 45%;
+        top: 87%;
+        background: #F9CA87;
+        border: 5px solid #F99D1D;
+        border-radius: 20px;
+        padding: 15px 40px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .text {
+        font-size: 48px;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .text #learning {
+        color: #F9CA87;
+    }
+}
 
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {}
