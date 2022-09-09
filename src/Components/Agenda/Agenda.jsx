@@ -83,9 +83,7 @@ const Agenda = () => {
          className="ag-item agenda-grid-item-2 ag-item-desno-rect" 
          animate={{ x: visibleSubota ? "0%" : "200%" }}
             transition={{ type: "spring", stiffness: 150, mass: 0.5, damping: 29, delay: "0.05"}}
-            //initial={{opacity: 0}}
-//            exit={{opacity: 0}}
- //           whileInView={{ opacity: 1 }}
+          
         >
           
           <svg  viewBox="0 0 204 114" fill="none" xmlns="http://www.w3.org/2000/svg">

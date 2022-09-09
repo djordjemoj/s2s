@@ -135,7 +135,7 @@ input[type=radio]:checked {
 #s5:checked~#slide5,
 #s6:checked~#slide6 {
     /* box-shadow: 0 13px 26px rgba(0, 0, 0, 0.3), 0 12px 6px rgba(0, 0, 0, 0.2); */
-    transform: translate3d(0%, 0, 0px);
+    transform: translate3d(0%, 0, 50px);
 }
 
 /* Next Slide */

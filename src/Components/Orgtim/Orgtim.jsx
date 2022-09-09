@@ -52,7 +52,8 @@ const Orgtim = () => {
   <label for="s2" id="slide2"><img src={SlikaTim2} 
             alt="slika tima 0"
             className="SlikaULabelu"
-            style={{ clipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)', WebkitClipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)'}}></img>
+            style={{
+                 clipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)', WebkitClipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)'}}></img>
             </label>
   <label for="s3" id="slide3"><img src={SlikaTim3} 
             alt="slika tima 0"
