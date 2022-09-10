@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import "../Orgtim/Orgtim.css"
-import SlikaTim0 from "../../assets/Panda.jpg"
+import SlikaTim0 from "../../assets/tim0.jpg"
 import SlikaTim1 from "../../assets/tim1.jpg"
 import SlikaTim2 from "../../assets/tim2.jpg"
 import SlikaTim3 from "../../assets/tim3.jpg"
 import SlikaTim4 from "../../assets/tim4.jpg"
 import SlikaTim5 from "../../assets/tim5.jpg"
 import SlikaTim6 from "../../assets/tim6.jpg"
+import SlikaTim7 from "../../assets/Panda.jpg"
+// slike treba da budu malo sire nego kvadrati
+
 
 const Orgtim = () => {
     const inputRef = React.useRef(null);
@@ -16,6 +19,14 @@ const Orgtim = () => {
         inputRef.current.click();
 
      });
+
+     function PromeniSlajd(){
+        // inputRef.current.click();
+        // alert("proba");
+        // const slide0 = document.getElementById("slide0");
+
+        // slide0.style.width = "1000px";
+     };
 
   return (
     <div className='Org-sve'>
@@ -30,13 +41,16 @@ const Orgtim = () => {
         <div className='SlikeOrgTim'>
 
         <div id="slider">
-    <input type="radio" name="slider" id="s0" onChange={(e) => e.target.unchecked}/>         
-  <input type="radio" name="slider" id="s1" onChange={(e) => e.target.unchecked}/>
-  <input type="radio" name="slider" id="s2" onChange={(e) => e.target.checked}/>
-  <input type="radio" name="slider" id="s3" ref={inputRef} onClick={()=>(e) => e.target.checked} onChange={(e) => e.target.checked} />
-  <input type="radio" name="slider" id="s4"onChange={(e) => e.target.checked}/>
-  <input type="radio" name="slider" id="s5"onChange={(e) => e.target.checked}/>
-  <input type="radio" name="slider" id="s6" onChange={(e) => e.target.unchecked}/>
+    <input type="radio" name="slider" id="s0"  />         
+  <input type="radio" name="slider" id="s1" />
+  <input type="radio" name="slider" id="s2" />
+  <input type="radio" name="slider" id="s3" ref={inputRef} onClick={()=>(e) => e.target.checked}  />
+  <input type="radio" name="slider" id="s4"/>
+  <input type="radio" name="slider" id="s5"/>
+  <input type="radio" name="slider" id="s6" />
+  <input type="radio" name="slider" id="s7" />
+
+  
 
   <label for="s0" id="slide0" >
     <img src={SlikaTim0} 
@@ -72,9 +86,18 @@ const Orgtim = () => {
             </label>
   <label for="s6" id="slide6"><img src={SlikaTim6} 
             alt="slika tima 0"
+            // onClick={PromeniSlajd}
             className="SlikaULabelu"
             style={{ clipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)', WebkitClipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)'}}></img>
             </label>
+            <label for="s7" id="slide7"><img src={SlikaTim7} 
+            alt="slika tima 0"
+            className="SlikaULabelu"
+            style={{ clipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)', WebkitClipPath: 'polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)'}}></img>
+            </label>
+
+
+            {/* <button style={{width: "500px", height: "200px"}} onClick={PromeniSlajd}>cao</button> */}
 </div>
 
         

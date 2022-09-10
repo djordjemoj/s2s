@@ -64,7 +64,7 @@
   width: 95%;
   /* border: 1px solid red; */
   column-gap: 1.5vw;
-  overflow: hidden  ;
+  overflow: hidden;
 }
 
 .ag-item {
@@ -222,7 +222,7 @@
   }
 
   .Agenda-container {
-    width: 60%;
+    width: 45%;
   }
 
 
@@ -237,7 +237,7 @@
   }
 
   .Agenda-container {
-    width: 40%;
+    width: 35%;
   }
 
 }
