@@ -41,18 +41,26 @@ const landing = () => {
           </Offcanvas.Body>
         </Navbar.Offcanvas>
       </Navbar>
-      <div className="text">
-        <p>
-          WHERE <span id="learning">LEARNING</span> BEGINS!
-        </p>
-      </div>
-      <div className="img">
-        <img src="logo2.png" alt="" />
-      </div>
-      <div className="btn">
-        <button type="button" class="dugmeZaPrijavu">
-          PRIJAVI SE
-        </button>
+      <div className="container first-page text-center">
+        <div className="row">
+          <div className="col-md-12 col-sm-12">
+            <div className="text">
+              <p>
+                WHERE <span id="learning">LEARNING</span> BEGINS!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="img">
+          <img className="responsive" src="logo3.png" alt="" />
+        </div>
+        <div className="dugme-sve">
+          <div className="dugme">
+            <button type="button" class="dugmeZaPrijavu">
+              PRIJAVI SE
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
