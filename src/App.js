@@ -1,5 +1,6 @@
 import "./App.css";
 import LandingPage from "./Components/LandingPage/Landing";
+import AboutFonis from "./Components/AboutFonis/AboutFonis";
 import Hexagon from "./Components/HexagonOpsti/Hexagon";
 import Radionice from "./Components/Radionice/Radionice";
 import Agenda from "./Components/Agenda/Agenda";
@@ -8,26 +9,15 @@ import "./fonts/Jost500Medium.otf";
 import "./fonts/Jost700Bold.otf";
 
 
+
 function App() {
   return (
     <>
       <LandingPage />
-      <Radionice />
-      {/* <Radionice />
-      <Hexagon
-        style={{ stroke: "#42203f" }}
-        href="https://fonis.rs"
-        backgroundImage={Panda}
-        diagonal={3}
-        flatTop={true}
-        className = "HexProba"
-      />
-      <Radionice /> */}
-
+      <AboutFonis />
       <Agenda />
-      {/* <Orgtim /> */}
       <OrgTim3 />
-      {/* <OrgTim3 /> */}
+      
     </>
   );
 }
