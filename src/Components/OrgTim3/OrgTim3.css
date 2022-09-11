@@ -1,0 +1,216 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+@font-face {
+    font-family: "jost-bold";
+    src: local("Jost-700Bold"), url("/src/fonts/Jost700Bold.otf"), format("truetype");
+}
+
+
+.orgtim-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    background: #1E5D88;
+}
+
+
+
+.OrgTim3 {
+
+    margin-top: 15%;
+    /* padding: 70px; */
+
+    /* height: 1000px; */
+    /* outline: 1px solid black; */
+    width: 100%;
+    font-family: jost-bold;
+
+}
+
+.slick-slide {
+    /* margin-bottom: 100px; */
+}
+
+.slick-track {
+    margin-top: 5%;
+    /* outline: 1px solid rgb(89, 0, 255); */
+
+}
+
+.slick-slide img {
+
+    margin: auto;
+    width: 70%;
+
+
+}
+
+.slick-list {
+    /* outline: 3px solid red; */
+
+}
+
+.slide {
+    transition: transform 1000ms ease;
+    transform: scale(0.4) translate3d(0%, -75%, 0px);
+    /* modzda neka funkcija gore */
+    /* margin: 0 auto; */
+    /* outline: 2px solid black; */
+
+    width: 100%;
+    opacity: 0.7;
+    /* transform: translate3d(0%, -50px, 0px); */
+    /* position: relative; */
+
+
+}
+
+.activeSlide {
+    transform: scale(1);
+    opacity: 1;
+    /* transform: scale(1) translate3d(0%, 30px, 0px); */
+
+
+}
+
+.Koor-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* outline: 1px solid red; */
+    position: absolute;
+
+    /* height: 500px;
+    width: 200px; */
+    /* outline: 2px solid green; */
+}
+
+.Koor-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 55%;
+    position: relative;
+    top: -24.45%;
+    left: 22%;
+    /* outline: 1px solid red; */
+}
+
+.Koor-info svg {
+    width: 96%;
+    font-weight: 900;
+    fill: #db8d21;
+}
+
+.Koor-ime {
+    font-size: 200%;
+}
+.Koor-pozicija{
+    font-size: 190%;
+}
+
+.Koor-slika {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 31%;
+    position: absolute;
+    background: black;
+    border: 0.7px solid black;
+    position: relative;
+    top: -11.7%;
+    left: 0%;
+    z-index: 30;
+}
+
+.Koor-slika img {
+    width: 100%;
+    /* outline: 3px solid black; */
+    /* outline: 2px solid red;
+  outline-offset: -1px; ovo je za SVG a ne za clip*/
+}
+
+/* extra mali mobilni */
+@media screen and (max-width: 340px) {}
+
+/* mali tableti */
+@media screen and (min-width: 620px) {
+    .Koor-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* outline: 1px solid red; */
+        position: absolute;
+        /* height: 500px; */
+
+    }
+
+    .Koor-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 50%;
+        position: relative;
+        top: -25%;
+        left: 24.3%;
+        /* outline: 1px solid red; */
+    }
+
+    .Koor-ime {
+        font-size: 150%;
+    }
+    .Koor-pozicija{
+        font-size: 130%;
+    }
+
+    .Koor-info svg {
+        width: 40%;
+    }
+
+    .Koor-slika {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 30%;
+        position: absolute;
+        background: none;
+        border: none;
+        position: relative;
+        top: -12.4%;
+        left: 23%;
+        z-index: 30;
+        color: #5b606a;
+    }
+
+    .Koor-slika img {
+        width: 40%;
+        /* position: absolute;
+        top: 50px;
+        margin-bottom: 5000px;
+        right: 0%;
+        transform: scale(1); */
+    }
+}
+
+/* veliki tableti i mali  */
+@media screen and (min-width: 960px) {}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+
+    body {
+        font-size: 20px;
+    }
+
+}
+
+/* ultrawide i sve vece od fhd */
+@media screen and (min-width: 1920px) {
+
+    body {
+        font-size: 20px;
+    }
+
+}

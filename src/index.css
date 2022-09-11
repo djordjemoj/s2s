@@ -1,6 +1,14 @@
 /* promenjive */
 
 /* fontovi */
+@font-face {
+  font-family: "jost-bold";
+  src: local("Jost-700Bold"), url("./fonts/Jost700Bold.otf"), format("truetype");
+}
+@font-face {
+  font-family: "jost-medium";
+  src: local("Jost-500Medium"), url("./fonts/Jost500Medium.otf"), format("truetype");
+}
 /* mobilni je baza */
 
 

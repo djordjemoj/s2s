@@ -1,17 +1,36 @@
 import "./App.css";
 import LandingPage from "./Components/LandingPage/Landing";
-import Orgtim from "./Components/Orgtim/Orgtim";
-// import Orgtim2 from "./Components/Orgtim2/Orgtim2";
+import Hexagon from "./Components/HexagonOpsti/Hexagon";
+import Radionice from "./Components/Radionice/Radionice";
+import Agenda from "./Components/Agenda/Agenda";
+import OrgTim3 from "./Components/OrgTim3/OrgTim3";
+import "./fonts/Jost500Medium.otf";
+import "./fonts/Jost700Bold.otf";
+
 
 function App() {
   return (
     <>
       <LandingPage />
+      <Radionice />
+      {/* <Radionice />
+      <Hexagon
+        style={{ stroke: "#42203f" }}
+        href="https://fonis.rs"
+        backgroundImage={Panda}
+        diagonal={3}
+        flatTop={true}
+        className = "HexProba"
+      />
+      <Radionice /> */}
 
-      <Orgtim />
-      {/* <Orgtim2 /> */}
+      <Agenda />
+      {/* <Orgtim /> */}
+      <OrgTim3 />
+      {/* <OrgTim3 /> */}
     </>
   );
 }
 
 export default App;
+
