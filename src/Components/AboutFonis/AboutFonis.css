@@ -3,6 +3,18 @@
 /* fontovi */
 /* mobilni je baza */
 
+.ofonisu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+.about {
+    height: 50%;
+}
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {}
@@ -14,19 +26,7 @@
 @media screen and (min-width: 960px) {}
 
 /* desktop */
-@media screen and (min-width: 1200px) {
-
-    body {
-        font-size: 20px;
-    }
-
-}
+@media screen and (min-width: 1200px) {}
 
 /* ultrawide i sve vece od fhd */
-@media screen and (min-width: 1920px) {
-
-    body {
-        font-size: 20px;
-    }
-
-}
+@media screen and (min-width: 1920px) {}
