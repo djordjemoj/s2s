@@ -1,9 +1,8 @@
-import React from 'react';
+import React from "react";
 import "../Footer/Footer.css";
-import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
 const Footer = () => {
   return (
-    <footer>
+    <div className="CeoFooter">
       <div class="first">
         <svg
           class="base"
@@ -25,13 +24,14 @@ const Footer = () => {
             ADRESA <br />
             Fakultet Organizacionih nauka <br />
             Jove Ilića 154, Beograd
-            <br /><br />
-            NAŠ SAJT:<span style="color: orange"> fonis.rs</span> <br />
+            <br />
+            <br />
+            NAŠ SAJT:<span style={{color: "orange"}}> fonis.rs</span> <br />
             <br />
           </p>
-          <a href="https://fonis.rs/" target="_blank"
-            ><img class="img-first" src="./slike/download1.png" alt="FONIS"
-          /></a>
+          <a href="https://fonis.rs/" target="_blank">
+            <img class="img-first" src="./slike/download1.png" alt="FONIS" />
+          </a>
         </div>
       </div>
 
@@ -51,9 +51,9 @@ const Footer = () => {
             stroke-width="5"
           />
         </svg>
-        <a href="#"
-          ><img class="second-img" src="./slike/download.png" alt="LOGO"
-        /></a>
+        <a href="#">
+          <img class="second-img" src="./slike/download.png" alt="LOGO" />
+        </a>
       </div>
       <div class="third">
         <svg
@@ -73,8 +73,8 @@ const Footer = () => {
         </svg>
         <div class="grid-proba">
           <div class="grid-first">
-            <a href="https://www.facebook.com/fonis.rs" target="_blank"
-              ><svg
+            <a href="https://www.facebook.com/fonis.rs" target="_blank">
+              <svg
                 class="base"
                 xmlns="http://www.w3.org/2000/svg"
                 width="142"
@@ -88,12 +88,13 @@ const Footer = () => {
                 />
               </svg>
               <div class="grid-first-logo">
-                <i class="fab fa-facebook-f"></i></div
-            ></a>
+                <i class="fab fa-facebook-f"></i>
+              </div>
+            </a>
           </div>
           <div class="grid-second">
-            <a href="https://www.instagram.com/fonis_fon/" target="_blank"
-              ><svg
+            <a href="https://www.instagram.com/fonis_fon/" target="_blank">
+              <svg
                 class="base"
                 xmlns="http://www.w3.org/2000/svg"
                 width="142"
@@ -107,12 +108,13 @@ const Footer = () => {
                 />
               </svg>
               <div class="grid-second-logo">
-                <i class="fab fa-instagram"></i></div
-            ></a>
+                <i class="fab fa-instagram"></i>
+              </div>
+            </a>
           </div>
           <div class="grid-third">
-            <a href="https://www.linkedin.com/company/fonis/" target="_blank"
-              ><svg
+            <a href="https://www.linkedin.com/company/fonis/" target="_blank">
+              <svg
                 class="base"
                 xmlns="http://www.w3.org/2000/svg"
                 width="142"
@@ -126,12 +128,13 @@ const Footer = () => {
                 />
               </svg>
               <div class="grid-third-logo">
-                <i class="fab fa-linkedin-in"></i></div
-            ></a>
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+            </a>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
