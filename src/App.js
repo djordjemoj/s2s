@@ -17,6 +17,7 @@ function App() {
       <Panelisti />
       <Agenda />
       <OrgTim3 />
+      <Footer />
     </>
   );
 }
