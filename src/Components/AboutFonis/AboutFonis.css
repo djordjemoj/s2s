@@ -22,7 +22,10 @@
     clip-path: polygon(0 0, 60% 0, 103% 91%, 0% 91%);
 }
 
-
+#tekst{
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {}
