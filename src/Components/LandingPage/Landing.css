@@ -31,7 +31,10 @@ body {
 .text #learning {
     color: #F9CA87;
 }
-
+.logo-container-for-animation{
+    min-height: 60vh;
+    /* ako malo glicuje mozda je ovde TEST */
+}
 .responsive {
     width: 80%;
     display: block;

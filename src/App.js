@@ -8,6 +8,7 @@ import OrgTim3 from "./Components/OrgTim3/OrgTim3";
 import "./fonts/Jost500Medium.otf";
 import "./fonts/Jost700Bold.otf";
 import Panelisti from "./Components/Panelisti/Panelisti";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Panelisti />
       <Agenda />
       <OrgTim3 />
+      <Footer />
     </>
   );
 }
