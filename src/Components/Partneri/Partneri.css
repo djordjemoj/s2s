@@ -1,0 +1,151 @@
+.Partneri{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  /* width: 100px;
+  height: 100px; */
+  /* outline: 1px solid black; */
+  /* min-height: 1000px; */
+  height: 1000px;
+  }
+  .Partneri-svi{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+      width: 90%;
+      outline: 1px solid rgb(119, 12, 12);
+      
+      
+  }
+  .Pokrovitelji-panel{
+      /* outline: 1px solid black; */
+      display: flex;
+  flex-direction: column;
+  /* column-gap: 5vw; */
+  justify-content: center;
+      width: 90%;
+  }
+  .Pokrovitelji-panel svg{
+      width: 100%;
+  }
+  .Partneri-text{
+      /* font-family: 'Jost'; */
+  margin: 0 auto;
+  text-align: center;
+  /* padding-bottom: 50vw; */
+  color: #F99D1D;
+  font-size: 1.5rem;
+  }
+  .SliderCeo{
+     width: 100%;
+     /* border: 1px solid black; */
+     /* height: 200px; */
+  }
+  
+  .slider-partneri{
+      width: 90%;
+      /* height: 500px; */
+      /* height: 100px;   */
+  }
+  
+  .Jedan-partner{
+      clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+  
+  }
+  .Jedan-partner-slika{
+      clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+      border: 2px solid black;
+      background-color: black;
+  }
+  .slick-list {
+      /* outline: 3px solid red; */
+      margin-top: 0%; 
+      /* min-height: 100px; */
+  
+  }
+  /* .slick-slide img {
+  
+    margin: auto;
+    width: 70%;
+  
+  
+  } */
+  /* .slider-arrow {
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    width: 100%;
+    transform: scale(2);
+    background-color: #F99D1D;
+    border: 2px solid black;
+  }
+  .arrow-btn {
+    top: 45%;
+  } */
+  
+  
+  /* promenjive */
+  
+  /* fontovi */
+  /* @font-face {
+      font-family: "jost-bold";
+      src: local("Jost-700Bold"), url("./fonts/Jost700Bold.otf"), format("truetype");
+    }
+    @font-face {
+      font-family: "jost-medium";
+      src: local("Jost-500Medium"), url("./fonts/Jost500Medium.otf"), format("truetype");
+    } */
+    /* mobilni je baza */
+    
+    /* .orgtim-naslov{
+      position: absolute;
+      margin-top: 10%;
+    } */
+    
+    /* extra mali mobilni */
+    @media screen and (max-width: 340px) {}
+    
+    /* mali tableti */
+    @media screen and (min-width: 620px) {
+      .Partneri{
+        height: 1300px;
+        }
+    }
+    
+    /* veliki tableti i mali  */
+    @media screen and (min-width: 960px){
+      .Partneri{
+        height: 1500;
+        }
+    }
+    
+    /* desktop */
+    @media screen and (min-width: 1200px) {
+    
+      .Partneri{
+        height: 1800px;
+        }
+      body {
+        font-size: 20px;
+      }
+    
+    }
+    
+    /* ultrawide i sve vece od fhd */
+    @media screen and (min-width: 1920px) {
+      .Partneri{
+        height: 2000px;
+        }
+      body {
+        font-size: 20px;
+      }
+      .Partneri-svi{
+          width: 70%;
+      }
+    
+    }
+  
