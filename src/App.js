@@ -9,6 +9,7 @@ import "./fonts/Jost500Medium.otf";
 import "./fonts/Jost700Bold.otf";
 import Panelisti from "./Components/Panelisti/Panelisti";
 import Footer from "./Components/Footer/Footer";
+import Partneri from "./Components/Partneri/Partneri";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <AboutFonis />
       <Panelisti />
       <Agenda />
+      <Partneri />
       <OrgTim3 />
       <Footer />
     </>
