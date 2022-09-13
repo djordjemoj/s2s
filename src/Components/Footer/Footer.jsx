@@ -1,5 +1,9 @@
 import React from "react";
 import "../Footer/Footer.css";
+import LOGO from "../../assets/s2slogo.png";
+import FONISLOGO from "../../assets/fonislogo.png";
+// import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css";
+// moramo da nadjemo drugo resenje za ovo iznad ali nmvz za sad
 const Footer = () => {
   return (
     <div className="CeoFooter">
@@ -20,17 +24,18 @@ const Footer = () => {
           />
         </svg>
         <div className="first-text">
-          <p className="text">
+          <p className="text-kontakt">
+            {/* ovo cemo vrv da prebacimo u sam svg <text> jer je lakse za resp */}
             ADRESA <br />
             Fakultet Organizacionih nauka <br />
             Jove Ilića 154, Beograd
             <br />
             <br />
-            NAŠ SAJT:<span style={{color: "orange"}}> fonis.rs</span> <br />
+            NAŠ SAJT:<span style={{ color: "orange" }}> fonis.rs</span> <br />
             <br />
           </p>
           <a href="https://fonis.rs/" target="_blank">
-            <img className="img-first" src="./assets/download1.png" alt="FONIS" />
+            <img className="img-first" src={FONISLOGO} alt="FONIS" />
           </a>
         </div>
       </div>
@@ -52,10 +57,10 @@ const Footer = () => {
           />
         </svg>
         <a href="#">
-          <img className="second-img" src="./assets/download.png" alt="LOGO" />
+          <img className="second-img" src={LOGO} alt="LOGO" />
         </a>
       </div>
-      <div classNameName="third">
+      <div className="third">
         <svg
           className="base"
           xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +78,11 @@ const Footer = () => {
         </svg>
         <div className="grid-proba">
           <div className="grid-first">
-            <a className="links" href="https://www.facebook.com/fonis.rs" target="_blank">
+            <a
+              className="links"
+              href="https://www.facebook.com/fonis.rs"
+              target="_blank"
+            >
               <svg
                 className="base"
                 xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +102,11 @@ const Footer = () => {
             </a>
           </div>
           <div className="grid-second">
-            <a className="links" href="https://www.instagram.com/fonis_fon/" target="_blank">
+            <a
+              className="links"
+              href="https://www.instagram.com/fonis_fon/"
+              target="_blank"
+            >
               <svg
                 className="base"
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,12 +121,26 @@ const Footer = () => {
                 />
               </svg>
               <div className="grid-second-logo">
+                <svg
+                  viewBox="0 0 72 64"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M50.0624 0.657227L21.5544 0.657227C20.3732 0.657842 19.2128 0.968186 18.1899 1.5571C17.1671 2.14601 16.3177 2.99276 15.727 4.01232L1.47304 28.614C0.885396 29.634 0.576172 30.7896 0.576172 31.9657C0.576172 33.1418 0.885396 34.2974 1.47304 35.3173L15.727 59.9053C16.3166 60.9258 17.1658 61.7733 18.1889 62.3623C19.212 62.9514 20.3729 63.2612 21.5544 63.2604H50.0624C51.2416 63.2587 52.3997 62.9478 53.4202 62.3589C54.4406 61.77 55.2876 60.9238 55.876 59.9053L70.13 35.3036C70.721 34.2848 71.0322 33.1287 71.0322 31.9519C71.0322 30.7751 70.721 29.6191 70.13 28.6003L55.876 4.01232C55.2865 2.99478 54.4393 2.14932 53.4191 1.56053C52.3988 0.971743 51.2414 0.660255 50.0624 0.657227V0.657227Z"
+                    fill="#199AD4"
+                  />
+                </svg>  
                 <i className="fab fa-instagram"></i>
               </div>
             </a>
           </div>
           <div className="grid-third">
-            <a className="links" href="https://www.linkedin.com/company/fonis/" target="_blank">
+            <a
+              className="links"
+              href="https://www.linkedin.com/company/fonis/"
+              target="_blank"
+            >
               <svg
                 className="base"
                 xmlns="http://www.w3.org/2000/svg"
