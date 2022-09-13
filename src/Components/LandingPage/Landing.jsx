@@ -1,5 +1,6 @@
 import React from "react";
 import "../LandingPage/Landing.css";
+import { motion } from "framer-motion";
 
 import {
   NavDropdown,
@@ -11,6 +12,7 @@ import {
   Button,
 } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { MotionConfig } from "framer-motion";
 
 //rafce
 
@@ -50,8 +52,22 @@ const landing = () => {
             </div>
           </div>
         </div>
-        <div className="img">
-          <img className="responsive" src="logo3.png" alt="" />
+        <div className="logo-container-for-animation">
+          <motion.div
+            className="img-mainLogo"
+            initial={{ x: "200%", y: "-500%" }}
+            animate={{ x: "0%", y: "0%" }}
+            // exit={{ opacity: 0 }}
+            transition={{
+              type: "spring",
+              stiffness: 500,
+              mass: 0.3,
+              damping: 22,
+              delay: "0.05",
+            }}
+          >
+            <img className="responsive" src="logo3.png" alt="" />
+          </motion.div>
         </div>
         <div className="dugme-sve">
           <div className="dugme">

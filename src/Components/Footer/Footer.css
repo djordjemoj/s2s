@@ -1,0 +1,176 @@
+.CeoFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    
+}
+svg.base {
+    width: 100%;
+    height: 100%;
+}
+
+.first{
+    position: relative;
+    width: 100%;
+    margin-right: -2.7%;
+}
+.first-text{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    top: 5%;
+    left: 7%;
+    right:20%;
+    bottom: 20%;
+    
+    
+}
+.text-kontakt{
+    width: 100%;
+    height: 50%;
+}
+.img-first{
+    width:50%;
+    height:20%;
+    margin-top: 10px;
+    margin-bottom: -50px;
+}
+
+.second{
+    position: relative;
+    justify-content: center;
+    width: 72%;
+    margin-left: -2.7%;
+    margin-right: -2.7%;
+}
+.second-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);  ;
+}
+
+.third{
+    width: 100%;
+    margin-left: -2.7%;
+    position:relative;
+    
+}
+
+.grid-proba{
+    position: absolute;
+    /* background-color: greenyellow; */
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    display: grid;
+    grid-template-columns:1.5fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6,1fr);
+
+}
+
+.grid-first{
+    grid-column: 2/3 ;
+    grid-row: 2/4;
+    margin-bottom: 5px;
+    margin-right: -5px;
+    position: relative;
+}
+.grid-first-logo{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.grid-second{
+    grid-column: 3/4 ;
+    grid-row: 3/5;
+    margin-bottom: 5px;
+    margin-left: -5px;
+    position: relative;
+}
+.grid-second-logo{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-third{
+    grid-column: 2/3 ;
+    grid-row: 4/6;
+    margin-top:5px;
+    margin-right: -5px;
+    position: relative;
+    
+}
+.grid-third-logo{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.links{
+    color: orange;
+}
+
+/* promenjive */
+/* fontovi */
+/* mobilni je baza */
+
+/* extra mali mobilni */
+@media screen and (max-width: 340px){
+    /* p{
+        font-size: 6px;
+    } */
+}
+@media screen and (min-width: 340px){
+    /* p{
+        font-size: 10px;
+    } */
+}
+@media screen and (min-width: 480px){
+    /* p{
+        font-size: 13px;
+    } */
+}
+
+/* mali tableti */
+@media screen and (min-width: 620px){
+    /* p{
+        font-size: 17px;
+    } */
+}
+
+/* veliki tableti i mali  */
+@media screen and (min-width: 960px){
+    /* p{
+        font-size: 30px;
+    } */
+ 
+}
+
+/* desktop */
+@media screen and (min-width: 1200px){
+
+    /* body{
+      font-size: 30px;
+    } */
+  
+  }
+
+  /* ultrawide i sve vece od fhd */
+@media screen and (min-width: 1920px){
+
+    /* body{
+      font-size: 30px;
+    } */
+  
+  }
+
+ 
