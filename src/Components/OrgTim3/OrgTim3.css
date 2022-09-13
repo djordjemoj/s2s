@@ -34,7 +34,7 @@
 }
 
 .slick-track {
-    margin-top: 5%;
+    margin-top: 10%;
     /* outline: 1px solid rgb(89, 0, 255); */
 
 }
@@ -49,6 +49,7 @@
 
 .slick-list {
     /* outline: 3px solid red; */
+    margin-top: 5%;
 
 }
 
@@ -93,7 +94,7 @@
     justify-content: center;
     width: 55%;
     position: relative;
-    top: -24.45%;
+    top: -23%;
     left: 22%;
     /* outline: 1px solid red; */
 }
@@ -120,7 +121,7 @@
     background: black;
     border: 0.7px solid black;
     position: relative;
-    top: -11.7%;
+    top: -11.3%;
     left: 0%;
     z-index: 30;
 }
@@ -137,6 +138,11 @@
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
+    .slick-track {
+        margin-top: 5%;
+        /* outline: 1px solid rgb(89, 0, 255); */
+    
+    }
     .Koor-container {
         display: flex;
         flex-direction: row;
@@ -153,7 +159,7 @@
         justify-content: center;
         width: 50%;
         position: relative;
-        top: -25%;
+        top: -22.5%;
         left: 24.3%;
         /* outline: 1px solid red; */
     }
@@ -178,19 +184,14 @@
         background: none;
         border: none;
         position: relative;
-        top: -12.4%;
-        left: 23%;
+        top: -11.3%;
+        left: 22.7%;
         z-index: 30;
         color: #5b606a;
     }
 
     .Koor-slika img {
         width: 40%;
-        /* position: absolute;
-        top: 50px;
-        margin-bottom: 5000px;
-        right: 0%;
-        transform: scale(1); */
     }
 }
 
