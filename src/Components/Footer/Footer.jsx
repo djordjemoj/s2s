@@ -3,9 +3,9 @@ import "../Footer/Footer.css";
 const Footer = () => {
   return (
     <div className="CeoFooter">
-      <div class="first">
+      <div className="first">
         <svg
-          class="base"
+          className="base"
           xmlns="http://www.w3.org/2000/svg"
           width="588"
           height="382"
@@ -19,8 +19,8 @@ const Footer = () => {
             stroke-width="5"
           />
         </svg>
-        <div class="first-text">
-          <p>
+        <div className="first-text">
+          <p className="text">
             ADRESA <br />
             Fakultet Organizacionih nauka <br />
             Jove Ilića 154, Beograd
@@ -30,14 +30,14 @@ const Footer = () => {
             <br />
           </p>
           <a href="https://fonis.rs/" target="_blank">
-            <img class="img-first" src="./slike/download1.png" alt="FONIS" />
+            <img className="img-first" src="./assets/download1.png" alt="FONIS" />
           </a>
         </div>
       </div>
 
-      <div class="second">
+      <div className="second">
         <svg
-          class="base"
+          className="base"
           xmlns="http://www.w3.org/2000/svg"
           width="588"
           height="382"
@@ -52,12 +52,12 @@ const Footer = () => {
           />
         </svg>
         <a href="#">
-          <img class="second-img" src="./slike/download.png" alt="LOGO" />
+          <img className="second-img" src="./assets/download.png" alt="LOGO" />
         </a>
       </div>
-      <div class="third">
+      <div classNameName="third">
         <svg
-          class="base"
+          className="base"
           xmlns="http://www.w3.org/2000/svg"
           width="588"
           height="382"
@@ -71,11 +71,11 @@ const Footer = () => {
             stroke-width="5"
           />
         </svg>
-        <div class="grid-proba">
-          <div class="grid-first">
-            <a href="https://www.facebook.com/fonis.rs" target="_blank">
+        <div className="grid-proba">
+          <div className="grid-first">
+            <a className="links" href="https://www.facebook.com/fonis.rs" target="_blank">
               <svg
-                class="base"
+                className="base"
                 xmlns="http://www.w3.org/2000/svg"
                 width="142"
                 height="124"
@@ -87,15 +87,15 @@ const Footer = () => {
                   fill="#199AD4"
                 />
               </svg>
-              <div class="grid-first-logo">
-                <i class="fab fa-facebook-f"></i>
+              <div className="grid-first-logo">
+                <i className="fab fa-facebook-f"></i>
               </div>
             </a>
           </div>
-          <div class="grid-second">
-            <a href="https://www.instagram.com/fonis_fon/" target="_blank">
+          <div className="grid-second">
+            <a className="links" href="https://www.instagram.com/fonis_fon/" target="_blank">
               <svg
-                class="base"
+                className="base"
                 xmlns="http://www.w3.org/2000/svg"
                 width="142"
                 height="124"
@@ -107,15 +107,15 @@ const Footer = () => {
                   fill="#199AD4"
                 />
               </svg>
-              <div class="grid-second-logo">
-                <i class="fab fa-instagram"></i>
+              <div className="grid-second-logo">
+                <i className="fab fa-instagram"></i>
               </div>
             </a>
           </div>
-          <div class="grid-third">
-            <a href="https://www.linkedin.com/company/fonis/" target="_blank">
+          <div className="grid-third">
+            <a className="links" href="https://www.linkedin.com/company/fonis/" target="_blank">
               <svg
-                class="base"
+                className="base"
                 xmlns="http://www.w3.org/2000/svg"
                 width="142"
                 height="124"
@@ -127,8 +127,8 @@ const Footer = () => {
                   fill="#199AD4"
                 />
               </svg>
-              <div class="grid-third-logo">
-                <i class="fab fa-linkedin-in"></i>
+              <div className="grid-third-logo">
+                <i className="fab fa-linkedin-in"></i>
               </div>
             </a>
           </div>
