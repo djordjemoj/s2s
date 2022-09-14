@@ -19,6 +19,7 @@ const Home = () => {
       <LandingPage />
       <AboutFonis />
       <Panelisti />
+      <Radionice />
       <Agenda />
       <Faq />
       <Partneri />
