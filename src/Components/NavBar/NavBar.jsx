@@ -25,26 +25,27 @@ const NavBar = () => {
           <Offcanvas.Body>
             <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
               <Nav className="menu">
-                <Nav.Link href="#" className="oprojektu">
-                  O PROJEKTU
+                <Nav.Link href="#" className="oprojektu"
+                on>
+                  <span>O PROJEKTU</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="panel">
-                  PANEL
+                   <span>PANEL</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="radionice">
-                  RADIONICE
+                   <span>RADIONICE</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="agenda">
-                  AGENDA
+                   <span>AGENDA</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="faq">
-                  FAQ
+                   <span>FAQ</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="partneri">
-                  PARTNERI
+                   <span>PARTNERI</span>
                 </Nav.Link>
                 <Nav.Link className="prijavise" href="#">
-                  PRIJAVI SE
+                 <span> PRIJAVI SE</span>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
