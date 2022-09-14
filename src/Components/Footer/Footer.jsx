@@ -3,8 +3,12 @@ import "../Footer/Footer.css";
 import LOGO from "../../assets/s2slogo.png";
 import FONISLOGO from "../../assets/fonislogo.png";
 
-import { FontAwesomeIcon} from '@fortawesome/react-fontawesome';
-import { faFacebook, faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
     <div className="CeoFooter">
@@ -17,14 +21,13 @@ const Footer = () => {
           viewBox="0 0 588 382"
           fill="none"
         >
-          
           <path
             d="M2.5 12.04C2.5 6.79332 6.75329 2.54004 12 2.54004L575.382 2.54004C582.741 2.54004 587.305 10.5448 583.558 16.8776L485.53 182.559C482.848 187.092 482.835 192.723 485.496 197.269L583.693 365.002C587.401 371.335 582.834 379.301 575.495 379.301H12C6.75329 379.301 2.5 375.048 2.5 369.801L2.5 12.04Z"
             fill="#0C5073"
             stroke="black"
             stroke-width="5"
           />
-          
+
           <switch>
             <foreignObject
               x="10%"
@@ -38,14 +41,11 @@ const Footer = () => {
                 aksjd asksd kajsn
               </p>
               <a href="https://fonis.rs/" target="_blank">
-            <img className="img-first" src={FONISLOGO} alt="FONIS" />
-          </a>
+                <img className="img-first" src={FONISLOGO} alt="FONIS" />
+              </a>
             </foreignObject>
-            
           </switch>
-          
         </svg>
-        
       </div>
 
       <div className="second">
@@ -64,7 +64,7 @@ const Footer = () => {
             stroke-width="5"
           />
         </svg>
-        
+
         <a href="#">
           <img className="second-img" src={LOGO} alt="LOGO" />
         </a>
@@ -106,7 +106,10 @@ const Footer = () => {
                 />
               </svg>
               <div className="grid-first-logo">
-                <FontAwesomeIcon className="gl" icon={faFacebook}></FontAwesomeIcon>
+                <FontAwesomeIcon
+                  className="gl"
+                  icon={faFacebook}
+                ></FontAwesomeIcon>
               </div>
             </a>
           </div>
@@ -130,8 +133,10 @@ const Footer = () => {
                 />
               </svg>
               <div className="grid-second-logo">
-                  
-                <FontAwesomeIcon className="gl" icon={faInstagram}></FontAwesomeIcon>
+                <FontAwesomeIcon
+                  className="gl"
+                  icon={faInstagram}
+                ></FontAwesomeIcon>
               </div>
             </a>
           </div>
@@ -155,7 +160,10 @@ const Footer = () => {
                 />
               </svg>
               <div className="grid-third-logo">
-              <FontAwesomeIcon className="gl" icon={faLinkedin}></FontAwesomeIcon>
+                <FontAwesomeIcon
+                  className="gl"
+                  icon={faLinkedin}
+                ></FontAwesomeIcon>
               </div>
             </a>
           </div>

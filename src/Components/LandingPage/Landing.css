@@ -38,7 +38,6 @@ body {
 .responsive {
     width: 100%;
     margin-top: 14%
-    
 }
 
 .dugme {
@@ -153,6 +152,8 @@ body {
         text-align: center;
         margin-top: 40px;
     }
+
+
 }
 
 /* ultrawide i sve vece od fhd */
