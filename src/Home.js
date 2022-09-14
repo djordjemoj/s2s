@@ -1,3 +1,4 @@
+import NavBar from "./Components/NavBar/NavBar";
 import LandingPage from "./Components/LandingPage/Landing";
 import AboutFonis from "./Components/AboutFonis/AboutFonis";
 import Hexagon from "./Components/HexagonOpsti/Hexagon";
@@ -14,6 +15,7 @@ import "./fonts/Jost700Bold.otf";
 const Home = () => {
   return (
     <>
+      <NavBar />
       <LandingPage />
       <AboutFonis />
       <Panelisti />

@@ -1,47 +1,13 @@
 import React from "react";
 import "../LandingPage/Landing.css";
 import { motion } from "framer-motion";
-
-import {
-  NavDropdown,
-  Form,
-  Container,
-  Nav,
-  Navbar,
-  Offcanvas,
-  Button,
-} from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { MotionConfig } from "framer-motion";
 
 //rafce
 
 const landing = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" variant="dark">
-        <Navbar.Brand href="#">Logo</Navbar.Brand>
-        <Navbar.Toggle aria-controls="rensponsive-navbar-nav" />
-        <Navbar.Offcanvas placement="end" scroll="true">
-          <Offcanvas.Header closeButton></Offcanvas.Header>
-          <Offcanvas.Body>
-            <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
-              <Nav className="mr-auto"></Nav>
-              <Nav>
-                <Nav.Link href="#">O PROJEKTU</Nav.Link>
-                <Nav.Link href="#">PANEL</Nav.Link>
-                <Nav.Link href="#">RADIONICE</Nav.Link>
-                <Nav.Link href="#">AGENDA</Nav.Link>
-                <Nav.Link href="#">FAQ</Nav.Link>
-                <Nav.Link href="#">PARTNERI</Nav.Link>
-                <Nav.Link className="drugaBoja" href="#">
-                  PRIJAVI SE
-                </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Offcanvas.Body>
-        </Navbar.Offcanvas>
-      </Navbar>
       <div className="container first-page text-center">
         <div className="row">
           <div className="col-md-12 col-sm-12">
