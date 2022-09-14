@@ -40,18 +40,11 @@ const AboutFonis = () => {
             fill=""
             xmlns="http://www.w3.org/2000/svg"
           >
-            <image
-              href="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg"
-              x="3"
-              y="2"
-              width="694"
-              height="460"
-              className="slika1"
-            />
             <path
               d="M663.751 420.5H30.0001C14.8122 420.5 2.5 408.188 2.5 393V30.64C2.5 15.4522 14.8122 3.14001 30 3.14001H407.009C415.927 3.14001 424.292 7.46478 429.447 14.7416L686.19 377.102C699.093 395.313 686.071 420.5 663.751 420.5Z"
               stroke="black"
               stroke-width="5"
+              fill=""
             />
           </svg>
           <path

@@ -71,7 +71,7 @@ const Orgtim3 = () => {
         autoplay: true,
         pauseOnHover: true,
         pauseOnFocus: true,
-        focusOnSelect: true,
+        focusOnSelect: false,
     autoplaySpeed: 3000,
     arrows: false,
         

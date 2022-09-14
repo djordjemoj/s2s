@@ -25,12 +25,11 @@ const landing = () => {
         <Navbar.Offcanvas placement="end" scroll="true">
           <Offcanvas.Header closeButton></Offcanvas.Header>
           <Offcanvas.Body>
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="mr-auto">
+            <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
+              <Nav className="mr-auto"></Nav>
+              <Nav>
                 <Nav.Link href="#">O PROJEKTU</Nav.Link>
                 <Nav.Link href="#">PANEL</Nav.Link>
-              </Nav>
-              <Nav>
                 <Nav.Link href="#">RADIONICE</Nav.Link>
                 <Nav.Link href="#">AGENDA</Nav.Link>
                 <Nav.Link href="#">FAQ</Nav.Link>

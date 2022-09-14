@@ -23,7 +23,7 @@ body {
 }
 
 .text {
-    font-size: 25px;
+    font-size: 23px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
@@ -36,17 +36,15 @@ body {
     /* ako malo glicuje mozda je ovde TEST */
 }
 .responsive {
-    width: 80%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    margin-top: 14%
+    
 }
 
 .dugme {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 35px;
     margin-bottom: 60px;
 }
 
@@ -77,8 +75,9 @@ body {
         color: #F9CA87;
     }
 
-    .responsive {
+    .responsive{
         width: 100%;
+        margin-top: 15%;
     }
 
     .dugmeZaPrijavu {
@@ -96,7 +95,8 @@ body {
     }
 
     .responsive {
-        width: 60%;
+        width: 80%;
+        margin-top: 5%;
     }
 
     .dugme {
@@ -118,11 +118,11 @@ body {
     }
 
     .responsive {
-        width: 35%;
+        width: 45%;
     }
 
     .dugme {
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     .dugmeZaPrijavu {
@@ -136,6 +136,11 @@ body {
 
     .responsive {
         width: 35%;
+        margin-top: 0;
+    }
+    .dugme{
+        padding: 15px;
+        margin-top: -15px;
     }
 
     .dugmeZaPrijavu {
