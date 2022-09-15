@@ -30,12 +30,14 @@
     font-weight: 600 !important;
     /* font-size: 50px; */
 }
-.nav-link span{
+
+.nav-link span {
     /* padding-top: 200px; */
     font-size: 22px;
-    
-    
+
+
 }
+
 .navbar-dark {
     background-color: #0C5073 !important;
     border: none;
@@ -46,7 +48,7 @@
 .nav-link:hover {
     color: #0C5073 !important;
     background-color: #ffffff;
-        
+
 }
 
 .offcanvas-body,
@@ -63,10 +65,12 @@
     right: 1%;
     top: 5%;
 }
+
 .prijavise {
     color: #F59B21 !important;
 }
-.prijavise:hover{
+
+.prijavise:hover {
     background-color: #F59B21;
 }
 
@@ -74,44 +78,43 @@
 @media screen and (max-width: 340px) {}
 
 /* mali tableti */
-@media screen and (min-width: 620px) {
-    
-}
+@media screen and (min-width: 620px) {}
 
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px) {
 
     .nav-link {
-            margin-top: 0;
-            border: none;
-            font-size: medium !important;
-        }
-    
-        .menu {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            width: 100%;
-        }
-    
-        .prijavise {
-            color: #F59B21 !important;
-        }
-    
-        .logo {
-            display: none;
-        }
-    
-        .navbar {
-            border: none;
-            border-radius: 0;
-        }
-        .navbar-dark {
-            background-color: #0C5073 !important;
-            
-            border: 0.5px solid #072d3fbf;
-        
-        }
+        margin-top: 0;
+        border: none;
+        font-size: medium !important;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .prijavise {
+        color: #F59B21 !important;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar {
+        border: none;
+        border-radius: 0;
+    }
+
+    .navbar-dark {
+        background-color: #0C5073 !important;
+
+        border: 0.5px solid #072d3fbf;
+
+    }
 }
 
 /* desktop */
@@ -155,30 +158,31 @@
     body {
         font-size: 20px;
     }
-        .nav-link {
-            margin-top: 0;
-            border: none;
-            font-size: medium !important;
-        }
-    
-        .menu {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-content: space-around;
-            width: 100%;
-        }
-    
-        .prijavise {
-            color: #F59B21 !important;
-        }
-    
-        .logo {
-            display: none;
-        }
-    
-        .navbar {
-            border: none;
-            border-radius: 0;
-        }
+
+    .nav-link {
+        margin-top: 0;
+        border: none;
+        font-size: medium !important;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .prijavise {
+        color: #F59B21 !important;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navbar {
+        border: none;
+        border-radius: 0;
+    }
 
 }

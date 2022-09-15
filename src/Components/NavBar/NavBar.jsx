@@ -1,6 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
 import "../NavBar/NavBar.css";
-
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -25,27 +24,26 @@ const NavBar = () => {
           <Offcanvas.Body>
             <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
               <Nav className="menu">
-                <Nav.Link href="#" className="oprojektu"
-                on>
+                <Nav.Link href="#" className="oprojektu" on>
                   <span>O PROJEKTU</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="panel">
-                   <span>PANEL</span>
+                  <span>PANEL</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="radionice">
-                   <span>RADIONICE</span>
+                  <span>RADIONICE</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="agenda">
-                   <span>AGENDA</span>
+                  <span>AGENDA</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="faq">
-                   <span>FAQ</span>
+                  <span>FAQ</span>
                 </Nav.Link>
                 <Nav.Link href="#" className="partneri">
-                   <span>PARTNERI</span>
+                  <span>PARTNERI</span>
                 </Nav.Link>
                 <Nav.Link className="prijavise" href="#">
-                 <span> PRIJAVI SE</span>
+                  <span> PRIJAVI SE</span>
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
