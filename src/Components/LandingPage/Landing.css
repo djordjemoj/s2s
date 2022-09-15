@@ -34,14 +34,15 @@ body {
 }
 .responsive {
     width: 100%;
-    margin-top: 14%
+    margin-top: 16%
 }
 
 .dugme {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
+    height: 80px;
 }
 
 .dugmeZaPrijavu {

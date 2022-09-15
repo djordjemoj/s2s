@@ -1,5 +1,6 @@
 import React from "react";
 import "../AboutFonis/AboutFonis.css";
+import Adacta from "../../assets/adacta.png";
 
 const AboutFonis = () => {
   return (
@@ -40,11 +41,16 @@ const AboutFonis = () => {
             fill=""
             xmlns="http://www.w3.org/2000/svg"
           >
+            <defs>
+              <pattern id="img1" width="1" height="1">
+                <image href={Adacta} x="-50" y="-50" width="770" height="700" />
+              </pattern>
+            </defs>
             <path
               d="M663.751 420.5H30.0001C14.8122 420.5 2.5 408.188 2.5 393V30.64C2.5 15.4522 14.8122 3.14001 30 3.14001H407.009C415.927 3.14001 424.292 7.46478 429.447 14.7416L686.19 377.102C699.093 395.313 686.071 420.5 663.751 420.5Z"
               stroke="black"
               stroke-width="5"
-              fill=""
+              fill="url(#img1)"
             />
           </svg>
           <path
@@ -88,11 +94,16 @@ const AboutFonis = () => {
             viewBox="-200 -145 500 453"
             fill="none"
           >
+            <defs>
+              <pattern id="img2" width="1" height="1">
+                <image href={Adacta} x="0" y="-100" width="650" height="650" />
+              </pattern>
+            </defs>
             <path
               d="M10.3609 290.972H638C642.142 290.972 645.5 287.614 645.5 283.472V10.3617C645.5 6.21957 642.142 2.86169 638 2.86169H39.3225C32.9963 2.86169 29.5119 10.2121 33.5167 15.1095L115.27 115.083C125.444 127.526 124.996 145.536 114.215 157.457L4.79833 278.441C0.437106 283.263 3.85899 290.972 10.3609 290.972Z"
               stroke="black"
               stroke-width="5"
-              enableBackground="true"
+              fill="url(#img2)"
             />
           </svg>
           <svg
