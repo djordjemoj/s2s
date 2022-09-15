@@ -6,7 +6,7 @@ import SlikaTim1 from "../../assets/tim1.jpg"
 import SlikaTim2 from "../../assets/tim0.jpg"
 import SlikaTim3 from "../../assets/tim0.jpg"
 import SlikaTim4 from "../../assets/tim0.jpg"
-import SlikaTim5 from "../../assets/tim0.jpg"
+import SlikaTim5 from "../../assets/tim5.png"//PNG JE UMESTO JPG
 import SlikaTim6 from "../../assets/tim0.jpg"
 import SlikaTim7 from "../../assets/tim0.jpg"
 import Koordinator0 from "../../assets/tim0.jpg"
