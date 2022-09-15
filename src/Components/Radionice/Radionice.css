@@ -36,8 +36,6 @@ a {text-decoration: none;}
   margin: 0 5px 0 0;
   position: relative;
 	width: 100px;
- 
-  
 }
 .Hexagon:before {
 	content: "";
@@ -90,7 +88,35 @@ a {text-decoration: none;}
   top: 5px;
   transition: 0.1s all ease-in-out;
 }
-
+.Hexagon .Thumbnail{
+  position: absolute;
+}
+.Hexagon:hover .Thumbnail{
+  opacity: 0;
+}
+.radioniceZnak{
+  display: flex;
+  justify-content: center;
+  width: 94%;
+  position: relative;
+  left: 3%;
+}
+.Thumbnail{
+  width: 80px;
+}
+.Hexagon .button{
+  opacity: 0;
+  top:40px;
+  position: absolute;
+}
+.Hexagon:hover .button{
+  opacity: 1;
+  transition: 0.2s all ease-in-out;
+}
+.button{
+  width: 40px;
+  font-size: 5px;
+}
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px){
@@ -114,6 +140,9 @@ a {text-decoration: none;}
     body{
       font-size: 20px;
     }
+    .radioniceZnak{
+      width: 94%;
+    }
   
   }
 
@@ -122,6 +151,10 @@ a {text-decoration: none;}
 
     body{
       font-size: 20px;
+    }
+
+    .radioniceZnak{
+      width: 40%;
     }
   
   }

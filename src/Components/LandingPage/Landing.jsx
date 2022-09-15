@@ -21,15 +21,16 @@ const landing = () => {
         <div className="logo-container-for-animation">
           <motion.div
             className="img-mainLogo"
-            initial={{ x: "200%", y: "-500%" }}
+            initial={{ x: "150%", y: "-700%" }}
             animate={{ x: "0%", y: "0%" }}
             // exit={{ opacity: 0 }}
             transition={{
               type: "spring",
               stiffness: 500,
               mass: 0.3,
-              damping: 22,
-              delay: "0.05",
+              damping: 20,
+
+              delay: 0.5,
             }}
           >
             <img className="responsive" src="logo3.png" alt="" />
