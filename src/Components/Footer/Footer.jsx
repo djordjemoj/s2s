@@ -12,12 +12,11 @@ import {
 const Footer = () => {
   return (
     <div className="CeoFooter">
-      <div className="first">
+      <div className="first footer-deo">
         <svg
           className="base"
           xmlns="http://www.w3.org/2000/svg"
-          width="588"
-          height="382"
+          
           viewBox="0 0 588 382"
           fill="none"
         >
@@ -48,7 +47,7 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="second">
+      <div className="second footer-deo" >
         <svg
           className="base"
           xmlns="http://www.w3.org/2000/svg"
@@ -69,11 +68,11 @@ const Footer = () => {
           <img className="second-img" src={LOGO} alt="LOGO" />
         </a>
       </div>
-      <div className="third">
+      <div className="third footer-deo">
         <svg
           className="base"
           xmlns="http://www.w3.org/2000/svg"
-          width="588"
+          width="8000"
           height="382"
           viewBox="0 0 588 382"
           fill="none"

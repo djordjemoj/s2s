@@ -128,7 +128,9 @@ svg.base {
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px){
-    
+    .CeoFooter{
+        width: 108%;
+    }
 }
 @media screen and (min-width: 340px){
     
@@ -145,19 +147,60 @@ svg.base {
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px){
     
- 
+    .CeoFooter{
+        /* max-height: 20vh; */
+        
+    }
+    svg.base {
+        /* width: 120%; */
+        height: 100%;
+    }
+    .footer-deo{
+        width: 30%;
+        /* border: 2px solid orange; */
+        
+
+    }   
+    .second{
+        margin-right: 10%;
+        margin-left: 10%
+    }
+    .second-img{
+    height: 80%;
+    width: 60%;
+    /* border: 2px solid red; */
+    }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px){
 
-   
+    .footer-deo{
+        width: 24%;
+        /* border: 2px solid orange; */
+        
+
+    }   
+    .second{
+        margin-right: 16.2%;
+        margin-left: 16.5%
+    }
   
   }
 
   /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px){
 
+    .footer-deo{
+        width: 20%;
+        /* border: 2px solid orange; */
+        
+
+    }   
+    .second{
+        margin-right: 20%;
+        margin-left: 20%
+    }
     /* .CeoFooter{
         height: 24rem;
         display: flex;
@@ -182,7 +225,7 @@ svg.base {
     .third{
         margin-left: -11%;
     } */
-    .CeoFooter{
+    /* .CeoFooter{
         height: 50rem;
     }
     .second-img{
@@ -192,7 +235,15 @@ svg.base {
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
-    }
+    } */
+    /* .second-img{
+        position: absolute;
+    width: 80%;
+    height: 80%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    } */
   }
 
  
