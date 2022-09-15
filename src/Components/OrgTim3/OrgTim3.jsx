@@ -118,8 +118,8 @@ const Orgtim3 = () => {
     slidesToShow: 3,
     centerMode: true,
     centerPadding: 0,
-
-    swipeToSlide: true,
+    WebkitTapHighlightColor: "rgba(0,0,0,0)",
+    swipeToSlide: false,
     autoplay: true,
     pauseOnHover: true,
     pauseOnFocus: true,
@@ -133,6 +133,7 @@ const Orgtim3 = () => {
         breakpoint: 620,
         settings: {
           slidesToShow: 1,
+          swipeToSlide: true,
 
           arrows: false,
         },
