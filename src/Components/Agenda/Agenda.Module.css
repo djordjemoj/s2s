@@ -198,7 +198,11 @@
 }
 
 /* extra mali mobilni */
-@media screen and (max-width: 340px) {}
+@media screen and (max-width: 340px) {
+  .Agenda-container {
+    width: 80%;
+  }
+}
 
 /* mali tableti */
 @media screen and (min-width: 620px) {

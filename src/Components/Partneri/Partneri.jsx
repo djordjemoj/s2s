@@ -1,14 +1,16 @@
 import React from "react";
 import "../Partneri/Partneri.css";
 import Slider from "react-slick";
-import SlikaTim0 from "../../assets/tim0.jpg";
-import SlikaTim1 from "../../assets/tim1.jpg";
-import SlikaTim2 from "../../assets/tim0.jpg";
-import SlikaTim3 from "../../assets/tim0.jpg";
-import SlikaTim4 from "../../assets/tim0.jpg";
-import SlikaTim5 from "../../assets/tim0.jpg";
-import SlikaTim6 from "../../assets/tim0.jpg";
-import SlikaTim7 from "../../assets/tim0.jpg";
+import Adacta from "../../assets/adacta.png";
+import SlikaTim0 from "../../assets/adacta.png";
+import SlikaTim1 from "../../assets/adacta.png";
+import SlikaTim2 from "../../assets/adacta.png";
+import SlikaTim3 from "../../assets/adacta.png";
+import SlikaTim4 from "../../assets/adacta.png";
+import SlikaTim5 from "../../assets/adacta.png";
+import SlikaTim6 from "../../assets/adacta.png";
+import SlikaTim7 from "../../assets/adacta.png";
+import { motion } from "framer-motion";
 
 const Partneri = () => {
   const settingsPartneri = {
@@ -73,6 +75,14 @@ const Partneri = () => {
       <div className="Partneri-svi">
         <div className="Pokrovitelji-panel">
           <p className="Partneri-text">POKROVITELJ PANEL DISKUSIJE</p>
+          <motion.div
+            className="Pokrovitelj-hex"
+            whileInView={{ scale: 1.05 }}
+            initial={{}}
+            transition={{ duraton: 1, delay: 0.3, ease: "easeInOut" }}
+          >
+            <img src={Adacta}></img>
+          </motion.div>
           <svg
             viewBox="0 0 782 430"
             fill="none"
