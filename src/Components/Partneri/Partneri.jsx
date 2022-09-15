@@ -20,9 +20,11 @@ const Partneri = () => {
     autoplay: true,
     pauseOnHover: true,
     pauseOnFocus: true,
-    focusOnSelect: false,
-    autoplaySpeed: 3000000,
+    focusOnSelect: true,
+    autoplaySpeed: 3000,
+    draggable: true,
     arrows: true,
+    swipeToSlide: false,
     responsive: [
       {
         breakpoint: 620,
