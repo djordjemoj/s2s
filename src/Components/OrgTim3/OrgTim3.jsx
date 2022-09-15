@@ -6,7 +6,7 @@ import SlikaTim1 from "../../assets/tim1.jpg"
 import SlikaTim2 from "../../assets/tim0.jpg"
 import SlikaTim3 from "../../assets/tim0.jpg"
 import SlikaTim4 from "../../assets/tim0.jpg"
-import SlikaTim5 from "../../assets/tim0.jpg"
+import SlikaTim5 from "../../assets/tim5.png"//PNG JE UMESTO JPG
 import SlikaTim6 from "../../assets/tim0.jpg"
 import SlikaTim7 from "../../assets/tim0.jpg"
 import Koordinator0 from "../../assets/tim0.jpg"
@@ -70,7 +70,7 @@ const Orgtim3 = () => {
         swipeToSlide: true,
         autoplay: true,
         pauseOnHover: true,
-        pauseOnFocus: true,
+        pauseOnFocus: false,
         focusOnSelect: false,
     autoplaySpeed: 3000,
     arrows: false,
@@ -81,7 +81,7 @@ const Orgtim3 = () => {
                 breakpoint: 620,
                 settings: {
                   slidesToShow: 1,
-                  
+                  pauseOnFocus: true,
                   arrows: false,
                 }
               }
@@ -100,7 +100,11 @@ const Orgtim3 = () => {
 
   return (
     <div className="orgtim-container">
+     
     <div className="OrgTim3">
+    <div className="Orgtim-naslov">
+    <p>ORGANIZACIONI TIM</p>
+    </div>
     <Slider {...settings}>
       {images.map((img, idx) => (
         <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>

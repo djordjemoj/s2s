@@ -5,14 +5,17 @@ import FaqItem from "./FaqItem";
 const Faq = (props) => {
   return (
     <div
-      style={{
-        minHeight: "70vh",
-        // background:
-        //   "linear-gradient(180deg, #0C4471 0%, #00233F 100%), #002440",
-        zIndex: 10,
-        position: "relative",
-      }}
-      id="faq"
+      style={
+        {
+          // minHeight: "70vh",
+          // background:
+          //   "linear-gradient(180deg, #0C4471 0%, #00233F 100%), #002440",
+          // zIndex: 10,
+          // position: "relative",
+          // border: "2px solid red"
+        }
+      }
+      className="FaqSvaPitanja"
     >
       <div className={classes.Faq}>
         <FaqItem
@@ -36,7 +39,7 @@ const Faq = (props) => {
         <FaqItem
           question={"Question alfjsido ?"}
           answer={
-            "Tsihfcosid dsicjdifja edjoais cdac sldc aks aic dklcjaTsihfcosid dsicjdifja edjoais cdac sldc aks aic dklcja qiowd qoiwd COAI Ckzjnkjznkcajn qiowd qoiwd COAI Ckzjnkjznkcajn"
+            "Tsihfcosid  sldc aks aic dklcjaTsihfcosid dsicjdifja edjoais cdac sldc aks aic dklcja qiowd qoiwd COAI Ckzjnkjznkcajn qiowd qoiwd COAI Ckzjnkjznkcajn"
           }
         />
         {/* <FaqItem
@@ -46,23 +49,19 @@ const Faq = (props) => {
           }
         /> */}
         <FaqItem
-          question={
-            "Question alfjsido ?"
-          }
+          question={"Question alfjsido ?"}
           answer={
             "Tsihfcosid dsicjdifja edjoais cdac sldc aks aic dkTsihfcosid dsicjdifja edjoais cdac sldc aks aic dklcja qiowd qoiwd COAI Ckzjnkjznkcajnlcja qiowd qoiwd COAI Ckzjnkjznkcajn"
           }
         />
         <FaqItem
-          question={
-            "Question alfjsido ?"
+          question={"Question alfjsido ?"}
+          answer={
+            "Tsihfcosid dsicjdifja edjoais cdac sldc aks aic dklcja qiowd qoiwd COAI Ckzjnkjznkcajn"
           }
-          answer={"Tsihfcosid dsicjdifja edjoais cdac sldc aks aic dklcja qiowd qoiwd COAI Ckzjnkjznkcajn"}
         />
-        
-        
       </div>
-      <div className={classes.chevron}></div>
+      {/* <div className={classes.chevron}></div>
       <div
         style={{
           width: "100%",
@@ -71,7 +70,7 @@ const Faq = (props) => {
           alignItems: "center",
           marginTop: "-35px",
         }}
-      ></div>
+      ></div> */}
     </div>
   );
 };
