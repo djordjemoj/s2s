@@ -35,9 +35,12 @@ const Footer = () => {
               height="1000"
               fontSize="32px"
             >
-              <p xmlns="http://www.w3.org/1999/xhtml">
-                Text goes here asdasd asdkasbd askdjan asda askdb asdoa asd aisd
-                aksjd asksd kajsn
+              <p style={{
+              color: "#f0f8ffc3"
+              }}>
+              ADRESA:
+Fakultet organizacionih nauka
+Jove Ilića 154, Beograd
               </p>
               <a href="https://fonis.rs/" target="_blank">
                 <img className="img-first" src={FONISLOGO} alt="FONIS" />

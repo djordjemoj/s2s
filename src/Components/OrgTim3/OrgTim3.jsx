@@ -70,7 +70,7 @@ const Orgtim3 = () => {
         swipeToSlide: true,
         autoplay: true,
         pauseOnHover: true,
-        pauseOnFocus: true,
+        pauseOnFocus: false,
         focusOnSelect: false,
     autoplaySpeed: 3000,
     arrows: false,
@@ -81,7 +81,7 @@ const Orgtim3 = () => {
                 breakpoint: 620,
                 settings: {
                   slidesToShow: 1,
-                  
+                  pauseOnFocus: true,
                   arrows: false,
                 }
               }
@@ -100,7 +100,11 @@ const Orgtim3 = () => {
 
   return (
     <div className="orgtim-container">
+     
     <div className="OrgTim3">
+    <div className="Orgtim-naslov">
+    <p>ORGANIZACIONI TIM</p>
+    </div>
     <Slider {...settings}>
       {images.map((img, idx) => (
         <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>

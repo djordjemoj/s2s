@@ -26,12 +26,17 @@
   flex-direction: column;
   /* column-gap: 5vw; */
   justify-content: center;
-  width: 90%;
+  width: 100%;
   position: relative;
   /* border: 2px solid red; */
 }
 .Pokrovitelji-panel svg {
   width: 100%;
+}
+.Pokrovitelji-panel p{
+  /* width: 110%; */
+  text-align: center;
+  font-size: 20px;
 }
 .Pokrovitelj-hex{
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);  /* width: 100px;
@@ -41,7 +46,7 @@
   width: 43%;
   position: absolute;
   left: 28.5%;
-  top: 22.2%;
+  top: 24.2%;
   /* border-radius: 20%; */
   
 }
@@ -125,10 +130,16 @@
     } */
 
 /* extra mali mobilni */
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 370) {
   .Partneri-text {
-    font-size: 1rem;
+    /* font-size: 2px; */
   }
+   /* .pokroviteljiTekst {
+    font-size: 5rem;
+    display: none;
+    color: white;
+    /* letter-spacing } */
+
 }
 
 /* mali tableti */
