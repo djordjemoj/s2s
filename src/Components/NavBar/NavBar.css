@@ -75,7 +75,8 @@
 }
 
 /* extra mali mobilni */
-@media screen and (max-width: 340px) {}
+@media screen and (max-width: 340px) {
+}
 
 /* mali tableti */
 @media screen and (min-width: 620px) {}

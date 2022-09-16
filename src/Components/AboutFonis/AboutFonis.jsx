@@ -8,7 +8,7 @@ const AboutFonis = () => {
       <div className="ofonisu">
         <svg
           className="about"
-          width="1100"
+          width="1000"
           height="700"
           viewBox="0 0 1400 1000"
           fill="none"
@@ -22,15 +22,30 @@ const AboutFonis = () => {
           />
           <switch>
             <foreignObject
-              x="10%"
-              y="10%"
-              width="450"
-              height="1000"
-              fontSize="32px"
+              x="4%"
+              y="3%"
+              width="600"
+              height="500"
+              fontSize="20px"
             >
-              <p xmlns="http://www.w3.org/1999/xhtml">
-                Text goes here asdasd asdkasbd askdjan asda askdb asdoa asd aisd
-                aksjd asksd kajsn
+              <p xmlns="http://www.w3.org/1999/xhtml" className="caption1">
+                O PROJEKTU
+              </p>
+              <p className="tekst">
+                „Studenti studentima“ je projekat Udruženja studenata
+                informatike FONIS koji se tradicionalno održava već dugi niz
+                godina, a za cilj ima prenošenje različitih znanja, kako iz IT
+                oblasti, tako i iz menadžmenta i dizajna. Glavna zamisao
+                projekta jeste spajanje studenata koji žele da nauče ili usavrše
+                znanja iz određene oblasti iz IT-ja, Web Design-a ili
+                menadžmenta sa studentima koji svoje stečeno znanje iz te
+                oblasti žele da podele sa drugima. Na ovaj način studenti nalaze
+                inspiraciju da rade na ličnom napretku, prošire spektar znanja i
+                pronađu polje svog interesovanja. Učešće na projektu je
+                besplatno i svi studenti iz Srbije mogu učestvovati, bez obzira
+                na Univerzitet ili usmerenje. Ako ste zainteresovani za sticanje
+                novih veština u društvu kolega, nemojte propustiti ovu
+                jedinstvenu priliku za to. Čekamo vas!
               </p>
             </foreignObject>
           </switch>
@@ -68,14 +83,25 @@ const AboutFonis = () => {
           />
           <switch>
             <foreignObject
-              x="70%"
-              y="50%"
+              x="63%"
+              y="47%"
               width="450"
-              height="100"
-              fontSize="32px"
+              height="450"
+              fontSize="20px"
             >
-              <p xmlns="http://www.w3.org/1999/xhtml">
-                Text goes here asdasd asdkasbd askdjan asda askdb
+              <p xmlns="http://www.w3.org/1999/xhtml" className="caption2">
+                O FONIS-u
+              </p>
+              <p className="tekst">
+                Udruženje studenata informatike FONIS je studentska, nevladina i
+                neprofitna organizacija sa sedištem na Fakultetu organizacionih
+                nauka. Organizacijom i realizacijom brojnih seminara, stručnih
+                predavanja i internacionalih takmičenja okuplja buduće IT
+                stručnjake s ciljem razumenjivanja i unapređivanja znanja
+                informacionih sistema i tehnologija. Zajedničkim zalaganjem svih
+                članova udruženja, FONIS već dugi niz godina održava više
+                edukativnih i takmičarskih projekata iz sveta IT-ja, među kojima
+                je i upravo projekat Studenti studentima.
               </p>
             </foreignObject>
           </switch>
