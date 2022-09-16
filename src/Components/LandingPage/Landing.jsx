@@ -21,7 +21,7 @@ const landing = () => {
         <div className="logo-container-for-animation">
           <motion.div
             className="img-mainLogo"
-            initial={{ x: "150%", y: "-700%" }}
+            initial={{ x: "1500px", y: "-3000px" }}
             animate={{ x: "0%", y: "0%" }}
             // exit={{ opacity: 0 }}
             transition={{

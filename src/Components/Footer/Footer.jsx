@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="first footer-deo">
         <svg
           className="base"
-          xmlns="http://www.w3.org/2000/svg"
+         
           
           viewBox="0 0 588 382"
           fill="none"
@@ -63,7 +63,7 @@ const Footer = () => {
       <div className="second footer-deo" >
         <svg
           className="base"
-          xmlns="http://www.w3.org/2000/svg"
+         
           width="588"
           height="382"
           viewBox="0 0 421 383"
@@ -84,7 +84,7 @@ const Footer = () => {
       <div className="third footer-deo">
         <svg
           className="base"
-          xmlns="http://www.w3.org/2000/svg"
+         
           width="8000"
           height="382"
           viewBox="0 0 588 382"
@@ -106,7 +106,7 @@ const Footer = () => {
             >
               <svg
                 className="base"
-                xmlns="http://www.w3.org/2000/svg"
+               
                 width="142"
                 height="124"
                 viewBox="0 0 142 124"
@@ -133,7 +133,7 @@ const Footer = () => {
             >
               <svg
                 className="base"
-                xmlns="http://www.w3.org/2000/svg"
+               
                 width="142"
                 height="124"
                 viewBox="0 0 142 124"
@@ -160,7 +160,7 @@ const Footer = () => {
             >
               <svg
                 className="base"
-                xmlns="http://www.w3.org/2000/svg"
+               
                 width="142"
                 height="124"
                 viewBox="0 0 142 124"

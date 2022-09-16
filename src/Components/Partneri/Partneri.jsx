@@ -78,7 +78,7 @@ const Partneri = () => {
             className="Partneri-text"
             style={{
               // fontSize: "1.2rem",
-              letterSpacing: "-0.5px",
+              // letterSpacing: "-0.5px",
               // position: "absolute"
             }}
           >
@@ -86,16 +86,23 @@ const Partneri = () => {
           </p>
           <motion.div
             className="Pokrovitelj-hex"
-            whileInView={{ scale: 1.05 }}
+            whileInView={{ scale: 1.15 }}
             initial={{}}
-            transition={{ duraton: 1, delay: 0.3, ease: "easeInOut" }}
+            // transition={{ duraton: 1, delay: 0.3, ease: "easeInOut" }}
+            transition={{
+              type: "spring",
+              stiffness: 200,
+              mass: 3.9,
+              damping: 9,
+              delay: "0.2",
+            }}
           >
             <img src={Adacta}></img>
           </motion.div>
-          <svg
+          {/* <svg
             viewBox="0 0 782 430"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+           
           >
             <path
               d="M721.118 279.707L584.657 228.265C583.683 227.898 583.038 226.966 583.038 225.925L583.038 122.418C583.038 121.377 583.683 120.446 584.657 120.079L721.118 68.6361C722.753 68.0198 724.5 69.2281 724.5 70.9754L724.5 277.368C724.5 279.115 722.753 280.324 721.118 279.707Z"
@@ -145,7 +152,7 @@ const Partneri = () => {
               stroke="black"
               stroke-width="5"
             />
-          </svg>
+          </svg> */}
         </div>
         <div className="Godisnji-partneri slider-partneri">
           <p className="Partneri-text">GODIŠNJI PARTNERI</p>

@@ -26,7 +26,7 @@ const FaqItem = (props) => {
         >
           <svg
             className="base"
-            xmlns="http://www.w3.org/2000/svg"
+           
             width="76"
             height="68"
             viewBox="0 0 76 68"
@@ -54,7 +54,6 @@ const FaqItem = (props) => {
         >
           <svg
             className="base"
-            xmlns="http://www.w3.org/2000/svg"
             width="1045"
             height="76"
             viewBox="0 0 1045 76"
@@ -115,7 +114,7 @@ const FaqItem = (props) => {
         
        
       >
-        <svg   xmlns="http://www.w3.org/2000/svg" width="76" height="68" viewBox="0 0 76 68" fill="none">
+        <svg   width="76" height="68" viewBox="0 0 76 68" fill="none">
         <path d="M50.9618 65.4932C53.8701 65.4318 56.545 63.8874 58.0524 61.3994L72.388 37.7369C73.9948 35.0847 74.0298 31.768 72.4793 29.0825L59.5743 6.73048C58.0239 4.04499 55.134 2.41694 52.0338 2.48237L24.3736 3.06612C21.4653 3.12751 18.7904 4.67188 17.2831 7.15986L2.94744 30.8224C1.34065 33.4745 1.30566 36.7913 2.85613 39.4767L15.7611 61.8288C17.3116 64.5143 20.2014 66.1423 23.3017 66.0769L50.9618 65.4932Z" fill="#F9EEE1" stroke="black" stroke-width="3"/>
         </svg>
 
@@ -170,7 +169,7 @@ const FaqItem = (props) => {
         >
           <svg
             className="base"
-            xmlns="http://www.w3.org/2000/svg"
+           
             width="571"
             height="83"
             viewBox="0 0 571 83"
