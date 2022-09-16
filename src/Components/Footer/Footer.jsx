@@ -36,11 +36,21 @@ const Footer = () => {
               fontSize="32px"
             >
               <p style={{
-              color: "#f0f8ffc3"
+              color: "#f0f8ffc3",
+              // marginLeft: "0%",
+               marginRight: "6.5%",
+              textAlign: "center",
               }}>
-              ADRESA:
-Fakultet organizacionih nauka
-Jove Ilića 154, Beograd
+                ADRESA: <br />
+                Fakultet organizacionih nauka <br />
+                Jove Ilića 154, Beograd <br />
+                Naš sajt: <br />
+                <a href="https://fonis.rs/" target="_blank"
+                style={{
+                  color: "#ffa142c3",
+                 
+                  }}
+                >fonis.rs</a>
               </p>
               <a href="https://fonis.rs/" target="_blank">
                 <img className="img-first" src={FONISLOGO} alt="FONIS" />
