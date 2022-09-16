@@ -12,7 +12,7 @@ const AboutFonis = () => {
           height="720"
           viewBox="0 0 1400 1000"
           fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+         
         >
           <path
             d="M832.096 253.027L832.134 253.072L832.174 253.115C840.818 262.461 840.818 277.688 832.174 287.033L606.776 530.714C602.65 535.174 597.098 537.639 591.354 537.639L24.4047 537.631C12.487 537.63 2.50003 527.124 2.50004 513.746L2.5 26.3845C2.49998 13.0061 12.4874 2.49982 24.4053 2.5H24.4053H609.108C610.368 2.5 611.562 2.58131 612.698 2.79911C614.484 3.14178 617.228 3.76113 619.907 4.72345C622.637 5.70433 624.958 6.92354 626.258 8.30435L832.096 253.027Z"
@@ -28,7 +28,7 @@ const AboutFonis = () => {
               height="500"
               fontSize="20px"
             >
-              <p xmlns="http://www.w3.org/1999/xhtml" className="caption1">
+              <p  className="caption1">
                 O PROJEKTU
               </p>
               <p className="tekst">
@@ -54,7 +54,7 @@ const AboutFonis = () => {
             height="1550"
             viewBox="0 0 694 423"
             fill=""
-            xmlns="http://www.w3.org/2000/svg"
+           
           >
             <defs>
               <pattern id="img1" width="1" height="1">
@@ -89,7 +89,7 @@ const AboutFonis = () => {
               height="450"
               fontSize="20px"
             >
-              <p xmlns="http://www.w3.org/1999/xhtml" className="caption2">
+              <p  className="caption2">
                 O FONIS-u
               </p>
               <p className="tekst">
@@ -179,7 +179,7 @@ const AboutFonis = () => {
             height="95"
             viewBox="0 0 348 95"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+            
           >
             <line
               x1="87.0059"
@@ -233,7 +233,6 @@ const AboutFonis = () => {
             stroke="black"
             stroke-width="5"
           />
-          \
           <path
             d="M573.788 561.14L462.808 561.14C456.697 561.14 453.151 568.055
             456.718 573.017L744.36 973.214C745.769 975.174 748.035 976.337
