@@ -56,7 +56,7 @@ const Orgtim3 = () => {
     "KOORDINATOR TIMA ZA",
     "KOORDINATORKA TIMA",
     "KOORDINATOR TIMA",
-    "KOORDINATORKA TIMA",
+    "KOORDINATORKA TIMA ZA",
     "KOORDINATOR",
     "KOORDINATORKA TIMA",
   ];
@@ -80,35 +80,6 @@ const Orgtim3 = () => {
 
   //   moze da se stavi on swipe da prekine da se vrti samo, ili pause on focuss, PAUSE ON HOVER STAVITI NA PARTNERE
 
-  // const settings = {
-  //   infinite: true,
-  //   // lazyLoad: true,
-  //   speed: 1000, //treba da bude isto kao u css transform
-  //   // ovo gore menja duzinu trajanja anim
-  //   slidesToShow: 3,
-  //   centerMode: true,
-  //   centerPadding: 0,
-
-  //   swipeToSlide: false,
-  //   autoplay: true,
-  //   pauseOnHover: true,
-  //   pauseOnFocus: false,
-  //   focusOnSelect: false,
-  //   WebkitTapHighlightColor: "rgba(0,0,0,0)",
-  //   autoplaySpeed: 3000,
-  //   arrows: false,
-  //   beforeChange: (current, next) => promeniObe(next),
-  //   responsive: [
-  //     {
-  //       breakpoint: 620,
-  //       settings: {
-  //         slidesToShow: 1,
-  //         pauseOnFocus: true,
-  //         arrows: false,
-  //       },
-  //     },
-  //   ],
-  // };
 
   const settings = {
     infinite: true,
@@ -198,7 +169,7 @@ const Orgtim3 = () => {
           <svg
             viewBox="0 0 618 156"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+           
           >
             <path
               d="M2.5 2.5H510.013L612.894 75.7191L509.977 153.15H2.5V2.5Z"
