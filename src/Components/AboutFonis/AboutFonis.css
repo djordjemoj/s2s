@@ -7,12 +7,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 105%;
     margin-bottom: 70px;
 }
 
 .about {
-    height: 50%;
+    height: 100%;
 }
 
 .slika1 {
