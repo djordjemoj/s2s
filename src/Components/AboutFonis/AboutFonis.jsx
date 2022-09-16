@@ -8,9 +8,9 @@ const AboutFonis = () => {
       <div className="ofonisu">
         <svg
           className="about"
-          width="1050"
+          width="1100"
           height="700"
-          viewBox="0 0 1470 1000"
+          viewBox="0 0 1400 1000"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -25,7 +25,7 @@ const AboutFonis = () => {
               x="4%"
               y="3%"
               width="600"
-              height="1000"
+              height="500"
               fontSize="20px"
             >
               <p xmlns="http://www.w3.org/1999/xhtml" className="caption1">
