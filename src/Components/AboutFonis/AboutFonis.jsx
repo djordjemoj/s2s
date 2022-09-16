@@ -8,9 +8,9 @@ const AboutFonis = () => {
       <div className="ofonisu">
         <svg
           className="about"
-          width="1100"
+          width="1050"
           height="700"
-          viewBox="0 0 1400 1000"
+          viewBox="0 0 1470 1000"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
@@ -83,9 +83,9 @@ const AboutFonis = () => {
           />
           <switch>
             <foreignObject
-              x="64%"
+              x="63%"
               y="47%"
-              width="470"
+              width="450"
               height="450"
               fontSize="20px"
             >
