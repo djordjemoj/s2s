@@ -8,7 +8,7 @@ const AboutFonis = () => {
       <div className="ofonisu">
         <svg
           className="about"
-          width="1100"
+          width="1000"
           height="700"
           viewBox="0 0 1400 1000"
           fill="none"

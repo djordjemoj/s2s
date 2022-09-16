@@ -27,7 +27,7 @@
 
 .tekst {
     font-weight: 600;
-    text-align: left;
+    text-align: center;
 }
 
 .caption2 {
@@ -44,7 +44,7 @@
     }
 
     .tekst {
-        text-align: left;
+        text-align: center;
         font-size: 20px;
     }
 
@@ -60,7 +60,7 @@
     }
 
     .tekst {
-        text-align: left;
+        text-align: center;
     }
 
     .caption2 {
@@ -75,7 +75,7 @@
     }
 
     .tekst1 {
-        text-align: left;
+        text-align: center;
     }
 
     .caption2 {
@@ -90,7 +90,7 @@
     }
 
     .tekst1 {
-        text-align: left;
+        text-align: center;
     }
 
     .caption2 {
@@ -105,7 +105,7 @@
     }
 
     .tekst1 {
-        text-align: left;
+        text-align: center;
     }
 
     .caption2 {
