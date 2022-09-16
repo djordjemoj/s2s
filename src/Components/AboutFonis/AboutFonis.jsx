@@ -9,7 +9,7 @@ const AboutFonis = () => {
         <svg
           className="about"
           width="1000"
-          height="700"
+          height="720"
           viewBox="0 0 1400 1000"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
