@@ -12,110 +12,109 @@ html,body{ height: 100%; width: 100%; }
 body {background: var(--main-color);}
 a {text-decoration: none;}
 
-.Hexbuttons {
-  margin-top: 50px;
-  padding: 50px 0 0 5px;
-  width: 345px;
-}
-.Hexr {
-  height: 100px;
-  margin-top: -15px;
-}
-.Hexr:nth-child(even) {
-  margin-left: 53px;
-  width: 220px;
-}
-.Hexagon {
-  background: var(--main-white-color);
-  display: inline-flex;
-  align-items: center;
+
+.radioniceZnak{
+  top: 15px;
+  display: flex;
   justify-content: center;
-  float: left;
-  font-size: 36px;
-  height: 55px;
-  margin: 0 5px 0 0;
+  width: 70%;
   position: relative;
-	width: 100px;
-}
-.Hexagon:before {
-	content: "";
-	position: absolute;
-	top: -25px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-bottom: 25px solid var(--main-white-color);
-}
-.Hexagon:after {
-	content: "";
-	position: absolute;
-	bottom: -25px;
-	left: 0;
-	width: 0;
-	height: 0;
-	border-left: 50px solid transparent;
-	border-right: 50px solid transparent;
-	border-top: 25px solid var(--main-white-color);
-}
-.Hexagon span { 
-  display: block; 
-  height: 100%;
-  padding-top: 8px;
-  text-align: center;
-  width: 100%;
+  left: 17%;
   
 }
-.Hexagon span::before {
-  content: attr(title);
-  background: var(--main-white-color);
+
+.page{
+  margin: 0;
+  padding: 0;
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
-  height: 45px;
-  font: 14px 'Ubuntu Mono', monospace;
-  opacity: 0;
-  position: absolute;
-  top: -5px;
-  left: 0;
-  text-transform: uppercase;
-  transition: 0.1s all ease-in-out;
-  width: 100%;
+  min-height: 100vh;
 }
-.Hexagon:hover span::before {
-  opacity: 1;
-  top: 5px;
-  transition: 0.1s all ease-in-out;
-}
-.Hexagon .Thumbnail{
-  position: absolute;
-}
-.Hexagon:hover .Thumbnail{
-  opacity: 0;
-}
-.radioniceZnak{
+
+.container{
+  width: 1000px;
   display: flex;
   justify-content: center;
-  width: 94%;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;  
+}
+
+.container .hexagonArea{
+  display: flex;
+}
+
+.container .hexagonArea.second{
+  left: -25px;
+  /* transform: translateY(-45px); */
+}
+
+.container .hexagonArea .hexagon{
   position: relative;
-  left: 3%;
+  width: 280px;
+  height: 300px;
+  margin: 0 10px;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  background: #F9EEE1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  transform: .5s;
 }
-.Thumbnail{
+
+.container .hexagonArea .hexagon img{
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.container .hexagonArea .hexagon .popupButton{
+  display: none;
+  position: relative;
+  top: 30px;
+  margin-top: -40px;
   width: 80px;
+  height: 40px;
+  font-size: small;
+  font-weight: bold;
+  border-radius: 15px;
 }
-.Hexagon .button{
-  opacity: 0;
-  top:40px;
-  position: absolute;
+
+.container .hexagonArea .hexagon .radionicaNaziv{
+  display: none;
+  color: white;
 }
-.Hexagon:hover .button{
-  opacity: 1;
-  transition: 0.2s all ease-in-out;
+
+.container .hexagonArea .hexagon:hover .radionicaNaziv{
+  display: block;
+  margin-bottom: -40px;
+  z-index: 1;
 }
-.button{
-  width: 40px;
-  font-size: 5px;
+
+.container .hexagonArea .hexagon:hover img{
+  opacity: 0.5;
+}
+
+.container .hexagonArea .hexagon .blanket{
+  opacity: 0.5;
+  background: #199AD4;
+}
+
+.container .hexagonArea .hexagon:hover .blanket{
+  display: block;
+  opacity: 0.5;
+}
+
+.container .hexagonArea .hexagon:hover{
+  background: #199AD4;
+  transition: 0.5s;
+}
+
+.container .hexagonArea .hexagon:hover .popupButton{
+  display: block;
+  transition: 2s;
 }
 
 /* extra mali mobilni */
@@ -125,6 +124,7 @@ a {text-decoration: none;}
 
 /* mali tableti */
 @media screen and (min-width: 620px){
+
 
 }
 
@@ -140,10 +140,10 @@ a {text-decoration: none;}
     body{
       font-size: 20px;
     }
+
     .radioniceZnak{
       width: 94%;
     }
-  
   }
 
   /* ultrawide i sve vece od fhd */
@@ -154,7 +154,7 @@ a {text-decoration: none;}
     }
 
     .radioniceZnak{
-      width: 40%;
+      width: 10%;
     }
   
   }
