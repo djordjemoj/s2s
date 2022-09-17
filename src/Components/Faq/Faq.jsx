@@ -16,6 +16,7 @@ const Faq = (props) => {
         }
       }
       className="FaqSvaPitanja"
+      id="faq"
     >
       <div className={classes.Faq}>
         <FaqItem

@@ -71,16 +71,18 @@ const Partneri = () => {
   ];
 
   return (
-    <div className="Partneri">
+    <div className="Partneri" id="nasi-partneri">
       <div className="Partneri-svi">
         <div className="Pokrovitelji-panel">
           <p
             className="Partneri-text"
-            style={{
-              // fontSize: "1.2rem",
-              // letterSpacing: "-0.5px",
-              // position: "absolute"
-            }}
+            style={
+              {
+                // fontSize: "1.2rem",
+                // letterSpacing: "-0.5px",
+                // position: "absolute"
+              }
+            }
           >
             POKROVITELJ PANEL DISKUSIJE
           </p>

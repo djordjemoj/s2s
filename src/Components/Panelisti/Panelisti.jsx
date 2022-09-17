@@ -4,7 +4,7 @@ import SlikaTim0 from "../../assets/tim1.jpg";
 
 const Panelisti = () => {
   return (
-    <div className="Panelisti-sve">
+    <div className="Panelisti-sve" id="panel-diskusija">
       <div className="Panelisti-container">
         <div className="Panelisti-content">
           <svg viewBox="0 0 707 1030" fill="none">
