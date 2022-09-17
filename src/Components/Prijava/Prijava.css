@@ -1,3 +1,43 @@
+select {
+  height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.brojPitanja {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+label {
+  height: 50px;
+  width: 400px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  height: 100px;
+  width: 500px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  background-color: orange;
+  margin: 10px;
+  border-radius: 10px;
+}
+
 /* promenjive */
 
 /* fontovi */

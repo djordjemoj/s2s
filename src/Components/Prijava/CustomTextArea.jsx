@@ -9,7 +9,7 @@ const CustomTextArea = ({ label, ...props }) => {
       <textarea
         {...field}
         {...props}
-        className={meta.touched && meta.error ? "input-error" : ""}
+        className={meta.touched && meta.error ? "input-error" : props.name}
       />
       {meta.touched && meta.error && <div className="error">{meta.error}</div>}
     </>
