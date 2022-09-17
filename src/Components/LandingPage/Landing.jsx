@@ -1,14 +1,15 @@
 import React from "react";
 import "../LandingPage/Landing.css";
 import { motion } from "framer-motion";
-import { useNavigate } from 'react-router';
+// import { useNavigate } from 'react-router';
 import Background from "../../assets/pozadina.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { HashLink } from "react-router-hash-link";
 
 //rafce
 
 const landing = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <div>
       <motion.div
@@ -51,9 +52,12 @@ const landing = () => {
         </div>
         <div className="dugme-sve">
           <div className="dugme">
-            <button type="button" class="dugmeZaPrijavu" onClick={() => navigate('/prijava')}>
-              PRIJAVI SE
-            </button>
+            <HashLink to="/prijava">
+              <button type="button" class="dugmeZaPrijavu">
+                PRIJAVI SE
+              </button>
+            </HashLink>
+            {/* onClick={() => navigate('/prijava')} */}
           </div>
         </div>
       </motion.div>
