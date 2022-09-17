@@ -75,7 +75,7 @@ const Footer = () => {
           />
         </svg>
 
-        <a href="#agenda">
+        <a href="#">
           <img className="second-img" src={LOGO} alt="LOGO" />
         </a>
       </div>
