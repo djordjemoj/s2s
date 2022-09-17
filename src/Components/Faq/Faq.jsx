@@ -20,9 +20,7 @@ const Faq = (props) => {
       <div className={classes.Faq}>
         <FaqItem
           question={"Na koji način se mogu prijaviti za učešće na S2S-u?"}
-          answer={
-            "Prijavljivanje se vrši popunjavanjem forme na sajtu."
-          }
+          answer={"Prijavljivanje se vrši popunjavanjem forme na sajtu."}
         />
         {/* <FaqItem
           question={'Da li je moguća individualna prijava?'}
@@ -38,13 +36,13 @@ const Faq = (props) => {
         />
         <FaqItem
           question={"Do kada će biti otvorene prijave? "}
-          answer={
-            "Forme za prijavu će biti otvorene do 24.10. 23.59h."
-          }
+          answer={"Forme za prijavu će biti otvorene do 9.10. 23.59h."}
         />
-        
+
         <FaqItem
-          question={"Da li se mogu prijaviti za prisustvovanje na više radionica?"}
+          question={
+            "Da li se mogu prijaviti za prisustvovanje na više radionica?"
+          }
           answer={
             "U okviru prijava vrši se odabir dve radionice, od kojih se svaki student prima na jednu radionicu. Nije moguće prisustvovati na više radionica, zbog istovremene vremenske  realizacije različitih radionica."
           }
@@ -55,20 +53,21 @@ const Faq = (props) => {
             "Prisustvo na panel diskusiji je preporučljivo svim polaznicima koji su zainteresovani da čuju nešto više o putu od praktikanta do seniora."
           }
         />
-         <FaqItem
+        <FaqItem
           question={"Da li je neophodno imati svoj računar za radionice?"}
           answer={
             "Za određene radionice na projektu računar nije neophodan jer se održavaju u salama sa računarima, dok je za druge neophodno. U opisu radionica naznačeno je da li je računar potreban, a poželjno je radi čuvanja podataka nositi svoj računar u svakom slučaju."
           }
         />
-         <FaqItem
-          question={"Koliko dugo će trajati radionice i da li je potrebno poneti neku opremu?"}
+        <FaqItem
+          question={
+            "Koliko dugo će trajati radionice i da li je potrebno poneti neku opremu?"
+          }
           answer={
-            "Radionice traju 3 i po sata sa pauzama od po 15 minuta na svakih sat vremena. Radi što efikasnijeg praćenja radionice, neophodno je da polaznicii imaju instaliran potreban softver koji je naglašen u opisu same radionice za koju su se opredelili."
+            "Radionice traju 3 i po sata sa pauzama od po 15 minuta na svakih sat vremena. Radi što efikasnijeg praćenja radionice, neophodno je da polaznici imaju instaliran potreban softver koji je naglašen u opisu same radionice za koju su se opredelili."
           }
         />
       </div>
-      
     </div>
   );
 };

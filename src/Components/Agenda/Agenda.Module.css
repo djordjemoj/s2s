@@ -66,6 +66,10 @@
   column-gap: 1.5vw;
   overflow: hidden;
 }
+.Dropdown-nedelja{
+  position: relative;
+  left: 3%;
+}
 
 .ag-item {
   /* border: 1px solid black;
@@ -100,6 +104,25 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.ag-item-desno-rect-nedelja{
+  grid-column: 5/ 7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ag-item-levo-rect-nedelja{
+  grid-column: 2/ 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ag-item-desno-hex-nedelja{
+  grid-column: 4/ 6;
+}
+.ag-item-levo-hex-nedelja{
+  grid-column: 3/5;
 }
 
 
