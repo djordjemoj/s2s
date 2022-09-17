@@ -11,7 +11,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
-    <div className="CeoFooter">
+    <div className="CeoFooter" id="kontakt">
       <div className="first footer-deo">
         <svg className="base" viewBox="0 0 588 382" fill="none">
           <path

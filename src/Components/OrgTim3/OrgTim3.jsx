@@ -120,7 +120,7 @@ const Orgtim3 = () => {
   }
 
   return (
-    <div className="orgtim-container">
+    <div className="orgtim-container" id="tim">
       <div className="OrgTim3">
         <div className="Orgtim-naslov">
           <p>ORGANIZACIONI TIM</p>
