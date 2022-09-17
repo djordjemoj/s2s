@@ -67,8 +67,12 @@
   overflow: hidden;
 }
 .Dropdown-nedelja{
+  /* overflow-x: hidden; */
   position: relative;
-  left: 3%;
+  margin-left: 8%;
+}
+.Dropdown-subota{
+  margin-right: 2%
 }
 
 .ag-item {
@@ -186,17 +190,17 @@
   top: -140px;
 }
 
-.agenda-grid-item-17 {
+/* .agenda-grid-item-17 {
   top: -160px;
 }
 
 .agenda-grid-item-18 {
   top: -160px;
-}
+} */
 
-.agenda-grid-item-19 {
+/* .agenda-grid-item-19 {
   top: -180px;
-}
+} */
 
 
 
