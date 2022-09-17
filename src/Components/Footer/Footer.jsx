@@ -13,13 +13,7 @@ const Footer = () => {
   return (
     <div className="CeoFooter">
       <div className="first footer-deo">
-        <svg
-          className="base"
-         
-          
-          viewBox="0 0 588 382"
-          fill="none"
-        >
+        <svg className="base" viewBox="0 0 588 382" fill="none">
           <path
             d="M2.5 12.04C2.5 6.79332 6.75329 2.54004 12 2.54004L575.382 2.54004C582.741 2.54004 587.305 10.5448 583.558 16.8776L485.53 182.559C482.848 187.092 482.835 192.723 485.496 197.269L583.693 365.002C587.401 371.335 582.834 379.301 575.495 379.301H12C6.75329 379.301 2.5 375.048 2.5 369.801L2.5 12.04Z"
             fill="#0C5073"
@@ -35,22 +29,27 @@ const Footer = () => {
               height="1000"
               fontSize="32px"
             >
-              <p style={{
-              color: "#f0f8ffc3",
-              // marginLeft: "0%",
-               marginRight: "6.5%",
-              textAlign: "center",
-              }}>
+              <p
+                style={{
+                  color: "#f0f8ffc3",
+                  // marginLeft: "0%",
+                  marginRight: "6.5%",
+                  textAlign: "center",
+                }}
+              >
                 ADRESA: <br />
                 Fakultet organizacionih nauka <br />
                 Jove Ilića 154, Beograd <br />
                 Naš sajt: <br />
-                <a href="https://fonis.rs/" target="_blank"
-                style={{
-                  color: "#ffa142c3",
-                 
+                <a
+                  href="https://fonis.rs/"
+                  target="_blank"
+                  style={{
+                    color: "#ffa142c3",
                   }}
-                >fonis.rs</a>
+                >
+                  fonis.rs
+                </a>
               </p>
               <a href="https://fonis.rs/" target="_blank">
                 <img className="img-first" src={FONISLOGO} alt="FONIS" />
@@ -60,10 +59,9 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="second footer-deo" >
+      <div className="second footer-deo">
         <svg
           className="base"
-         
           width="588"
           height="382"
           viewBox="0 0 421 383"
@@ -77,14 +75,13 @@ const Footer = () => {
           />
         </svg>
 
-        <a href="#">
+        <a href="#agenda">
           <img className="second-img" src={LOGO} alt="LOGO" />
         </a>
       </div>
       <div className="third footer-deo">
         <svg
           className="base"
-         
           width="8000"
           height="382"
           viewBox="0 0 588 382"
@@ -106,7 +103,6 @@ const Footer = () => {
             >
               <svg
                 className="base"
-               
                 width="142"
                 height="124"
                 viewBox="0 0 142 124"
@@ -133,7 +129,6 @@ const Footer = () => {
             >
               <svg
                 className="base"
-               
                 width="142"
                 height="124"
                 viewBox="0 0 142 124"
@@ -160,7 +155,6 @@ const Footer = () => {
             >
               <svg
                 className="base"
-               
                 width="142"
                 height="124"
                 viewBox="0 0 142 124"

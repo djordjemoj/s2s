@@ -4,9 +4,9 @@ import Slider from "react-slick";
 import SlikaTim0 from "../../assets/tim0.jpg";
 import SlikaTim1 from "../../assets/tim1.jpg";
 import SlikaTim2 from "../../assets/tim0.jpg";
-import SlikaTim3 from "../../assets/tim0.jpg";
-import SlikaTim4 from "../../assets/tim0.jpg";
-import SlikaTim5 from "../../assets/tim5.png"; //PNG JE UMESTO JPG
+import SlikaTim3 from "../../assets/tim3.jpg";
+import SlikaTim4 from "../../assets/tim3.jpg";
+import SlikaTim5 from "../../assets/tim3.jpg"; //PNG JE UMESTO JPG
 import SlikaTim6 from "../../assets/tim0.jpg";
 import SlikaTim7 from "../../assets/tim0.jpg";
 import Koordinator0 from "../../assets/tim0.jpg";
@@ -79,7 +79,6 @@ const Orgtim3 = () => {
   const [koorPozicija2, setKoorPozicija2] = useState(0);
 
   //   moze da se stavi on swipe da prekine da se vrti samo, ili pause on focuss, PAUSE ON HOVER STAVITI NA PARTNERE
-
 
   const settings = {
     infinite: true,
@@ -166,11 +165,7 @@ const Orgtim3 = () => {
           ></img>
         </div>
         <div className="Koor-info">
-          <svg
-            viewBox="0 0 618 156"
-            fill="none"
-           
-          >
+          <svg viewBox="0 0 618 156" fill="none">
             <path
               d="M2.5 2.5H510.013L612.894 75.7191L509.977 153.15H2.5V2.5Z"
               fill="#F9CA87"

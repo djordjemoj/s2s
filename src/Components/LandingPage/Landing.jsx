@@ -1,12 +1,14 @@
 import React from "react";
 import "../LandingPage/Landing.css";
 import { motion } from "framer-motion";
+import { useNavigate } from 'react-router';
 import Background from "../../assets/pozadina.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 //rafce
 
 const landing = () => {
+  const navigate = useNavigate();
   return (
     <div>
       <motion.div
@@ -49,7 +51,7 @@ const landing = () => {
         </div>
         <div className="dugme-sve">
           <div className="dugme">
-            <button type="button" class="dugmeZaPrijavu">
+            <button type="button" class="dugmeZaPrijavu" onClick={() => navigate('/prijava')}>
               PRIJAVI SE
             </button>
           </div>

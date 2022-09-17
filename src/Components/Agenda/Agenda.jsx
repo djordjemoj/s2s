@@ -25,7 +25,7 @@ const Agenda = () => {
   const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
   return (
-    <div className="Agenda-sve">
+    <div className="Agenda-sve" id="agenda">
       <div className="Agenda-container">
         <div className="Agenda-dugmad">
           <div className="Subota ag-dug">

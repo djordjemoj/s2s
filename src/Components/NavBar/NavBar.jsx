@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../NavBar/NavBar.css";
 import { Nav, Navbar, Offcanvas } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { HashLink } from "react-router-hash-link";
 
 const NavBar = () => {
   return (
@@ -24,27 +25,28 @@ const NavBar = () => {
           <Offcanvas.Body>
             <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
               <Nav className="menu">
-                <Nav.Link href="#" className="oprojektu" on>
+                <HashLink href="#oS2S" className=" nav-link oprojektu" on>
                   <span>O PROJEKTU</span>
-                </Nav.Link>
-                <Nav.Link href="#" className="panel">
+                </HashLink>
+                <HashLink href="#" className=" nav-link panel">
                   <span>PANEL</span>
-                </Nav.Link>
-                <Nav.Link href="#" className="radionice">
+                </HashLink>
+                <HashLink href="#" className=" nav-link radionice">
                   <span>RADIONICE</span>
-                </Nav.Link>
-                <Nav.Link href="#" className="agenda">
+                </HashLink>
+                <HashLink to="#agenda" className=" nav-link agenda ">
                   <span>AGENDA</span>
-                </Nav.Link>
-                <Nav.Link href="#" className="faq">
+                </HashLink>
+                <HashLink href="#faq" className=" nav-link faq">
                   <span>FAQ</span>
-                </Nav.Link>
-                <Nav.Link href="#" className="partneri">
+                </HashLink>
+                <HashLink href="#" className=" nav-link partneri">
                   <span>PARTNERI</span>
-                </Nav.Link>
-                <Nav.Link className="prijavise" href="#">
+                </HashLink>
+                <HashLink className=" nav-link prijavise" href="#/prijava">
                   <span> PRIJAVI SE</span>
-                </Nav.Link>
+                </HashLink>
+                {/* <a href="#agenda">PROBA</a> */}
               </Nav>
             </Navbar.Collapse>
           </Offcanvas.Body>

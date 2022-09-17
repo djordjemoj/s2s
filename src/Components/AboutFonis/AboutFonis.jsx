@@ -4,7 +4,7 @@ import Adacta from "../../assets/adacta.png";
 
 const AboutFonis = () => {
   return (
-    <div className="a">
+    <div className="a" id="oS2S">
       <div className="ofonisu">
         <svg
           className="about"
