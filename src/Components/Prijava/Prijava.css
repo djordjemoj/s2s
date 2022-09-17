@@ -1,3 +1,43 @@
+select {
+  height: 50px;
+  width: 500px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.brojPitanja {
+  width: 50px;
+  height: 50px;
+  background-color: orange;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+label {
+  height: 50px;
+  width: 400px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+input {
+  height: 100px;
+  width: 500px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  background-color: orange;
+  margin: 10px;
+  border-radius: 10px;
+}
+
 /* promenjive */
 
 /* fontovi */
@@ -9,34 +49,30 @@
     font-family: "jost-medium";
     src: local("Jost-500Medium"), url("./fonts/Jost500Medium.otf"), format("truetype");
   } */
-  /* mobilni je baza */
-  
-  
-  /* extra mali mobilni */
-  @media screen and (max-width: 340px) {}
-  
-  /* mali tableti */
-  @media screen and (min-width: 620px) {}
-  
-  /* veliki tableti i mali  */
-  @media screen and (min-width: 960px){
-  
+/* mobilni je baza */
+
+/* extra mali mobilni */
+@media screen and (max-width: 340px) {
+}
+
+/* mali tableti */
+@media screen and (min-width: 620px) {
+}
+
+/* veliki tableti i mali  */
+@media screen and (min-width: 960px) {
+}
+
+/* desktop */
+@media screen and (min-width: 1200px) {
+  body {
+    font-size: 20px;
   }
-  
-  /* desktop */
-  @media screen and (min-width: 1200px) {
-  
-    body {
-      font-size: 20px;
-    }
-  
+}
+
+/* ultrawide i sve vece od fhd */
+@media screen and (min-width: 1920px) {
+  body {
+    font-size: 20px;
   }
-  
-  /* ultrawide i sve vece od fhd */
-  @media screen and (min-width: 1920px) {
-  
-    body {
-      font-size: 20px;
-    }
-  
-  }
+}
