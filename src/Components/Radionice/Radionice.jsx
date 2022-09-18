@@ -1,16 +1,14 @@
-import React from "react";
+import React, { useState } from 'react';
 import "../Radionice/Radionice.css";
-import csharp from "../../assets/csharp.png"
-import Hexagon from "../HexagonOpsti/Hexagon";
+import csharp from "../../assets/csharp.png"  
+import Modal from './Modal';
 
-function obavestenje() {
-  alert("Hello! I am an alert box!!");
-
-
-
-}
+// function obavestenje() {
+//   alert("Hello! I am an alert box!!");
+// }
 
 const Radionice = () => {
+  const [openModal, setOpenModal] = useState(false);
   return (    
     <div>
       <svg className="radioniceZnak" viewBox="0 0 2000 374" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -19,6 +17,9 @@ const Radionice = () => {
           <tspan>RADIONICE</tspan>
       </text>
       </svg>
+      <Modal  
+              open={openModal} 
+              onClose={() => setOpenModal(false)} />
       <div className="page">
         <div className="container">
           <div className="hexagonArea first">
@@ -26,7 +27,7 @@ const Radionice = () => {
               <h2 className="radionicaNaziv">C# BASCIS</h2>
               <div className="blanket"></div>
                 <img src={csharp} alt="" />
-                <button className="popupButton">Saznaj više</button>
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
             <div className="hexagon">
               <img src={csharp} alt="" />
