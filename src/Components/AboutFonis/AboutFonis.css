@@ -9,7 +9,6 @@
     align-items: center;
     width: 100%;
     margin-bottom: 70px;
-    position: relative;
 }
 
 .about {
@@ -26,9 +25,16 @@
     font-size: 36px;
 }
 
-.tekst {
+.tekst1 {
     font-weight: 600;
-    text-align: center;
+    text-align: left;
+    font-size: 23px;
+}
+
+.tekst2 {
+    font-weight: 600;
+    text-align: right;
+    font-size: 23px;
 }
 
 .caption2 {
@@ -44,9 +50,8 @@
         font-size: 30px;
     }
 
-    .tekst {
-        text-align: center;
-        font-size: 20px;
+    .tekst1 {
+        text-align: left;
     }
 
     .caption2 {
@@ -60,8 +65,8 @@
         font-size: 35px;
     }
 
-    .tekst {
-        text-align: center;
+    .tekst1 {
+        text-align: left;
     }
 
     .caption2 {
@@ -75,8 +80,8 @@
         font-size: 40px;
     }
 
-    .tekst {
-        text-align: center;
+    .tekst1 {
+        text-align: left;
     }
 
     .caption2 {
@@ -90,8 +95,8 @@
         font-size: 40px;
     }
 
-    .tekst {
-        text-align: center;
+    .tekst1 {
+        text-align: left;
     }
 
     .caption2 {
@@ -105,8 +110,8 @@
         font-size: 40px;
     }
 
-    .tekst {
-        text-align: center;
+    .tekst1 {
+        text-align: left;
     }
 
     .caption2 {
