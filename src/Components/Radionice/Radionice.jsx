@@ -31,37 +31,64 @@ const Radionice = () => {
                 <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
           </div>
           <div className="hexagonArea second">
-            <div className="hexagon">
-              <img src={csharp} alt="" />
+          <div className="hexagon">
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
           </div>
           <div className="hexagonArea first">
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
           </div>
           <div className="hexagonArea second">
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
             <div className="hexagon">
-              <img src={csharp} alt="" />
+              <h2 className="radionicaNaziv">C# BASCIS</h2>
+              <div className="blanket"></div>
+                <img src={csharp} alt="" />
+                <button className="popupButton" onClick={() => setOpenModal(true)}>Saznaj više</button>
             </div>
           </div>
         </div>

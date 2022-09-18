@@ -21,12 +21,14 @@ h1{
   margin-top: 30px;
 }
 
-p{
+.prviTekst{
   font-size: small;
   color: white;
 }
 
 .DrugiTekst{
+  font-size: small;
+  color: white;
   margin-left: 250px;
 }
 
