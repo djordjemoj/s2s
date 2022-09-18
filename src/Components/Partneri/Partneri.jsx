@@ -2,8 +2,8 @@ import React from "react";
 import "../Partneri/Partneri.css";
 import Slider from "react-slick";
 import Adacta from "../../assets/adacta.png";
-import SlikaTim0 from "../../assets/adacta.png";
-import SlikaTim1 from "../../assets/adacta.png";
+import DragiBravo from "../../assets/dragibravo.jpeg";
+import SlikaTim1 from "../../assets/glassart.png";
 import SlikaTim2 from "../../assets/adacta.png";
 import SlikaTim3 from "../../assets/adacta.png";
 import SlikaTim4 from "../../assets/adacta.png";
@@ -39,18 +39,39 @@ const Partneri = () => {
     ],
   };
 
-  const logoPartneri1 = [
-    SlikaTim0,
-    SlikaTim1,
-    SlikaTim2,
-    SlikaTim3,
-    SlikaTim4,
-    SlikaTim5,
-    SlikaTim6,
-    SlikaTim7,
+  const godisnjiPartneri = [
+    {
+      logoPartnera: DragiBravo,
+      linkPartnera: "https://www.instagram.com/dragibravo/",
+    },
+    {
+      logoPartnera: DragiBravo,
+      linkPartnera: "https://www.instagram.com/dragibravo/",
+    },
+    {
+      logoPartnera: DragiBravo,
+      linkPartnera: "https://www.instagram.com/dragibravo/",
+    },
+    {
+      logoPartnera: DragiBravo,
+      linkPartnera: "https://www.instagram.com/dragibravo/",
+    },
+    {
+      logoPartnera: DragiBravo,
+      linkPartnera: "https://www.instagram.com/dragibravo/",
+    },
+
+    // DragiBravo,
+    // DragiBravo,
+    // SlikaTim2,
+    // SlikaTim3,
+    // SlikaTim4,
+    // SlikaTim5,
+    // SlikaTim6,
+    // SlikaTim7,
   ];
   const logoPartneri2 = [
-    SlikaTim0,
+    DragiBravo,
     SlikaTim1,
     SlikaTim2,
     SlikaTim3,
@@ -60,7 +81,7 @@ const Partneri = () => {
     SlikaTim7,
   ];
   const logoPartneri3 = [
-    SlikaTim0,
+    DragiBravo,
     SlikaTim1,
     SlikaTim2,
     SlikaTim3,
@@ -159,9 +180,15 @@ const Partneri = () => {
         <div className="Godisnji-partneri slider-partneri">
           <p className="Partneri-text">GODIŠNJI PARTNERI</p>
           <Slider {...settingsPartneri} className="SliderCeo">
-            {logoPartneri1.map((img) => (
+            {godisnjiPartneri.map((img) => (
               <div className="Jedan-partner">
-                <img className="Jedan-partner-slika" src={img} alt={img}></img>
+                <a href={img.linkPartnera}>
+                  <img
+                    className="Jedan-partner-slika"
+                    src={img.logoPartnera}
+                    alt={"menjaj"}
+                  ></img>
+                </a>
               </div>
             ))}
           </Slider>
@@ -172,7 +199,11 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri2.map((img) => (
               <div className="Jedan-partner">
-                <img className="Jedan-partner-slika" src={img} alt={img}></img>
+                <img
+                  className="Jedan-partner-slika"
+                  src={img}
+                  alt={"menjaj"}
+                ></img>
               </div>
             ))}
           </Slider>
@@ -182,7 +213,11 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri3.map((img) => (
               <div className="Jedan-partner">
-                <img className="Jedan-partner-slika" src={img} alt={img}></img>
+                <img
+                  className="Jedan-partner-slika"
+                  src={img}
+                  alt={"menjaj"}
+                ></img>
               </div>
             ))}
           </Slider>

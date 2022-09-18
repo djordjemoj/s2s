@@ -22,10 +22,10 @@ const NavBar = () => {
               alt=""
             />
           </Offcanvas.Header>
-          <Offcanvas.Body>
+          <Offcanvas.Body aria-haspopup="true">
             <Navbar.Collapse className="text-center" id="responsive-navbar-nav">
               <Nav className="menu">
-                <HashLink to="#oS2S" className=" nav-link oprojektu" on>
+                <HashLink to="#oS2S" className=" nav-link oprojektu">
                   <span>O PROJEKTU</span>
                 </HashLink>
                 <HashLink to="#panel-diskusija" className=" nav-link panel">
