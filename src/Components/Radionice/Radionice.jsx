@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "../Radionice/Radionice.css";
 import csharp from "../../assets/csharp.png"  
 import Modal from './Modal';
+import "../Radionice/Modal.css"
 
 // function obavestenje() {
 //   alert("Hello! I am an alert box!!");
