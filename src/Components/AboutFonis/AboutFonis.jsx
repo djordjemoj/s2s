@@ -21,14 +21,14 @@ const AboutFonis = () => {
           />
           <switch>
             <foreignObject
-              x="4%"
-              y="3%"
+              x="3%"
+              y="1%"
               width="600"
-              height="500"
-              fontSize="20px"
+              height="550"
+              fontSize="23px"
             >
               <p className="caption1">O PROJEKTU</p>
-              <p className="tekst">
+              <p className="tekst1">
                 „Studenti studentima“ je projekat Udruženja studenata
                 informatike FONIS koji se tradicionalno održava već dugi niz
                 godina, a za cilj ima prenošenje različitih znanja, kako iz IT
@@ -36,9 +36,7 @@ const AboutFonis = () => {
                 projekta jeste spajanje studenata koji žele da nauče ili usavrše
                 znanja iz određene oblasti iz IT-ja, Web Design-a ili
                 menadžmenta sa studentima koji svoje stečeno znanje iz te
-                oblasti žele da podele sa drugima. Na ovaj način studenti nalaze
-                inspiraciju da rade na ličnom napretku, prošire spektar znanja i
-                pronađu polje svog interesovanja. Učešće na projektu je
+                oblasti žele da podele sa drugima. Učešće na projektu je
                 besplatno i svi studenti iz Srbije mogu učestvovati, bez obzira
                 na Univerzitet ili usmerenje. Ako ste zainteresovani za sticanje
                 novih veština u društvu kolega, nemojte propustiti ovu
@@ -81,7 +79,7 @@ const AboutFonis = () => {
               fontSize="20px"
             >
               <p className="caption2">O FONIS-u</p>
-              <p className="tekst">
+              <p className="tekst2">
                 Udruženje studenata informatike FONIS je studentska, nevladina i
                 neprofitna organizacija sa sedištem na Fakultetu organizacionih
                 nauka. Organizacijom i realizacijom brojnih seminara, stručnih
