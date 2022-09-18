@@ -33,7 +33,17 @@ const FaqItem = (props) => {
                 stroke="black"
                 stroke-width="3"
               />
-              
+              <text
+                  x="49%"
+                  y="56%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                  fontSize="250%"
+                >
+                ?
+                </text>
             </svg>
             {/* <div className = {classes.slicicaUpitnik}>?</div> */}
           </div>
@@ -41,9 +51,9 @@ const FaqItem = (props) => {
             // className="base"
             className={classes.basePitanje}
             width="1045"
-            height="76"
+            height="85"
             viewBox="0 0 1045 69"
-            fill="none"
+            // fill="none"
           >
             <path
               d="M2.81255 15.1993C-0.413203 9.53279 3.67915 2.49417 10.1995 2.49417L1035 2.49423C1039.69 2.49423 1043.5 6.29981 1043.5 10.9942L1043.5 38.4942L1043.5 65.9941C1043.5 70.6885 1039.69 74.4941 1035 74.4941L10.1996 74.4941C3.67923 74.494 -0.413131 67.4554 2.81262 61.7889L12.8348 44.1835C14.8427 40.6563 14.8427 36.332 12.8348 32.8049L2.81255 15.1993Z"
