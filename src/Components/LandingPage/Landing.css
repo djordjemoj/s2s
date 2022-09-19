@@ -13,21 +13,33 @@
 
 body {
     overflow-x: hidden;
+  --main-color: #2a81bb;
+  background-color: var(--main-color);
+
+}
+
+.Ceo-Landing{
+     background-image: url("../../assets/pozadina.png");
+     /* background-repeat: no-repeat; */
 }
 
 
 .first-page {
     height: auto;
+    /* --main-color: #2a81bb;
+  background-color: var(--main-color); */
+  border: 1px solid black;
+
     
 }
 
-.text {
+.text-animacija{
     font-size: 23px;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.text #learning {
+.text-animacija #learning {
     color: #F9CA87;
 }
 .logo-container-for-animation{
@@ -65,12 +77,12 @@ body {
 
 @media screen and (max-width: 340px) {
 
-    .text {
+    .text-animacija {
         font-size: 20px;
         margin-top: 40px;
     }
 
-    .text #learning {
+    .text-animacija #learning {
         color: #F9CA87;
     }
 
@@ -88,7 +100,7 @@ body {
 /* mali tableti */
 @media screen and (min-width: 620px) {
 
-    .text {
+    .text-animacija {
         font-size: 30px;
         margin-top: 50px;
     }
@@ -111,7 +123,7 @@ body {
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px) {
 
-    .text {
+    .text-animacija {
         font-size: 35px;
         margin-top: 50px;
     }
@@ -147,9 +159,9 @@ body {
         font-size: 20px;
     }
 
-    .text {
+    .text-animacija {
         font-size: 48px;
-        text-align: center;
+        text-animacija-align: center;
         margin-top: 40px;
     }
 
@@ -169,9 +181,9 @@ body {
         font-size: 20px;
     }
 
-    .text {
+    .text-animacija {
         font-size: 48px;
-        text-align: center;
+        text-animacija-align: center;
         margin-top: 40px;
     }
 }

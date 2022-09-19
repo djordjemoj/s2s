@@ -11,9 +11,9 @@ import { HashLink } from "react-router-hash-link";
 const landing = () => {
   // const navigate = useNavigate();
   return (
-    <div>
+    <div className="Ceo-Landing" >
       <motion.div
-        className="container first-page text-center"
+        className="first-page text-center"
         // style={{
         //   backgroundImage: `url(${Background})`
         // }}
@@ -22,21 +22,25 @@ const landing = () => {
     background-repeat: repeat; */}
         <div className="row">
           <div className="col-md-12 col-sm-12">
-            <div className="text">
+            <motion.div
+              className="text-animacija"
+              // initial={{ opacity: 0 }}
+              // animate={{ opacity: 1 }}
+              // transition={{ duration: 0.5, delay: 0.7, ease: "anticipate" }}
+              animate={{ scale: [1, 0.5, 1] }}
+              transition={{ times: [0.1, 0.9, 1], delay: 0 }}
+            >
               <p>
                 WHERE <span id="learning">LEARNING</span> BEGINS!
               </p>
-              {/* initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.7 }} */}
-            </div>
+            </motion.div>
           </div>
         </div>
         <div className="logo-container-for-animation">
           <motion.div
             className="img-mainLogo"
             initial={{ x: "1500px", y: "-3000px" }}
-            animate={{ x: "0%", y: "0%" }}
+            animate={{ x: "0%", y: "0%"}}
             // exit={{ opacity: 0 }}
             transition={{
               type: "spring",
@@ -44,7 +48,7 @@ const landing = () => {
               mass: 0.3,
               damping: 20,
 
-              delay: 0.5,
+              delay: 0.7,
             }}
           >
             <img className="responsive" src="logo3.png" alt="" />
