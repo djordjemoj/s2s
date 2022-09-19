@@ -12,6 +12,83 @@ body {background: var(--main-color);}
 a {text-decoration: none;}
 
 
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7s);
+  position: absolute;
+  width: 90%;
+  height: 70%;
+  z-index: 11;
+}
+
+.overlay .modalContainer .modalRight img{
+  margin-top: -230px;
+  margin-left: 10px;
+  width: 90px;
+}
+
+.overlay .modalContainer .modalRight h1{
+  color: #199AD4;
+}
+
+.overlay .modalContainer .modalRight h3{
+  color: #199AD4;
+  margin-left: 50px;
+  margin-top: 3px;
+}
+
+.prviTekst{
+  font-size: 10px;
+  color: white;
+}
+
+.DrugiTekst{
+  font-size: 10px;
+  color: white;
+  margin-left: 80px;
+}
+
+.overlay .modalContainer .modalRight .content .info{
+  margin-left: -90px;
+  transform: scaleX(66%) scaleY(66%);
+}
+
+.modalContainer {
+  max-width: 400px;
+  width: 100%;
+  max-height: 565px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* display: flex; */
+  background-color: #0C5073;
+  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+
+
+.modalRight {
+  width: 100%;
+}
+
+.closeBtn {
+  position: fixed;
+  top: 8px;
+  right: 8px;
+}
+
+.content {
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: center; */
+  text-align: center;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+}
+
+.bold {
+  font-weight: 600;
+}
 
 /* desktop */
 @media screen and (min-width: 1200px){
@@ -29,7 +106,7 @@ a {text-decoration: none;}
     width: 170px;
   }
 
-  h1{
+  .overlay .modalContainer .modalRight h1{
     color: #199AD4;
   }
 
@@ -52,6 +129,7 @@ a {text-decoration: none;}
 
   .overlay .modalContainer .modalRight .content .info{
     margin-left: 283px;
+    transform: scaleX(100%) scaleY(100%);
   }
 
   .modalContainer {
