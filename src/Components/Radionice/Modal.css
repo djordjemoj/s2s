@@ -1,99 +1,94 @@
-.overlay {
-  background-color: rgba(0, 0, 0, 0.7s);
-  position: absolute;
-  width: 100%;
-  height: 70%;
-  z-index: 11;
-}
+/* promenjive */
 
-.overlay .modalContainer .modalRight img{
-  margin-top: -230px;
-  width: 170px;
-}
-
-h1{
-  color: #199AD4;
-}
-
-.overlay .modalContainer .modalRight h3{
-  color: #199AD4;
-  margin-left: 200px;
-  margin-top: 30px;
-}
-
-.prviTekst{
-  font-size: small;
-  color: white;
-}
-
-.DrugiTekst{
-  font-size: small;
-  color: white;
-  margin-left: 250px;
-}
-
-.overlay .modalContainer .modalRight .content .info{
-  margin-left: 283px;
-}
-
-.modalContainer {
-  max-width: 900px;
-  width: 100%;
-  max-height: 565px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* display: flex; */
-  background-color: #0C5073;
-  box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
-  border-radius: 8px;
-}
+/* fontovi */
+/* mobilni je baza */
+*{ box-sizing: border-box; 
+  --main-color: #1E5D88;
+  --main-white-color: #F9EEE1;
+  }
+html,body{ height: 100%; width: 100%; }
+/* @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,300|Ubuntu+Condensed|Ubuntu+Mono); */
+body {background: var(--main-color);}
+a {text-decoration: none;}
 
 
-.modalRight {
-  width: 100%;
-}
 
-.closeBtn {
-  position: fixed;
-  top: 8px;
-  right: 8px;
-}
+/* desktop */
+@media screen and (min-width: 1200px){
 
-.content {
-  /* display: flex;
-  flex-direction: column; */
-  /* justify-content: center; */
-  text-align: center;
-  margin-top: 1rem;
-  padding: 1rem 2rem;
-}
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.7s);
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    z-index: 11;
+  }
 
-.btnContainer {
-  display: flex;
-  padding: 1rem 1rem;
-}
-.btnContainer button {
-  width: 100%;
-  margin: .5rem;
-  padding: 16px 0;
-  /* border: none; */
-  border: 1px solid #411b57;
-  /* color: #ffffff; */
-}
+  .overlay .modalContainer .modalRight img{
+    margin-top: -230px;
+    width: 170px;
+  }
 
-.btnPrimary {
-  background-color: #411b57;
-  color: white;
-}
+  h1{
+    color: #199AD4;
+  }
 
-.btnOutline {
-  /* background-color: #a76a99; */
-  background-color: white;
-  color: #411b57;
-}
+  .overlay .modalContainer .modalRight h3{
+    color: #199AD4;
+    margin-left: 200px;
+    margin-top: 30px;
+  }
 
-.bold {
-  font-weight: 600;
+  .prviTekst{
+    font-size: small;
+    color: white;
+  }
+
+  .DrugiTekst{
+    font-size: small;
+    color: white;
+    margin-left: 250px;
+  }
+
+  .overlay .modalContainer .modalRight .content .info{
+    margin-left: 283px;
+  }
+
+  .modalContainer {
+    max-width: 900px;
+    width: 100%;
+    max-height: 565px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex; */
+    background-color: #0C5073;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+  }
+
+
+  .modalRight {
+    width: 100%;
+  }
+
+  .closeBtn {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+  }
+
+  .content {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
 }

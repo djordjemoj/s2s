@@ -13,14 +13,13 @@ body {background: var(--main-color);}
 a {text-decoration: none;}
 
 
-.radioniceZnak{
+.radioniceZnak{ 
   top: 15px;
   display: flex;
   justify-content: center;
-  width: 70%;
+  width: 100%;
   position: relative;
-  left: 17%;
-  
+  left: 13%;
 }
 
 .page{
@@ -33,7 +32,7 @@ a {text-decoration: none;}
 }
 
 .container{
-  width: 1000px;
+  width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,14 +46,13 @@ a {text-decoration: none;}
 
 .container .hexagonArea.second{
   left: -25px;
-  /* transform: translateY(-45px); */
 }
 
 .container .hexagonArea .hexagon{
   position: relative;
-  width: 280px;
-  height: 300px;
-  margin: 0 10px;
+  width: 100px;
+  height: 100px;
+  margin: 0 4px;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
   background: #F9EEE1;
   display: flex;
@@ -66,7 +64,7 @@ a {text-decoration: none;}
 }
 
 .container .hexagonArea .hexagon img{
-  width: 150px;
+  width: 50px;
   margin-bottom: 20px;
 }
 
@@ -83,7 +81,7 @@ a {text-decoration: none;}
 }
 
 .container .hexagonArea .hexagon .radionicaNaziv{
-  font-size: 45px;
+  font-size: 2px;
   display: none;
   color: white;
   margin-top: -30px;
@@ -119,7 +117,7 @@ a {text-decoration: none;}
   position: absolute;
   margin-top: 155px;
   transition: 2s;
-}
+} 
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px){
@@ -141,14 +139,118 @@ a {text-decoration: none;}
 /* desktop */
 @media screen and (min-width: 1200px){
 
-    body{
-      font-size: 20px;
-    }
-
-    .radioniceZnak{
-      width: 94%;
-    }
+  body{
+    font-size: 20px;
   }
+      
+  .radioniceZnak{
+    top: 15px;
+    display: flex;
+    justify-content: center;
+    width: 94%;
+    position: relative;
+    left: 17%;
+    
+  }
+
+  .page{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;  
+  }
+
+  .container .hexagonArea{
+    display: flex;
+  }
+
+  .container .hexagonArea.second{
+    left: -25px;
+  }
+
+  .container .hexagonArea .hexagon{
+    position: relative;
+    width: 280px;
+    height: 300px;
+    margin: 0 10px;
+    clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+    background: #F9EEE1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transform: .5s;
+  }
+
+  .container .hexagonArea .hexagon img{
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .container .hexagonArea .hexagon .popupButton{
+    display: none;
+    position: relative;
+    top: 30px;
+    margin-top: -40px;
+    width: 80px;
+    height: 40px;
+    font-size: small;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  .container .hexagonArea .hexagon .radionicaNaziv{
+    font-size: 45px;
+    display: none;
+    color: white;
+    margin-top: -30px;
+  }
+
+  .container .hexagonArea .hexagon:hover .radionicaNaziv{
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .container .hexagonArea .hexagon:hover img{
+    opacity: 0.5;
+  }
+
+  .container .hexagonArea .hexagon .blanket{
+    opacity: 0.5;
+    background: #199AD4;
+  }
+
+  .container .hexagonArea .hexagon:hover .blanket{
+    display: block;
+    opacity: 0.5;
+  }
+
+  .container .hexagonArea .hexagon:hover{
+    background: #199AD4;
+    transition: 0.5s;
+  }
+
+  .container .hexagonArea .hexagon:hover .popupButton{
+    display: block;
+    position: absolute;
+    margin-top: 155px;
+    transition: 2s;
+  }
+
+}
 
   /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px){
