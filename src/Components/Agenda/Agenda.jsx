@@ -9,7 +9,7 @@ const Agenda = () => {
   async function prikaziNedelju() {
     if (visibleSubota) {
       setVisibleSubota(false);
-      await sleep(2700);
+      await sleep(1500);
     }
 
     setVisibleNedelja(!visibleNedelja);
@@ -17,7 +17,7 @@ const Agenda = () => {
   async function prikaziSubotu() {
     if (visibleNedelja) {
       setVisibleNedelja(false);
-      await sleep(2700);
+      await sleep(1500);
     }
 
     setVisibleSubota(!visibleSubota);
@@ -28,32 +28,12 @@ const Agenda = () => {
     <div className="Agenda-sve" id="agenda">
       <div className="Agenda-container">
         <div className="Agenda-dugmad">
-          <div className="Subota ag-dug">
-            {/* <svg
-              onClick={() => prikaziSubotu()}
-              viewBox="0 0 338 370"
-              fill="none"
-            >
-              <path
-                d="M160.528 364.456L11.5282 282.021C5.95746 278.939 2.5 273.075 2.5 266.708V103.292C2.5 96.9253 5.95746 91.0611 11.5282 87.9791L160.528 5.54419C165.8 2.62778 172.2 2.62778 177.472 5.54419L326.472 87.9791C332.043 91.0611 335.5 96.9253 335.5 103.292V266.708C335.5 273.075 332.043 278.939 326.472 282.021L177.472 364.456C172.2 367.372 165.8 367.372 160.528 364.456Z"
-                fill="#F9CA87"
-                stroke="black"
-                
-                stroke-width="5"
-              />{" "}
-              <text
-                x="50%"
-                y="50%"
-                fill="black"
-                textAnchor="middle"
-                dominant-baseline="middle"
-                fontSize="200%"
-                fontWeight="700"
-              >
-                SUBOTA
-              </text>
-              
-            </svg> */}
+          <motion.div
+            className="Subota ag-dug  cursor-pointer"
+            whileHover={{ scale: 1.08 }}
+            onHoverStart={(e) => {}}
+            onHoverEnd={(e) => {}}
+          >
             <svg
               onClick={() => prikaziSubotu()}
               viewBox="0 0 191 210"
@@ -71,8 +51,8 @@ const Agenda = () => {
                 fill="black"
               />
             </svg>
-          </div>
-          <div className="Agenda-agenda ag-dug">
+          </motion.div>
+          <div className="Agenda-agenda ag-dug ">
             <svg viewBox="0 0 338 380" fill="none">
               <path
                 d="M177.575 372.312L326.575 288.554C332.088 285.455 335.5 279.623 335.5 273.299V106.701C335.5 100.377 332.088 94.5446 326.575 91.4457L177.575 7.68832C172.25 4.69498 165.75 4.69498 160.425 7.68832L11.4247 91.4457C5.91195 94.5446 2.5 100.377 2.5 106.701L2.5 273.299C2.5 279.623 5.91196 285.455 11.4247 288.554L160.425 372.312C165.75 375.305 172.25 375.305 177.575 372.312Z"
@@ -87,19 +67,12 @@ const Agenda = () => {
             </svg>
           </div>
 
-          <div className="Nedelja ag-dug">
-            {/* <svg
-              onClick={() => prikaziNedelju()}
-              viewBox="0 0 338 370"
-              fill="none"
-            >
-              <path
-                d="M160.528 364.456L11.5282 282.021C5.95746 278.939 2.5 273.075 2.5 266.708V103.292C2.5 96.9253 5.95746 91.0611 11.5282 87.9791L160.528 5.54419C165.8 2.62778 172.2 2.62778 177.472 5.54419L326.472 87.9791C332.043 91.0611 335.5 96.9253 335.5 103.292V266.708C335.5 273.075 332.043 278.939 326.472 282.021L177.472 364.456C172.2 367.372 165.8 367.372 160.528 364.456Z"
-                fill="#199AD4"
-                stroke="black"
-                stroke-width="5"
-              />
-            </svg> */}
+          <motion.div
+            className="Nedelja ag-dug cursor-pointer"
+            whileHover={{ scale: 1.08 }}
+            onHoverStart={(e) => {}}
+            onHoverEnd={(e) => {}}
+          >
             <svg
               onClick={() => prikaziNedelju()}
               viewBox="0 0 191 210"
@@ -117,14 +90,14 @@ const Agenda = () => {
                 fill="black"
               />
             </svg>
-          </div>
+          </motion.div>
         </div>
 
         <div className="Dropdown-subota Dropdown">
           <motion.div
             animate={{ height: visibleSubota ? "auto" : "1px" }}
             initial={{ height: "1px" }}
-            transition={{ duration: 2.7, ease: [0.5, 0.48, 0.45, 0.96] }} //mozda ima neka funkcija za ovo
+            transition={{ duration: 1.5, ease: [0.5, 0.48, 0.45, 0.96] }} //mozda ima neka funkcija za ovo
             style={{
               overflow: "hidden",
             }}
@@ -558,7 +531,7 @@ const Agenda = () => {
           <motion.div
             animate={{ height: visibleNedelja ? "auto" : "1px" }}
             initial={{ height: "1px" }}
-            transition={{ duration: 2.7, ease: [0.5, 0.48, 0.45, 0.96] }} //mozda ima neka funkcija za ovo
+            transition={{ duration: 2.1, ease: [0.5, 0.48, 0.45, 0.96] }} //mozda ima neka funkcija za ovo
             style={{
               overflow: "hidden",
             }}
