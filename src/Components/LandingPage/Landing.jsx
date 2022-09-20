@@ -11,25 +11,29 @@ import { HashLink } from "react-router-hash-link";
 const landing = () => {
   // const navigate = useNavigate();
   return (
-    <div>
+    <div className="Ceo-Landing">
       <motion.div
-        className="container first-page text-center"
+        className="first-page text-center"
         // style={{
         //   backgroundImage: `url(${Background})`
         // }}
       >
         {/* background-image: url("../../assets/pozadina.png");
     background-repeat: repeat; */}
-        <div className="row">
+        <div className="row-landing">
           <div className="col-md-12 col-sm-12">
-            <div className="text">
+            <motion.div
+              className="text-animacija"
+              // initial={{ opacity: 0 }}
+              // animate={{ opacity: 1 }}
+              // transition={{ duration: 0.5, delay: 0.7, ease: "anticipate" }}
+              animate={{ scale: [1, 0.3, 1] }}
+              transition={{ times: [0.1, 0.9, 1], delay: 0 }}
+            >
               <p>
                 WHERE <span id="learning">LEARNING</span> BEGINS!
               </p>
-              {/* initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ duration: 0.5, delay: 0.7 }} */}
-            </div>
+            </motion.div>
           </div>
         </div>
         <div className="logo-container-for-animation">
@@ -44,22 +48,26 @@ const landing = () => {
               mass: 0.3,
               damping: 20,
 
-              delay: 0.5,
+              delay: 0.8,
             }}
           >
             <img className="responsive" src="logo3.png" alt="" />
           </motion.div>
         </div>
-        <div className="dugme-sve">
-          <div className="dugme">
-            <HashLink to="/prijava">
-              <button type="button" class="dugmeZaPrijavu">
-                PRIJAVI SE
-              </button>
-            </HashLink>
-            {/* onClick={() => navigate('/prijava')} */}
-          </div>
-        </div>
+
+        <motion.div
+          className="dugme-Prijavise"
+          whileHover={{ scale: 1.2 }}
+          onHoverStart={(e) => {}}
+          onHoverEnd={(e) => {}}
+        >
+          <HashLink to="/prijava">
+            <button type="button" class="dugmeZaPrijavu">
+              PRIJAVI SE
+            </button>
+          </HashLink>
+          {/* onClick={() => navigate('/prijava')} */}
+        </motion.div>
       </motion.div>
     </div>
   );
