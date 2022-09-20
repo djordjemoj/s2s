@@ -8,18 +8,20 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+    /* overflow-x: hidden; */
 }
 
 body {
     overflow-x: hidden;
   --main-color: #2a81bb;
   background-color: var(--main-color);
+  overflow-x: hidden;
 
 }
 
 .Ceo-Landing{
-     background-image: url("../../assets/pozadina.png");
+     /* background-image: url("../../assets/pozadina.png"); */
+     /* background-blend-mode: soft-light; */
      /* background-repeat: no-repeat; */
 }
 
@@ -28,7 +30,7 @@ body {
     height: auto;
     /* --main-color: #2a81bb;
   background-color: var(--main-color); */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 
     
 }
@@ -37,6 +39,10 @@ body {
     font-size: 23px;
     margin-top: 50px;
     margin-bottom: 30px;
+    
+}
+.col-md-12{
+    padding: none;
 }
 
 .text-animacija #learning {
@@ -50,13 +56,17 @@ body {
     width: 100%;
     margin-top: 16%
 }
+.row-landing{
+    
+}
 
-.dugme {
+.dugme-Prijavise {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
     height: 80px;
+    /* border: 2px solid black; */
 }
 
 .dugmeZaPrijavu {
@@ -67,6 +77,7 @@ body {
     color: #ffffff;
     font-size: 14px;
     font-weight: 700;
+    vertical-align: middle;
 }
 
 .dugmeZaPrijavu:hover {
@@ -161,7 +172,7 @@ body {
 
     .text-animacija {
         font-size: 48px;
-        text-animacija-align: center;
+        text-align: center;
         margin-top: 40px;
     }
 
@@ -183,7 +194,7 @@ body {
 
     .text-animacija {
         font-size: 48px;
-        text-animacija-align: center;
+        text-align: center;
         margin-top: 40px;
     }
 }

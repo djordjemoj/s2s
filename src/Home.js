@@ -2,7 +2,7 @@ import NavBar from "./Components/NavBar/NavBar";
 import LandingPage from "./Components/LandingPage/Landing";
 import AboutFonis from "./Components/AboutFonis/AboutFonis";
 import Hexagon from "./Components/HexagonOpsti/Hexagon";
-// import Radionice from "./Components/Radionice/Radionice";
+import Radionice from "./Components/Radionice/Radionice";
 import Agenda from "./Components/Agenda/Agenda";
 import Faq from "./Components/Faq/Faq";
 import OrgTim3 from "./Components/OrgTim3/OrgTim3";
@@ -19,7 +19,7 @@ const Home = () => {
       <LandingPage />
       <AboutFonis />
       <Panelisti />
-      {/* <Radionice /> */}
+      <Radionice />
       <Agenda />
       <Faq />
       <Partneri />
