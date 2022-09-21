@@ -1,5 +1,5 @@
 // import NavBar from "./Components/NavBar/NavBar";
-import LandingPage from "./Components/LandingPage/Landing";
+// import LandingPage from "./Components/LandingPage/Landing";
 import AboutFonis from "./Components/AboutFonis/AboutFonis";
 import Hexagon from "./Components/HexagonOpsti/Hexagon";
 // import Radionice from "./Components/Radionice/Radionice";
@@ -19,7 +19,7 @@ const Home = () => {
     <>
       {/* <NavBar /> */}
       <Navbar2 />
-      <LandingPage />
+      {/* <LandingPage /> */}
       <AboutFonis />
       <Panelisti />
       {/* <Radionice /> */}

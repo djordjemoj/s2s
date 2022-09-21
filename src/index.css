@@ -12,6 +12,8 @@
 /* mobilni je baza */
 *{
   /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: #ffffff00;
 }
 
 /* extra mali mobilni */

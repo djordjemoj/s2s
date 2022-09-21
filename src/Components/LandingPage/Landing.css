@@ -4,20 +4,7 @@
 
 /* Rectangle 385 */
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    /* overflow-x: hidden; */
-}
 
-body {
-    overflow-x: hidden;
-  --main-color: #2a81bb;
-  background-color: var(--main-color);
-  overflow-x: hidden;
-
-}
 
 .Ceo-Landing{
      /* background-image: url("../../assets/pozadina.png"); */

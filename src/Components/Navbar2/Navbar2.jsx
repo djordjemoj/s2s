@@ -1,35 +1,53 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from "./ButtonNav";
 import menuItems from "./MenuItems";
 import "./Navbar2.css";
+import { HashLink } from "react-router-hash-link";
+import { Squeeze as Hamburger } from "hamburger-react";
+// import Logo from "../../../public/"
 
 const Navbar2 = () => {
-  const [active, setActive] = useState(true);
+  const [active, setActive] = useState(false);
+
+  // const body = document.querySelector("body");
 
   const handleClick = () => {
     setActive(!active);
+    // const mediaQuery = window.matchMedia("(max-width: 960)");
+    // if (mediaQuery.matches) {
+      
+    //   body.style.overflowY = active ? "hidden" : "auto";
+      
+    //   //alert("poz");
+    // }
   };
+
+
 
   return (
     <nav className="navbar">
-      <h1 className="navbar-logo">
-        React <i className="fab fa-react"></i>
-      </h1>
+      <div className="navbar-logo">
+        <img src="/logo2.png" className="logo" alt="s2s" />
+      </div>
       <div className="menu-icon" onClick={handleClick}>
-        <i className={active ? "fas fa-times" : "fas fa-bars"}></i>
+        <Hamburger toggled={active} toggle={setActive} />
       </div>
       <ul className={active ? "nav-menu active" : "nav-menu"}>
         {menuItems.map((item, index) => {
           return (
             <li key={index}>
-              <a href={item.url} className={item.cName}>
+              <HashLink
+                to={item.url}
+                className={item.cName}
+                onClick={handleClick}
+              >
                 {item.title}
-              </a>
+              </HashLink>
             </li>
           );
         })}
       </ul>
-      <Button>SIGN UP</Button>
+      {/* <Button>SIGN UP</Button> */}
     </nav>
   );
 };
