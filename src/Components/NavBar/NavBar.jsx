@@ -17,7 +17,7 @@ const NavBar = () => {
             <img
               className="icon"
               src="logo2.png"
-              width="80"
+              width="400"
               height="80"
               alt=""
             />
