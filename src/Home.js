@@ -1,5 +1,4 @@
-import NavBar from "./Components/NavBar/NavBar";
-import LandingPage from "./Components/LandingPage/Landing";
+import Landing2 from "./Components/Landing2/Landing2";
 import AboutFonis from "./Components/AboutFonis/AboutFonis";
 import Hexagon from "./Components/HexagonOpsti/Hexagon";
 import Radionice from "./Components/Radionice/Radionice";
@@ -12,11 +11,14 @@ import Partneri from "./Components/Partneri/Partneri";
 import "./fonts/Jost500Medium.otf";
 import "./fonts/Jost700Bold.otf";
 
+import Navbar2 from "./Components/Navbar2/Navbar2";
+
 const Home = () => {
   return (
     <>
-      <NavBar />
-      <LandingPage />
+      {/* <NavBar /> */}
+      <Navbar2 />
+      <Landing2 />
       <AboutFonis />
       <Panelisti />
       <Radionice />
