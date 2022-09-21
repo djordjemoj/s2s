@@ -99,6 +99,7 @@ background-color: var(--main-color);
   @media (max-width: 960px) {
     .navbar {
       position: sticky;
+      z-index: 500;
       /* height: 100vh; */
     }
   
@@ -144,10 +145,11 @@ background-color: var(--main-color);
       /* height: 100px; */
       width: 100%;
       display: table;
+      
     }
   
     .nav-links:hover {
-      background-color: #7577fa;
+      /* background-color: #7577fa; */
       border-radius: 0;
     }
   
