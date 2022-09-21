@@ -8,10 +8,11 @@
 }
 
 body {
-  overflow-x: hidden;
+  
 --main-color: #2a81bb;
 background-color: var(--main-color);
-overflow-x: hidden;
+/* overflow: hidden; */
+
 
 
 }
@@ -97,7 +98,7 @@ overflow-x: hidden;
   
   @media (max-width: 960px) {
     .navbar {
-      position: relative;
+      position: sticky;
       /* height: 100vh; */
     }
   
