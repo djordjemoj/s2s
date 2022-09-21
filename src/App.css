@@ -10,7 +10,10 @@
     src: local("Jost-500Medium"), url("./fonts/Jost500Medium.otf"), format("truetype");
   }
   /* mobilni je baza */
-  
+  *{
+    /* font-family: Jost-500Medium; */
+    overflow-x: hidden;
+  }
   
   /* extra mali mobilni */
   @media screen and (max-width: 340px) {}

@@ -122,8 +122,8 @@ const Orgtim3 = () => {
   return (
     <div className="orgtim-container" id="tim">
       <div className="OrgTim3">
-        <div className="Orgtim-naslov">
-          <p>ORGANIZACIONI TIM</p>
+        <div className="Orgtim-naslov Partneri-text">
+          <h1>ORGANIZACIONI TIM</h1>
         </div>
         <Slider {...settings}>
           {images.map((img, idx) => (
