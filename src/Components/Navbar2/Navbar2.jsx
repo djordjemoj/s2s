@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Button from "./ButtonNav";
 import menuItems from "./MenuItems";
 import "./Navbar2.css";
 import { HashLink } from "react-router-hash-link";
-import { Squeeze as Hamburger } from "hamburger-react";
+import { Twirl as Hamburger } from "hamburger-react";
 // import Logo from "../../../public/"
 
 const Navbar2 = () => {

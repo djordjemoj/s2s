@@ -16,12 +16,11 @@ import Navbar2 from "./Components/Navbar2/Navbar2";
 const Home = () => {
   return (
     <>
-      {/* <NavBar /> */}
       <Navbar2 />
       <Landing2 />
       <AboutFonis />
       <Panelisti />
-      <Radionice />
+      {/* <Radionice /> */}
       <Agenda />
       <Faq />
       <Partneri />

@@ -12,18 +12,19 @@
 
 
 .Ceo-Landing{
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     /* background-color: chocolate; */
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* border: 2px solid beige; */
+    
+    
 
 
 }
 .Landing-container{
-    width: 80%;
+    width: 90%;
     height: 100%; 
     /* mozda ovo gore ne */
     /* background-color: chocolate;     */
@@ -31,9 +32,10 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 .Text-animacija-placeholder{
-    width: 100%;
+    width: 110%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -43,15 +45,18 @@
     font-size: 22px;
     font-family: Jost-700Bold;
 
+    
     padding-top: 30%;
     
 }
 .text-animacija #learning {
     color: #F9CA87;
+    
 }
 .Logo-placeholder{
     height: 50%;
     width: 80%;
+    
     
 
 }
@@ -65,7 +70,9 @@
 
 }
 .Logo-Koji-Ulazi{
-    
+    width: 70vw;
+    height: 70vw;
+    /* outline: 1px solid black; */
 }
 
     .dugme-Prijavise{
@@ -109,13 +116,28 @@
 }
 
   
-@media screen and (max-width: 340px) {}
+@media screen and (max-width: 340px) {
+    .Text-animacija-placeholder{
+        
+        font-size: 18px;}
+}
 
 /* mali tableti */
-@media screen and (min-width: 620px) {}
+@media screen and (min-width: 620px) {
+    .Logo-Koji-Ulazi{
+        width: 50vw;
+        height: 50vw;
+        /* outline: 1px solid black; */
+    }
+}
 
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px){
+    .Logo-Koji-Ulazi{
+        width: auto;
+        height: auto;
+        /* outline: 1px solid black; */
+    }
 
     .Ceo-Landing{ 
 
@@ -158,7 +180,8 @@
     }
 
     .Landing-container{
-        width: 70%;}
+        width: 70%;
+    }
 
         .Text-animacija-placeholder{
             padding-top: 10%;
