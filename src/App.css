@@ -13,6 +13,13 @@
   *{
     /* font-family: Jost-500Medium; */
     /* overflow-x: hidden; */
+
+  }
+  body {
+  
+    --main-color: #0154a7;
+    
+    background-color: var(--main-color);
   }
   
   /* extra mali mobilni */

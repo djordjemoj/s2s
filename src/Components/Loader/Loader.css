@@ -1,0 +1,125 @@
+:root {
+    
+    --hexagon-color: #ff8e00; /* #ACBDBA - Princeton Orange */
+    --hexagon-background-color: #ff6403; /* #DB3069 - Cherry */
+    --spinner-color: #ffffffd1; /* #DB3069 - Cherry */
+  }
+  
+  /*
+    Unused Colors:
+  
+    #131515 - Licorice
+    #2B2C28 - Charleston Grey
+  */
+  
+  /* *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; } */
+  
+  /* html {
+    background: var(--background-color);
+    font-size: 64px;
+  }
+  
+  body {
+    box-sizing: border-box;
+  } */
+  .Ceo-loader{
+    /* width: 100vw;
+    height: 10000vh; */
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    height: 100vh;
+    /* background-color: #0154a7; */
+    /* border: 2px solid black; */
+    
+  }
+
+  .hexagon-loader {
+    /* margin: 3rem; */
+    margin-top: 40vh;
+    position: relative;
+    
+    
+  }
+  
+  .pulsing-hexagon__background {
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    width: 2.4em;
+    height: 2.4em;
+    background: var(--hexagon-background-color);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pulsing-hexagon {
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    background: var(--hexagon-color);
+    width: 2em;
+    height: 2em;
+  }
+  
+  .hexagon-loader__top-container {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 5em;
+  }
+  
+  .hexagon-loader__bottom-container {
+    transform: translate(0, -15%);
+  }
+  
+  .pulsing-hexagon--hexagon-1 {
+    animation: scaleHexagon 1.5s ease-in-out infinite;
+  }
+  
+  .pulsing-hexagon--hexagon-2 {
+    animation: scaleHexagon 1.5s .5s ease-in-out infinite;
+  }
+  
+  .pulsing-hexagon--hexagon-3 {
+    animation: scaleHexagon 1.5s 1s ease-in-out infinite;
+  }
+  
+  .spinning-circle {
+    width: 10em;
+    height: 10em;
+    border: 2px solid transparent;
+    border-top-color: var(--spinner-color);
+    border-bottom-color: var(--spinner-color);
+    position: absolute;
+    transform-origin: center;
+    top: 50%;
+    margin-top: -5.3em;
+    left: 50%;
+    margin-left: -5em;
+    border-radius: 50%;
+    animation: spin 1.5s alternate ease-in-out infinite;
+    z-index: -1;
+  }
+  
+  @keyframes scaleHexagon {
+    0% {
+      transform: scale(0); }
+    75% {
+      transform: scale(1); }
+    100% {
+      transform: scale(0); } }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg) scale(1);
+      border-width: 6px;
+    }
+    from {
+      transform: rotate(0) scale(.85);
+      border-width: 2px;
+    }
+  }
