@@ -170,7 +170,12 @@ margin-top: -30px;
   .FaqItem{
     width: 100%;
   }
-  
+  .PravaVelicinaTeksta{
+    font-size: 1.8rem;
+  }
+  .PravaVelicinaTekstaOdgovor{
+    font-size: 14px;
+  }
 }
 
 /* mali tableti */
