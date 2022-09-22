@@ -144,7 +144,7 @@ background-color: var(--main-color);
       margin-top: 0;}
   
     .nav-menu.active {
-      background: var(--main-color);
+      background: #0154a7;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -226,8 +226,8 @@ background-color: var(--main-color);
 
   @media (max-width: 460px) {
 .nav-links{
-  padding-top: 5vh;
-      padding-bottom: 0.5vh;
+  /* padding-top: 4vh; */
+      padding-bottom: 1vh;
 }
 
   }
