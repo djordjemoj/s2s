@@ -219,6 +219,7 @@ const FaqItem = (props) => {
                 x="3%"
                 y="5%"
                 width="445"
+                height="300"
                 // height="1000"
                 // fontSize="0.8rem" //bilo je 1rem
                 letterSpacing="0.2px"
