@@ -156,6 +156,9 @@ margin-top: -30px;
 
 
 .PravaVelicinaTekstaOdgovor{
+  width: 100%;
+  height: 100%;
+  /* outline: 2px solid red; */
   font-size: 1rem;
 }
 
