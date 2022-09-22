@@ -72,8 +72,9 @@ const AboutFonis = () => {
               <p className="tekst2">
                 Udruženje studenata informatike<br></br>
                 FONIS je studentska, nevladina i<br></br>
-                neprofitna organizacija sa sedištem na Fakultetu organizacionih
-                nauka.<br></br>Organizacijom i realizacijom brojnih seminara,
+                neprofitna organizacija sa sedištem na<br></br>Fakultetu
+                organizacionih nauka.<br></br>Organizacijom i realizacijom
+                brojnih seminara,
                 <br></br> stručnih predavanja i internacionalih takmičenja
                 okuplja buduće IT stručnjake<br></br> s ciljem razumenjivanja i
                 unapređivanja znanja informacionih sistema i tehnologija.
@@ -140,7 +141,7 @@ const AboutFonis = () => {
               stroke-width="3"
             />
           </svg>
-          
+
           <path
             d="M737.055 447.844H896.004C902.55 447.844 905.954 455.645 901.502 460.444L707.102 670.002C703.896 673.458 698.334 673.134 695.551 669.33L624.917 572.785C622.786 569.872 623.031 565.855 625.501 563.223L731.587 450.211C733.005 448.7 734.984 447.844 737.055 447.844Z"
             fill="#F9EEE1"
