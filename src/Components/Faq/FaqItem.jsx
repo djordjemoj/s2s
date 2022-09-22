@@ -214,7 +214,7 @@ const FaqItem = (props) => {
               stroke="black"
               stroke-width="3"
             />
-            <switch>
+            {/* <switch>
               <foreignObject
                 x="3%"
                 y="5%"
@@ -228,7 +228,51 @@ const FaqItem = (props) => {
               >
                 {props.answer}
               </foreignObject>
-            </switch>
+            </switch> */}
+              <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="20%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed1}
+                </text>
+                <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="42%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed2}
+                </text>
+                <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="64%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed3}
+                </text>
+                <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="86%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed4}
+                </text>
           </svg>
         </motion.div>
 
