@@ -105,30 +105,30 @@ const FaqItem = (props) => {
                 {props.question}
               </foreignObject>
             </switch> */}
-            <text
-                  className={classes.PravaVelicinaTeksta}
-                  x="50%"
-                  y= { props.dvaRedaPitanje ===  true ? "37%" :"53%" }
-                  fill="black"
-                  textAnchor="middle"
-                  fontWeight="650"
-                  dominant-baseline="middle"
-                >
-                 {props.question}
-                </text>
-                {props.dvaRedaPitanje ===true  && 
-                <text
+              <text
                 className={classes.PravaVelicinaTeksta}
                 x="50%"
-                y="73%"
+                y={props.dvaRedaPitanje === true ? "37%" : "53%"}
                 fill="black"
                 textAnchor="middle"
                 fontWeight="650"
                 dominant-baseline="middle"
               >
-               {props.question2}
+                {props.question}
               </text>
-                }
+              {props.dvaRedaPitanje === true && (
+                <text
+                  className={classes.PravaVelicinaTeksta}
+                  x="50%"
+                  y="73%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.question2}
+                </text>
+              )}
             </svg>
           </div>
         </motion.div>
@@ -218,7 +218,7 @@ const FaqItem = (props) => {
               <foreignObject
                 x="3%"
                 y="5%"
-                width="100%"
+                width="97%"
                 height="90%"
                 // height="1000"
                 // fontSize="0.8rem" //bilo je 1rem
