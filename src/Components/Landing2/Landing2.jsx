@@ -55,7 +55,7 @@ const Landing2 = () => {
             {/* onClick={() => navigate('/prijava')} */}
           </motion.div>
         <div className="empty-gradient">
-            
+
         </div>
       </div>
 

@@ -10,7 +10,10 @@
     src: local("Jost-500Medium"), url("./fonts/Jost500Medium.otf"), format("truetype");
   } */
   /* mobilni je baza */
-
+*{
+  /* outline: 2px solid beige; */
+  
+}
 
   .Panelisti-container{
     display: flex;
@@ -39,7 +42,7 @@
     width: 30%;
     clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
     background: rgba(0, 0, 0, 0.517);
-    border: 3px solid rgba(0, 0, 0, 0.5);
+    /* border: 3px solid rgba(0, 0, 0, 0.5); */
     
     
   }
