@@ -153,8 +153,10 @@ a {text-decoration: none;}
 
   .closeBtn {
     position: fixed;
+    color: white;
     top: 8px;
     right: 8px;
+    cursor: pointer;
   }
 
   .content {
