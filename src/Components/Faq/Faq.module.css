@@ -208,7 +208,7 @@ margin-top: -30px;
 @media screen and (min-width: 1200px) {
 
   .FaqItem{
-    width: 70%;
+    width: 60%;
   }
   .PravaVelicinaTeksta{
     font-size: 1.8rem;
@@ -225,7 +225,7 @@ margin-top: -30px;
 @media screen and (min-width: 1920px) {
 
   .FaqItem{
-    width: 60%;
+    width: 50%;
   }
   .PravaVelicinaTeksta{
     font-size: 1.8rem;

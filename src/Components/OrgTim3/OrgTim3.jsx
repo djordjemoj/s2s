@@ -196,7 +196,8 @@ const Orgtim3 = () => {
               textAnchor="middle"
               dominantBaseline="middle"
               fontSize="150%"
-              stroke=""
+              stroke="gray"
+              strokeWidth="1"
             >
               {koordinatioriImena[koorIme]}
             </text>
