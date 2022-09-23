@@ -27,7 +27,7 @@ const AboutFonis = () => {
                 informatike FONIS koji se tradicionalno<br></br>održava već dugi
                 niz godina, a za cilj ima prenošenje<br></br>različitih znanja,
                 kako iz IT oblasti, tako i iz menadžmenta<br></br>i
-                dizajna.Glavna zamisao projekta jeste spajanje studenata{" "}
+                dizajna.Glavna zamisao projekta jeste spajanje studenata
                 <br></br>koji žele da nauče ili usavrše znanja iz određene
                 oblasti IT-ja, dizajna ili menadžmenta sa studentima koji svoje
                 znanje žele da podele sa drugima. Na ovaj način studenti nalaze

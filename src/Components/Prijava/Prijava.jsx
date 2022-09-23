@@ -1,5 +1,6 @@
 import React from "react";
 import { Form, Formik } from "formik";
+import { Scrollbars } from 'react-custom-scrollbars-2';
 import { advancedSchema } from "./schemas";
 import CustomCheckbox from "./CustomCheckbox";
 import CustomInput from "./CustomInput";
@@ -19,6 +20,8 @@ const onSubmit = async (values, actions) => {
 
 const Prijava = () => {
   return (
+    <Scrollbars
+                style={{ height: "100vh" }}>
     <Formik
       initialValues={{
         imePrezime: "",
@@ -216,6 +219,7 @@ const Prijava = () => {
         </Form>
       )}
     </Formik>
+    </Scrollbars>
   );
 };
 

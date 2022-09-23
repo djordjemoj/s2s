@@ -111,15 +111,15 @@
 .grid-third{
     grid-column: 2/3 ;
     grid-row: 4/6;
-    margin-top:5px;
+    /* margin-top:5px; */
     margin-right: -5px;
     position: relative;
     
 }
 .grid-third-logo{
     position: absolute;
-    top:50%;
-    left: 50%;
+    top:52%;
+    left: 51%;
     transform: translate(-50%, -50%);
 }
 .links{
@@ -206,49 +206,7 @@
         margin-right: 20%;
         margin-left: 20%
     }
-    /* .CeoFooter{
-        height: 24rem;
-        display: flex;
-    flex-direction: row;
-    justify-content: center;
-    }
-    .second-img{
-        position: absolute;
-    width: 60%;
-    height: 90%;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    }
-    .first{
-        margin-right: -11%;
-    }
-    .second{
-        margin-left: -11%;
-    margin-right: -11%;
-    }
-    .third{
-        margin-left: -11%;
-    } */
-    /* .CeoFooter{
-        height: 50rem;
-    }
-    .second-img{
-        position: absolute;
-    width: 80%;
-    height: 80%;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    } */
-    /* .second-img{
-        position: absolute;
-    width: 80%;
-    height: 80%;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-    } */
+
   }
 
  
