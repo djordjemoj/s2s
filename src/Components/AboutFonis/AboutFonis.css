@@ -30,7 +30,7 @@
     text-align: left;
     font-size: 26.6px;
     margin-top: 8px;
-    letter-spacing: 0px;
+    letter-spacing: -0.1px;
     word-spacing: -1.5px;
     line-height: 29px;
 }
@@ -60,6 +60,10 @@
 
     .tekst1 {
         text-align: left;
+        font-size: 24px;
+    }
+    .tekst2{
+        font-size: 24px;
     }
 
     .caption2 {
