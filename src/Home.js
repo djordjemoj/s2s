@@ -20,7 +20,7 @@ const Home = () => {
       <Landing2 />
       <AboutFonis />
       <Panelisti />
-      {/* <Radionice /> */}
+      <Radionice />
       <Agenda />
       <Faq />
       <Partneri />

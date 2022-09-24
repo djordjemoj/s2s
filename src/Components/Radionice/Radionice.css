@@ -12,15 +12,26 @@ html,body{ height: 100%; width: 100%; }
 body {background: var(--main-color);}
 a {text-decoration: none;}
 
+#radionice{
+  width: fit-content  ;
+}
 
-.radioniceZnak{ 
-  top: 15px;
+.radioniceZnak{
+  top: -5px;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 100%;
   position: relative;
-  left: 13%;
+  left: 26%; 
+}
+
+.radioniceDivider{
+  display: flex;
+  width: 40%;
+  position: relative; 
+  left: 9%;
+  top: -22px;
+  margin-bottom: -130px;
 }
 
 .page{
@@ -46,7 +57,7 @@ a {text-decoration: none;}
 }
 
 .container .hexagonArea.first{
-  margin-left: 11%;
+  margin-left: 1%;
   align-self: center;
 }
 
@@ -149,15 +160,28 @@ a {text-decoration: none;}
   body{
     font-size: 20px;
   }
+
+  #radionice{
+    width: fit-content;
+    overflow: hidden;  
+  }
       
   .radioniceZnak{
-    top: 15px;
+    top: 0px;
     display: flex;
     justify-content: center;
-    width: 94%;
+    width: 100%;
     position: relative;
-    left: 17%;
-    
+    left: 28%; 
+  }
+
+  .radioniceDivider{
+    top: -55px;
+    display: flex;
+    left: 29%;
+    width: 100%;
+    position: relative; 
+    margin-bottom: -130px;
   }
 
   .page{
@@ -170,6 +194,7 @@ a {text-decoration: none;}
   }
 
   .container{
+    margin-top: 25px;
     width: 1000px;
     display: flex;
     justify-content: center;
@@ -180,16 +205,18 @@ a {text-decoration: none;}
 
   .container .hexagonArea{
     display: flex;
+    top: -50px;
+    left: 21.5%;
   }
 
   .container .hexagonArea.second{
-    left: -25px;
+    left: 10.5%;
   }
 
   .container .hexagonArea .hexagon{
     position: relative;
-    width: 280px;
-    height: 300px;
+    width: 220px;
+    height: 245px;
     margin: 0 10px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     background: #F9EEE1;
@@ -202,8 +229,8 @@ a {text-decoration: none;}
   }
 
   .container .hexagonArea .hexagon img{
-    width: 150px;
-    margin-bottom: 20px;
+    width: 50%;
+    margin-bottom: 5px;
   }
 
   .container .hexagonArea .hexagon .popupButton{
@@ -219,10 +246,10 @@ a {text-decoration: none;}
   }
 
   .container .hexagonArea .hexagon .radionicaNaziv{
-    font-size: 45px;
+    font-size: 35px;
     display: none;
     color: white;
-    margin-top: -30px;
+    margin-top: -25px;
   }
 
   .container .hexagonArea .hexagon:hover .radionicaNaziv{
@@ -232,12 +259,12 @@ a {text-decoration: none;}
   }
 
   .container .hexagonArea.first{
-    margin-left: 0%;
+    margin-left: 4%;
     align-self: center;
   }
 
   .container .hexagonArea .hexagon:hover img{
-    opacity: 0.5;
+    opacity: 0.3;
   }
 
   .container .hexagonArea .hexagon .blanket{
@@ -258,7 +285,7 @@ a {text-decoration: none;}
   .container .hexagonArea .hexagon:hover .popupButton{
     display: block;
     position: absolute;
-    margin-top: 155px;
+    margin-top: 130px;
     transition: 2s;
     opacity: 1;
   }
