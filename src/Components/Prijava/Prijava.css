@@ -1,3 +1,63 @@
+.Prijava-ceo{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  
+}
+.PrijavaTop{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+/* justify-content: flex-start; */
+width: 100%;
+height: 20vh;
+margin-bottom: 4vh;
+/* border: 2px solid black; */
+
+}
+.PrijavaTop-logo{
+width: 25%;
+height: 100%;
+/* border: 2px solid black; */
+/* transform: scale(0.8); */
+display: flex;
+flex-direction: row;
+justify-content: center;
+cursor: pointer;
+
+}
+.PrijavaTop-svg{
+  width: 60%;
+  /* margin-top: 50px; */
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.UmestoSVG{
+  width: 100%;
+  height: 40%;
+  /* border: 1px solid #3a2302; */
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: middle;
+  /* line-height: 60px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F99E20;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+}
+.UmestoSVG h1{
+  color: rgba(255, 255, 255, 0.922);
+  font-size: 16px;
+}
+
+
+
 select {
   height: 50px;
   width: 500px;
@@ -54,22 +114,72 @@ button {
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
+  .UmestoSVG{
+    height: 50%;
+  }
+  .UmestoSVG h1{
+    font-size: 20px;
+  }
 }
 
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px) {
+  .PrijavaTop{
+    height: 22vh;
+    margin-bottom: 5vh;
+    }
+  .UmestoSVG{
+    height: 50%;  
+  }
+  .UmestoSVG h1{
+    font-size: 24px;
+  }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px) {
-  body {
-    font-size: 20px;
+  .Prijava-ceo{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .PrijavaTop-logo{
+    width: 25%;
+    height: 110%;
+    transform: scale(1.1);
+  }
+
+  .PrijavaTop{
+    height: 28vh;
+    margin-bottom: 6vh;
+    }
+  .UmestoSVG{
+    height: 60%;
+  }
+  .UmestoSVG h1{
+    font-size: 36px;
   }
 }
 
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {
-  body {
-    font-size: 20px;
+  .Prijava-ceo{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .PrijavaTop{
+    height: 30vh;
+    margin-bottom: 7vh;
+    }
+  .UmestoSVG{
+    height: 80%;
+  }
+  .UmestoSVG h1{
+    font-size: 38px;
   }
 }
