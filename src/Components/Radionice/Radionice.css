@@ -13,25 +13,26 @@ body {background: var(--main-color);}
 a {text-decoration: none;}
 
 #radionice{
-  width: fit-content  ;
+  width: 100%;
+  overflow: hidden;  
 }
 
 .radioniceZnak{
-  top: -5px;
+  top: 5px;
   display: flex;
   justify-content: center;
   width: 100%;
   position: relative;
-  left: 26%; 
+  left: 15%; 
 }
 
 .radioniceDivider{
+  top: 5px;
   display: flex;
-  width: 40%;
-  position: relative; 
-  left: 9%;
-  top: -22px;
-  margin-bottom: -130px;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  left: 15%;
 }
 
 .page{
@@ -57,7 +58,7 @@ a {text-decoration: none;}
 }
 
 .container .hexagonArea.first{
-  margin-left: 1%;
+  margin-left: 18%;
   align-self: center;
 }
 
@@ -81,8 +82,8 @@ a {text-decoration: none;}
 }
 
 .container .hexagonArea .hexagon img{
-  width: 60px;
-  margin-bottom: 10px;
+  width: 40px;
+  margin-bottom: 1px;
 }
 
 .container .hexagonArea .hexagon .popupButton{
@@ -138,8 +139,11 @@ a {text-decoration: none;}
 }
 
 /* extra mali mobilni */
-@media screen and (max-width: 340px){
-
+@media screen and (max-width: 381px){
+  .container .hexagonArea.first{
+    margin-left: 14.5%;
+    align-self: center;
+  }
 }
 
 /* mali tableti */

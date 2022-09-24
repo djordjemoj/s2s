@@ -1,5 +1,5 @@
 import React from 'react';
-import Predavac1 from "../../assets/Predavac1.png"  
+import Boris from "../../assets/Boris.png"  
 
 
 const Modal = ({ open, onClose }) => {
@@ -29,7 +29,7 @@ const Modal = ({ open, onClose }) => {
             <h3>Predavač: Stefan Jovanović</h3>
             <p className='DrugiTekst'>Druga sam godina FON-a, smer Informacioni sistemi i tehnologije. Programiranjem se bavim još od osnovne škole, primarno Game Development-om i Fullstack Web Development-om. Sa C-om sam se upoznao u srednjoj školi gde sam kroz sve četiri godine učio C i C++ u svrhe takmičenja iz programiranja. Svoje znanje iz C-a dodatno sam upotpunio na prvoj godini studija na predmetu Programiranje 1 i želja mi je da ovom radionicom to upotpunjeno znanje prenesem drugima.</p>
           </div>
-          <img src={Predavac1} alt="" />
+          <img src={Boris} alt="" />
         </div>
       </div>
     </div>
