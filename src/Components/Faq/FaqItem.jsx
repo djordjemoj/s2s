@@ -26,7 +26,11 @@ const FaqItem = (props) => {
           className={classes.Question}
         >
           <div className={classes.baseMaliHex}>
-            <svg className={classes.faqMaliHex} fill="none" viewBox="0 0 120 105">
+            <svg
+              className={classes.faqMaliHex}
+              fill="none"
+              viewBox="0 0 120 105"
+            >
               <path
                 d="M90.9745 92.0013L109.138 60.707C112.463 54.9776 112.471 47.9074 109.159 42.1703L91.2306 11.1172C87.9184 5.38022 81.7914 1.85212 75.1668 1.86729L38.9834 1.95011C32.4042 1.96516 26.3281 5.47323 23.0255 11.1634L4.86203 42.4578C1.53664 48.1872 1.52855 55.2574 4.84082 60.9944L22.7693 92.0475C26.0816 97.7845 32.2086 101.313 38.8331 101.297L75.0166 101.215C81.5957 101.2 87.6719 97.6915 90.9745 92.0013Z"
                 fill="#F9EEE1"
@@ -34,20 +38,21 @@ const FaqItem = (props) => {
                 stroke-width="3"
               />
               <text
-                  x="49%"
-                  y="56%"
-                  fill="black"
-                  textAnchor="middle"
-                  fontWeight="650"
-                  dominant-baseline="middle"
-                  fontSize="250%"
-                >
+                x="49%"
+                y="56%"
+                fill="black"
+                textAnchor="middle"
+                fontWeight="650"
+                dominant-baseline="middle"
+                fontSize="250%"
+              >
                 ?
-                </text>
+              </text>
             </svg>
             {/* <div className = {classes.slicicaUpitnik}>?</div> */}
           </div>
-          <svg
+          <div className={classes.pitanjeContainer}>
+            {/* <svg
             // className="base"
             className={classes.basePitanje}
             width="1045"
@@ -72,16 +77,68 @@ const FaqItem = (props) => {
                 {props.question}
               </foreignObject>
             </switch>
-          </svg>
+          </svg> */}
+            <svg
+              className={classes.basePitanje}
+              // width="1047"
+              // height="102"
+              viewBox="0 0 1047 102"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10.0265 1.50004L1037 1.50009C1041.69 1.50009 1045.5 5.30567 1045.5 10.0001L1045.5 51L1045.5 91.9999C1045.5 96.6944 1041.69 100.5 1037 100.5L10.0266 100.5C3.95522 100.5 -0.158535 94.3184 2.18571 88.7179L16.1149 55.4404C17.304 52.5996 17.3041 49.4005 16.1149 46.5597L2.18565 13.282C-0.158598 7.68152 3.95513 1.50004 10.0265 1.50004Z"
+                fill="#F9EEE1"
+                stroke="black"
+                stroke-width="3"
+              />
+              {/* <switch>
+              <foreignObject
+                className={classes.PravaVelicinaTeksta}
+                // width="9px"
+                x="5%"  
+                y= { props.dvaRedaPitanje ===  true ? "10%" :"30%" }//ovde sam promenila, bilo je 20
+                // fontSize="1rem"
+                
+                style={{ width: "100%", height: "100%" }}
+              >
+                {props.question}
+              </foreignObject>
+            </switch> */}
+              <text
+                className={classes.PravaVelicinaTeksta}
+                x="50%"
+                y={props.dvaRedaPitanje === true ? "37%" : "53%"}
+                fill="black"
+                textAnchor="middle"
+                fontWeight="650"
+                dominant-baseline="middle"
+              >
+                {props.question}
+              </text>
+              {props.dvaRedaPitanje === true && (
+                <text
+                  className={classes.PravaVelicinaTeksta}
+                  x="50%"
+                  y="73%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.question2}
+                </text>
+              )}
+            </svg>
+          </div>
         </motion.div>
 
         <motion.div
-        className={classes.Answer}
+          className={classes.Answer}
           animate={{
             height: visibleAnswer ? "auto" : "0rem",
             opacity: visibleAnswer ? 1 : 0,
           }}
-          
           initial={{ height: "0rem", opacity: 0 }}
           //   OVO isto
 
@@ -107,7 +164,11 @@ const FaqItem = (props) => {
             />
           </svg> */}
           <div className={classes.base}>
-            <svg className={classes.faqVelikiHex} fill="none" viewBox="-5 -13 120 120">
+            <svg
+              className={classes.faqVelikiHex}
+              fill="none"
+              viewBox="-5 -13 120 120"
+            >
               <path
                 d="M90.9745 92.0013L109.138 60.707C112.463 54.9776 112.471 47.9074 109.159 42.1703L91.2306 11.1172C87.9184 5.38022 81.7914 1.85212 75.1668 1.86729L38.9834 1.95011C32.4042 1.96516 26.3281 5.47323 23.0255 11.1634L4.86203 42.4578C1.53664 48.1872 1.52855 55.2574 4.84082 60.9944L22.7693 92.0475C26.0816 97.7845 32.2086 101.313 38.8331 101.297L75.0166 101.215C81.5957 101.2 87.6719 97.6915 90.9745 92.0013Z"
                 fill="#F9EEE1"
@@ -115,10 +176,9 @@ const FaqItem = (props) => {
                 stroke-width="3"
               />
             </svg>
-            <img className={classes.slicicaLogo}  src={LOGO} alt="LOGO" />
+            <img className={classes.slicicaLogo} src={LOGO} alt="LOGO" />
           </div>
-          
-          
+
           {/* </motion.div> */}
 
           {/* <motion.div
@@ -154,20 +214,65 @@ const FaqItem = (props) => {
               stroke="black"
               stroke-width="3"
             />
-            <switch>
+            {/* <switch>
               <foreignObject
                 x="3%"
-                y="3%"
-                width="445"
-                height="1000"
-                fontSize="0.8rem" //bilo je 1rem
+                y="5%"
+                width="97%"
+                height="90%"
+                // height="1000"
+                // fontSize="0.8rem" //bilo je 1rem
                 letterSpacing="0.2px"
                 style={{ width: "97%", height: "100%" }}
                 className={classes.PravaVelicinaTekstaOdgovor}
               >
                 {props.answer}
               </foreignObject>
-            </switch>
+            </switch> */}
+              <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="20%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed1}
+                </text>
+                <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="42%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed2}
+                </text>
+                <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="64%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed3}
+                </text>
+                <text
+                  className={classes.PravaVelicinaTekstaOdgovor}
+                  x="50%"
+                  y="86%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="650"
+                  dominant-baseline="middle"
+                >
+                  {props.odgRed4}
+                </text>
           </svg>
         </motion.div>
 

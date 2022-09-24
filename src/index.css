@@ -12,6 +12,7 @@
 /* mobilni je baza */
 *{
   /* overflow-x  : hidden; */
+  font-family: 'Jost', sans-serif;
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: #ffffff00;
 }

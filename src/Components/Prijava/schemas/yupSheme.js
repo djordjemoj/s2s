@@ -4,7 +4,7 @@ const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
 // min 5 characters, 1 upper case letter, 1 lower case letter, 1 numeric digit.
 
 export const basicSchema = yup.object().shape({
-  email: yup.string().email("Please enter a valid email").required("Required"),
+  emailPriv: yup.string().email("Please enter a valid email").required("Required"),
   age: yup.number().positive().integer().required("Required"),
   password: yup
     .string()
@@ -23,10 +23,10 @@ export const advancedSchema = yup.object().shape({
     .min(3, "Ime i prezime mora sadržati barem 3 karaktera")
     .required("Required"),
 
-  email: yup.string().email().required("Required"),
+  emailPriv: yup.string().email().required("Required"),
 
-  telefon: yup.number().required("Required"),
-
+  brojTelefona: yup.number().required(true ? "Required" : ""),
+  // ovk kao gore moze da se bira
   fakultet: yup
     .string()
     .oneOf(
@@ -35,7 +35,7 @@ export const advancedSchema = yup.object().shape({
     )
     .required("Required"),
 
-  godina: yup
+    godinaStudija: yup
     .string()
     .oneOf(
       ["prva", "druga", "treca", "cetvrta", "peta", "master", "doktorat"],
@@ -43,14 +43,10 @@ export const advancedSchema = yup.object().shape({
     )
     .required("Required"),
 
-  newsletter: yup
-    .string()
-    .oneOf(["daNews", "neNews"], "Invalid Job Type")
-    .required("Required"),
+    newsletter: yup.boolean().oneOf([true, false], ""),
 
-  prethodno: yup
-    .string()
-    .oneOf(["daPrethodno", "nePrethodno"], "Invalid Job Type")
+    daLiJeRanijeUcestvovao: yup
+    .boolean().oneOf([true, false], "")
     .required("Required"),
 
   generalnaMotivacija: yup
@@ -58,16 +54,23 @@ export const advancedSchema = yup.object().shape({
     .min(3, "Moras napisati bar nesto")
     .required("Required"),
 
-  panel: yup.boolean().oneOf([true, false], ""),
+    panelDaLi: yup.boolean().oneOf([true, false], ""),
 
-  radionica: yup.boolean().oneOf([true, false], ""),
+    radionicaDaLi: yup.boolean().oneOf([true, false], ""),
 
   pitanjaPanelistima: yup
     .string()
-    .min(3, "Moras napisati bar nesto")
-    .required("Required"),
+    .when("panel", {
+      is: true,
+      then: yup
+        .string()
+        .min(3, "Moras napisati bar nesto")
+        .required("Obavezno polje"),
+    })
+    .required(""),
+    //ovo je logika za to da li je nesto obavezno, takodje mozemo da stavimo za laptop
 
-  prviIzbor: yup
+    prvaRadionica: yup
     .string()
     .oneOf(["java", "python", "react", "figma"], "Invalid Job Type")
     .required("Required"),
@@ -77,9 +80,9 @@ export const advancedSchema = yup.object().shape({
     .min(3, "Moras napisati bar nesto")
     .required("Required"),
 
-  drugiIzbor: yup
+    drugaRadionica: yup
     .string()
-    .oneOf(["java", "python", "react", "figma"], "Invalid Job Type"),
+    .oneOf(["Java", "Python", "React", "Figma"], "Invalid Job Type"),
 
   drugaMotivacija: yup.string(),
 

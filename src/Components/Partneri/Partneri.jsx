@@ -25,7 +25,7 @@ const Partneri = () => {
     focusOnSelect: true,
     autoplaySpeed: 3000,
     draggable: true,
-    arrows: true,
+    arrows: false,
     swipeToSlide: false,
     responsive: [
       {
