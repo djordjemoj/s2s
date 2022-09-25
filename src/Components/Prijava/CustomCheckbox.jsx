@@ -9,9 +9,9 @@ const CustomCheckbox = ({ label, ...props }) => {
         <input
           {...field}
           {...props}
-          className={meta.touched && meta.error ? "input-error" : props.name}
+          className={meta.touched && meta.error ? "input-error " : props.name}
         />
-        <span>{label}</span>
+        <span className="">{label}</span>
       </div>
 
       {meta.touched && meta.error && <div className="error">{meta.error}</div>}

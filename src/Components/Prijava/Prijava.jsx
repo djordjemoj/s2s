@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Form, Formik } from "formik";
+import { Form, Formik, Field } from "formik";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import { advancedSchema } from "./schemas/yupSheme";
 import CustomCheckbox from "./CustomCheckbox";
@@ -167,6 +167,7 @@ const Prijava = () => {
   //   setSubmitting(false);
   // }
 
+  
   return (
     <Scrollbars style={{ height: "100vh" }}>
       <div className="Prijava-ceo">
@@ -214,9 +215,10 @@ const Prijava = () => {
           onSubmit={onSubmit}
         >
           {({ isSubmitting }) => (
-            <Form>
-              <div className="imePrezimeDiv">
-                <label className="brojPitanja">1.</label>
+            <Form className="FormaPrijava">
+              <div className="PrvaPolPitanja">
+              <div className="imePrezimeDiv pitanjeX">
+                <div className="brojPitanja">1</div>
                 <CustomInput
                   label="Ime i prezime"
                   name="imePrezime"
@@ -224,8 +226,8 @@ const Prijava = () => {
                   placeholder="Unesite Vaše ime i prezime"
                 />
               </div>
-              <div className="emailDiv">
-                <label className="brojPitanja">2.</label>
+              <div className="emailDiv pitanjeX">
+                <div className="brojPitanja">2</div>
                 <CustomInput
                   label="Email adresa"
                   name="emailPriv"
@@ -233,8 +235,8 @@ const Prijava = () => {
                   placeholder="Unesite Vašu email adresu"
                 />
               </div>
-              <div className="telefonDiv">
-                <label className="brojPitanja">3.</label>
+              <div className="telefonDiv pitanjeX">
+                <div className="brojPitanja">3</div>
                 <CustomInput
                   label="Broj telefona"
                   name="brojTelefona"
@@ -242,8 +244,8 @@ const Prijava = () => {
                   placeholder="Unesite Vaš broj telefona"
                 />
               </div>
-              <div className="fakultetDiv">
-                <label className="brojPitanja">4.</label>
+              <div className="fakultetDiv pitanjeX">
+                <div className="brojPitanja">4</div>
                 <CustomSelect
                   label="Fakultet"
                   name="fakultet"
@@ -259,8 +261,8 @@ const Prijava = () => {
                   <option value="drugo">Drugo</option>
                 </CustomSelect>
               </div>
-              <div className="godinaDiv">
-                <label className="brojPitanja">5.</label>
+              <div className="godinaDiv pitanjeX">
+                <div className="brojPitanja">5</div>
                 <CustomSelect
                   label="Godina studija"
                   name="godinaStudija"
@@ -276,79 +278,83 @@ const Prijava = () => {
                   <option value="doktorat">Doktorat</option>
                 </CustomSelect>
               </div>
-              <div className="newsletterDiv">
-                <label className="brojPitanja">6.</label>
-                {/* <CustomSelect
-                label="Da li želiš da dobijaš obaveštenja o drugim FONIS projektima i aktivnostima "
-                name="newsletter"
-                placeholder=""
-              >
-                <option value="">
-                  Da li želiš da dobijaš obaveštenja o drugim FONIS projektima i
-                  aktivnostima{" "}
-                </option>
-                <option value= {true}>Da</option>
-                <option value={false}>Ne</option>
-              </CustomSelect> */}
+              <div className="newsletterDiv pitanjeX">
+                <div className="brojPitanja">6</div> 
                 <CustomCheckbox
                   label="Zelim da dobijam obaveštenja o drugim FONIS projektima i aktivnostima "
                   type="checkbox"
                   name="newsletter"
                 />
+                {/* <label>
+            <Field type="checkbox" name="toggle" />
+            {`${isSubmitting.newsletter}`}
+          </label> */}
               </div>
-              <div className="prethodnoDiv">
-                <label className="brojPitanja">7.</label>
-                {/* <CustomSelect
+
+
+
+              <div className="prethodnoDiv pitanjeX">
+                <div className="brojPitanja">7</div>
+                <CustomSelect
                 label="Da li si ranije učestvovao/la na S2S-u? "
                 name="daLiJeRanijeUcestvovao"
                 placeholder="Da li si ranije učestvovao/la na S2S-u? "
               >
-                <option value="">
+                {/* <option value="">
                   Da li si ranije učestvovao/la na S2S-u?
-                </option>
-                <option value={true}>Da</option>
+                </option> */}
                 <option value={true}>Ne</option>
-              </CustomSelect> */}
-                <CustomCheckbox
+                <option value={true}>Da</option>
+              </CustomSelect>
+                {/* <CustomCheckbox
                   label="Da li si ranije učestvovao/la na S2S-u?"
                   type="checkbox"
                   name="daLiJeRanijeUcestvovao"
-                />
+                /> */}
               </div>
-              <div className="generalnaMotivacijaDiv">
-                <label className="brojPitanja">8.</label>
+              <div className="generalnaMotivacijaDiv pitanjeX">
+                <div className="brojPitanja">8</div>
                 <CustomTextArea
                   label="Šta te je navelo da se ove godine prijaviš na S2S? "
                   name="generalnaMotivacija"
                   placeholder="Objasni motivaciju za projekat xxxxx"
                 ></CustomTextArea>
               </div>
-              <div className="panelDiv">
-                <label className="brojPitanja">9.</label>
+              <div className="panelDiv pitanjeX">
+                <div className="brojPitanja">9</div>
+                <div className="container-checkbox">
                 <CustomCheckbox
+                  // className="MojCheckbox ne treba mi jer moze samo name da se stavi u css jer mu je to klasa
                   label="Želim da se prijavim za panel diskusiju"
                   type="checkbox"
                   name="panelDaLi"
                 />
               </div>
-              <div className="radionicaDiv">
-                <label className="brojPitanja">10.</label>
+              </div>
+              <div className="radionicaDiv pitanjeX">
+                <div className="brojPitanja">10</div>
                 <CustomCheckbox
                   label="Želim da se prijavim za radionicu"
                   type="checkbox"
                   name="radionicaDaLi"
                 />
               </div>
-              <div className="pitanjaPanelistima">
-                <label className="brojPitanja">11.</label>
+              </div>
+              {/* OVDE POCINJE DRUGI DEO PITANJA */}
+              <div className="DrugaPolPitanja">
+                <div className="MagicPitanjaPanelistima">
+              <div className="pitanjaPanelistima pitanjeX">
+                <div className="brojPitanja">11</div>
                 <CustomTextArea
                   label="Ovogodišnja tema panela je xxx. Koja pitanja bi postavio/la panelistima na ovu temu? "
                   name="pitanjaPanelistima"
                   placeholder="Ovogodišnja tema panela je xxx. Koja pitanja bi postavio/la panelistima na ovu temu? "
                 ></CustomTextArea>
               </div>
-              <div className="prviIzborDiv">
-                <label className="brojPitanja">12.</label>
+              </div>
+              <div className="MagicPitanjaRadionice">
+              <div className="prviIzborDiv pitanjeX">
+                <div className="brojPitanja">12</div>
                 <CustomSelect
                   label="Odaberi radionicu na kojoj primarno želiš da prisustvuješ"
                   name="prvaRadionica"
@@ -363,16 +369,22 @@ const Prijava = () => {
                   <option value="figma">Figma</option>
                 </CustomSelect>
               </div>
-              <div className="prvaMotivacijaDiv">
-                <label className="brojPitanja">13.</label>
+              {/* ovde treba da bude ono ako je nesto od navedenog, 
+              da izadje ono za laptop, sto je obavezno za submit, 
+              al ne samo da izadje nego mozda da se tek tad renderuje &&
+              i kaze, ova radionica zahteva laptop, kako biste prisustvovali
+               potrebno je da ponesete lap top
+              Ponecu svoj lap top checkbox  ako ne (required)*/}
+              <div className="prvaMotivacijaDiv pitanjeX">
+                <div className="brojPitanja">13</div>
                 <CustomTextArea
                   label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                   name="prvaMotivacija"
                   placeholder="Unesi motivaciju za radionicu "
                 ></CustomTextArea>
               </div>
-              <div className="drugiIzborDiv">
-                <label className="brojPitanja">14.</label>
+              <div className="drugiIzborDiv pitanjeX">
+                <div className="brojPitanja">14</div>
                 <CustomSelect
                   label="Odaberi alternativnu radionicu kojoj želiš da prisustvuješ"
                   name="drugaRadionica"
@@ -387,13 +399,15 @@ const Prijava = () => {
                   <option value="Figma">Figma</option>
                 </CustomSelect>
               </div>
-              <div className="drugaMotivacija">
-                <label className="brojPitanja">15.</label>
+              <div className="drugaMotivacija pitanjeX">
+                <div className="brojPitanja">15</div>
                 <CustomTextArea
                   label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                   name="drugaMotivacija"
                   placeholder="Zasto se prijavljujes za ovo "
                 ></CustomTextArea>
+              </div>
+              </div>
               </div>
               <button disabled={isSubmitting} type="submit">
                 Prijava
