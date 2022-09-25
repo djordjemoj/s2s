@@ -32,7 +32,7 @@ import S2SLOGO from "../../assets/s2slogo.png";
 // };
 const onSubmit = async (values, actions) => {
   // console.log(JSON.stringify(values));
-  // alert();
+  // alert(JSON.stringify(values));
 
   let postBody = {
     // prijava: {
@@ -253,11 +253,11 @@ const Prijava = () => {
                 <div className="fakultetDiv pitanjeX">
                   <div className="brojPitanja">4</div>
                   <CustomSelect
-                    label="Fakultet"
+                    label="Izaberite koji fakultet studirate"
                     name="fakultet"
-                    placeholder="Izaberite koji fakultet studirate"
+                    placeholder="Fakultet"
                   >
-                    <option value="">Izaberite koji fakultet studirate</option>
+                    <option value="">Fakultet</option>
                     <option value="fon">FON</option>
                     <option value="etf">ETF</option>
                     <option value="matf">MATF</option>
@@ -270,24 +270,23 @@ const Prijava = () => {
                 <div className="godinaDiv pitanjeX">
                   <div className="brojPitanja">5</div>
                   <CustomSelect
-                    label="Godina studija"
+                    label="Izaberite Vašu godinu studija"
                     name="godinaStudija"
-                    placeholder="Izaberite Vašu godinu studija"
+                    placeholder="Godina studija"
                   >
-                    <option value="">Izaberite Vašu godinu studija</option>
+                    <option value="">Godina studija</option>
                     <option value="prva">Prva</option>
                     <option value="druga">Druga</option>
                     <option value="treca">Treća</option>
                     <option value="cetvrta">Četvrta</option>
                     <option value="peta">Peta</option>
                     <option value="master">Master</option>
-                    <option value="doktorat">Doktorat</option>
                   </CustomSelect>
                 </div>
                 <div className="newsletterDiv pitanjeX pitanjeVeciMarginBottom">
                   <div className="brojPitanja">6</div>
                   <CustomCheckbox
-                    label="Zelim da dobijam obaveštenja o drugim FONIS projektima i aktivnostima "
+                    label="Želim da dobijam obaveštenja o drugim FONIS projektima i aktivnostima "
                     type="checkbox"
                     name="newsletter"
                   />
@@ -321,7 +320,7 @@ const Prijava = () => {
                   <CustomTextArea
                     label="Šta te je navelo da se ove godine prijaviš na S2S? "
                     name="generalnaMotivacija"
-                    placeholder="Objasni motivaciju za projekat xxxxx"
+                    placeholder="Unesite svoj odgovor ovde"
                   ></CustomTextArea>
                 </div>
               </div>
@@ -352,7 +351,7 @@ const Prijava = () => {
                     <CustomTextArea
                       label="Ovogodišnja tema panela je xxx. Koja pitanja bi postavio/la panelistima na ovu temu? "
                       name="pitanjaPanelistima"
-                      placeholder="Ovogodišnja tema panela je xxx. Koja pitanja bi postavio/la panelistima na ovu temu? "
+                      placeholder="Unesite svoj odgovor ovde"
                     ></CustomTextArea>
                   </div>
                 </div>
@@ -365,12 +364,9 @@ const Prijava = () => {
                     <CustomSelect
                       label="Odaberi radionicu na kojoj primarno želiš da prisustvuješ"
                       name="prvaRadionica"
-                      placeholder="Odaberi radionicu na kojoj primarno želiš da prisustvuješ"
+                      placeholder="Primarna radionica"
                     >
-                      <option value="">
-                        Odaberi radionicu na kojoj primarno želiš da
-                        prisustvuješ
-                      </option>
+                      <option value="">Primarna radionica</option>
                       <option value="dotNet">ASP.NET</option>
                       <option value="ae">AfterEffects</option>
                       <option value="agile">Agile</option>
@@ -394,7 +390,7 @@ const Prijava = () => {
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="prvaMotivacija"
-                      placeholder="Unesi motivaciju za radionicu "
+                      placeholder="Unesite svoj odgovor ovde"
                     ></CustomTextArea>
                   </div>
                   <div className="drugiIzborDiv pitanjeX">
@@ -402,12 +398,9 @@ const Prijava = () => {
                     <CustomSelect
                       label="Odaberi alternativnu radionicu kojoj želiš da prisustvuješ"
                       name="drugaRadionica"
-                      placeholder="sta je ovo"
+                      placeholder="Alternativna radionica"
                     >
-                      <option value="">
-                        Odaberi alternativnu radionicu kojoj želiš da
-                        prisustvuješ
-                      </option>
+                      <option value="">Alternativna radionica</option>
                       <option value="dotNet">ASP.NET</option>
                       <option value="ae">AfterEffects</option>
                       <option value="agile">Agile</option>
@@ -425,7 +418,7 @@ const Prijava = () => {
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="drugaMotivacija"
-                      placeholder="Zasto se prijavljujes za ovo "
+                      placeholder="Unesite svoj odgovor ovde"
                     ></CustomTextArea>
                   </div>
                 </div>
