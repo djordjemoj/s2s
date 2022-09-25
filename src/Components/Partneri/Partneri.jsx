@@ -2,15 +2,17 @@ import React from "react";
 import "../Partneri/Partneri.css";
 import Slider from "react-slick";
 
-import Adacta from "../../assets/adacta.png";
-import DragiBravo from "../../assets/dragibravo.jpeg";
-import SlikaTim1 from "../../assets/glassart.png";
-import SlikaTim2 from "../../assets/adacta.png";
-import SlikaTim3 from "../../assets/adacta.png";
-import SlikaTim4 from "../../assets/adacta.png";
-import SlikaTim5 from "../../assets/adacta.png";
-import SlikaTim6 from "../../assets/adacta.png";
-import SlikaTim7 from "../../assets/adacta.png";
+// import Adacta from "../../assets/adacta.png";
+import DragiBravo from "../../assets/partneriLogo/dragibravo.jpeg";
+import LogoPartner1 from "../../assets/partneriLogo/glassart.png";
+import LogoPartner2 from "../../assets/partneriLogo/beerpong.png";
+import LogoPartner3 from "../../assets/partneriLogo/danza.png";
+import LogoPartner4 from "../../assets/partneriLogo/drbrado.png";
+import LogoPartner5 from "../../assets/partneriLogo/futrola.png";
+import LogoPartner6 from "../../assets/partneriLogo/Gifty.png";
+import LogoPartner7 from "../../assets/partneriLogo/naucidizajn.jpg";
+import LogoPartner8 from "../../assets/partneriLogo/kolacic.png";
+
 import { motion } from "framer-motion";
 
 const Partneri = () => {
@@ -63,24 +65,62 @@ const Partneri = () => {
     },
   ];
   const logoPartneri2 = [
-    DragiBravo,
-    SlikaTim1,
-    SlikaTim2,
-    SlikaTim3,
-    SlikaTim4,
-    SlikaTim5,
-    SlikaTim6,
-    SlikaTim7,
+    {
+      logoPartnera: DragiBravo,
+      linkPartnera: "https://www.instagram.com/dragibravo/",
+    },
+    {
+      logoPartnera: LogoPartner1,
+      linkPartnera: "https://www.instagram.com/glassart.srbija/",
+    },
+    {
+      logoPartnera: LogoPartner2,
+      linkPartnera: "http://www.facebook.com/beerpongbarbelgrade/",
+    },
+    {
+      logoPartnera: LogoPartner3,
+      linkPartnera: "https://www.instagram.com/danzadelarte/?hl=en",
+    },
+    {
+      logoPartnera: LogoPartner4,
+      linkPartnera: "https://brados.rs/",
+    },
+    {
+      logoPartnera: LogoPartner5,
+      linkPartnera: "https://www.instagram.com/la_futrola/",
+    },
+    {
+      logoPartnera: LogoPartner6,
+      linkPartnera: "https://gifty.rs/",
+    },
+    {
+      logoPartnera: LogoPartner7,
+      linkPartnera: "https://www.instagram.com/naucidizajn/",
+    },
+    {
+      logoPartnera: LogoPartner8,
+      linkPartnera: "http://www.kolacicsrece.com/",
+    },
   ];
+  // const logoPartneri2 = [
+  //   DragiBravo,
+  //   LogoPartner1,
+  //   LogoPartner2,
+  //   LogoPartner3,
+  //   LogoPartner4,
+  //   LogoPartner5,
+  //   LogoPartner6,
+  //   LogoPartner7,
+  // ];
   // const logoPartneri3 = [
   //   DragiBravo,
-  //   SlikaTim1,
-  //   SlikaTim2,
-  //   SlikaTim3,
-  //   SlikaTim4,
-  //   SlikaTim5,
-  //   SlikaTim6,
-  //   SlikaTim7,
+  //   LogoPartner1,
+  //   LogoPartner2,
+  //   LogoPartner3,
+  //   LogoPartner4,
+  //   LogoPartner5,
+  //   LogoPartner6,
+  //   LogoPartner7,
   // ];             OVI SU ZA MEDIJSKE
 
   return (
@@ -138,11 +178,15 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri2.map((img) => (
               <div className="Jedan-partner">
+                <a href={img.linkPartnera}>
                 <img
                   className="Jedan-partner-slika"
-                  src={img}
-                  alt={"Naturalni i robni partneri projekta Studenti Studentima"}
+                  src={img.logoPartnera}
+                  alt={
+                    "Naturalni i robni partneri projekta Studenti Studentima"
+                  }
                 ></img>
+                </a>
               </div>
             ))}
           </Slider>

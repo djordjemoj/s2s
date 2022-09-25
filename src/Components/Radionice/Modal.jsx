@@ -46,6 +46,7 @@ const Modal = ({ open, onClose, modali }) => {
             <p className="DrugiTekst">{modali.drugiTekst}</p>
           </div>
           <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
+          
           <img src={modali.slikaPredavaca2} alt="Predavac na s2s" />
         </div>
       </div>
