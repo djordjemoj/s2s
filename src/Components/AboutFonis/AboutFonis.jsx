@@ -1,6 +1,6 @@
 import React from "react";
 import "../AboutFonis/AboutFonis.css";
-import Adacta from "../../assets/tim0.jpg";
+// import Adacta from "../../assets/tim0.jpg";
 import {
   LazyLoadImage,
   trackWindowScroll,

@@ -8,22 +8,22 @@ import Slider from "react-slick";
 // } from "react-lazy-load-image-component";
 // import "react-lazy-load-image-component/src/effects/blur.css";
 
-import SlikaTim0 from "../../assets/tim0.jpg";
-import SlikaTim1 from "../../assets/tim1.jpg";
-import SlikaTim2 from "../../assets/tim2.JPG";
-import SlikaTim3 from "../../assets/tim3.jpg";
-import SlikaTim4 from "../../assets/tim3.jpg";
-import SlikaTim5 from "../../assets/tim3.jpg"; //PNG JE UMESTO JPG
-import SlikaTim6 from "../../assets/tim0.jpg";
-import SlikaTim7 from "../../assets/tim0.jpg";
-import Koordinator0 from "../../assets/tim0.jpg";
-import Koordinator1 from "../../assets/koord1.jpg";
-import Koordinator2 from "../../assets/tim0.jpg";
-import Koordinator3 from "../../assets/tim0.jpg";
-import Koordinator4 from "../../assets/tim0.jpg";
-import Koordinator5 from "../../assets/tim0.jpg";
-import Koordinator6 from "../../assets/tim0.jpg";
-import Koordinator7 from "../../assets/tim0.jpg";
+import SlikaTim0 from "../../assets/slikeTimova/tim0.JPG";
+import SlikaTim1 from "../../assets/slikeTimova/tim1.jpg";
+import SlikaTim2 from "../../assets/slikeTimova/tim2.JPG";
+import SlikaTim3 from "../../assets/slikeTimova/tim3.jpg";
+import SlikaTim4 from "../../assets/slikeTimova/tim4.jpg";
+import SlikaTim5 from "../../assets/slikeTimova/tim5.jpg"; //PNG JE UMESTO JPG
+import SlikaTim6 from "../../assets/slikeTimova/tim6.jpg";
+import SlikaTim7 from "../../assets/slikeTimova/tim7.jpg";
+import Koordinator0 from "../../assets/slikeKoordinatora/koord0.jpg";
+import Koordinator1 from "../../assets/slikeKoordinatora/koord1.jpg";
+import Koordinator2 from "../../assets/slikeKoordinatora/koord2.jpg";
+import Koordinator3 from "../../assets/slikeKoordinatora/koord3.jpg";
+import Koordinator4 from "../../assets/slikeKoordinatora/koord4.jpg";
+import Koordinator5 from "../../assets/slikeKoordinatora/koord5.jpg";
+import Koordinator6 from "../../assets/slikeKoordinatora/koord6.jpg";
+import Koordinator7 from "../../assets/slikeKoordinatora/koord7.jpg";
 // import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 
 const Orgtim3 = () => {
