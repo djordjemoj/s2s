@@ -20,7 +20,7 @@ const AboutFonis = () => {
             stroke-width="5"
           />
           <switch>
-            <foreignObject x="1.5%" y="1.5%" width="800" height="550">
+            <foreignObject x="1.2%" y="1.5%" width="800" height="550">
               <p className="caption1">O PROJEKTU</p>
               <p className="tekst1">
                 „Studenti studentima“ je projekat Udruženja<br></br>studenata

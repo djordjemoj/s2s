@@ -35,15 +35,22 @@ const Footer = () => {
                   // marginLeft: "0%",
                   marginRight: "6.5%",
                   textAlign: "center",
+                  fontFamily: "sans-serif",
                 }}
               >
                 ADRESA: <br />
                 Fakultet organizacionih nauka <br />
                 Jove Ilića 154, Beograd <br />
-                Mejl: <a href="mailto:office@fonis.rs" 
+                Mejl:{" "}
+                <a
+                  href="mailto:office@fonis.rs"
                   style={{
                     color: "#ffa142c3",
-                  }}>office@fonis.rs</a> <br></br>
+                  }}
+                >
+                  office@fonis.rs
+                </a>{" "}
+                <br></br>
                 Naš sajt: <br />
                 <a
                   href="https://fonis.rs/"

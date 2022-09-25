@@ -1,10 +1,17 @@
-.CeoFooter{
+@font-face {
+    font-family: "Jost400";
+    src: url("https: //fonts.google.com/specimen/Jost#styles");
+}
+
+
+.CeoFooter {
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
-    
+
+
 }
+
 .base {
     width: 100%;
     height: 100%;
@@ -14,115 +21,123 @@
 }
 
 
-.first{
+.first {
     position: relative;
     width: 100%;
     margin-right: -2.7%;
 }
-.first-text{
+
+.first-text {
     position: absolute;
     text-align: center;
     font-size: 20px;
     color: white;
     top: 5%;
     left: 7%;
-    right:20%;
+    right: 20%;
     bottom: 20%;
-    
-    
 }
-.text-kontakt{
+
+.text-kontakt {
     width: 100%;
     height: 50%;
 }
-.img-first{
-    width:50%;
+
+.img-first {
+    width: 50%;
     margin-left: 20%;
 }
 
-.second{
+.second {
     position: relative;
     justify-content: center;
     width: 72%;
     margin-left: -2.7%;
     margin-right: -2.7%;
 }
+
 .second-img {
     position: absolute;
     width: 100%;
     height: 100%;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%); 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.third{
+.third {
     width: 100%;
     margin-left: -2.7%;
-    position:relative;
-    
+    position: relative;
+
 }
 
-.grid-proba{
+.grid-proba {
     position: absolute;
     /* background-color: greenyellow; */
     width: 100%;
     height: 100%;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
     display: grid;
-    grid-template-columns:1.5fr 1fr 1fr 1fr;
-    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
 
 }
 
-.grid-first{
-    grid-column: 2/3 ;
+.grid-first {
+    grid-column: 2/3;
     grid-row: 2/4;
     margin-bottom: 5px;
     margin-right: -5px;
     position: relative;
 }
-.grid-first-logo{
+
+.grid-first-logo {
     position: absolute;
-    top:52%;
+    top: 52%;
     left: 51%;
     transform: translate(-50%, -50%);
 }
-.gl{
+
+.gl {
     height: 100%;
     width: 100%;
 }
-.grid-second{
-    grid-column: 3/4 ;
+
+.grid-second {
+    grid-column: 3/4;
     grid-row: 3/5;
     margin-bottom: 5px;
     margin-left: -5px;
     position: relative;
 }
-.grid-second-logo{
-    
+
+.grid-second-logo {
+
     position: absolute;
-    top:52%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.grid-third{
-    grid-column: 2/3 ;
+.grid-third {
+    grid-column: 2/3;
     grid-row: 4/6;
     /* margin-top:5px; */
     margin-right: -5px;
     position: relative;
-    
+
 }
-.grid-third-logo{
+
+.grid-third-logo {
     position: absolute;
-    top:52%;
+    top: 52%;
     left: 51%;
     transform: translate(-50%, -50%);
 }
-.links{
+
+.links {
     color: orange;
 }
 
@@ -131,82 +146,82 @@
 /* mobilni je baza */
 
 /* extra mali mobilni */
-@media screen and (max-width: 340px){
-    .CeoFooter{
+@media screen and (max-width: 340px) {
+    .CeoFooter {
         /* width: 108%; */
         /* overflow: hidden;  */
     }
 }
-@media screen and (min-width: 340px){
-    
-}
-@media screen and (min-width: 480px){
-    
-}
+
+@media screen and (min-width: 340px) {}
+
+@media screen and (min-width: 480px) {}
 
 /* mali tableti */
-@media screen and (min-width: 620px){
-    
-}
+@media screen and (min-width: 620px) {}
 
 /* veliki tableti i mali  */
-@media screen and (min-width: 960px){
-    
-    .CeoFooter{
+@media screen and (min-width: 960px) {
+
+    .CeoFooter {
         /* max-height: 20vh; */
-        
+
     }
+
     svg.base {
         /* width: 120%; */
         height: 100%;
     }
-    .footer-deo{
+
+    .footer-deo {
         width: 30%;
         /* border: 2px solid orange; */
-        
 
-    }   
-    .second{
+
+    }
+
+    .second {
         margin-right: 10%;
         margin-left: 10%
     }
-    .second-img{
-    height: 80%;
-    width: 60%;
-    /* border: 2px solid red; */
+
+    .second-img {
+        height: 80%;
+        width: 60%;
+        /* border: 2px solid red; */
     }
 }
 
 /* desktop */
-@media screen and (min-width: 1200px){
-
-    .footer-deo{
+@media screen and (min-width: 1200px) {
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500&display=swap');
+    .footer-deo {
         width: 24%;
         /* border: 2px solid orange; */
-        
+    }
 
-    }   
-    .second{
+
+
+    .second {
         margin-right: 16.2%;
         margin-left: 16.5%
     }
-  
-  }
 
-  /* ultrawide i sve vece od fhd */
-@media screen and (min-width: 1920px){
+}
 
-    .footer-deo{
+/* ultrawide i sve vece od fhd */
+@media screen and (min-width: 1920px) {
+
+    .footer-deo {
         width: 20%;
         /* border: 2px solid orange; */
-        
 
-    }   
-    .second{
+
+    }
+
+    .second {
         margin-right: 20%;
         margin-left: 20%
     }
 
-  }
-
- 
+}
