@@ -7,7 +7,7 @@ const Panelisti = () => {
     <div className="Panelisti-sve" id="panel-diskusija">
       <div className="Panelisti-container">
         <div className="Panelisti-content">
-          <svg width="1000" viewBox="0 0 707 1030" fill="none">
+          {/* <svg width="1000" viewBox="0 0 707 1030" fill="none">
             <path
               d="M371.333 350.952L674.227 350.952C678.921 350.952 682.727 354.758 682.727 359.452L682.727 454.351C682.727 459.046 678.921 462.851 674.227 462.851L370.489 462.851C364.086 462.851 359.982 456.04 362.975 450.379L384.533 409.598C386.393 406.08 386.301 401.849 384.29 398.414L363.997 363.746C360.68 358.08 364.767 350.952 371.333 350.952Z"
               fill="#F9EEE1"
@@ -118,7 +118,7 @@ const Panelisti = () => {
           </div>
           <div className="Panelista PanelistaCetiri">
             <img className="PanelistaCetiri-slika" src={SlikaTim0}></img>
-          </div>
+          </div> */}
           <div className="radionice_svg_top">
           <svg
           className="svgtoprad"

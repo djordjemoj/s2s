@@ -1,6 +1,13 @@
 import React from "react";
 import "../AboutFonis/AboutFonis.css";
 import Adacta from "../../assets/tim0.jpg";
+import {
+  LazyLoadImage,
+  trackWindowScroll,
+} from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
+import SOF from "../../assets/sof.jpg";
+import os2s from "../../assets/os2s.png";
 
 const AboutFonis = () => {
   return (
@@ -43,7 +50,7 @@ const AboutFonis = () => {
           <svg width="694" height="1550" viewBox="0 0 694 423" fill="">
             <defs>
               <pattern id="img1" width="1" height="1">
-                <image href={Adacta} x="-50" y="-50" width="770" height="700" />
+                <image href={SOF} x="-80" y="-100" width="770" height="700" />
               </pattern>
             </defs>
             <path
@@ -223,7 +230,7 @@ const AboutFonis = () => {
           >
             <defs>
               <pattern id="img2" width="1" height="1">
-                <image href={Adacta} x="0" y="-100" width="650" height="650" />
+                <image href={os2s} x="0" y="-100" width="650" height="650" />
               </pattern>
             </defs>
             <path
