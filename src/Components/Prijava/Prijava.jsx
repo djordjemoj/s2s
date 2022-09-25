@@ -31,8 +31,8 @@ import S2SLOGO from "../../assets/s2slogo.png";
 //   actions.resetForm();
 // };
 const onSubmit = async (values, actions) => {
-  console.log(JSON.stringify(values));
-  alert(JSON.stringify(values));
+  // console.log(JSON.stringify(values));
+  // alert();
 
   let postBody = {
     // prijava: {
@@ -53,14 +53,14 @@ const onSubmit = async (values, actions) => {
     drugaMotivacija: values.drugaMotivacija,
     // },
   };
-  alert(JSON.stringify(postBody));
+  // alert(JSON.stringify(postBody));
 
   axios
     .post("https://backs2stesting.herokuapp.com/api/prijave", postBody)
     .catch((e) => {
       console.log(e);
     });
-
+  alert("Uspešno ste se prijavili!");
   //ovde 'values' saljemo kao body u POST metodi ka backendu
 
   await new Promise((resolve) => setTimeout(resolve, 1000));
@@ -172,8 +172,6 @@ const Prijava = () => {
   // const promenjiveKontroleri{
   //   prikazPanel: isSubmitting.panelDaLi
   // }
-
-  
 
   return (
     <Scrollbars style={{ height: "100vh" }}>
