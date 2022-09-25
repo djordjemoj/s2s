@@ -190,7 +190,7 @@ const Radionice = () => {
       <div className="page">
         <div className="container">
           <div className="hexagonArea first">
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(0)}>
               <h2 className="radionicaNaziv">ASP.NET</h2>
               <div className="blanket"></div>
               <img src={csharp} alt="" />
@@ -201,7 +201,7 @@ const Radionice = () => {
                 Saznaj više
               </button>
             </div>
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(1)}>
               <h2 className="radionicaNaziv">After Effects</h2>
               <div className="blanket"></div>
               <img src={after} alt="" />
@@ -212,7 +212,7 @@ const Radionice = () => {
                 Saznaj više
               </button>
             </div>
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(2)}>
               <h2 className="radionicaNaziv">Agile</h2>
               <div className="blanket"></div>
               <img src={agile} alt="" />
@@ -225,7 +225,7 @@ const Radionice = () => {
             </div>
           </div>
           <div className="hexagonArea second">
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(3)}>
               <h2 className="radionicaNaziv">Figma</h2>
               <div className="blanket"></div>
               <img src={figma} alt="" />
@@ -236,7 +236,7 @@ const Radionice = () => {
                 Saznaj više
               </button>
             </div>
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(4)}>
               <h2 className="radionicaNaziv">Java</h2>
               <div className="blanket"></div>
               <img src={javaSlika} alt="" />
@@ -249,7 +249,7 @@ const Radionice = () => {
             </div>
           </div>
           <div className="hexagonArea first">
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(5)}>
               <h2 className="radionicaNaziv">Node.js</h2>
               <div className="blanket"></div>
               <img src={nodeSlika} alt="" />
@@ -260,7 +260,7 @@ const Radionice = () => {
                 Saznaj više
               </button>
             </div>
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(6)}>
               <h2 className="radionicaNaziv">Python</h2>
               <div className="blanket"></div>
               <img src={python} alt="" />
@@ -271,7 +271,7 @@ const Radionice = () => {
                 Saznaj više
               </button>
             </div>
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(7)}>
               <h2 className="radionicaNaziv">React</h2>
               <div className="blanket"></div>
               <img src={reactSlika} alt="" />
@@ -284,7 +284,7 @@ const Radionice = () => {
             </div>
           </div>
           <div className="hexagonArea second">
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(8)}>
               <h2 className="radionicaNaziv">SEO</h2>
               <div className="blanket"></div>
               <img src={seoSlika} alt="" />
@@ -295,7 +295,7 @@ const Radionice = () => {
                 Saznaj više
               </button>
             </div>
-            <div className="hexagon">
+            <div className="hexagon" onClick={() => handlePromenaModala(9)}>
               <h2 className="radionicaNaziv">Unity</h2>
               <div className="blanket"></div>
               <img src={unity} alt="" />
