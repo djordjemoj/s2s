@@ -40,23 +40,21 @@ const Landing2 = () => {
             <img className="Logo-Koji-Ulazi" src={S2SLOGO} alt="" />
           </motion.div>
         </div>
-        
-          <motion.div
-            className="dugme-Prijavise"
-            whileHover={{ scale: 1.2 }}
-            onHoverStart={(e) => {}}
-            onHoverEnd={(e) => {}}
-          >
-            <HashLink to="/prijava" class="dugmeZaPrijavu-hashlink">
-              <button type="button" class="dugmeZaPrijavu">
-                PRIJAVI SE
-              </button>
-            </HashLink>
-            {/* onClick={() => navigate('/prijava')} */}
-          </motion.div>
-        <div className="empty-gradient">
 
-        </div>
+        <motion.div
+          className="dugme-Prijavise"
+          whileHover={{ scale: 1.2 }}
+          onHoverStart={(e) => {}}
+          onHoverEnd={(e) => {}}
+        >
+          <HashLink to="/prijava" class="dugmeZaPrijavu-hashlink">
+            <button type="button" class="dugmeZaPrijavu">
+              PRIJAVI SE
+            </button>
+          </HashLink>
+          {/* onClick={() => navigate('/prijava')} */}
+        </motion.div>
+        <div className="empty-gradient"></div>
       </div>
 
       {/* <motion.div

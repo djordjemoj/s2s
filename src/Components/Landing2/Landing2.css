@@ -4,14 +4,15 @@
 @font-face {
     font-family: "jost-bold";
     src: local("Jost-700Bold"), url("../../fonts/Jost700Bold.otf"), format("truetype");
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: "jost-medium";
     src: local("Jost-500Medium"), url("../../fonts/Jost500Medium.otf"), format("truetype");
-  }
+}
 
 
-.Ceo-Landing{
+.Ceo-Landing {
     width: 100%;
     height: 90vh;
     min-height: 700px;
@@ -21,50 +22,58 @@
     justify-content: center;
     overflow: hidden;
 
-    
+
 
 
 }
-.Landing-container{
+
+.Landing-container {
     width: 90%;
-    height: 100%; 
+    height: 100%;
     /* mozda ovo gore ne */
     /* background-color: chocolate;     */
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
-    
+
 }
-.Text-animacija-placeholder{
+
+.Text-animacija-placeholder {
     width: 110%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     height: 20%;
-    color: #ffffffcc;
+    color: #ffffff;
     /* outline: 2px solid black; */
     font-size: 22px;
-    font-family: Jost-700Bold;
-
-    
+    font-family: Jost-500Bold;
+    font-style: normal;
+    /* line-height: 69px; */
     padding-top: 30%;
-    
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+
 }
+
 .text-animacija #learning {
     color: #f7a635;
     font-weight: 700;
     /* background: #f79e23; */
-    
-}
-.Logo-placeholder{
-    height: 50%;
-    width: 80%;
-    
-    
 
 }
-.img-mainLogo{
+
+.Logo-placeholder {
+    height: 50%;
+    width: 80%;
+
+
+
+}
+
+.img-mainLogo {
     width: 100%;
     height: 100%;
     display: flex;
@@ -73,34 +82,37 @@
     /* outline: 2px solid red; */
 
 }
-.Logo-Koji-Ulazi{
+
+.Logo-Koji-Ulazi {
     width: 70vw;
     height: 70vw;
     /* outline: 1px solid black; */
 }
 
-    .dugme-Prijavise{
-        /* height: 15%; */
-        height: 6vh;
-        width: 50%;
+.dugme-Prijavise {
+    /* height: 15%; */
+    height: 6vh;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     /* outline: 2px solid black; */
-    
+
 }
-.dugmeZaPrijavu-hashlink{
+
+.dugmeZaPrijavu-hashlink {
     width: 100%;
     height: 100%;
 }
-.dugmeZaPrijavu{
+
+.dugmeZaPrijavu {
     width: 100%;
     height: 100%;
     /* background: #F9CA87;     */
     /* background: #ff8e00; */
     background: #f79e23;
     /* border: 3px solid #F99D1D; */
-    border: 3px solid #ff8e00; 
+    border: 3px solid #ff8e00;
     display: block;
     border-radius: 10px;
     /* padding: 10px 30px; */
@@ -110,27 +122,30 @@
 
 
 }
+
 .dugmeZaPrijavu:hover {
     transition: 0.3s;
     background-color: transparent;
     color: #F99D1D;
 }
-.empty-gradient{
+
+.empty-gradient {
     width: 100%;
     height: 10%;
-    
+
 }
 
-  
+
 @media screen and (max-width: 340px) {
-    .Text-animacija-placeholder{
-        
-        font-size: 18px;}
+    .Text-animacija-placeholder {
+
+        font-size: 18px;
+    }
 }
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
-    .Logo-Koji-Ulazi{
+    .Logo-Koji-Ulazi {
         width: 50vw;
         height: 50vw;
         /* outline: 1px solid black; */
@@ -138,87 +153,98 @@
 }
 
 /* veliki tableti i mali  */
-@media screen and (min-width: 960px){
-    .Logo-Koji-Ulazi{
+@media screen and (min-width: 960px) {
+    .Logo-Koji-Ulazi {
         width: auto;
         height: auto;
         /* outline: 1px solid black; */
     }
 
-    .Ceo-Landing{ 
+    .Ceo-Landing {
 
         height: 95vh;
         /* border: 2px solid black; */
     }
 
-    .Landing-container{
-        width: 80%;}
+    .Landing-container {
+        width: 80%;
+    }
 
-        .Text-animacija-placeholder{
-            padding-top: 10%;
-            font-size: 35px;
-        }
+    .Text-animacija-placeholder {
+        padding-top: 10%;
+        font-size: 35px;
+    }
 
-        .Logo-placeholder{
-            height: 60%;
-            margin-top: -30px;
-            /* width: 100%; */
-            /* border: 2px solid black; */
-        }
+    .Logo-placeholder {
+        height: 60%;
+        margin-top: -30px;
+        /* width: 100%; */
+        /* border: 2px solid black; */
+    }
 
-        .dugmeZaPrijavu{ 
-            font-size: 20px;
-        }
-        .dugme-Prijavise{
-            /* height: 15%; */
-            height: 7vh;
-            width: 40%;
-        }
+    .dugmeZaPrijavu {
+        font-size: 20px;
+    }
+
+    .dugme-Prijavise {
+        /* height: 15%; */
+        height: 7vh;
+        width: 40%;
+    }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px) {
 
-    .Ceo-Landing{ 
+    .Ceo-Landing {
 
         height: 95vh;
         /* border: 2px solid black; */
     }
 
-    .Landing-container{
+    .Landing-container {
         width: 70%;
     }
 
-        .Text-animacija-placeholder{
-            padding-top: 10%;
-            font-size: 35px;
-        }
+    .Text-animacija-placeholder {
+        padding-top: 10%;
+        font-size: 35px;
+        font-size: 48px;
+        line-height: 69px;
+        font-weight: 700;
+    }
 
-        .Logo-placeholder{
-            height: 70%;
-            margin-top: -30px;
-            /* width: 100%; */
-            /* border: 2px solid black; */
-        }
+    .Logo-placeholder {
+        height: 70%;
+        margin-top: -30px;
+        /* width: 100%; */
+        /* border: 2px solid black; */
+    }
 
-        .dugmeZaPrijavu{ 
-            font-size: 20px;
-        }
-        .dugme-Prijavise{
-            /* height: 15%; */
-            height: 8vh;
-            width: 30%;
-        }
+    .img-mainLogo {
+        margin-top: 20px;
+    }
+
+    .dugmeZaPrijavu {
+        font-size: 20px;
+    }
+
+    .dugme-Prijavise {
+        /* height: 15%; */
+        height: 8vh;
+        width: 30%;
+    }
 }
 
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {
 
-    .Text-animacija-placeholder{
+    .Text-animacija-placeholder {
         padding-top: 5%;
         font-size: 40px;
     }
-    .dugmeZaPrijavu{ 
+
+    .dugmeZaPrijavu {
         font-size: 25px;
     }
 

@@ -35,7 +35,6 @@ const Footer = () => {
                   // marginLeft: "0%",
                   marginRight: "6.5%",
                   textAlign: "center",
-                  fontFamily: "sans-serif",
                 }}
               >
                 ADRESA: <br />

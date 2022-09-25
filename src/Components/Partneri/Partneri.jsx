@@ -194,7 +194,7 @@ const Partneri = () => {
           </Slider>
         </div>
         <div className="Naturalni-partneri slider-partneri">
-          <p className="Partneri-text">NARUTALNI I ROBNI PARTNERI</p>
+          <p className="Partneri-text">NATURALNI I ROBNI PARTNERI</p>
 
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri2.map((img) => (

@@ -76,7 +76,7 @@ const AboutFonis = () => {
                 organizacionih nauka.<br></br>Organizacijom i realizacijom
                 brojnih seminara,
                 <br></br> stručnih predavanja i internacionalih takmičenja
-                okuplja buduće IT stručnjake<br></br> s ciljem razumenjivanja i
+                okuplja buduće IT stručnjake<br></br> s ciljem razmenjivanja i
                 unapređivanja znanja informacionih sistema i tehnologija.
                 Zajedničkim zalaganjem svih članova,<br></br> FONIS već dugi niz
                 godina održava više edukativnih i takmičarskih projekata
