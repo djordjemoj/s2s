@@ -29,7 +29,7 @@ const FaqItem = (props) => {
             <svg
               className={classes.faqMaliHex}
               fill="none"
-              viewBox="0 0 120 105"
+              viewBox="-10 0 120 105"
             >
               <path
                 d="M90.9745 92.0013L109.138 60.707C112.463 54.9776 112.471 47.9074 109.159 42.1703L91.2306 11.1172C87.9184 5.38022 81.7914 1.85212 75.1668 1.86729L38.9834 1.95011C32.4042 1.96516 26.3281 5.47323 23.0255 11.1634L4.86203 42.4578C1.53664 48.1872 1.52855 55.2574 4.84082 60.9944L22.7693 92.0475C26.0816 97.7845 32.2086 101.313 38.8331 101.297L75.0166 101.215C81.5957 101.2 87.6719 97.6915 90.9745 92.0013Z"
@@ -82,7 +82,7 @@ const FaqItem = (props) => {
               className={classes.basePitanje}
               // width="1047"
               // height="102"
-              viewBox="0 0 1047 102"
+              viewBox="-15 0 1047 102"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -167,7 +167,7 @@ const FaqItem = (props) => {
             <svg
               className={classes.faqVelikiHex}
               fill="none"
-              viewBox="-5 -13 120 120"
+              viewBox="2.5 -13 120 120"
             >
               <path
                 d="M90.9745 92.0013L109.138 60.707C112.463 54.9776 112.471 47.9074 109.159 42.1703L91.2306 11.1172C87.9184 5.38022 81.7914 1.85212 75.1668 1.86729L38.9834 1.95011C32.4042 1.96516 26.3281 5.47323 23.0255 11.1634L4.86203 42.4578C1.53664 48.1872 1.52855 55.2574 4.84082 60.9944L22.7693 92.0475C26.0816 97.7845 32.2086 101.313 38.8331 101.297L75.0166 101.215C81.5957 101.2 87.6719 97.6915 90.9745 92.0013Z"
@@ -229,50 +229,50 @@ const FaqItem = (props) => {
                 {props.answer}
               </foreignObject>
             </switch> */}
-              <text
-                  className={classes.PravaVelicinaTekstaOdgovor}
-                  x="50%"
-                  y="20%"
-                  fill="black"
-                  textAnchor="middle"
-                  fontWeight="650"
-                  dominant-baseline="middle"
-                >
-                  {props.odgRed1}
-                </text>
-                <text
-                  className={classes.PravaVelicinaTekstaOdgovor}
-                  x="50%"
-                  y="42%"
-                  fill="black"
-                  textAnchor="middle"
-                  fontWeight="650"
-                  dominant-baseline="middle"
-                >
-                  {props.odgRed2}
-                </text>
-                <text
-                  className={classes.PravaVelicinaTekstaOdgovor}
-                  x="50%"
-                  y="64%"
-                  fill="black"
-                  textAnchor="middle"
-                  fontWeight="650"
-                  dominant-baseline="middle"
-                >
-                  {props.odgRed3}
-                </text>
-                <text
-                  className={classes.PravaVelicinaTekstaOdgovor}
-                  x="50%"
-                  y="86%"
-                  fill="black"
-                  textAnchor="middle"
-                  fontWeight="650"
-                  dominant-baseline="middle"
-                >
-                  {props.odgRed4}
-                </text>
+            <text
+              className={classes.PravaVelicinaTekstaOdgovor}
+              x="50%"
+              y="20%"
+              fill="black"
+              textAnchor="middle"
+              fontWeight="650"
+              dominant-baseline="middle"
+            >
+              {props.odgRed1}
+            </text>
+            <text
+              className={classes.PravaVelicinaTekstaOdgovor}
+              x="50%"
+              y="42%"
+              fill="black"
+              textAnchor="middle"
+              fontWeight="650"
+              dominant-baseline="middle"
+            >
+              {props.odgRed2}
+            </text>
+            <text
+              className={classes.PravaVelicinaTekstaOdgovor}
+              x="50%"
+              y="64%"
+              fill="black"
+              textAnchor="middle"
+              fontWeight="650"
+              dominant-baseline="middle"
+            >
+              {props.odgRed3}
+            </text>
+            <text
+              className={classes.PravaVelicinaTekstaOdgovor}
+              x="50%"
+              y="86%"
+              fill="black"
+              textAnchor="middle"
+              fontWeight="650"
+              dominant-baseline="middle"
+            >
+              {props.odgRed4}
+            </text>
           </svg>
         </motion.div>
 
