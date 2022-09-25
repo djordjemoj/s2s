@@ -60,6 +60,11 @@ cursor: pointer;
 .UmestoSVG h1{
   color: rgba(255, 255, 255, 0.922);
   font-size: 16px;
+
+}
+.PrijavaTop-svg
+.PrijavaTop-svg h2{
+  color: white;
 }
 
 .FormaPrijava{
@@ -182,6 +187,10 @@ label {
   color: rgba(0, 0, 0, 0.822);
 
 }
+.error{
+  color: rgba(255, 255, 255, 0.547);
+  text-decoration: underline;
+}
 .imePitanja{
   /* display: none; */
   position: absolute;
@@ -240,10 +249,17 @@ label {
   background-color: #f8a736;
   /* border: 1.5px solid ; */
 }
+
 .unosTextBox{
   height: calc(var(--velImePitanja)*4);
+  min-height: calc(var(--velImePitanja)*2);
+  max-height: calc(var(--velImePitanja)*10);
+  
   font-size: 20px;
   width: 97.4%;
+  resize:vertical;
+
+
   margin: 0 ;
   /* margin-top: 11px; */
   margin-top: calc(var(--velImePitanja)*1.25);
