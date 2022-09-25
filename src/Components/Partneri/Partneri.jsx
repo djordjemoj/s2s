@@ -3,14 +3,13 @@ import "../Partneri/Partneri.css";
 import Slider from "react-slick";
 
 import Adacta from "../../assets/adacta.png";
-import DragiBravo from "../../assets/dragibravo.jpeg";
-import SlikaTim1 from "../../assets/glassart.png";
-import SlikaTim2 from "../../assets/adacta.png";
-import SlikaTim3 from "../../assets/adacta.png";
-import SlikaTim4 from "../../assets/adacta.png";
-import SlikaTim5 from "../../assets/adacta.png";
-import SlikaTim6 from "../../assets/adacta.png";
-import SlikaTim7 from "../../assets/adacta.png";
+import DevIT from "../../assets/godisnji/devit.png";
+import Digitec from "../../assets/godisnji/digitec.png";
+import FON from "../../assets/godisnji/fon.png";
+import Guarana from "../../assets/godisnji/guarana.png";
+import Hedwell from "../../assets/godisnji/hedwell.png";
+import Mainstream from "../../assets/godisnji/mainstream.png";
+import Prime from "../../assets/godisnji/prime.png";
 import { motion } from "framer-motion";
 
 const Partneri = () => {
@@ -42,45 +41,51 @@ const Partneri = () => {
 
   const godisnjiPartneri = [
     {
-      logoPartnera: DragiBravo,
-      linkPartnera: "https://www.instagram.com/dragibravo/",
+      logoPartnera: DevIT,
+      linkPartnera: "https://www.devit.rs/",
     },
     {
-      logoPartnera: DragiBravo,
-      linkPartnera: "https://www.instagram.com/dragibravo/",
+      logoPartnera: Digitec,
+      linkPartnera: "https://www.digitec.rs/reklamni_materijali",
     },
     {
-      logoPartnera: DragiBravo,
-      linkPartnera: "https://www.instagram.com/dragibravo/",
+      logoPartnera: FON,
+      linkPartnera: "http://fon.bg.ac.rs/",
     },
     {
-      logoPartnera: DragiBravo,
-      linkPartnera: "https://www.instagram.com/dragibravo/",
+      logoPartnera: Guarana,
+      linkPartnera: "https://knjaz.rs/portfolio/guarana/",
     },
     {
-      logoPartnera: DragiBravo,
-      linkPartnera: "https://www.instagram.com/dragibravo/",
+      logoPartnera: Hedwell,
+      linkPartnera: "https://hedwell.com/",
+    },
+    {
+      logoPartnera: Mainstream,
+      linkPartnera: "https://www.mainstream.rs/",
+    },
+    {
+      logoPartnera: Prime,
+      linkPartnera: "https://www.primeholding.com/",
     },
   ];
   const logoPartneri2 = [
-    DragiBravo,
-    SlikaTim1,
-    SlikaTim2,
-    SlikaTim3,
-    SlikaTim4,
-    SlikaTim5,
-    SlikaTim6,
-    SlikaTim7,
+    DevIT,
+    Digitec,
+    FON,
+    Guarana,
+    Hedwell,
+    Mainstream,
+    Prime,
   ];
   // const logoPartneri3 = [
-  //   DragiBravo,
-  //   SlikaTim1,
-  //   SlikaTim2,
-  //   SlikaTim3,
-  //   SlikaTim4,
-  //   SlikaTim5,
-  //   SlikaTim6,
-  //   SlikaTim7,
+  //   DevIT,
+  //   Digitec,
+  //   FON,
+  //   Guarana,
+  //   Hedwell,
+  //   Mainstream,
+  //   Prime,
   // ];             OVI SU ZA MEDIJSKE
 
   return (
@@ -141,7 +146,9 @@ const Partneri = () => {
                 <img
                   className="Jedan-partner-slika"
                   src={img}
-                  alt={"Naturalni i robni partneri projekta Studenti Studentima"}
+                  alt={
+                    "Naturalni i robni partneri projekta Studenti Studentima"
+                  }
                 ></img>
               </div>
             ))}
