@@ -117,39 +117,7 @@ a {text-decoration: none;}
   margin-top: 5px;
 }
 
-.container .hexagonArea .hexagon:hover .radionicaNaziv{
-  display: block;
-  position: absolute;
-  z-index: 1;
-}
 
-.container .hexagonArea .hexagon:hover img{
-  opacity: 0.5;
-}
-
-.container .hexagonArea .hexagon .blanket{
-  opacity: 0.5;
-  background: #199AD4;
-}
-
-.container .hexagonArea .hexagon:hover .blanket{
-  display: block;
-  opacity: 0.5;
-}
-
-.container .hexagonArea .hexagon:hover{
-  background: #199AD4;
-  transition: 0.5s;
-}
-
-.container .hexagonArea .hexagon:hover .popupButton{
-  display: block;
-  position: absolute;
-  opacity: 0;
-  margin-top: -10px;
-  top: 30px;
-  z-index: 2;
-}
 
 /* extra mali mobilni */
 @media screen and (max-width: 381px){
@@ -174,6 +142,39 @@ a {text-decoration: none;}
 /* desktop */
 @media screen and (min-width: 1200px){
 
+  .container .hexagonArea .hexagon:hover .radionicaNaziv{
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .container .hexagonArea .hexagon:hover img{
+    opacity: 0.5;
+  }
+  
+  .container .hexagonArea .hexagon .blanket{
+    opacity: 0.5;
+    background: #199AD4;
+  }
+  
+  .container .hexagonArea .hexagon:hover .blanket{
+    display: block;
+    opacity: 0.5;
+  }
+  
+  .container .hexagonArea .hexagon:hover{
+    background: #199AD4;
+    transition: 0.5s;
+  }
+  
+  .container .hexagonArea .hexagon:hover .popupButton{
+    display: block;
+    position: absolute;
+    opacity: 0;
+    margin-top: -10px;
+    top: 30px;
+    z-index: 2;
+  }
   /* body{
     font-size: 20px;
   }

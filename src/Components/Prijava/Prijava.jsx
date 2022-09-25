@@ -197,6 +197,7 @@ const Prijava = () => {
             <div className="UmestoSVG">
               <h1>PRIJAVA</h1>
             </div>
+            <h2>soignosijoi oejfo jsef io</h2>
           </div>
         </div>
         <Formik
@@ -359,7 +360,7 @@ const Prijava = () => {
                 </div>
                 <div
                   className="MagicPitanjaRadionice"
-                  // style={{ filter: this.props.onSubmit? "blur(0)" : "blur(10px)" }}
+                  // style={{ display: true? "none" : "auto" }}
                 >
                   <div className="prviIzborDiv pitanjeX">
                     <div className="brojPitanja">12</div>
