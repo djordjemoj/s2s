@@ -13,26 +13,37 @@ body {background: var(--main-color);}
 a {text-decoration: none;}
 
 #radionice{
-  width: 100%;
-  overflow: hidden;  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  margin-bottom: 70px;  
+  margin-top: 70px;
 }
 
-.radioniceZnak{
-  top: 5px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-  left: 15%; 
+.prviZnak{
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
+
+/* .radioniceZnak{
+  position: relative;
+  margin-top: -70px;
+  margin-bottom: 40px;
+  width: 300px;
+  overflow: visible;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+} */
 
 .radioniceDivider{
-  top: 5px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  position: relative;
-  left: 15%;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .page{
@@ -57,20 +68,22 @@ a {text-decoration: none;}
   display: flex;
 }
 
-.container .hexagonArea.first{
-  margin-left: 18%;
-  align-self: center;
+/* .container .hexagonArea.first{
+  margin-left: 28%;
+  align-self: auto;
 }
 
 .container .hexagonArea.second{
-  right: 6%;
-}
+} */
 
 .container .hexagonArea .hexagon{
   position: relative;
   width: 80px;
   height: 80px;
-  margin: 0 4px;
+  margin-right: 8px;
+  margin-left: 5px;
+  margin-top: -7px;
+  margin-bottom: -7px;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
   background: #F9EEE1;
   display: flex;
@@ -140,10 +153,10 @@ a {text-decoration: none;}
 
 /* extra mali mobilni */
 @media screen and (max-width: 381px){
-  .container .hexagonArea.first{
+  /* .container .hexagonArea.first{
     margin-left: 14.5%;
     align-self: center;
-  }
+  } */
 }
 
 /* mali tableti */
@@ -161,16 +174,16 @@ a {text-decoration: none;}
 /* desktop */
 @media screen and (min-width: 1200px){
 
-  body{
+  /* body{
     font-size: 20px;
   }
 
   #radionice{
     width: fit-content;
     overflow: hidden;  
-  }
+  } */
       
-  .radioniceZnak{
+  /* .radioniceZnak{
     top: 0px;
     display: flex;
     justify-content: center;
@@ -186,7 +199,7 @@ a {text-decoration: none;}
     width: 100%;
     position: relative; 
     margin-bottom: -130px;
-  }
+  } */
 
   .page{
     margin: 0;
@@ -207,7 +220,7 @@ a {text-decoration: none;}
     flex-wrap: wrap;  
   }
 
-  .container .hexagonArea{
+  /* .container .hexagonArea{
     display: flex;
     top: -50px;
     left: 21.5%;
@@ -215,7 +228,7 @@ a {text-decoration: none;}
 
   .container .hexagonArea.second{
     left: 10.5%;
-  }
+  } */
 
   .container .hexagonArea .hexagon{
     position: relative;
