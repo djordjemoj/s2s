@@ -5,11 +5,13 @@ const CustomTextArea = ({ label, ...props }) => {
 
   return (
     <>
-      <label>{label}</label>
+      <label className="imePitanja imePitanjaDuze">{label}</label>
       <textarea
         {...field}
         {...props}
-        className={meta.touched && meta.error ? "input-error" : props.name}
+        // className={meta.touched && meta.error ? "input-error" : props.name}
+        className={`unosTextBox ${meta.touched && meta.error ? "input-error" : props.name}`}
+
       />
       {meta.touched && meta.error && <div className="error">{meta.error}</div>}
     </>

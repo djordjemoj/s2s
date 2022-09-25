@@ -1,3 +1,9 @@
+*{
+  /* outline: 1px solid beige; */
+  --velImePitanja: 35px;
+  --boksShedou: 2px 4px 5px rgba(0, 0, 0, 0.55);
+}
+
 .Prijava-ceo{
   width: 100%;
   height: auto;
@@ -49,30 +55,97 @@ cursor: pointer;
   flex-direction: column;
   justify-content: center;
   background-color: #F99E20;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.55);
+  box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.55);
 }
 .UmestoSVG h1{
   color: rgba(255, 255, 255, 0.922);
   font-size: 16px;
 }
 
+.FormaPrijava{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.PrvaPolPitanja{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  /* ZA TEL, ZA DESKTOP STAVI 40 fazon */
+}
+.DrugaPolPitanja{
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: 0 auto;
+  /* border: 1px solid rgb(121, 33, 33); */
+}
+.MagicPitanjaPanelistima{
+  transition:  all 0.5s;
+}
+
 
 
 select {
   height: 50px;
-  width: 500px;
+  width: 50px;
   border-radius: 10px;
   margin: 10px;
+  /* border: 2px solid orange; */
+  /* display: none; */
+  background-color: #F99E20;
 }
-
-.brojPitanja {
+select option{
+  /* display: none; */
   width: 50px;
   height: 50px;
-  background-color: orange;
   /* color: white; */
-  margin: 20px;
+  /* background-color: #20d8f9; */
+  /* accent-color: green; */
   border-radius: 5px;
+  
+   /* display: none; */
 }
+textarea{
+  width: 500px;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  /* JEEEa */
+}
+/* .container-checkbox{
+width: 50%;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  left: 50%;
+  line-height: 50px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+} */
+/* .container-checkbox input {
+  position: absolute;
+  opacity: 1;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  
+} */
+
+
 
 label {
   height: 50px;
@@ -84,6 +157,139 @@ label {
   text-align: center;
 }
 
+.pitanjeX{
+  width: 100%;
+  /* border: 1px solid orange; */
+  position: relative;
+  margin-bottom: 30px;
+}
+.pitanjeVeciMarginBottom{
+  margin-bottom: 45px;
+}
+.brojPitanja {
+  width: var(--velImePitanja);
+  height: var(--velImePitanja);
+  background-color: orange;
+  text-align: center;
+  line-height: var(--velImePitanja);
+  vertical-align: middle;
+  /* color: white; */
+  /* margin: 20px; */
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: var(--boksShedou);
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.822);
+
+}
+.imePitanja{
+  /* display: none; */
+  position: absolute;
+  text-align: left;
+  /* padding: 5px; */
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+  line-height: var(--velImePitanja);
+  width: 80%;
+  height: var(--velImePitanja);
+  left: 15%;
+  top: 0%;
+  /* border-radius: 10px; */
+  box-shadow: var(--boksShedou);
+
+}
+.imePitanjaDuze{
+  height: calc(var(--velImePitanja) *2);
+  font-size: 15px;
+  /* word-spacing: -1px; */
+  line-height: 22px;
+}
+.imePitanjaSelect{
+  height: calc(var(--velImePitanja) *2);
+  font-size: 15px;
+  line-height: 22px;
+
+  word-spacing: -1px;
+}
+.imePitanjaCheckBox{
+  width: 60%;
+}
+
+.unosOdgovora {
+  /* display: none; */
+  height: calc(var(--velImePitanja)*2);
+  font-size: 16px;
+  width: 94%;
+  margin: 0 ;
+  margin-top: 11px;
+  padding-left: 8px;
+  box-shadow: var(--boksShedou);
+
+}
+.unosSelekcije{
+  height: calc(var(--velImePitanja));
+  font-size: 16px;
+  width: 82%;
+  margin: 0 ;
+  margin-left: 15%;
+  margin-top: calc(var(--velImePitanja)*1.25);
+  padding-left: 8px;
+  box-shadow: var(--boksShedou);
+  border-radius: 6px;
+  background-color: #f8a736;
+  /* border: 1.5px solid ; */
+}
+.unosTextBox{
+  height: calc(var(--velImePitanja)*4);
+  font-size: 20px;
+  width: 94%;
+  margin: 0 ;
+  /* margin-top: 11px; */
+  margin-top: calc(var(--velImePitanja)*1.25);
+
+  padding-left: 8px;
+  box-shadow: var(--boksShedou);
+}
+.unosCheckBox{
+  height: calc(var(--velImePitanja)*4);
+  font-size: 20px;
+  height: calc(var(--velImePitanja)*2);
+   width: 100%;
+   accent-color: #f8a736;
+  margin: 0px;
+  margin-left: 39%;
+  /* margin-bottom: 150px; */
+}
+.checkbox{
+  /* background-color: #2bf920; */
+  position: absolute;
+  width: 100%;
+  top: 0;
+  /* margin-bottom: 100px; */
+}
+.dugmeSubmitContainer{
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.dugmeSubmit {
+  height: 100px;
+  /* width: 250px; */
+  width: 50%;
+  max-width: 300px;
+  background-color: orange;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.922);
+  box-shadow: var(--boksShedou);
+  font-weight: 700;
+  font-style: italic;
+}
 input {
   height: 100px;
   width: 500px;
@@ -91,18 +297,7 @@ input {
   margin: 10px;
   border-radius: 10px;
 }
-.email{
-  /* display: none;
-  ohoho targetujem ih */
-}
 
-button {
-  height: 50px;
-  width: 200px;
-  background-color: orange;
-  margin: 10px;
-  border-radius: 10px;
-}
 
 .touched{
   /* display: none; */
@@ -114,6 +309,21 @@ button {
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
+  .PrvaPolPitanja{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    /* ZA TEL, ZA DESKTOP STAVI 40 fazon */
+  }
+  .DrugaPolPitanja{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    /* border: 1px solid rgb(121, 33, 33); */
+  }
   .UmestoSVG{
     height: 50%;
   }
@@ -124,6 +334,8 @@ button {
 
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px) {
+  
+  
   .PrijavaTop{
     height: 22vh;
     margin-bottom: 5vh;
