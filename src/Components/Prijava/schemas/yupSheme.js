@@ -72,17 +72,18 @@ export const advancedSchema = yup.object().shape({
 
     prvaRadionica: yup
     .string()
-    .oneOf(["java", "python", "react", "figma"], "Invalid Job Type")
+    .oneOf(["java", "python", "react", "figma","dotNet","ae","node","seo","unity","agile"], "Niste Izabrali radionicu")
     .required("Required"),
 
   prvaMotivacija: yup
     .string()
-    .min(3, "Moras napisati bar nesto")
+    .min(3, "Morate napisati bar nesto")
     .required("Required"),
 
     drugaRadionica: yup
     .string()
-    .oneOf(["Java", "Python", "React", "Figma"], "Invalid Job Type"),
+    .oneOf(["java", "python", "react", "figma","dotNet","ae","node","seo","unity","agile"], "Niste Izabrali radionicu")
+    .required("Required"),
 
   drugaMotivacija: yup.string(),
 
