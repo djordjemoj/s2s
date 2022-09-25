@@ -1,6 +1,7 @@
 import React from "react";
 import "../Partneri/Partneri.css";
 import Slider from "react-slick";
+
 import Adacta from "../../assets/adacta.png";
 import DragiBravo from "../../assets/dragibravo.jpeg";
 import SlikaTim1 from "../../assets/glassart.png";
@@ -15,7 +16,7 @@ import { motion } from "framer-motion";
 const Partneri = () => {
   const settingsPartneri = {
     infinite: true,
-    // lazyLoad: true,
+    lazyLoad: true,
     speed: 1000, //treba da bude isto kao u css transform
     // ovo gore menja duzinu trajanja anim
     slidesToShow: 4,

@@ -1,9 +1,16 @@
 import "../OrgTim3/OrgTim3.css";
 import { useState } from "react";
 import Slider from "react-slick";
+
+// import {
+//   LazyLoadImage,
+//   trackWindowScroll,
+// } from "react-lazy-load-image-component";
+// import "react-lazy-load-image-component/src/effects/blur.css";
+
 import SlikaTim0 from "../../assets/tim0.jpg";
 import SlikaTim1 from "../../assets/tim1.jpg";
-import SlikaTim2 from "../../assets/tim0.jpg";
+import SlikaTim2 from "../../assets/tim2.JPG";
 import SlikaTim3 from "../../assets/tim3.jpg";
 import SlikaTim4 from "../../assets/tim3.jpg";
 import SlikaTim5 from "../../assets/tim3.jpg"; //PNG JE UMESTO JPG
@@ -82,7 +89,8 @@ const Orgtim3 = () => {
 
   const settings = {
     infinite: true,
-    // lazyLoad: true,
+   lazyLoad: true,
+  //  fade: true,
     speed: 1000, //treba da bude isto kao u css transform
     // ovo gore menja duzinu trajanja anim
     slidesToShow: 3,
