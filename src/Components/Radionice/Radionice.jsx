@@ -12,6 +12,16 @@ import nodeSlika from "../../assets/radioniceNode.png";
 import agile from "../../assets/radioniceAgile.png";
 import Modal from "./Modal";
 import Boris from "../../assets/Boris.png";
+import Branislav from "../../assets/Branislav.png";
+import Coda from "../../assets/Coda.png";
+import Filip from "../../assets/Filip.png";
+import Laki from "../../assets/Laki.png";
+import Luka from "../../assets/Luka.png";
+import Mirilo from "../../assets/Mirilo.png";
+import Nikola from "../../assets/Nikola.png";
+import Pedja from "../../assets/Pedja.png";
+import Teodora from "../../assets/Teodora.png";
+import Veljko from "../../assets/Veljko.png";
 import "../Radionice/Modal.css";
 
 // function obavestenje() {
@@ -23,7 +33,34 @@ const Radionice = () => {
 
   const modali = [
     {
-      naslov: "ASP.NET",
+      naslov: "ASP.NET behind the scenes",
+      prviTekst: "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice baš naziva C#. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.Net-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",   
+      nivo: "Nivo: Srednji",
+      predznanje: "Potrebno predznanje: Nije potrebno",
+      potrebanSoft: "Potreban softver: Visual Studio 2022, Postman, Visual Studio Code",
+      predavac: "Predavač: Luka Miljković",
+      drugiTekst:
+      "Luka je student master studija na Fakultetu organizacionih nauka, smer informacioni sistemi i tehnologije, modul informacioni sistemi. Diplomirao je takođe na Fakultetu organizacionih nauka 2021. godine, na smeru Informacioni sistemi i tehnologije, a bio je u upravnom odboru FONIS-a u školskoj 2020/21 godini. Trenutno radi u kompaniji NCR na poziciji PS softver inženjera. Krenuo je da programira na fakultetu i dosta mu se svidelo. Kroz studije je shvatio da ga najviše interesuje back-end programiranje kao i baze podataka. C# i .NET je prvi put radio na trećoj godini fakulteta i mnogo mu se svidelo na prvi pogled, tako da je odlučio da se dodatno bavi ovim programskim jezikom. Trenutno radi na master radu koji se bavi analizom komunikacionih protokola u .NET aplikacijama.",
+      slikaPredavaca1: Luka,
+      slikaPredavaca2: null,
+      laptop: true,
+    },
+    {
+      naslov: "Adobe After Effects",
+      prviTekst:
+        "Želiš da otkriješ tajne filmske industrije? Odaćemo ti jednu: Adobe After Effects. Pomoću ovog programa možeš učiniti šta god poželiš, bilo da je to unapređivanje već snimljenog sadržaja ili stvaranje nečega sasvim novog. Savremenim alatima koje After Effects sadrži, pokriva veliki broj aktuelnih tehnika čija je upotreba danas veoma rasprostranjena. Zakorači u svet animacija i video editovanja i otkrij mogućnosti koje u sebi krije.",
+      nivo: "Nivo: Osnovni",
+      predznanje: "Potrebno predznanje: Nije potrebno",
+      potrebanSoft: "Potreban softver: Adobe After Effects",
+      predavac: "Predavač: Stefan Jovanović",
+      drugiTekst:
+      "Predrag je student treće godine Fakulteta Organizacionih Nauka na smeru Informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Phoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u njegovom najboljem svetlu. Kroz izradu videa, instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
+      slikaPredavaca1: Pedja,
+      slikaPredavaca2: null,
+      laptop: true,
+    },
+    {
+      naslov: "Make IT Agile",
       prviTekst:
         "Ukoliko ste novi u svetu programiranja, ono što vam je potrebno je jezik koji pruža odličnu osnovu za dalje usavršavanje. Veoma jednostavan za učenje, C već skoro pedeset godina važi za jedan od najbitnijih programskih jezika. Ovaj programski jezik opšte namene se još uvek uspešno koristi za pisanje programa u različitim oblastima, te su tako kompajleri, biblioteke i interpreteri drugih programskih jezika napisani upravo C programskim jezikom. Izađite iz zone komfora i priključite se Intro to C radionici, jer je programiranje upravo takvo – svaki problem je rešiv, ali isto tako i jedinstven i treba mu prići na takav način.",
       nivo: "Nivo: Osnovni",
@@ -31,43 +68,15 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: Visual studio",
       predavac: "Predavač: Stefan Jovanović",
       drugiTekst:
-        "Druga sam godina FON-a, smer Informacioni sistemi i tehnologije. Programiranjem se bavim još od osnovne škole, primarno Game Development-om i Fullstack Web Development-om. Sa C-om sam se upoznao u srednjoj školi gde sam kroz sve četiri godine učio C i C++ u svrhe takmičenja iz programiranja. Svoje znanje iz C-a dodatno sam upotpunio na prvoj godini studija na predmetu Programiranje 1 i želja mi je da ovom radionicom to upotpunjeno znanje prenesem drugima.",
+      "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",     slikaPredavaca1: Boris,
       slikaPredavaca1: Boris,
-      slikaPredavaca2: Boris,
-      laptop: false,
+      slikaPredavaca2: Teodora,
+      laptop: true,
     },
     {
       naslov: "ASP.NET",
       prviTekst:
-        "Ukoliko ste novi u svetu programiranja, ono što vam je potrebno je jezik koji pruža odličnu osnovu za dalje usavršavanje. Veoma jednostavan za učenje, C već skoro pedeset godina važi za jedan od najbitnijih programskih jezika. Ovaj programski jezik opšte namene se još uvek uspešno koristi za pisanje programa u različitim oblastima, te su tako kompajleri, biblioteke i interpreteri drugih programskih jezika napisani upravo C programskim jezikom. Izađite iz zone komfora i priključite se Intro to C radionici, jer je programiranje upravo takvo – svaki problem je rešiv, ali isto tako i jedinstven i treba mu prići na takav način.",
-      nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
-      potrebanSoft: "Potreban softver: Visual studio",
-      predavac: "Predavač: Stefan Jovanović",
-      drugiTekst:
-        "Druga sam godina FON-a, smer Informacioni sistemi i tehnologije. Programiranjem se bavim još od osnovne škole, primarno Game Development-om i Fullstack Web Development-om. Sa C-om sam se upoznao u srednjoj školi gde sam kroz sve četiri godine učio C i C++ u svrhe takmičenja iz programiranja. Svoje znanje iz C-a dodatno sam upotpunio na prvoj godini studija na predmetu Programiranje 1 i želja mi je da ovom radionicom to upotpunjeno znanje prenesem drugima.",
-      slikaPredavaca1: Boris,
-      slikaPredavaca2: Boris,
-      laptop: false,
-    },
-    {
-      naslov: "ASP.NET",
-      prviTekst:
-        "Ukoliko ste novi u svetu programiranja, ono što vam je potrebno je jezik koji pruža odličnu osnovu za dalje usavršavanje. Veoma jednostavan za učenje, C već skoro pedeset godina važi za jedan od najbitnijih programskih jezika. Ovaj programski jezik opšte namene se još uvek uspešno koristi za pisanje programa u različitim oblastima, te su tako kompajleri, biblioteke i interpreteri drugih programskih jezika napisani upravo C programskim jezikom. Izađite iz zone komfora i priključite se Intro to C radionici, jer je programiranje upravo takvo – svaki problem je rešiv, ali isto tako i jedinstven i treba mu prići na takav način.",
-      nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
-      potrebanSoft: "Potreban softver: Visual studio",
-      predavac: "Predavač: Stefan Jovanović",
-      drugiTekst:
-        "Druga sam godina FON-a, smer Informacioni sistemi i tehnologije. Programiranjem se bavim još od osnovne škole, primarno Game Development-om i Fullstack Web Development-om. Sa C-om sam se upoznao u srednjoj školi gde sam kroz sve četiri godine učio C i C++ u svrhe takmičenja iz programiranja. Svoje znanje iz C-a dodatno sam upotpunio na prvoj godini studija na predmetu Programiranje 1 i želja mi je da ovom radionicom to upotpunjeno znanje prenesem drugima.",
-      slikaPredavaca1: Boris,
-      slikaPredavaca2: Boris,
-      laptop: false,
-    },
-    {
-      naslov: "ASP.NET",
-      prviTekst:
-        "Ukoliko ste novi u svetu programiranja, ono što vam je potrebno je jezik koji pruža odličnu osnovu za dalje usavršavanje. Veoma jednostavan za učenje, C već skoro pedeset godina važi za jedan od najbitnijih programskih jezika. Ovaj programski jezik opšte namene se još uvek uspešno koristi za pisanje programa u različitim oblastima, te su tako kompajleri, biblioteke i interpreteri drugih programskih jezika napisani upravo C programskim jezikom. Izađite iz zone komfora i priključite se Intro to C radionici, jer je programiranje upravo takvo – svaki problem je rešiv, ali isto tako i jedinstven i treba mu prići na takav način.",
+        "„Bez alata nema zanata“. Upravo ćeš na ovoj radionici savladati osnovne alate u Figmi, najpopularnijem softveru za stvaranje korisničkog interfejsa i korisničkog iskustva u poslednjih par godina. Figma je uređivač vektorske grafike i alat za izradu prototipa koji je prvenstveno zasnovan na pretraživaču. Rad u zajednici i alati jednostavni za koršćenje samo su neke prednosti ovog programa. Ako si kreativan i svoju budućnost vidiš u dizajnu, prijavi se i sa nama napravi svoje prve korake.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Visual studio",
