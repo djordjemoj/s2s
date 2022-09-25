@@ -2,6 +2,14 @@ import React from "react";
 
 const Modal = ({ open, onClose, modali }) => {
   if (!open) return null;
+
+  let slika2;
+  if (modali.slikaPredavaca2 === null) {
+    slika2 = <span></span>;
+  } else {
+    slika2 = <img src={modali.slikaPredavaca2} alt="Predavac na s2s" />;
+  }
+
   return (
     <div onClick={onClose} className="overlay">
       <div
@@ -46,8 +54,7 @@ const Modal = ({ open, onClose, modali }) => {
             <p className="DrugiTekst">{modali.drugiTekst}</p>
           </div>
           <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
-          
-          <img src={modali.slikaPredavaca2} alt="Predavac na s2s" />
+          {slika2}
         </div>
       </div>
     </div>
