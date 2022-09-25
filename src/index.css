@@ -16,6 +16,9 @@
   scroll-behavior: smooth;
   -webkit-tap-highlight-color: #ffffff00;
 }
+body{
+  /* background-image: url(/src/assets/pozadina2.png); */
+}
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {}
