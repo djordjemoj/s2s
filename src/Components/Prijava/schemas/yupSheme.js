@@ -10,7 +10,7 @@ export const basicSchema = yup.object().shape({
     .string()
     .min(5)
     .matches(passwordRules, { message: "Please create a stronger password" })
-    .required("Required"),
+    .required(""),
   confirmPassword: yup
     .string()
     .oneOf([yup.ref("password"), null], "Passwords must match")
@@ -21,7 +21,7 @@ export const advancedSchema = yup.object().shape({
   imePrezime: yup
     .string()
     .min(3, "Ime i prezime mora sadržati barem 3 karaktera")
-    .required("Required"),
+    .required("OBAVEZNO"),
 
   emailPriv: yup.string().email().required("Required"),
 
