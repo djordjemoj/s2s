@@ -78,8 +78,8 @@ a {text-decoration: none;}
 
 .container .hexagonArea .hexagon{
   position: relative;
-  width: 80px;
-  height: 80px;
+  width: 100px;
+  height: 100px;
   margin-right: 8px;
   margin-left: 5px;
   margin-top: -7px;
@@ -211,13 +211,12 @@ a {text-decoration: none;}
   }
 
   .container{
-    margin-top: 25px;
-    width: 1000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap;  
+    flex-wrap: wrap; 
   }
 
   /* .container .hexagonArea{
@@ -225,16 +224,19 @@ a {text-decoration: none;}
     top: -50px;
     left: 21.5%;
   }
-
+  */
   .container .hexagonArea.second{
-    left: 10.5%;
-  } */
+    left: 8px;
+  } 
 
   .container .hexagonArea .hexagon{
     position: relative;
     width: 220px;
     height: 245px;
-    margin: 0 10px;
+    right: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: -22px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
     background: #F9EEE1;
     display: flex;
@@ -273,11 +275,6 @@ a {text-decoration: none;}
     display: block;
     position: absolute;
     z-index: 1;
-  }
-
-  .container .hexagonArea.first{
-    margin-left: 4%;
-    align-self: center;
   }
 
   .container .hexagonArea .hexagon:hover img{
