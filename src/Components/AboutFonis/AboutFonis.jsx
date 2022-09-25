@@ -20,7 +20,7 @@ const AboutFonis = () => {
             stroke-width="5"
           />
           <switch>
-            <foreignObject x="1.5%" y="1.5%" width="800" height="550">
+            <foreignObject x="1.2%" y="1.5%" width="800" height="550">
               <p className="caption1">O PROJEKTU</p>
               <p className="tekst1">
                 „Studenti studentima“ je projekat Udruženja<br></br>studenata
@@ -76,7 +76,7 @@ const AboutFonis = () => {
                 organizacionih nauka.<br></br>Organizacijom i realizacijom
                 brojnih seminara,
                 <br></br> stručnih predavanja i internacionalih takmičenja
-                okuplja buduće IT stručnjake<br></br> s ciljem razumenjivanja i
+                okuplja buduće IT stručnjake<br></br> s ciljem razmenjivanja i
                 unapređivanja znanja informacionih sistema i tehnologija.
                 Zajedničkim zalaganjem svih članova,<br></br> FONIS već dugi niz
                 godina održava više edukativnih i takmičarskih projekata
