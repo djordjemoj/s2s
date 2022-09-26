@@ -124,13 +124,11 @@ export const advancedSchema = yup.object().shape({
         "agile",
       ],
       "Niste Izabrali radionicu"
-    )
-    .required("*Obavezno polje"),
+    ),
 
   drugaMotivacija: yup
     .string()
-    .min(3, "Napišite zbog čega se prijavljujete na alternativnu radionicu:")
-    .required("*Obavezno polje"),
+    .min(3, "Napišite zbog čega se prijavljujete na alternativnu radionicu:"),
 
   radionicaDaLi: yup.boolean().oneOf([true, false], "").required("ob"),
 
