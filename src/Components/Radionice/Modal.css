@@ -122,15 +122,55 @@ a {text-decoration: none;}
   transform: scaleX(40%) scaleY(40%);
 }
 
-@media screen and (max-width: 400px){
-  
+
+
+@media screen and (max-width: 400px) {
   .modalContainer {
-    max-height: 100vh;
-    height: 100vh;
+    max-width: 390px;
+    max-height: 600px;
+     font-size: 10px; /*bilo 36 */
+    /* padding-top: 15px; */
+  }
+  .overlay .modalContainer .modalRight img{
+    /* margin-top: -150px; */
+    
+     width: 70px;
+     /* height: 100%; */
+     /* width: 100%; */
+  }
+  .prviTekst{
+    font-size: 10px;
+    color: white;
+  }
+  .DrugiTekst{
+    font-size: 10px;
+    color: white;
+    margin-left: 30px;
+    overflow-y: auto;
+   max-height: 200px;
+  }
+
+  .overlay .modalContainer .modalRight .content .info{
+    margin-left: -100px;
+  margin-top: -40px;
+  margin-bottom: -30px;
+    transform: scaleX(45%) scaleY(45%);
   }
   
+}
+
+@media screen and (min-width: 400px){
+  
+ 
+  .slike-proba{
+    display: flex;
+     flex-direction: column;  
+    margin-top: -50px;
+    margin-bottom: 220px;
+   
+  }
   .overlay .modalContainer .modalRight img{
-    margin-top: 15px;
+    /* margin-top: -150px; */
     
      width: 70px;
      /* height: 100%; */
@@ -144,7 +184,8 @@ a {text-decoration: none;}
   .overlay .modalContainer .modalRight h3{
     color: #199AD4;
     margin-left: 50px;
-    margin-top: 3px;
+    margin-top: 0px;
+    margin-bottom: 3px;
   }
   
   .prviTekst{
@@ -155,17 +196,24 @@ a {text-decoration: none;}
   .DrugiTekst{
     font-size: 10px;
     color: white;
-    margin-left: 80px;
+    margin-left: 30px;
+    overflow-y: auto;
+   max-height: 200px;
   }
   
   .overlay .modalContainer .modalRight .content .info{
-    margin-left: -90px;
-    transform: scaleX(40%) scaleY(40%);
+    margin-left: -80px;
+  margin-top: -30px;
+  margin-bottom: -20px;
+    transform: scaleX(50%) scaleY(50%);
   }
 
   .modalContainer {
     /* max-width: 450px; */
     width: 80%;
+    /* max-height: 600px; */
+    /* height: 100vh; */
+    max-width:390px;
     max-height: 565px;
     position: fixed;
     top: 50%;
@@ -207,18 +255,18 @@ a {text-decoration: none;}
     display: flex;
   }
   
-  .slike-proba{
-    display: flex;
-    /* flex-direction: column;  */
-    margin-top: -120px;
-    margin-bottom: 220px;
-   
-  }
   .lapsitopsi{
     /* left: 60px; */
     
     transform: scale(0.4) translate(-55%, -50%);
   }
+
+  /* .overlay .modalContainer .modalRight .content .info{
+    margin-left:65px;
+    margin-top: 15px;
+    transform: scaleX(75%) scaleY(75%);
+  } */
+  
   
 }
 
@@ -226,7 +274,7 @@ a {text-decoration: none;}
   .modalContainer {
     max-width: 600px;
     width: 100%;
-    max-height: 805px;
+    max-height: 600px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -236,25 +284,45 @@ a {text-decoration: none;}
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
   }
+  .overlay .modalContainer .modalRight .content .info{
+    margin-left:65px;
+    margin-top: 15px;
+    transform: scaleX(75%) scaleY(75%);
+  }
+  /* .slike-proba{
+    display: flex;
+    flex-direction: column;
+     margin-top: -12px;
+    margin-bottom: 220px; 
+     padding-top: 0px; 
+  } */
   .slike-proba{
     display: flex;
     flex-direction: column;
-    margin-top: -120px;
-    margin-bottom: 220px;
-    padding-top: 0px;
-  }
-  }
-  
-  .slike-proba{
-    display: flex;
-    flex-direction: column;
-    margin-top: 0px;
+    margin-top: -130px;
     margin-bottom: 220px;
    
   }
-
-
-
+  .DrugiTekst{
+    /* font-size: small; */
+    color: white;
+    /* margin-left: 250px; */
+    
+    overflow-y: auto;
+   max-height: 240px;
+  }
+  .overlay .modalContainer .modalRight h3{
+    color: #199AD4;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .overlay .modalContainer .modalRight img{
+    margin-top: 0px;
+    width: 110px;
+  }
+  }
+  
 /* desktop */
 @media screen and (min-width: 900px){
 
@@ -269,7 +337,7 @@ a {text-decoration: none;}
 
   .overlay .modalContainer .modalRight img{
     /* margin-top: -230px; */
-    width: 170px;
+    width: 120px;
   }
 
   .overlay .modalContainer .modalRight h1{
@@ -279,7 +347,8 @@ a {text-decoration: none;}
   .overlay .modalContainer .modalRight h3{
     color: #199AD4;
     margin-left: 200px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
   }
 
   .prviTekst{
@@ -292,10 +361,14 @@ a {text-decoration: none;}
     font-size: small;
     color: white;
     /* margin-left: 250px; */
+    
+    overflow-y: auto;
+   max-height: 150px;
   }
 
   .overlay .modalContainer .modalRight .content .info{
     margin-left: 283px;
+    margin-top: 15px;
     transform: scaleX(100%) scaleY(100%);
   }
 
@@ -356,43 +429,58 @@ a {text-decoration: none;}
 }
 @media screen and (min-width: 1500px){
   .modalContainer {
-    max-width: 1500px;
+    max-width: 800px;
     max-height: 95vh;
-    font-size: 36px;
+     font-size: 22px; /*bilo 36 */
     padding-top: 15px;
   }
   .closeBtn {
     position: fixed;
     top: 18px;
     right: 28px;
-    font-size: 60px;
+    font-size: 35px;
   }
   .prviTekst{
-    font-size: 30px;
+    font-size: 18px;
     color: white;
+  }
+  .overlay .modalContainer .modalRight img{
+    /* margin-top: -230px; */
+    width: 150px;
+  }
+  .overlay .modalContainer .modalRight h3{
+    color: #199AD4;
+    margin-left: 200px;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
 
   .DrugiTekst{
-    font-size: 24px;
+    font-size: 18px;
     color: white;
-    /* margin-left: 250px; */
+    margin-left: 35px;
+
+    overflow-y: auto;
+   max-height: 330px;
+                
   }
   .overlay .modalContainer .modalRight .content .info{
-    margin-left: 800px;
-    margin-top: 65px;
-    transform: scaleX(120%) scaleY(120%);
+    margin-left: 202px;
+    margin-top: 10px;
+    transform: scaleX(90%) scaleY(90%);
   }
   .slike-proba{
     display: flex;
     flex-direction: column;
-    margin-top: -20px;
-    /* margin-left: 350px; */
+    margin-top: 20px;
+   
+   
     /* transform: scale(1.5) ;     */
 
   }
-  .slike-proba img {
+  /* .slike-proba img {
     width: 100%;
-  }
+  } */
   .lapsitopsi{
     left: 100px;
     

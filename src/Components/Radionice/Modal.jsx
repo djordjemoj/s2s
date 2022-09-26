@@ -52,7 +52,7 @@ const Modal = ({ open, onClose, modali }) => {
                   <foreignObject
                     x="17%"
                     y="19%"
-                    width="500"
+                    width="450"
                     height="1000"
                     fontSize="25px"
                   >
@@ -84,8 +84,8 @@ const Modal = ({ open, onClose, modali }) => {
               <p
                 className="DrugiTekst"
                 style={{
-                  overflowY: "auto",
-                  // maxHeight: '170px',
+                  // overflowY: "auto",
+                  // maxHeight: '330px',
                   cursor: "pointer",
                 }}
               >
@@ -93,8 +93,7 @@ const Modal = ({ open, onClose, modali }) => {
               </p>
             </div>
           </div>
-          {/* <img src={modali.slikaPredavaca1} alt="Predavac na s2s"/>
-          {slika2} */}
+          
         </div>
       </div>
     </div>
