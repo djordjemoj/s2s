@@ -52,9 +52,9 @@ const Modal = ({ open, onClose, modali }) => {
                   <foreignObject
                     x="20%"
                     y="23%"
-                    width="450"
+                    width="500"
                     height="1000"
-                    fontSize="22px"
+                    fontSize="30px"
                   >
                     <p
                       style={{

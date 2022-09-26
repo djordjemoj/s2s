@@ -35,7 +35,7 @@ const Radionice = () => {
     {
       naslov: "ASP.NET behind the scenes",
       prviTekst: "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice baš naziva C#. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.Net-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",   
-      nivo: "Nivo: Srednji",
+      nivo: "Nivo: Napredni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Visual Studio 2022, Postman, Visual Studio Code",
       predavac: "Predavač: Luka Miljković",
@@ -66,7 +66,7 @@ const Radionice = () => {
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Visual studio",
-      predavac: "Predavač: Stefan Jovanović",
+      predavac: "Predavač: Boris Vajagić, Teodora Gavrilović",
       drugiTekst:
       "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",     slikaPredavaca1: Boris,
       slikaPredavaca1: Boris,
