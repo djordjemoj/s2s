@@ -14,23 +14,11 @@ body {background: var(--main-color);
 }
 a {text-decoration: none;}
 
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  /* width: 90%;
-  height: 70%; */
-  width: 100%;
-  height: 100vh;
-  z-index: 111;
-  cursor: pointer;
-}
-
 .overlay .modalContainer .modalRight img{
   margin-top: 5px;
   
    width: 90px;
-   height: 100%;
+   /* height: 100%; */
    /* width: 100%; */
 }
 
@@ -45,12 +33,12 @@ a {text-decoration: none;}
 }
 
 .prviTekst{
-  font-size: 10px;
+  font-size: 15px;
   color: white;
 }
 
 .DrugiTekst{
-  font-size: 10px;
+  font-size: 13px;
   color: white;
   margin-left: 80px;
 }
@@ -64,8 +52,8 @@ a {text-decoration: none;}
 
 .modalContainer {
   /* max-width: 450px; */
-  width: 80%;
-  max-height: 565px;
+  width: 90%;
+  max-height: 90vh;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -104,21 +92,170 @@ a {text-decoration: none;}
 
 .probaDiv{
   display: flex;
+  width: 100%;
 }
 
 .slike-proba{
   display: flex;
   flex-direction: column;
-  margin-top: -120px;
-  margin-bottom: 220px;
- 
+  margin-top: -10px;
+  padding-top: 40px;
+  /* margin-bottom: -220px; */
+  transform: scale(1.4);
+  /* width: 50%; */
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 1px;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+}
+.lapsitopsi{
+  left: 20px;
+  
+  transform: scale(0.5) translate(-55%, -50%);
+}
+.overlay .modalContainer .modalRight .content .info{
+  margin-left: 83px;
+  transform: scaleX(40%) scaleY(40%);
 }
 
+@media screen and (max-width: 400px){
+  
+  .modalContainer {
+    max-height: 100vh;
+    height: 100vh;
+  }
+  
+  .overlay .modalContainer .modalRight img{
+    margin-top: 15px;
+    
+     width: 70px;
+     /* height: 100%; */
+     /* width: 100%; */
+  }
+  
+  .overlay .modalContainer .modalRight h1{
+    color: #199AD4;
+  }
+  
+  .overlay .modalContainer .modalRight h3{
+    color: #199AD4;
+    margin-left: 50px;
+    margin-top: 3px;
+  }
+  
+  .prviTekst{
+    font-size: 10px;
+    color: white;
+  }
+  
+  .DrugiTekst{
+    font-size: 10px;
+    color: white;
+    margin-left: 80px;
+  }
+  
+  .overlay .modalContainer .modalRight .content .info{
+    margin-left: -90px;
+    transform: scaleX(66%) scaleY(66%);
+  }
+
+  .modalContainer {
+    /* max-width: 450px; */
+    width: 80%;
+    max-height: 565px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex; */
+    background-color: #0C5073;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+  }
+  
+  
+  .modalRight {
+    width: 100%;
+    
+  }
+  
+  .closeBtn {
+    position: fixed;
+    top: 8px;
+    right: 8px;
+    font-size: 30px;
+  }
+  
+  .content {
+    /* display: flex;
+    flex-direction: column; */
+    /* justify-content: center; */
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+  }
+  
+  .bold {
+    font-weight: 600;
+  }
+  
+  .probaDiv{
+    display: flex;
+  }
+  
+  .slike-proba{
+    display: flex;
+    /* flex-direction: column;  */
+    margin-top: -120px;
+    margin-bottom: 220px;
+   
+  }
+  
+}
+
+@media screen and (min-width: 700px){
+  .modalContainer {
+    max-width: 600px;
+    width: 100%;
+    max-height: 805px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex; */
+    background-color: #0C5073;
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+  }
+  .slike-proba{
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+    margin-bottom: 220px;
+    padding-top: 0px;
+  }
+  }
+  .lapsitopsi{
+    left: 60px;
+    
+    transform: scale(0.5) translate(-55%, -50%);
+  }
+  .slike-proba{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-bottom: 220px;
+   
+  }
 
 
 
 /* desktop */
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 900px){
 
   .overlay {
     background-color: rgba(0, 0, 0, 0.5);
@@ -146,6 +283,7 @@ a {text-decoration: none;}
 
   .prviTekst{
     font-size: small;
+    /* margin-top: 5px; */
     color: white;
   }
 
@@ -199,4 +337,50 @@ a {text-decoration: none;}
   .bold {
     font-weight: 600;
   }
+  .slike-proba{
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+    margin-bottom: 220px;
+   
+  }
+  .lapsitopsi{
+    left: 20px;
+    
+    transform: scale(0.5) translate(-50%, -60%);
+  }
+}
+@media screen and (min-width: 1500px){
+  .modalContainer {
+    max-width: 1500px;
+    max-height: 1000px;
+    font-size: 40px;
+  }
+  .prviTekst{
+    font-size: 30px;
+    color: white;
+  }
+
+  .DrugiTekst{
+    font-size: 24px;
+    color: white;
+    /* margin-left: 250px; */
+  }
+  .overlay .modalContainer .modalRight .content .info{
+    margin-left: 800px;
+    margin-top: 65px;
+    transform: scaleX(120%) scaleY(120%);
+  }
+  .slike-proba{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    /* margin-left: 350px; */
+    /* transform: scale(1.5) ;     */
+
+  }
+  .slike-proba img {
+    width: 100%;
+  }
+
 }
