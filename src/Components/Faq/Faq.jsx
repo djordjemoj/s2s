@@ -24,7 +24,7 @@ const Faq = (props) => {
           dvaRedaPitanje={false}
           question={"Na koji način se mogu prijaviti za učešće na S2S-u?"}
           odgRed1={""}
-          odgRed2={`Prijavljivanje se vrši popunjavanjem forme na sajtu.`}
+          odgRed2={`Prijavljivanje se vrši popunjavanjem  forme na sajtu.`}
           odgRed3={""}
           odgRed4={""}
           answer={""}
