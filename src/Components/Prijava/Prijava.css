@@ -58,7 +58,7 @@ cursor: pointer;
   box-shadow: 3px 6px 6px rgba(0, 0, 0, 0.55);
 }
 .UmestoSVG h1{
-  color: rgba(255, 255, 255, 0.922);
+  color: rgba(255, 255, 255, 0.98);
   font-size: 16px;
 
 }
@@ -78,7 +78,7 @@ cursor: pointer;
   /* border: 3px solid white; */
   border: 3px solid #f99f20a6;
  /* background-color: #0f69c4; */
- background-color: rgba(19, 183, 237, 0.578);
+ background-color: rgba(19, 183, 237, 0.878);
   /* padding: 20%; */
   /* padding: 15px; */
   /* padding-top: 15px; */
@@ -90,7 +90,7 @@ cursor: pointer;
 .obavestenje span{
   font-size: 22px;
   /* color:rgb(236, 73, 73); */
-  text-decoration: underline;
+  /* text-decoration: underline; */
   color:#f8a736;
   letter-spacing: 0px;
 
@@ -241,7 +241,7 @@ label {
   top: 0%;
   /* border-radius: 10px; */
   box-shadow: var(--boksShedou);
-  color:rgba(0, 0, 0, 0.75);
+  color:rgba(0, 0, 0, 0.95);
 
 }
 .imePitanjaDuze{
