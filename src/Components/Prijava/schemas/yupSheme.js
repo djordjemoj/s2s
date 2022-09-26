@@ -1,6 +1,8 @@
 import * as yup from "yup";
 
-const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
+// const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
+const phoneRegExp =
+  /^((\\+[1-9]{1,4}[ \\-]*)|(\\([0-9]{2,3}\\)[ \\-]*)|([0-9]{2,4})[ \\-]*)*?[0-9]{3,4}?[ \\-]*[0-9]{3,4}?$/;
 // min 5 characters, 1 upper case letter, 1 lower case letter, 1 numeric digit.
 
 // export const basicSchema = yup.object().shape({
@@ -26,9 +28,15 @@ export const advancedSchema = yup.object().shape({
     .min(3, "Ime i prezime mora sadržati barem 3 karaktera")
     .required("*Obavezno polje"),
 
-  emailPriv: yup.string().email('Unesite ispravnu mejl adresu').required("*Obavezno polje"),
+  emailPriv: yup
+    .string()
+    .email("Unesite ispravnu mejl adresu")
+    .required("*Obavezno polje"),
 
-  brojTelefona: yup.number().required(true ? "*Obavezno polje" : ""),
+  brojTelefona: yup
+    .string()
+    .matches(phoneRegExp, "Broj koji ste uneli nije validan")
+    .required("*Obavezno polje"),
   // ovk kao gore moze da se bira
   //jako zanimljivo
   fakultet: yup
