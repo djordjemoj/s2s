@@ -77,7 +77,8 @@ cursor: pointer;
   color: rgba(255, 255, 255, 0.879);
   /* border: 3px solid white; */
   border: 3px solid #f99f20a6;
- background-color: #0f69c4;
+ /* background-color: #0f69c4; */
+ background-color: rgba(19, 183, 237, 0.578);
   /* padding: 20%; */
   /* padding: 15px; */
   /* padding-top: 15px; */
