@@ -174,6 +174,7 @@ const Footer = () => {
                   fill="#0154a7"
                 />
               </svg>
+              
               <div className="grid-third-logo">
                 <FontAwesomeIcon
                   className="gl"
