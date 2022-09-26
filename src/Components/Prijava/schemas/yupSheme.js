@@ -7,8 +7,8 @@ const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
 //   emailPriv: yup
 //     .string()
 //     .email("Molim Vas unesite ispravnu email adresu")
-//     .required("Obavezno polje"),
-//   age: yup.number().positive().integer().required("Obavezno polje"),
+//     .required("*Obavezno polje"),
+//   age: yup.number().positive().integer().required("*Obavezno polje"),
 //   password: yup
 //     .string()
 //     .min(5)
@@ -17,18 +17,18 @@ const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
 //   confirmPassword: yup
 //     .string()
 //     .oneOf([yup.ref("password"), null], "Passwords must match")
-//     .required("Obavezno polje"),
+//     .required("*Obavezno polje"),
 // });
 
 export const advancedSchema = yup.object().shape({
   imePrezime: yup
     .string()
     .min(3, "Ime i prezime mora sadržati barem 3 karaktera")
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
-  emailPriv: yup.string().email().required("Obavezno polje"),
+  emailPriv: yup.string().email('Unesite ispravnu mejl adresu').required("*Obavezno polje"),
 
-  brojTelefona: yup.number().required(true ? "Obavezno polje" : ""),
+  brojTelefona: yup.number().required(true ? "*Obavezno polje" : ""),
   // ovk kao gore moze da se bira
   //jako zanimljivo
   fakultet: yup
@@ -37,7 +37,7 @@ export const advancedSchema = yup.object().shape({
       ["fon", "etf", "matf", "raf", "viser", "ict", "drugo"],
       "Invalid Job Type"
     )
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   godinaStudija: yup
     .string()
@@ -45,19 +45,19 @@ export const advancedSchema = yup.object().shape({
       ["prva", "druga", "treca", "cetvrta", "peta", "master"],
       "Invalid Job Type"
     )
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   newsletter: yup.boolean().oneOf([true, false], ""),
 
   daLiJeRanijeUcestvovao: yup
     .boolean()
     .oneOf([true, false], "")
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   generalnaMotivacija: yup
     .string()
     .min(3, "Napišite zbog čega se prijavljujete na S2S:")
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   panelDaLi: yup.boolean().oneOf([true, false], ""),
 
@@ -74,7 +74,7 @@ export const advancedSchema = yup.object().shape({
   //   })
   //   .required(""),
   pitanjaPanelistima: yup.string(),
-  //ovo je logika za to da li je nesto Obavezno polje, takodje mozemo da stavimo za laptop
+  //ovo je logika za to da li je nesto *Obavezno polje, takodje mozemo da stavimo za laptop
 
   prvaRadionica: yup
     .string()
@@ -93,12 +93,12 @@ export const advancedSchema = yup.object().shape({
       ],
       "Niste izabrali radionicu"
     )
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   prvaMotivacija: yup
     .string()
     .min(3, "Napišite zbog čega se prijavljujete na primarnu radionicu:")
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   drugaRadionica: yup
     .string()
@@ -117,16 +117,16 @@ export const advancedSchema = yup.object().shape({
       ],
       "Niste Izabrali radionicu"
     )
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   drugaMotivacija: yup
     .string()
     .min(3, "Napišite zbog čega se prijavljujete na alternativnu radionicu:")
-    .required("Obavezno polje"),
+    .required("*Obavezno polje"),
 
   radionicaDaLi: yup.boolean().oneOf([true, false], "").required("ob"),
 
-  laptop: yup.boolean().oneOf([true, false], "").required("Obavezno polje"),
+  laptop: yup.boolean().oneOf([true, false], "").required("*Obavezno polje"),
 
   // laptop: yup
   //   .string()
@@ -142,7 +142,7 @@ export const advancedSchema = yup.object().shape({
   // jobType: yup
   //   .string()
   //   .oneOf(["designer", "developer", "manager", "other"], "Invalid Job Type")
-  //   .required("Obavezno polje"),
+  //   .required("*Obavezno polje"),
   // acceptedTos: yup
   //   .boolean()
   //   .oneOf([true], "Please accept the terms of service"),

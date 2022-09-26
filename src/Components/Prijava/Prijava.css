@@ -207,7 +207,8 @@ label {
 
 }
 .error{
-  color: rgb(244, 48, 48);
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
   /* text-decoration: underline; */
   /* text-shadow: 1px ; */
 }
