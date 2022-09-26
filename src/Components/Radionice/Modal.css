@@ -483,7 +483,7 @@ a {text-decoration: none;}
   max-height: 900px;
      font-size: 22px; /*bilo 36 */
     padding-top: 30px;
-    transform: translate(-50%, -27%);
+    transform: translate(-50%, -37%);
 
   }
   .closeBtn {
@@ -539,8 +539,8 @@ a {text-decoration: none;}
     .lapsitopsi{
       position: absolute;
       position: absolute;
-    left: -10px;
-    top: -7.8%;
+    left: -25px;
+    top: -9%;
     width: 10%;
     transform: scale(0.4) ;
       
