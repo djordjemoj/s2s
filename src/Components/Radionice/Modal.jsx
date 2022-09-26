@@ -55,10 +55,10 @@ const Modal = ({ open, onClose, modali }) => {
                 <switch>
                   <foreignObject
                     x="17%"
-                    y="19%"
+                    y="14%"
                     width="450"
                     height="1000"
-                    fontSize="25px"
+                    fontSize="24px"
                   >
                     <p
                       style={{

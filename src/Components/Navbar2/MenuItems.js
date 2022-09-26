@@ -4,11 +4,11 @@ const menuItems = [
     url: "#oS2S",
     cName: "nav-links",
   },
-  {
-    title: "PANEL",
-    url: "#panel-diskusija",
-    cName: "nav-links",
-  },
+  // {
+  //   title: "PANEL",
+  //   url: "#panel-diskusija",
+  //   cName: "nav-links",
+  // },
   {
     title: "RADIONICE",
     url: "#radionice",

@@ -3,6 +3,7 @@ import menuItems from "./MenuItems";
 import "./Navbar2.css";
 import { HashLink } from "react-router-hash-link";
 import { Twirl as Hamburger } from "hamburger-react";
+import maliLogo from "../../assets/smallLogo.png";
 // import Logo from "../../../public/"
 
 const Navbar2 = () => {
@@ -24,7 +25,7 @@ const Navbar2 = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <img src="/logo2.png" className="logo" alt="s2s" />
+        <img src={maliLogo} className="logo" alt="s2s" />
       </div>
       <div className="menu-icon" onClick={handleClick}>
         <Hamburger toggled={active} toggle={setActive} />
