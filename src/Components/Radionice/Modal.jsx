@@ -50,8 +50,8 @@ const Modal = ({ open, onClose, modali }) => {
                 />
                 <switch>
                   <foreignObject
-                    x="20%"
-                    y="23%"
+                    x="17%"
+                    y="19%"
                     width="500"
                     height="1000"
                     fontSize="30px"
