@@ -63,6 +63,7 @@ a {text-decoration: none;}
   /* max-width: 450px; */
   width: 90%;
   max-height: 90vh;
+  height: 550px;
   position: fixed;
   top: 50%;
   left: 50%;
@@ -476,8 +477,10 @@ a {text-decoration: none;}
 }
 @media screen and (min-width: 1500px){
   .modalContainer { overflow-y: scroll; 
-    max-width: 800px;
-    max-height: 95vh;
+    max-width: 850px;
+    /* max-height: 1000px; */
+  height: 825px;
+  max-height: 900px;
      font-size: 22px; /*bilo 36 */
     padding-top: 30px;
   }
@@ -514,7 +517,7 @@ a {text-decoration: none;}
                 
   }
   .overlay .modalContainer .modalRight .content .info{
-    margin-left: 202px;
+    margin-left: 222px;
     margin-top: 10px;
     transform: scaleX(90%) scaleY(90%);
   }
@@ -535,7 +538,7 @@ a {text-decoration: none;}
       position: absolute;
       position: absolute;
     left: -10px;
-    top: -4.8%;
+    top: -7.8%;
     width: 10%;
     transform: scale(0.4) ;
       

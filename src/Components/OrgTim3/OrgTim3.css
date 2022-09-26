@@ -36,7 +36,7 @@
     /* margin-top: 1.5%; */
     color: #db8d21;
     /* font-family: Jost-700Bold; */
-    font-size: 1.2rem;
+    font-size: 24px;
     font-weight: 700;
     /* font-weight: 500; */
     /* font-size: 1.6rem; */
@@ -149,7 +149,11 @@
 }
 
 /* extra mali mobilni */
-@media screen and (max-width: 340px) {}
+@media screen and (max-width: 340px) {
+    .Orgtim-naslov h1{
+        font-size: 20px;
+    }
+}
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
@@ -214,13 +218,17 @@
 }
 
 /* veliki tableti i mali  */
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+    .Orgtim-naslov h1{
+        font-size: 32px;
+    }
+}
 
 /* desktop */
 @media screen and (min-width: 1200px) {
 
     .Orgtim-naslov h1{
-        font-size: 2rem;
+        font-size: 36px;
         
     }
     body {
@@ -235,8 +243,9 @@
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {
 
-    body {
-        font-size: 20px;
+    .Orgtim-naslov h1{
+        font-size: 40px;
+        
     }
 
 }
