@@ -66,7 +66,7 @@
 }
 
 .Logo-placeholder {
-    height: 50%;
+    height: 45%;
     width: 80%;
 
 
@@ -91,7 +91,7 @@
 
 .dugme-Prijavise {
     /* height: 15%; */
-    height: 6vh;
+    height: 7vh;
     width: 50%;
     display: flex;
     flex-direction: row;
