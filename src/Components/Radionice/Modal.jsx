@@ -26,7 +26,7 @@ const Modal = ({ open, onClose, modali }) => {
           </p>
           <div className="closeBtn lapsitopsi">
             {modali.laptop && (
-              <img src={Laptop} width="50px" height="50px"></img>
+              <img src={Laptop} ></img>
             )}
           </div>
           <div className="content">
@@ -54,7 +54,7 @@ const Modal = ({ open, onClose, modali }) => {
                     y="19%"
                     width="500"
                     height="1000"
-                    fontSize="30px"
+                    fontSize="25px"
                   >
                     <p
                       style={{
