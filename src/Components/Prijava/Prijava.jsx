@@ -119,7 +119,6 @@ const Prijava = () => {
                     name="emailPriv"
                     type="email"
                     placeholder="Unesite Vašu email adresu"
-                    
                   />
                 </div>
                 <div className="telefonDiv pitanjeX">
@@ -234,7 +233,8 @@ const Prijava = () => {
                 </div> */}
                 <div className="obavestenje pitanjeX">
                   <h3>
-                    Za radionice ASP.NET, Unity, AfterEffects, Blockchain(Node.js) i  Python 
+                    Za radionice ASP.NET, Unity, AfterEffects,
+                    Blockchain(Node.js) i Python
                     <b>
                       <span> potrebno je da ponesete sopstveni laptop!</span>
                     </b>{" "}

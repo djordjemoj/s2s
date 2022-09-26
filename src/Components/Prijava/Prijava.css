@@ -207,8 +207,10 @@ label {
 
 }
 .error{
-  color: rgb(255, 255, 255);
-  text-decoration: underline;
+  color: orange;
+  font-weight: 700;
+  margin-top: 6px;
+  /* text-decoration: underline; */
   /* text-decoration: underline; */
   /* text-shadow: 1px ; */
 }
