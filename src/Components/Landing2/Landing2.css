@@ -66,9 +66,9 @@
 }
 
 .Logo-placeholder {
-    height: 45%;
+    height: 35%;
     width: 80%;
-
+    /* border: 2px solid red; */
 
 
 }
@@ -145,6 +145,8 @@
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
+    .Logo-placeholder {
+        height: 45%;}
     .Logo-Koji-Ulazi {
         width: 50vw;
         height: 50vw;
@@ -176,7 +178,7 @@
     }
 
     .Logo-placeholder {
-        height: 60%;
+        height: 55%;
         margin-top: -30px;
         /* width: 100%; */
         /* border: 2px solid black; */
@@ -215,7 +217,7 @@
     }
 
     .Logo-placeholder {
-        height: 70%;
+        height: 65%;
         margin-top: -30px;
         /* width: 100%; */
         /* border: 2px solid black; */
