@@ -119,6 +119,7 @@ const Prijava = () => {
                     name="emailPriv"
                     type="email"
                     placeholder="Unesite Vašu email adresu"
+                    
                   />
                 </div>
                 <div className="telefonDiv pitanjeX">
@@ -241,7 +242,7 @@ const Prijava = () => {
                 </div>
 
                 <div className="laptopPitanje pitanjeX">
-                  <div className="brojPitanja">11</div>
+                  <div className="brojPitanja">9</div>
                   <CustomSelect
                     label="Da li biste poneli svoj laptop?"
                     name="laptop"
@@ -268,7 +269,7 @@ const Prijava = () => {
                   // style={{ display: true? "none" : "auto" }}
                 >
                   <div className="prviIzborDiv pitanjeX">
-                    <div className="brojPitanja">12</div>
+                    <div className="brojPitanja">10</div>
                     <CustomSelect
                       label="Odaberi radionicu na kojoj primarno želiš da prisustvuješ"
                       name="prvaRadionica"
@@ -315,7 +316,7 @@ const Prijava = () => {
                potrebno je da ponesete lap top
               Ponecu svoj lap top checkbox  ako ne (required)*/}
                   <div className="prvaMotivacijaDiv pitanjeX">
-                    <div className="brojPitanja">13</div>
+                    <div className="brojPitanja">11</div>
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="prvaMotivacija"
@@ -323,7 +324,7 @@ const Prijava = () => {
                     ></CustomTextArea>
                   </div>
                   <div className="drugiIzborDiv pitanjeX">
-                    <div className="brojPitanja">14</div>
+                    <div className="brojPitanja">12</div>
                     <CustomSelect
                       label="Odaberi alternativnu radionicu kojoj želiš da prisustvuješ"
                       name="drugaRadionica"
@@ -361,7 +362,7 @@ const Prijava = () => {
                     </div>
                   )} */}
                   <div className="drugaMotivacija pitanjeX">
-                    <div className="brojPitanja">15</div>
+                    <div className="brojPitanja">13</div>
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="drugaMotivacija"

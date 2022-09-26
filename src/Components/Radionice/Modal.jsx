@@ -21,20 +21,24 @@ const Modal = ({ open, onClose, modali }) => {
         className="modalContainer"
       >
         <div className="modalRight">
-          <p className="closeBtn" onClick={onClose}>
+          <div className="closeBtn" onClick={onClose}>
             X
-          </p>
-          <div className="closeBtn lapsitopsi">
-            {modali.laptop && (
-              <img src={Laptop} ></img>
-            )}
           </div>
+          
+          
           <div className="content">
-            <h1>{modali.naslov}</h1>
+          {modali.laptop && (
+                <img className="lapsitopsi" src={Laptop} ></img>
+              )}
+            <h1>
+            
+          {modali.naslov}</h1>
             <div className="probaDiv-first">
               <p className="prviTekst">{modali.prviTekst}</p>
             </div>
+            
             <div className="info">
+            
               <svg
                 width="586"
                 height="156"
@@ -64,6 +68,7 @@ const Modal = ({ open, onClose, modali }) => {
                         textAlign: "left",
                       }}
                     >
+                        
                       {modali.nivo} <br />
                       {modali.predznanje} <br />
                       {modali.potrebanSoft} <br />{" "}
@@ -79,9 +84,14 @@ const Modal = ({ open, onClose, modali }) => {
             <div className="probaDiv">
               <div className="slike-proba">
                 {slika2}
+                
+                
                 <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
+               
               </div>
+              
               <p
+              
                 className="DrugiTekst"
                 style={{
                   // overflowY: "auto",
@@ -90,6 +100,7 @@ const Modal = ({ open, onClose, modali }) => {
                 }}
               >
                 {modali.drugiTekst}
+                
               </p>
             </div>
           </div>
