@@ -67,7 +67,7 @@ a {text-decoration: none;}
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -43%);
+  transform: translate(-50%, -40%);
   /* display: flex; */
   background-color: #0C5073;
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
@@ -258,7 +258,7 @@ a {text-decoration: none;}
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     /* display: flex; */
     background-color: #0C5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
@@ -323,7 +323,7 @@ a {text-decoration: none;}
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -37%);
     /* display: flex; */
     background-color: #0C5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
@@ -425,7 +425,7 @@ a {text-decoration: none;}
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -35%);
     /* display: flex; */
     background-color: #0C5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
@@ -483,6 +483,8 @@ a {text-decoration: none;}
   max-height: 900px;
      font-size: 22px; /*bilo 36 */
     padding-top: 30px;
+    transform: translate(-50%, -37%);
+
   }
   .closeBtn {
     position: fixed;
@@ -537,8 +539,8 @@ a {text-decoration: none;}
     .lapsitopsi{
       position: absolute;
       position: absolute;
-    left: -10px;
-    top: -7.8%;
+    left: -25px;
+    top: -9%;
     width: 10%;
     transform: scale(0.4) ;
       
