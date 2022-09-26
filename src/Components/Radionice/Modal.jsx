@@ -54,7 +54,7 @@ const Modal = ({ open, onClose, modali }) => {
                     y="19%"
                     width="500"
                     height="1000"
-                    fontSize="30px"
+                    fontSize="25px"
                   >
                     <p
                       style={{

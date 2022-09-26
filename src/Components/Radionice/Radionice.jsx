@@ -36,7 +36,7 @@ const Radionice = () => {
       naslov: "ASP.NET behind the scenes",
       prviTekst: "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice baš naziva C#. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.Net-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",   
       nivo: "Nivo: Napredni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: Osnove OOP ",
       potrebanSoft: "Potreban softver: Visual Studio 2022, Postman, Visual Studio Code",
       predavac: "Predavač: Luka Miljković",
       drugiTekst:
@@ -92,7 +92,7 @@ const Radionice = () => {
       prviTekst:
         "Iako je programski jezik Java nastao 90-ih godina prošlog veka i dalje je jedan od najpopularnijih na svetu sa više od 9 miliona programera koji svakodnevno pišu svoj kod u Javi. U Javi možeš da razvijaš različite aplikacije za dekstop, mobilne uređaje, veb aplikacije, AI i još mnogo toga, tako da znanje iz ovog jezika možeš preneti u skoro bilo koju oblast softverskog inženjerstva. Na ovogodišnjem projektu moći ćeš da uploviš u neke od najvažnijih karateristika Jave, objektno-orijentisanog programiranja, kao i da sve to otkucaš na svom računaru i postaviš bilo koje pitanje predavačima.",
       nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: Osnove programiranja",
       potrebanSoft: "Potreban softver: Intellij IDEA i JDK 8+",
       predavac: "Predavač: Veljko Blagojević i Filip Filipović",
       drugiTekst:
@@ -134,7 +134,7 @@ const Radionice = () => {
       prviTekst:
         "Da li si znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti React-a kao što su VirtualDom, Components, JSX, State, Hooks i još mnogo toga. Takodje na radionici će biti obradjen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
       nivo: "Nivo: Srednji",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: Osnove HTML, CSS i JS",
       potrebanSoft: "Potreban softver: VS Code, Node.js i Git",
       predavac: "Predavač: Nikola Mirilo",
       drugiTekst:
@@ -148,7 +148,7 @@ const Radionice = () => {
       prviTekst:
         "„SEO je umetnost i nauka objavljivanja informacija u formatu koji će uveriti pretraživače da vaš sadržaj zadovoljava potrebe njihovih korisnika za relevantne upite.“ SEO je relativno mlada oblast, ali i kao takva je već prošla kroz svoje uspone i padove. Dokazala se kao značajna pomoć preduzećima svih veličina i pronašla je svoje mesto u današnjem turbulentnom internet marketing svetu. Ona predstavlja skup radnji i aktivnosti koje se izvršavaju kako na samoj strani sajta tako i van nje. Omogućava održavanje optimizovanosti i praćenje sajta, statistiku poseta i analizu konkurencije, a postoji i čitava lista aktivnosti podeljena po oblastima koje za cilj imaju sa jedne strane da podignu vaše pozicije, a sa druge strane da povećaju broj relevantnih posetilaca na tvoj sajt. Pridruži nam se i postani ključna karika uspeha svog budućeg tima!",
       nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: osnove digitalnog marketinga",
       potrebanSoft: "Potreban softver: Meta SEO Inspector, Screaming Frog, Google Trends, Ahrefs",
       predavac: "Predavač: Mihailo Miljković",
       drugiTekst:
