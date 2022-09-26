@@ -9,21 +9,33 @@ import Panelisti from "./Components/Panelisti/Panelisti";
 import Footer from "./Components/Footer/Footer";
 import Partneri from "./Components/Partneri/Partneri";
 import Navbar2 from "./Components/Navbar2/Navbar2";
+// import Pozadina from "./assets/pozadina2.png";
+// import { motion } from "framer-motion";
+
 
 const Home = () => {
   return (
     <>
-      <Scrollbars style={{ height: "100vh" }}>
-        <Navbar2 />
-        <Landing2 />
-        <AboutFonis />
-        <Panelisti />
-        <Radionice />
-        <Agenda />
-        <Faq />
-        <Partneri />
-        <OrgTim3 />
-        <Footer />
+      <Scrollbars
+        style={{
+          height: "100vh",
+        }}
+      >
+        {/* <motion.div
+          className="pozadinaOverlay"
+          style={{ background: "url(/src/assets/pozadina2.png)", zIndex: "1000"}}
+        > */}
+          <Navbar2 />
+          <Landing2 />
+          <AboutFonis />
+          <Panelisti />
+          <Radionice />
+          <Agenda />
+          <Faq />
+          <Partneri />
+          <OrgTim3 />
+          <Footer />
+        {/* </motion.div> */}
       </Scrollbars>
     </>
   );

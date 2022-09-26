@@ -72,9 +72,8 @@ const Radionice = () => {
       predavac: "Predavač: Boris Vajagić, Teodora Gavrilović",
       drugiTekst:
         "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",
-      slikaPredavaca1: Boris,
-      slikaPredavaca1: Boris,
-      slikaPredavaca2: Teodora,
+      slikaPredavaca2: Boris,
+      slikaPredavaca1: Teodora,
       laptop: true,
     },
     {
@@ -120,7 +119,7 @@ const Radionice = () => {
       laptop: true,
     },
     {
-      naslov: "Python",
+      naslov: "Uvod u Python kroz pravljenje igrica",
       prviTekst:
         "Da li si znaš da prema nedavnom istraživanju u Velikoj Britaniji Python je pretekao francuski kao najpopularniji jezik koji se uči u osnovnim školama? Popularan programski jezik opšte namene, Python, koji se koristi u savremenom razvoju softvera i analizi podataka pruža idealan alat za razvoj funkcionalnih aplikacija poput Dropbox-a, Spotify-a, Uber-a i Pinterest-a. Srećom za početnike, Python ima jednostavnu sintaksu laku za korišćenje koja ga čini odličnim jezikom za učenje. Otkrij sve mogućnosti koje ti Python pruža i oprobaj se u kreiranju sledeće popularne aplikacije!",
       nivo: "Nivo: Osnovni",
