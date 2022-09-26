@@ -1,5 +1,6 @@
 import React from "react";
 import { Scrollbars } from "react-custom-scrollbars-2";
+import Laptop from "../../assets/laptop.png";
 
 const Modal = ({ open, onClose, modali }) => {
   if (!open) return null;
@@ -23,9 +24,16 @@ const Modal = ({ open, onClose, modali }) => {
           <p className="closeBtn" onClick={onClose}>
             X
           </p>
+          <div className="closeBtn lapsitopsi">
+            {modali.laptop && (
+              <img src={Laptop} width="50px" height="50px"></img>
+            )}
+          </div>
           <div className="content">
             <h1>{modali.naslov}</h1>
-            <div className="probaDiv-first"><p className="prviTekst">{modali.prviTekst}</p></div>
+            <div className="probaDiv-first">
+              <p className="prviTekst">{modali.prviTekst}</p>
+            </div>
             <div className="info">
               <svg
                 width="586"
@@ -41,50 +49,48 @@ const Modal = ({ open, onClose, modali }) => {
                   stroke-width="3"
                 />
                 <switch>
-            <foreignObject
-              x="20%"
-              y="23%"
-              width="450"
-              height="1000"
-              fontSize="22px"
-            >
-              <p
-                style={{
-                  color: "#0C5073",
-                  // marginLeft: "0%",
-                  
-                  textAlign: "left",
-                  
-                }}
-              >
-                {modali.nivo} <br />
-                {modali.predznanje} <br />
-                {modali.potrebanSoft} <br />{" "}
-                {" "}
-                {/* <br></br>
+                  <foreignObject
+                    x="20%"
+                    y="23%"
+                    width="450"
+                    height="1000"
+                    fontSize="22px"
+                  >
+                    <p
+                      style={{
+                        color: "#0C5073",
+                        // marginLeft: "0%",
+
+                        textAlign: "left",
+                      }}
+                    >
+                      {modali.nivo} <br />
+                      {modali.predznanje} <br />
+                      {modali.potrebanSoft} <br />{" "}
+                      {/* <br></br>
                 NAŠ SAJT: <br /> */}
-               
-              </p>
-              
-            </foreignObject>
-          </switch>
-                
+                    </p>
+                  </foreignObject>
+                </switch>
               </svg>
             </div>
-            
 
             <h3>{modali.predavac}</h3>
             <div className="probaDiv">
-            <div className="slike-proba"><img src={modali.slikaPredavaca1} alt="Predavac na s2s"/>
-          {slika2}
-          </div>
-            <p className="DrugiTekst" style={{
-            
-            overflowY: 'auto',
-              maxHeight: '170px',
-            cursor: "pointer",
-            
-          }}>{modali.drugiTekst}</p>
+              <div className="slike-proba">
+                {slika2}
+                <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
+              </div>
+              <p
+                className="DrugiTekst"
+                style={{
+                  overflowY: "auto",
+                  // maxHeight: '170px',
+                  cursor: "pointer",
+                }}
+              >
+                {modali.drugiTekst}
+              </p>
             </div>
           </div>
           {/* <img src={modali.slikaPredavaca1} alt="Predavac na s2s"/>
