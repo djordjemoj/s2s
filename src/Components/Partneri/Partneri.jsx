@@ -19,6 +19,7 @@ import Guarana from "../../assets/godisnji/guarana.png";
 import Hedwell from "../../assets/godisnji/hedwell.png";
 import Mainstream from "../../assets/godisnji/mainstream.png";
 import Prime from "../../assets/godisnji/prime.png";
+import CatenaMedia from "../../assets/godisnji/catenamedia.png";
 
 import { motion } from "framer-motion";
 
@@ -77,6 +78,10 @@ const Partneri = () => {
     {
       logoPartnera: Prime,
       linkPartnera: "https://www.primeholding.com/",
+    },
+    {
+      logoPartnera: CatenaMedia,
+      linkPartnera: "https://www.catenamedia.com/",
     },
   ];
   const logoPartneri2 = [
@@ -184,13 +189,13 @@ const Partneri = () => {
             {logoPartneri2.map((img) => (
               <div className="Jedan-partner">
                 <a href={img.linkPartnera}>
-                <img
-                  className="Jedan-partner-slika"
-                  src={img.logoPartnera}
-                  alt={
-                    "Naturalni i robni partneri projekta Studenti Studentima"
-                  }
-                ></img>
+                  <img
+                    className="Jedan-partner-slika"
+                    src={img.logoPartnera}
+                    alt={
+                      "Naturalni i robni partneri projekta Studenti Studentima"
+                    }
+                  ></img>
                 </a>
               </div>
             ))}

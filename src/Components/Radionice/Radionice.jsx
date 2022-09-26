@@ -127,7 +127,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: Python i neki IDE",
       predavac: "Predavač: Nikola Radojević",
       drugiTekst:
-        "Nikola je student četvrte godine na Fakultetu organizacionih nauka na smeru Operacioni menadžment. Veb Developmentom je počeo da se bavi pre 3 godine, a React-om pre godinu i po dana. Zaposlen je u kompaniji Adacta kao projektni menadžer, a pored toga radi i na razvoju frontend-a SaaS aplikacije za start-up pod imenom Swapabee.",
+        "Nikola je student četvrte godine Elektrotehnickog fakulteta. Zaposlen je kao programer u firmi „Skylead“. Programiranjem se bavi od osnovne škole. U slobodno vreme pravi igrice, simulacije i drugo. Python je jedan od prvih programskih jezika koje je naučio, i to baš kroz pravljenje igrica. Python je, takođe, koristan i u drugim oblastima poput obrade podataka, mašinskog učenja, naučnih izračunavanja itd...",
       slikaPredavaca1: Nikola,
       slikaPredavaca2: null,
       laptop: true,
