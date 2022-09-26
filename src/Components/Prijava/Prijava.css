@@ -1,7 +1,7 @@
 *{
   /* outline: 1px solid beige; */
   --velImePitanja: 35px;
-  --boksShedou: 2px 4px 5px rgba(0, 0, 0, 0.55);
+  --boksShedou: 2.5px 4px 5px rgba(0, 0, 0, 0.55);
 }
 
 .Prijava-ceo{
@@ -74,7 +74,9 @@ cursor: pointer;
   /* border: 2px solid black; */
   line-height: 24px;
   color: rgba(255, 255, 255, 0.879);
-  border: 3px solid white;
+  /* border: 3px solid white; */
+  border: 3px solid #F99E20;
+ background-color: #0f69c4;
   /* padding: 20%; */
   padding: 15px;
   border-radius: 25px;
@@ -83,6 +85,7 @@ cursor: pointer;
 .obavestenje span{
   /* color:rgb(236, 73, 73); */
   text-decoration: underline;
+  color:#f8a736;
   
 }
 

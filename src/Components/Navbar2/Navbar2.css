@@ -115,7 +115,7 @@ background-color: var(--main-color);
       z-index: 500;
       width: 100%;
       /* background-color: #0c5173; */
-      background-color: #02367b;
+      background-color: #033a81;
 
       outline: 1.5px solid rgba(255, 255, 255, 0.093);
       /* position: fixed; */
@@ -136,7 +136,7 @@ background-color: var(--main-color);
       top: 39px;
       left: -100%;
       opacity: 1;
-      transition: all 0.5s ease;
+      transition: all 0.8s ease;
       overflow-y: hidden;
       /* padding-bottom: 1rem; */
       overflow: hidden;
@@ -149,7 +149,7 @@ background-color: var(--main-color);
       background: #0154a7;
       left: 0;
       opacity: 1;
-      transition: all 0.5s ease;
+      transition: all 0.8s ease;
       z-index: 1;
       position: fixed;
   /* top: 0; */
