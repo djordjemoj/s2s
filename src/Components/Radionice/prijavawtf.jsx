@@ -15,8 +15,8 @@ import "react-lazy-load-image-component/src/effects/blur.css";
 import S2SLOGO from "../../assets/s2slogo.png";
 
 const onSubmit = async (values, actions) => {
-  // console.log(JSON.stringify(values));
-  // alert(JSON.stringify(values));
+  console.log(JSON.stringify(values));
+  alert(JSON.stringify(values));
 
   let postBody = {
     imePrezime: values.imePrezime,
@@ -34,14 +34,13 @@ const onSubmit = async (values, actions) => {
     prvaMotivacija: values.prvaMotivacija,
     drugaRadionica: values.drugaRadionica,
     drugaMotivacija: values.drugaMotivacija,
-    laptop: values.laptop,
+    // laptop: values.laptop,
   };
 
   axios
     .post("https://backs2stesting.herokuapp.com/api/prijave", postBody)
     .catch((e) => {
       console.log(e);
-      alert(e);
     });
   alert("Uspešno ste se prijavili!");
 
@@ -93,7 +92,7 @@ const Prijava = () => {
             prvaMotivacija: "",
             drugaRadionica: "",
             drugaMotivacija: "",
-            laptop: false,
+            // laptop: false,
           }}
           validationSchema={advancedSchema}
           onSubmit={onSubmit}
@@ -207,62 +206,19 @@ const Prijava = () => {
                 </div>
               </div>
               <div className="DrugaPolPitanja">
-                {/* <div className="panelDiv pitanjeX pitanjeVeciMarginBottom">
-                  <div className="brojPitanja">9</div>
-                  <div className="container-checkbox">
-                    <CustomCheckbox
-                      // className="MojCheckbox ne treba mi jer moze samo name da se stavi u css jer mu je to klasa
-                      label="Želim da se prijavim za panel diskusiju"
-                      type="checkbox"
-                      name="panelDaLi"
-                    />
-                  </div>
-                </div> */}
+                
 
-                {/* <div className="radionicaDiv pitanjeX pitanjeVeciMarginBottom">
-                  <div className="brojPitanja">10</div>
-                  
-
-                  <CustomSelect
-                    label="Želim da se prijavim za radionicu:"
-                    name="radionicaDaLi"
-                  >
-                    <option value={false}>Ne</option>
-                    <option value={true}>Da</option>
-                  </CustomSelect>
-                </div> */}
                 <div className="obavestenje pitanjeX">
                   <h3>
-                    Za radionice ASP.NET, Unity, AfterEffects, Blockchain(Node.js) i  Python 
+                    Za radionice ASP.NET, Kako napraviti [prvu] igricu, Adobe
+                    After Effects, Kako napraviti kriptovalutu i Uvod u Python
+                    kroz pravljenje igrica{" "}
                     <b>
-                      <span> potrebno je da ponesete sopstveni laptop!</span>
+                      <span>je potrebno da ponesete sopstveni laptop!</span>
                     </b>{" "}
                   </h3>
                 </div>
-
-                <div className="laptopPitanje pitanjeX">
-                  <div className="brojPitanja">11</div>
-                  <CustomSelect
-                    label="Da li biste poneli svoj laptop?"
-                    name="laptop"
-                  >
-                    <option value="">Izaberite odgovor:</option>
-                    <option value={false}>Ne</option>
-                    <option value={true}>Da</option>
-                  </CustomSelect>
-                </div>
-
-                {/* OVDE POCINJE DRUGI DEO PITANJA */}
-                {/* <div className="MagicPitanjaPanelistima">
-                  <div className="pitanjaPanelistima pitanjeX">
-                    <div className="brojPitanja">11</div>
-                    <CustomTextArea
-                      label="Ovogodišnja tema panela je xxx. Koja pitanja bi postavio/la panelistima na ovu temu? "
-                      name="pitanjaPanelistima"
-                      placeholder="Unesite svoj odgovor ovde"
-                    ></CustomTextArea>
-                  </div>
-                </div> */}
+               
                 <div
                   className="MagicPitanjaRadionice"
                   // style={{ display: true? "none" : "auto" }}

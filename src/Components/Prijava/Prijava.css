@@ -62,9 +62,28 @@ cursor: pointer;
   font-size: 16px;
 
 }
-.PrijavaTop-svg
-.PrijavaTop-svg h2{
-  color: white;
+
+.obavestenje{
+  width: 60%;
+  /* margin: 0 auto; */
+  /* text-align: right; */
+  /* margin-bottom: 20px; */
+  font-size: 18px;
+  text-align: center;
+  /* padding-left: 10%; */
+  /* border: 2px solid black; */
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.879);
+  border: 3px solid white;
+  /* padding: 20%; */
+  padding: 15px;
+  border-radius: 25px;
+  box-shadow: var(--boksShedou);
+}
+.obavestenje span{
+  /* color:rgb(236, 73, 73); */
+  text-decoration: underline;
+  
 }
 
 .FormaPrijava{
@@ -169,7 +188,7 @@ label {
   margin-bottom: 30px;
 }
 .pitanjeVeciMarginBottom{
-  margin-bottom: 45px;
+  /* margin-bottom: 45px; */
 }
 .brojPitanja {
   width: var(--velImePitanja);
@@ -188,8 +207,9 @@ label {
 
 }
 .error{
-  color: rgba(255, 255, 255, 0.547);
-  text-decoration: underline;
+  color: rgb(244, 48, 48);
+  /* text-decoration: underline; */
+  /* text-shadow: 1px ; */
 }
 .imePitanja{
   /* display: none; */
@@ -215,7 +235,9 @@ label {
   line-height: 22px;
 }
 .imePitanjaSelect{
-  height: calc(var(--velImePitanja) *2);
+  height: calc(var(--velImePitanja) *1.3);
+  /* height: calc(var(--velImePitanja) *1.); bas ovako pravi da bude tacno visine kao i text ali ovo gore je cleaner */
+  
   font-size: 15px;
   line-height: 22px;
 
@@ -242,7 +264,7 @@ label {
   width: 82%;
   margin: 0 ;
   margin-left: 15%;
-  margin-top: calc(var(--velImePitanja)*1.25);
+  margin-top: calc(var(--velImePitanja)*0.5);
   padding-left: 8px;
   box-shadow: var(--boksShedou);
   border-radius: 6px;
@@ -305,6 +327,8 @@ label {
   box-shadow: var(--boksShedou);
   font-weight: 700;
   font-style: italic;
+  cursor: pointer;
+  
 }
 input {
   height: 100px;

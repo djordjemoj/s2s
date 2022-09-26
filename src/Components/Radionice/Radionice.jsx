@@ -35,8 +35,8 @@ const Radionice = () => {
     {
       naslov: "ASP.NET behind the scenes",
       prviTekst: "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice baš naziva C#. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.Net-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",   
-      nivo: "Nivo: Srednji",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      nivo: "Nivo: Napredni",
+      predznanje: "Potrebno predznanje: Osnove OOP ",
       potrebanSoft: "Potreban softver: Visual Studio 2022, Postman, Visual Studio Code",
       predavac: "Predavač: Luka Miljković",
       drugiTekst:
@@ -52,7 +52,7 @@ const Radionice = () => {
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Adobe After Effects",
-      predavac: "Predavač: Stefan Jovanović",
+      predavac: "Predavač: Predrag Tanasković",
       drugiTekst:
       "Predrag je student treće godine Fakulteta Organizacionih Nauka na smeru Informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Phoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u njegovom najboljem svetlu. Kroz izradu videa, instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
       slikaPredavaca1: Pedja,
@@ -66,7 +66,7 @@ const Radionice = () => {
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Visual studio",
-      predavac: "Predavač: Stefan Jovanović",
+      predavac: "Predavač: Boris Vajagić, Teodora Gavrilović",
       drugiTekst:
       "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",     slikaPredavaca1: Boris,
       slikaPredavaca1: Boris,
@@ -92,7 +92,7 @@ const Radionice = () => {
       prviTekst:
         "Iako je programski jezik Java nastao 90-ih godina prošlog veka i dalje je jedan od najpopularnijih na svetu sa više od 9 miliona programera koji svakodnevno pišu svoj kod u Javi. U Javi možeš da razvijaš različite aplikacije za dekstop, mobilne uređaje, veb aplikacije, AI i još mnogo toga, tako da znanje iz ovog jezika možeš preneti u skoro bilo koju oblast softverskog inženjerstva. Na ovogodišnjem projektu moći ćeš da uploviš u neke od najvažnijih karateristika Jave, objektno-orijentisanog programiranja, kao i da sve to otkucaš na svom računaru i postaviš bilo koje pitanje predavačima.",
       nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: Osnove programiranja",
       potrebanSoft: "Potreban softver: Intellij IDEA i JDK 8+",
       predavac: "Predavač: Veljko Blagojević i Filip Filipović",
       drugiTekst:
@@ -134,7 +134,7 @@ const Radionice = () => {
       prviTekst:
         "Da li si znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti React-a kao što su VirtualDom, Components, JSX, State, Hooks i još mnogo toga. Takodje na radionici će biti obradjen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
       nivo: "Nivo: Srednji",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: Osnove HTML, CSS i JS",
       potrebanSoft: "Potreban softver: VS Code, Node.js i Git",
       predavac: "Predavač: Nikola Mirilo",
       drugiTekst:
@@ -148,7 +148,7 @@ const Radionice = () => {
       prviTekst:
         "„SEO je umetnost i nauka objavljivanja informacija u formatu koji će uveriti pretraživače da vaš sadržaj zadovoljava potrebe njihovih korisnika za relevantne upite.“ SEO je relativno mlada oblast, ali i kao takva je već prošla kroz svoje uspone i padove. Dokazala se kao značajna pomoć preduzećima svih veličina i pronašla je svoje mesto u današnjem turbulentnom internet marketing svetu. Ona predstavlja skup radnji i aktivnosti koje se izvršavaju kako na samoj strani sajta tako i van nje. Omogućava održavanje optimizovanosti i praćenje sajta, statistiku poseta i analizu konkurencije, a postoji i čitava lista aktivnosti podeljena po oblastima koje za cilj imaju sa jedne strane da podignu vaše pozicije, a sa druge strane da povećaju broj relevantnih posetilaca na tvoj sajt. Pridruži nam se i postani ključna karika uspeha svog budućeg tima!",
       nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: osnove digitalnog marketinga",
       potrebanSoft: "Potreban softver: Meta SEO Inspector, Screaming Frog, Google Trends, Ahrefs",
       predavac: "Predavač: Mihailo Miljković",
       drugiTekst:
@@ -180,8 +180,12 @@ const Radionice = () => {
     setOpenModal(true);
   }
 
+  // const body = document.querySelector("body");
+  // body.style.overflow = openModal ? "hidden": "auto";
+  document.body.style.overflow = openModal ? "hidden" : "auto";
+
   return (
-    <div id="radionice">
+    <div id="radionice" >
       {/* <div>
           <svg className="radioniceZnak" viewBox="0 0 1355 223" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M211.639 263.247L13.4181 364.738C8.42747 367.294 2.5 363.669 2.5 358.063L2.5 10C2.5 5.8579 5.85786 2.50003 10 2.50003L618.917 2.50003C621.258 2.50003 623.464 3.5931 624.883 5.45534L656.082 46.4131L658.071 44.8982L656.082 46.4132C658.455 49.5285 662.193 51.3387 666.08 51.3387H968.893C972.753 51.3387 976.476 49.5532 978.852 46.4708L1010.5 5.42075C1011.92 3.57893 1014.11 2.50003 1016.44 2.50003L1387.99 2.5C1392.14 2.5 1395.49 5.85787 1395.49 10V357.325C1395.49 363.06 1389.32 366.673 1384.32 363.863L1206.72 264.032C1204.85 262.981 1202.74 262.429 1200.59 262.429H1164.95C1162.98 262.429 1161.03 262.897 1159.27 263.795L951.41 369.871C949.268 370.964 946.733 370.964 944.591 369.871L736.742 263.796C734.981 262.897 733.032 262.429 731.056 262.43L693.3 262.443C691.312 262.444 689.353 262.919 687.585 263.828L481.485 369.88C479.364 370.971 476.851 370.989 474.715 369.927L261.033 263.717C259.357 262.885 257.516 262.439 255.645 262.412L217.512 261.875C215.472 261.846 213.455 262.317 211.639 263.247Z" fill="#F99D1D" stroke="black" strokeWidth="5"/>

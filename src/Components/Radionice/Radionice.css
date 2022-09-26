@@ -137,11 +137,12 @@ a {text-decoration: none;}
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px){
 
- 
+  
 }
 
 /* desktop */
 @media screen and (min-width: 1200px){
+  
 
   .container .hexagonArea .hexagon:hover .radionicaNaziv{
     display: block;
@@ -213,7 +214,10 @@ a {text-decoration: none;}
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* border: 2px solid black; */
+    position: relative;
+    
+    /* min-height: 100vh; */
   }
 
   .container{
@@ -224,6 +228,9 @@ a {text-decoration: none;}
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap; 
+    /* border: 2px solid black; */
+    /* margin-right: 50px; */
+
   }
 
   /* .container .hexagonArea{
@@ -322,6 +329,9 @@ a {text-decoration: none;}
 
     .radioniceZnak{
       width: 10%;
+    }
+    .page{
+      margin-right: 50px;
     }
   
   }
