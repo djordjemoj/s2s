@@ -21,7 +21,7 @@ a {text-decoration: none;}
   /* width: 90%;
   height: 70%; */
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   z-index: 111;
   cursor: pointer;
 }
@@ -59,12 +59,9 @@ a {text-decoration: none;}
   margin-left: -90px;
   transform: scaleX(66%) scaleY(66%);
 }
-
-
-
 .modalContainer {
-  /* max-width: 450px; */
-  width: 80%;
+  max-width: 950px;
+  width: 90%;
   max-height: 565px;
   position: fixed;
   top: 50%;
@@ -113,7 +110,10 @@ a {text-decoration: none;}
   margin-bottom: 220px;
  
 }
-
+.overlay .modalContainer .modalRight .content .info{
+  margin-left: 283px;
+  transform: scaleX(100%) scaleY(100%);
+} 
 
 
 

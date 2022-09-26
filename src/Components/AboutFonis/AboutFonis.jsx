@@ -27,7 +27,7 @@ const AboutFonis = () => {
             stroke-width="5"
           />
           <switch>
-            <foreignObject x="1.2%" y="1.5%" width="800" height="550">
+            <foreignObject x="1.1%" y="1.5%" width="775" height="560">
               <p className="caption1">O PROJEKTU</p>
               <p className="tekst1">
                 „Studenti studentima“ je projekat Udruženja<br></br>studenata
@@ -88,7 +88,7 @@ const AboutFonis = () => {
                 Zajedničkim zalaganjem svih članova,<br></br> FONIS već dugi niz
                 godina održava više edukativnih i takmičarskih projekata
                 <br></br> iz sveta IT-ja, među kojima je i upravo<br></br>{" "}
-                projekat Studenti studentima.
+                projekat „Studenti studentima“.
               </p>
             </foreignObject>
           </switch>
@@ -211,7 +211,7 @@ const AboutFonis = () => {
           <svg
             width="275"
             height="700"
-            viewBox="0 -250 275 200"
+            viewBox="0 -265 275 200"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >

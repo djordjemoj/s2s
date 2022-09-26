@@ -43,7 +43,7 @@ const Modal = ({ open, onClose, modali }) => {
                 <switch>
             <foreignObject
               x="20%"
-              y="15%"
+              y="23%"
               width="450"
               height="1000"
               fontSize="22px"
@@ -53,7 +53,7 @@ const Modal = ({ open, onClose, modali }) => {
                   color: "#0C5073",
                   // marginLeft: "0%",
                   
-                  textAlign: "center",
+                  textAlign: "left",
                   
                 }}
               >
