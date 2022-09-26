@@ -172,7 +172,7 @@ const Prijava = () => {
                   />
                 </div> */}
                   <CustomSelect
-                    label="Želim da dobijam obaveštenja o drugim FONIS projektima i aktivnostima "
+                    label="Želite li da dobijate obaveštenja o drugim FONIS projektima i aktivnostima?"
                     name="newsletter"
                   >
                     <option value={false}>Ne</option>
@@ -183,9 +183,9 @@ const Prijava = () => {
                 <div className="prethodnoDiv pitanjeX">
                   <div className="brojPitanja">7</div>
                   <CustomSelect
-                    label="Da li si ranije učestvovao/la na S2S-u? "
+                    label="Da li ste ranije učestvovali na S2S-u? "
                     name="daLiJeRanijeUcestvovao"
-                    placeholder="Da li si ranije učestvovao/la na S2S-u? "
+                    // placeholder="Da li si ranije učestvovao/la na S2S-u? "
                   >
                     <option value="">Izaberite odgovor:</option>
                     <option value={false}>Ne</option>
@@ -200,9 +200,9 @@ const Prijava = () => {
                 <div className="generalnaMotivacijaDiv pitanjeX">
                   <div className="brojPitanja">8</div>
                   <CustomTextArea
-                    label="Šta te je navelo da se ove godine prijaviš na S2S? "
+                    label="Šta Vas je navelo da se prijavite na S2S?"
                     name="generalnaMotivacija"
-                    placeholder="Unesite svoj odgovor ovde"
+                    placeholder="Unesite Vaš odgovor"
                   ></CustomTextArea>
                 </div>
               </div>
@@ -233,18 +233,16 @@ const Prijava = () => {
                 </div> */}
                 <div className="obavestenje pitanjeX">
                   <h3>
-                    Za radionice ASP.NET, Unity, AfterEffects,
-                    Blockchain(Node.js) i Python
-                    <b>
-                      <span> potrebno je da ponesete sopstveni laptop!</span>
-                    </b>{" "}
+                    Za radionice:<br></br>ASP.NET behind the scenes<br></br>Kako napraviti [prvu] igricu<br></br>Adobe After Effects<br></br>
+                    Kako napraviti kriptovalutu<br></br>Uvod u Python kroz pravljenje igrica<br></br>
+                      <span>potrebno je da ponesete sopstveni laptop.</span>
                   </h3>
                 </div>
 
                 <div className="laptopPitanje pitanjeX">
                   <div className="brojPitanja">9</div>
                   <CustomSelect
-                    label="Da li biste poneli svoj laptop?"
+                    label="Da li biste poneli Vaš laptop?"
                     name="laptop"
                   >
                     <option value="">Izaberite odgovor:</option>
@@ -271,7 +269,7 @@ const Prijava = () => {
                   <div className="prviIzborDiv pitanjeX">
                     <div className="brojPitanja">10</div>
                     <CustomSelect
-                      label="Odaberi radionicu na kojoj primarno želiš da prisustvuješ"
+                      label="Odaberite radionicu na kojoj biste primarno želeli da prisustvujete:"
                       name="prvaRadionica"
                       placeholder="Primarna radionica"
                       // value={radionica1}
@@ -281,16 +279,16 @@ const Prijava = () => {
                       // }}
                     >
                       <option value="">Primarna radionica</option>
-                      <option value="dotNet">ASP.NET</option>
-                      <option value="ae">AfterEffects</option>
-                      <option value="agile">Agile</option>
-                      <option value="figma">Figma</option>
-                      <option value="java">Java</option>
-                      <option value="node">Node.js</option>
-                      <option value="python">Python</option>
-                      <option value="react">React</option>
-                      <option value="seo">SEO</option>
-                      <option value="unity">Unity</option>
+                      <option value="dotNet">ASP.NET behind the scenes</option>
+                      <option value="ae">Adobe After Effects</option>
+                      <option value="agile">Make IT Agile</option>
+                      <option value="figma">Osnovi i izrada prototipa u Figmi</option>
+                      <option value="java">Uvod u Javu</option>
+                      <option value="node">Kako napraviti kriptovalutu</option>
+                      <option value="python">Uvod u Python kroz pravljenje igrica</option>
+                      <option value="react">from Zero to Hero</option>
+                      <option value="seo">Kako SEO utiče na poslovanje</option>
+                      <option value="unity">Kako napraviti [prvu] igricu</option>
                     </CustomSelect>
                   </div>
                   {/* ovo za radionicu se prikazuje samo ako je ispunjen neki uslov
@@ -318,15 +316,15 @@ const Prijava = () => {
                   <div className="prvaMotivacijaDiv pitanjeX">
                     <div className="brojPitanja">11</div>
                     <CustomTextArea
-                      label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
+                      label="Šta Vas najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="prvaMotivacija"
-                      placeholder="Unesite svoj odgovor ovde"
+                      placeholder="Unesite Vaš odgovor"
                     ></CustomTextArea>
                   </div>
                   <div className="drugiIzborDiv pitanjeX">
                     <div className="brojPitanja">12</div>
                     <CustomSelect
-                      label="Odaberi alternativnu radionicu kojoj želiš da prisustvuješ"
+                      label="Odaberite radionicu na kojoj biste primarno želeli da prisustvujete:"
                       name="drugaRadionica"
                       placeholder="Alternativna radionica"
                       // value={radionica2}
@@ -336,16 +334,16 @@ const Prijava = () => {
                       // }}
                     >
                       <option value="">Alternativna radionica</option>
-                      <option value="dotNet">ASP.NET</option>
-                      <option value="ae">AfterEffects</option>
-                      <option value="agile">Agile</option>
-                      <option value="figma">Figma</option>
-                      <option value="java">Java</option>
-                      <option value="node">Node.js</option>
-                      <option value="python">Python</option>
-                      <option value="react">React</option>
-                      <option value="seo">SEO</option>
-                      <option value="unity">Unity</option>
+                      <option value="dotNet">ASP.NET behind the scenes</option>
+                      <option value="ae">Adobe After Effects</option>
+                      <option value="agile">Make IT Agile</option>
+                      <option value="figma">Osnovi i izrada prototipa u Figmi</option>
+                      <option value="java">Uvod u Javu</option>
+                      <option value="node">Kako napraviti kriptovalutu</option>
+                      <option value="python">Uvod u Python kroz pravljenje igrica</option>
+                      <option value="react">from Zero to Hero</option>
+                      <option value="seo">Kako SEO utiče na poslovanje</option>
+                      <option value="unity">Kako napraviti [prvu] igricu</option>
                     </CustomSelect>
                   </div>
                   {/* {isLaptopNecessary2 === true && (
@@ -364,9 +362,9 @@ const Prijava = () => {
                   <div className="drugaMotivacija pitanjeX">
                     <div className="brojPitanja">13</div>
                     <CustomTextArea
-                      label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
+                      label="Šta Vas najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="drugaMotivacija"
-                      placeholder="Unesite svoj odgovor ovde"
+                      placeholder="Unesite Vaš odgovor"
                     ></CustomTextArea>
                   </div>
                 </div>
