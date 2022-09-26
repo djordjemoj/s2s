@@ -90,6 +90,7 @@
 }
 
 .dugme-Prijavise {
+    /* cursor: pointer; */
     /* height: 15%; */
     height: 7vh;
     width: 50%;
@@ -103,9 +104,13 @@
 .dugmeZaPrijavu-hashlink {
     width: 100%;
     height: 100%;
+    /* cursor: pointer; */
+
 }
 
 .dugmeZaPrijavu {
+    cursor: pointer;
+
     width: 100%;
     height: 100%;
     /* background: #F9CA87;     */
@@ -217,7 +222,7 @@
     }
 
     .Logo-placeholder {
-        height: 65%;
+        height: 70%;
         margin-top: -30px;
         /* width: 100%; */
         /* border: 2px solid black; */
