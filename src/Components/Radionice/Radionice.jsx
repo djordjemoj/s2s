@@ -65,16 +65,16 @@ const Radionice = () => {
     {
       naslov: "Make IT Agile",
       prviTekst:
-        "Ukoliko ste novi u svetu programiranja, ono što vam je potrebno je jezik koji pruža odličnu osnovu za dalje usavršavanje. Veoma jednostavan za učenje, C već skoro pedeset godina važi za jedan od najbitnijih programskih jezika. Ovaj programski jezik opšte namene se još uvek uspešno koristi za pisanje programa u različitim oblastima, te su tako kompajleri, biblioteke i interpreteri drugih programskih jezika napisani upravo C programskim jezikom. Izađite iz zone komfora i priključite se Intro to C radionici, jer je programiranje upravo takvo – svaki problem je rešiv, ali isto tako i jedinstven i treba mu prići na takav način.",
+        "Tvoja želja da budeš uspešan član tima IT projekta može se pretvoriti u cilj i realnost. Kako? Na radionici  „Make IT Agile“ naši predavači će te upoznati sa osnovama agilnog razvoja koji predstavlja svakodnevnicu sve većeg broja IT stručnjaka. Agilno upravljanje je deo projektnog menadžmenta koji pomera tradicionalni pristup, waterfall, ka modernom i savremenom. Govori o kulturi i samostalnosti razvojnog tima, a akcenat stavlja na saradnju sa krajnjim korisnikom. Suština ovog pristupa su kratke iteracije kroz koje tim procenjuje prethodno ostvarene rezultate i uočava moguće nedostatke. Bazira se na fleksibilnosti i uči nas kako se prilagoditi promenama upravo kroz konstantnu komunikaciju sa klijentom. Zbog svoje kompaktnosti, postaje vodeći trend i možemo ga uočiti u radu najprestižnijih IT kompanija.Naši predavači će ti približiti Scrum pristup i kroz praktične primere predstaviti najzastupljenije alate za agilni razvoj i upravljanje projektima u softverskoj industriji.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
-      potrebanSoft: "Potreban softver: Visual studio",
+      potrebanSoft: "Potreban softver: Nije potrebno",
       predavac: "Predavač: Boris Vajagić, Teodora Gavrilović",
       drugiTekst:
         "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",
       slikaPredavaca2: Boris,
       slikaPredavaca1: Teodora,
-      laptop: true,
+      laptop: false,
     },
     {
       naslov: "Osnovi i izrada prototipa u Figmi",
@@ -82,13 +82,13 @@ const Radionice = () => {
         "„Bez alata nema zanata“. Upravo ćeš na ovoj radionici savladati osnovne alate u Figmi, najpopularnijem softveru za stvaranje korisničkog interfejsa i korisničkog iskustva u poslednjih par godina. Figma je uređivač vektorske grafike i alat za izradu prototipa koji je prvenstveno zasnovan na pretraživaču. Rad u zajednici i alati jednostavni za koršćenje samo su neke prednosti ovog programa. Ako si kreativan i svoju budućnost vidiš u dizajnu, prijavi se i sa nama napravi svoje prve korake.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
-      potrebanSoft: "Potreban softver: /",
+      potrebanSoft: "Potreban softver: Nije potrebno",
       predavac: "Predavač: Danilo Vasović",
       drugiTekst:
         "Danilo je student druge godine FON-a.Grafičkim dizajnom se bavi već skoro osam godina i radio je za 4 firme u tom polju. Tokom svih tih godina, uvek je tražio program koji najviše može da mu olakša posao. Figma je svakako velika prekretnica u tom smislu. Pre svega smatra da je bolja od ostalih dizajnerskih programa, baš zbog toga što joj se pristupa preko pretraživača, a sav vaš rad je istog trenutka sačuvan na internetu. Takođe jedna od prednosti koje bi naveo jeste svakako mogućnost rada u grupi, što dodatno olakšava rad na zajedničkim projektima s drugim dizajnerima. Velika prilagodljivost, olakšano korišćenje i povećana pokretljivost su svakako epiteti koje bi dodelio figmi. Smatra da poznavanje ovog programa može da pomogne i olakša ljudima iz oblasti dizajna, bilo da oni prave izgled zida za instagram ili da prave izgled internet stranice.",
       slikaPredavaca1: Coda,
       slikaPredavaca2: null,
-      laptop: true,
+      laptop: false,
     },
     {
       naslov: "Uvod u Javu",
@@ -168,7 +168,7 @@ const Radionice = () => {
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Visual studio i Unity ekstenzija",
-      predavac: "Predavač: Lazar Cvetković i Dimitrije Protić",
+      predavac: "Predavač: Lazar Cvetković",
       drugiTekst:
         "Lazar je student druge godine na Fakultetu organizacionih nauka. Obožava igrice od malena i baš zbog toga se odlučio da se bavi njihovim razvojem putem Unity-ja. Do sada je učestvovao na tri hakatona za pravljenje igrica, od kojih je pobedio na dva. ",
       slikaPredavaca1: Laki,
@@ -258,7 +258,7 @@ const Radionice = () => {
           </div>
           <div className="hexagonArea first">
             <div className="hexagon" onClick={() => handlePromenaModala(5)}>
-              <h2 className="radionicaNaziv">Node.js</h2>
+              <h2 className="radionicaNaziv">Blockchain</h2>
               <div className="blanket"></div>
               <img src={nodeSlika} alt="" />
               <button

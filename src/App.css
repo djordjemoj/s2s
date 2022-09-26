@@ -14,12 +14,17 @@
 * {
   /* font-family: Jost-500Medium; */
   /* overflow-x: hidden; */
+  --accent-color:  #0d5e87;
+  --accent-color-lighter:  #1a719d;
+
+  --accent-color-prozirna:  #0d6591fb;
+
 }
 body {
-  --main-color: #0154a7;
+  --main-color: #0766c5;
 
   /* background-color: var(--main-color); */
-  background: url("./assets/pozadina.jpeg") !important;
+  background: url("./assets/pozadina2.png") !important;
 }
 
 /* extra mali mobilni */

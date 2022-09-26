@@ -114,7 +114,7 @@ const Prijava = () => {
                 <div className="emailDiv pitanjeX">
                   <div className="brojPitanja">2</div>
                   <CustomInput
-                    label="Email adresa"
+                    label="Mejl"
                     // label={isLaptopNecessary1? "jeste" : "nije"}
                     name="emailPriv"
                     type="email"

@@ -13,6 +13,7 @@ const Navbar2 = () => {
 
   const handleClick = () => {
     setActive(!active);
+    
     // const mediaQuery = window.matchMedia("(max-width: 960)");
     // if (mediaQuery.matches) {
 
