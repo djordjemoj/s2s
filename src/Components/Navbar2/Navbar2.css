@@ -76,6 +76,7 @@ background-color: var(--main-color);
   .nav-links {
     color: rgba(218, 233, 255, 0.97);
     text-decoration: none;
+    /* padding: 5px; */
     /* padding: 0.5rem 1rem;  */
     
   }
@@ -219,7 +220,7 @@ background-color: var(--main-color);
 
   @media (max-width: 660px) {
     .nav-links{
-      padding-top: 2vh;
+      padding-top: 1.5vh;
           padding-bottom: 2vh;
     }
     
@@ -229,6 +230,7 @@ background-color: var(--main-color);
 .nav-links{
   /* padding-top: 4vh; */
       padding-bottom: 1vh;
+      font-size: 24px;
 }
 
   }

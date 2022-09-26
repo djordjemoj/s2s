@@ -233,11 +233,9 @@ const Prijava = () => {
                 </div> */}
                 <div className="obavestenje pitanjeX">
                   <h3>
-                    Za radionice ASP.NET, Kako napraviti [prvu] igricu, Adobe
-                    After Effects, Kako napraviti kriptovalutu i Uvod u Python
-                    kroz pravljenje igrica{" "}
+                    Za radionice ASP.NET, Unity, AfterEffects, Blockchain(Node.js) i  Python 
                     <b>
-                      <span>je potrebno da ponesete sopstveni laptop!</span>
+                      <span> potrebno je da ponesete sopstveni laptop!</span>
                     </b>{" "}
                   </h3>
                 </div>
