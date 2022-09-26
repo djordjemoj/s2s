@@ -1,4 +1,5 @@
 import React from "react";
+import { Scrollbars } from "react-custom-scrollbars-2";
 
 const Modal = ({ open, onClose, modali }) => {
   if (!open) return null;
@@ -24,7 +25,7 @@ const Modal = ({ open, onClose, modali }) => {
           </p>
           <div className="content">
             <h1>{modali.naslov}</h1>
-            <p className="prviTekst">{modali.prviTekst}</p>
+            <div className="probaDiv-first"><p className="prviTekst">{modali.prviTekst}</p></div>
             <div className="info">
               <svg
                 width="586"
@@ -39,22 +40,55 @@ const Modal = ({ open, onClose, modali }) => {
                   stroke="black"
                   stroke-width="3"
                 />
-                <text x="250" y="45" font-size="22" fill="#0C5073">
-                  {modali.nivo}
-                </text>
-                <text x="150" y="85" font-size="22" fill="#0C5073">
-                  {modali.predznanje}
-                </text>
-                <text x="175" y="125" font-size="22" fill="#0C5073">
-                  {modali.potrebanSoft}
-                </text>
+                <switch>
+            <foreignObject
+              x="20%"
+              y="15%"
+              width="450"
+              height="1000"
+              fontSize="22px"
+            >
+              <p
+                style={{
+                  color: "#0C5073",
+                  // marginLeft: "0%",
+                  
+                  textAlign: "center",
+                  
+                }}
+              >
+                {modali.nivo} <br />
+                {modali.predznanje} <br />
+                {modali.potrebanSoft} <br />{" "}
+                {" "}
+                {/* <br></br>
+                NAŠ SAJT: <br /> */}
+               
+              </p>
+              
+            </foreignObject>
+          </switch>
+                
               </svg>
             </div>
+            
+
             <h3>{modali.predavac}</h3>
-            <p className="DrugiTekst">{modali.drugiTekst}</p>
-          </div>
-          <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
+            <div className="probaDiv">
+            <div className="slike-proba"><img src={modali.slikaPredavaca1} alt="Predavac na s2s"/>
           {slika2}
+          </div>
+            <p className="DrugiTekst" style={{
+            
+            overflowY: 'auto',
+              maxHeight: '170px',
+            cursor: "pointer",
+            
+          }}>{modali.drugiTekst}</p>
+            </div>
+          </div>
+          {/* <img src={modali.slikaPredavaca1} alt="Predavac na s2s"/>
+          {slika2} */}
         </div>
       </div>
     </div>
