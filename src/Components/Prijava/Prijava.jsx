@@ -255,7 +255,7 @@ const Prijava = () => {
                 </div>
 
                 {/* OVDE POCINJE DRUGI DEO PITANJA */}
-                <div className="MagicPitanjaPanelistima">
+                {/* <div className="MagicPitanjaPanelistima">
                   <div className="pitanjaPanelistima pitanjeX">
                     <div className="brojPitanja">11</div>
                     <CustomTextArea
@@ -264,7 +264,7 @@ const Prijava = () => {
                       placeholder="Unesite svoj odgovor ovde"
                     ></CustomTextArea>
                   </div>
-                </div>
+                </div> */}
                 <div
                   className="MagicPitanjaRadionice"
                   // style={{ display: true? "none" : "auto" }}

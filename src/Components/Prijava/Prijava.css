@@ -75,6 +75,8 @@ cursor: pointer;
   line-height: 24px;
   color: rgba(255, 255, 255, 0.879);
   border: 3px solid white;
+  /* padding: 20%; */
+  padding: 15px;
   border-radius: 25px;
   box-shadow: var(--boksShedou);
 }

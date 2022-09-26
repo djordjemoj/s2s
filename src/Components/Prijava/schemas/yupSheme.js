@@ -70,9 +70,10 @@ export const advancedSchema = yup.object().shape({
   //     then: yup
   //       .string()
   //       .min(3, "Morate napisati bar nešto"),
-        
+
   //   })
   //   .required(""),
+  pitanjaPanelistima: yup.string(),
   //ovo je logika za to da li je nesto Obavezno polje, takodje mozemo da stavimo za laptop
 
   prvaRadionica: yup
@@ -126,6 +127,17 @@ export const advancedSchema = yup.object().shape({
   radionicaDaLi: yup.boolean().oneOf([true, false], "").required("ob"),
 
   laptop: yup.boolean().oneOf([true, false], "").required("Obavezno polje"),
+
+  // laptop: yup
+  //   .string()
+  //   .when("prvaRadionica", {
+  //     is: "figma"z,
+  //     then: yup
+  //       .string()
+  //       .min(3, "Morate napisati bar nešto"),
+
+  //   })
+  //   .required(""),
 
   // jobType: yup
   //   .string()
