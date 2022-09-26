@@ -177,7 +177,10 @@ a {text-decoration: none;}
     margin-left: -100px;
   margin-top: -40px;
   margin-bottom: -30px;
-    transform: scaleX(45%) scaleY(45%);
+  font-size: 20px;
+  line-height: 23px;
+  /* right: 500px; */
+    transform: scaleX(45%) scaleY(45%) translateX(70%);
   }
   
 }
@@ -228,7 +231,8 @@ a {text-decoration: none;}
     margin-left: -80px;
   margin-top: -30px;
   margin-bottom: -20px;
-    transform: scaleX(50%) scaleY(50%);
+  font-size: 25px;
+    transform: scaleX(50%) scaleY(50%) translateX(60%);
   }
 
   .modalContainer {
@@ -315,7 +319,8 @@ a {text-decoration: none;}
   .overlay .modalContainer .modalRight .content .info{
     margin-left:65px;
     margin-top: 15px;
-    transform: scaleX(75%) scaleY(75%);
+    transform: scaleX(75%) scaleY(75%) translateX(22%);
+    line-height: 26px;
   }
   /* .slike-proba{
     display: flex;
@@ -462,7 +467,7 @@ a {text-decoration: none;}
     max-width: 800px;
     max-height: 95vh;
      font-size: 22px; /*bilo 36 */
-    padding-top: 15px;
+    padding-top: 30px;
   }
   .closeBtn {
     position: fixed;
@@ -513,9 +518,14 @@ a {text-decoration: none;}
   /* .slike-proba img {
     width: 100%;
   } */
-  .lapsitopsi{
-    /* left: 100px; */
-    
-    /* transform: scalex(0.35) translate(-25%, 70%); */
+  
+    .lapsitopsi{
+      position: absolute;
+      position: absolute;
+    left: -10px;
+    top: -4.8%;
+    width: 10%;
+    transform: scale(0.4) ;
+      
   }
 }
