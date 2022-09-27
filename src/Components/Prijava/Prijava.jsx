@@ -286,7 +286,7 @@ const Prijava = () => {
                       <option value="java">Uvod u Javu</option>
                       <option value="node">Kako napraviti kriptovalutu</option>
                       <option value="python">Uvod u Python kroz pravljenje igrica</option>
-                      <option value="react">from Zero to Hero</option>
+                      <option value="react">From Zero to Hero</option>
                       <option value="seo">Kako SEO utiče na poslovanje</option>
                       <option value="unity">Kako napraviti [prvu] igricu</option>
                     </CustomSelect>
@@ -341,7 +341,7 @@ const Prijava = () => {
                       <option value="java">Uvod u Javu</option>
                       <option value="node">Kako napraviti kriptovalutu</option>
                       <option value="python">Uvod u Python kroz pravljenje igrica</option>
-                      <option value="react">from Zero to Hero</option>
+                      <option value="react">From Zero to Hero</option>
                       <option value="seo">Kako SEO utiče na poslovanje</option>
                       <option value="unity">Kako napraviti [prvu] igricu</option>
                     </CustomSelect>

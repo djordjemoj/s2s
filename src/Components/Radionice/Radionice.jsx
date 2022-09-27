@@ -96,7 +96,7 @@ const Radionice = () => {
         "Iako je programski jezik Java nastao 90-ih godina prošlog veka i dalje je jedan od najpopularnijih na svetu sa više od 9 miliona programera koji svakodnevno pišu svoj kod u Javi. U Javi možeš da razvijaš različite aplikacije za dekstop, mobilne uređaje, veb aplikacije, AI i još mnogo toga, tako da znanje iz ovog jezika možeš preneti u skoro bilo koju oblast softverskog inženjerstva. Na ovogodišnjem projektu moći ćeš da uploviš u neke od najvažnijih karateristika Jave, objektno-orijentisanog programiranja, kao i da sve to otkucaš na svom računaru i postaviš bilo koje pitanje predavačima.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Osnove programiranja",
-      potrebanSoft: "Potreban softver: Intellij IDEA i JDK 8+",
+      potrebanSoft: "Potreban softver: IntelliJ IDEA i JDK 8+",
       predavac: "Predavač: Veljko Blagojević i Filip Filipović",
       drugiTekst:
         "Veljko je student četvrte godine Fakulteta Organizacionih Nauka. Pored fakulteta se interesovao i učio dodatno o objektno-orijentisanom programiranju i Javi, što ga je dovelo na poziciju praktikanta u globalnoj korporaciji BlackRock. Tu je radio na back-end delu veb aplikacije korišćene od strane klijenata ogromnog portfolija, zajedno sa kolegama koji poseduju ogromni nivo iskustva i znanja. Filip je student četvrte godine i demonstrator na Računarskom fakultetu. Sa Javom se prvi put susreo na prvoj godini fakulteta, i od tad mu je prvi izbor za pravljenje kompleksnih sistema i aplikacija. Znanje je produbio na praksi u BlackRock-u, gde je radio u Javi na novom proizvodu sa kolegama koji su eksperti u radu sa ovim programskim jezikom. Odlučio se da se pridruži ovom projektu jer je tokom držanja demonstracija zavoleo da prenosi znanje drugima kako bi im pomogao da se pronađu i nađu ono čime bi se jednog dana bavili.",
@@ -133,7 +133,7 @@ const Radionice = () => {
       laptop: true,
     },
     {
-      naslov: "from Zero to Hero",
+      naslov: "From Zero to Hero",
       prviTekst:
         "Da li si znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti React-a kao što su VirtualDom, Components, JSX, State, Hooks i još mnogo toga. Takodje na radionici će biti obradjen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
       nivo: "Nivo: Srednji",
