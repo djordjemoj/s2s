@@ -24,7 +24,8 @@ body {
   --main-color: #0766c5;
 
   /* background-color: var(--main-color); */
-  background: url("./assets/pozadina4mobilni.png") !important;
+  background: url("./assets/pozadinaFinal.png") !important;
+  /* filter:blur(2px);z\ */
 }
 
 /* extra mali mobilni */

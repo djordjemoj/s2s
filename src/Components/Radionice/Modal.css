@@ -43,7 +43,7 @@ a {text-decoration: none;}
 
 .prviTekst{
   font-size: 15px;
-  color: rgba(255, 255, 255, 0.87);;
+  ;
 }
 
 
@@ -120,29 +120,30 @@ a {text-decoration: none;}
 
 .probaDiv{
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
+  justify-content: center;
   width: 100%;
   height: fit-content;
-  /* overflow-y: scroll; */
-
+  /* border: 2px solid red; */
+  
 }
 
 .slike-proba{
-  margin-top: 15px;
-  /* border: 2px solid red; */
-  /* width: 2200px; */
-  /* height: 200px; */
+  /* margin-top: 15px; */
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  /* margin-top: -10px;
-  padding-top: 40px; */
-  /* margin-bottom: -220px; */
-  /* transform: scale(1.4); */
-  /* width: 50%; */
+  flex-direction: row;
+  justify-content: center;
+  /* border: 1px solid black; */
+  /* height: 150px; */
+  width: 250px;
+  margin: 0 auto;
 }
-.slike-proba img{
-  /* width: 150%; */
+.slike-proba :nth-child(1){
+  /* display: none; */
+  padding-top: 60px;
+  padding-bottom: 55px;
+
+  transform: scale(2.8);
 }
 .DrugiTekst{ 
   display: flex;
@@ -160,6 +161,7 @@ a {text-decoration: none;}
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  text-align: center;
 
 
 }
@@ -275,14 +277,7 @@ a {text-decoration: none;}
 @media screen and (min-width: 395px){
   
  
-  .slike-proba{
-    display: flex;
-     flex-direction: column;  
-     justify-content: space-around;
-    /* margin-top: -50px;
-    margin-bottom: 220px; */
-   
-  }
+  
   .overlay .modalContainer .modalRight img{
     /* margin-top: -150px; */
     
@@ -384,6 +379,25 @@ a {text-decoration: none;}
 }
 
 @media screen and (min-width: 700px){
+  .probaDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: fit-content;
+  }
+  
+  .slike-proba{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transform: none;
+  }
+  .slike-proba :nth-child(1){
+  
+    transform: none;
+  }
   .lapsitopsi{
     /* position: absolute; */
     position: absolute;

@@ -8,7 +8,7 @@ import Slider from "react-slick";
 // } from "react-lazy-load-image-component";
 // import "react-lazy-load-image-component/src/effects/blur.css";
 
-import SlikaTim0 from "../../assets/slikeTimova/tim0.JPG";
+import SlikaTim0 from "../../assets/slikeTimova/tim0.png";
 import SlikaTim1 from "../../assets/slikeTimova/tim1.jpg";
 import SlikaTim2 from "../../assets/slikeTimova/tim2.JPG";
 import SlikaTim3 from "../../assets/slikeTimova/tim3.jpg";
@@ -89,8 +89,8 @@ const Orgtim3 = () => {
 
   const settings = {
     infinite: true,
-   lazyLoad: true,
-  //  fade: true,
+    lazyLoad: true,
+    //  fade: true,
     speed: 1000, //treba da bude isto kao u css transform
     // ovo gore menja duzinu trajanja anim
     slidesToShow: 3,

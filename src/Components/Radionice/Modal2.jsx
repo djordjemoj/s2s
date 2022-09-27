@@ -13,8 +13,9 @@ const Modal2 = ({ open, onClose, modali }) => {
     predavac2 = <div className="probaDiv">
     <div className="slike-proba">
       
-
+        
       <img src={modali.slikaPredavaca2} alt="Predavac na s2s" />
+      
     </div>
 
     <div
