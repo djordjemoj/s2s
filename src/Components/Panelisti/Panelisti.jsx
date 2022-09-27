@@ -1,6 +1,6 @@
 import React from "react";
 import "../Panelisti/Panelisti.css";
-import SlikaTim0 from "../../assets/koord1.jpg";
+import SlikaTim0 from "../../assets/Veljko.png";
 
 const Panelisti = () => {
   return (

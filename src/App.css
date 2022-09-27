@@ -14,8 +14,8 @@
 * {
   /* font-family: Jost-500Medium; */
   /* overflow-x: hidden; */
-  --accent-color:  #0d5e87;
-  --accent-color-lighter:  #1a719d;
+  --accent-color:  #043f5c;
+  --accent-color-lighter:  #12587b;
 
   --accent-color-prozirna:  #0d6591fb;
 
@@ -24,7 +24,7 @@ body {
   --main-color: #0766c5;
 
   /* background-color: var(--main-color); */
-  background: url("./assets/pozadina2.png") !important;
+  background: url("./assets/pozadina4mobilni.png") !important;
 }
 
 /* extra mali mobilni */
@@ -32,7 +32,13 @@ body {
 }
 
 /* mali tableti */
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 500px) {
+  /* body {
+    --main-color: #0766c5;
+  
+    background-color: var(--main-color);
+    background: url("./assets/pozadina3.png") !important;
+  } */
 }
 
 /* veliki tableti i mali  */
