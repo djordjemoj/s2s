@@ -5,6 +5,7 @@
 *{ box-sizing: border-box; 
   --main-color: #1E5D88;
   --main-white-color: #F9EEE1;
+  /* outline: 2px solid black; */
   
   
   }
@@ -45,17 +46,7 @@ a {text-decoration: none;}
   color: white;
 }
 
-.DrugiTekst{ max-height: 200px;
-  font-size: 13px;
-  color: white; 
-  margin-left: 80px;
-  
-  
-}
-.DrugiTekst::-webkit-scrollbar {
-  display: none;
-  /* width: 5px; */
-}
+
 
 
 .overlay .modalContainer .modalRight .content .info{
@@ -69,7 +60,7 @@ a {text-decoration: none;}
   /* max-width: 450px; */
   width: 90%;
   max-height: 90vh;
-  height: 550px;
+  /* height: 550px; */
   position: fixed;
   top: 50%;
   left: 50%;
@@ -104,7 +95,8 @@ a {text-decoration: none;}
   flex-direction: column; */
   /* justify-content: center; */
   text-align: center;
-  margin-top: 1rem;
+  margin-bottom: 5vw;
+  
   padding: 1rem 2rem;
   position: relative;
   /* border: 2px solid red; */
@@ -128,17 +120,91 @@ a {text-decoration: none;}
 
 .probaDiv{
   display: flex;
+  flex-direction: row-reverse;
   width: 100%;
+  height: fit-content;
+  /* overflow-y: scroll; */
+
 }
 
 .slike-proba{
+  margin-top: 15px;
+  /* border: 2px solid red; */
+  /* width: 2200px; */
+  /* height: 200px; */
   display: flex;
   flex-direction: column;
-  margin-top: -10px;
-  padding-top: 40px;
+  justify-content: space-around;
+  /* margin-top: -10px;
+  padding-top: 40px; */
   /* margin-bottom: -220px; */
-  transform: scale(1.4);
+  /* transform: scale(1.4); */
   /* width: 50%; */
+}
+.slike-proba img{
+  /* width: 150%; */
+}
+.DrugiTekst{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15px;
+  line-height:100%;
+  /* margin-left: 80px; */
+  /* display: none; */
+}
+.DrugiTekst p{
+  font-size: 13px;
+  color: white; 
+  text-align: left;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+
+
+}
+.DrugiTekst::-webkit-scrollbar {
+  display: none;
+  /* width: 5px; */
+}
+.content .info2{
+  /* height: 200px;
+  margin-bottom: 5%;
+  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 9% 50%);
+  background-color: #F9EEE1;
+  display: flex;
+  flex-direction: row ;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; */
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+
+  width: 70%;
+  height: fit-content;
+  display: flex;
+  justify-content: flex-start;
+  /* gap: 5px; */
+  /* border: 2px solid red; */
+  background-color: whitesmoke;
+
+  clip-path: polygon(0% 0%, 75% 0%, 86% 50%, 75% 100%, 0% 100%);
+}
+.infoKocka{
+  display: flex;
+  flex-direction: column;
+  column-gap: 7px;
+  justify-self: center;
+  width: 70%;
+  margin-left: 2%;
+}
+.content .info2 p{
+  text-align: left;
+  color: #0C5073;
+  font-weight: 600;
+  
+  /* width: %; */
+  
 }
 .overlay {
   background-color: rgba(0, 0, 0, 0.5);
@@ -185,12 +251,13 @@ a {text-decoration: none;}
     font-size: 10px;
     color: white;
   }
-  .DrugiTekst{ max-height: 200px;
+  .DrugiTekst{ 
+    line-height:100%;
     font-size: 10px;
     color: white;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     overflow-y: auto;
-   max-height: 200px;
+   
   }
 
   .overlay .modalContainer .modalRight .content .info{
@@ -211,8 +278,9 @@ a {text-decoration: none;}
   .slike-proba{
     display: flex;
      flex-direction: column;  
-    margin-top: -50px;
-    margin-bottom: 220px;
+     justify-content: space-around;
+    /* margin-top: -50px;
+    margin-bottom: 220px; */
    
   }
   .overlay .modalContainer .modalRight img{
@@ -239,12 +307,13 @@ a {text-decoration: none;}
     color: white;
   }
   
-  .DrugiTekst{ max-height: 200px;
+  .DrugiTekst{ 
+    line-height:100%;
     font-size: 10px;
     color: white;
-    margin-left: 30px;
+    /* margin-left: 30px; */
     overflow-y: auto;
-   max-height: 200px;
+   
   }
   
   .overlay .modalContainer .modalRight .content .info{
@@ -292,7 +361,7 @@ a {text-decoration: none;}
     flex-direction: column; */
     /* justify-content: center; */
     text-align: center;
-    margin-top: 1rem;
+    
     padding: 1rem 2rem;
   }
   
@@ -350,19 +419,21 @@ a {text-decoration: none;}
      padding-top: 0px; 
   } */
   .slike-proba{
+    justify-content: space-around;
     display: flex;
     flex-direction: column;
-    margin-top: -130px;
-    margin-bottom: 220px;
+    /* margin-top: -130px;
+    margin-bottom: 220px; */
    
   }
-  .DrugiTekst{ max-height: 200px;
+  .DrugiTekst{ 
+    line-height:100%;
     /* font-size: small; */
     color: white;
     /* margin-left: 250px; */
     
     overflow-y: auto;
-   max-height: 240px;
+   /* max-height: 240px; */
   }
   .overlay .modalContainer .modalRight h3{
     color: #199AD4;
@@ -410,13 +481,14 @@ a {text-decoration: none;}
     color: white;
   }
 
-  .DrugiTekst{ max-height: 200px;
+  .DrugiTekst{ 
+    line-height:100%;
     font-size: small;
     color: white;
     /* margin-left: 250px; */
     
     overflow-y: auto;
-   max-height: 150px;
+   /* max-height: 150px; */
   }
 
   .overlay .modalContainer .modalRight .content .info{
@@ -459,7 +531,7 @@ a {text-decoration: none;}
     flex-direction: column; */
     /* justify-content: center; */
     text-align: center;
-    margin-top: 1rem;
+    
     padding: 1rem 2rem;
   }
 
@@ -469,8 +541,9 @@ a {text-decoration: none;}
   .slike-proba{
     display: flex;
     flex-direction: column;
-    margin-top: -120px;
-    margin-bottom: 220px;
+    justify-content: space-around;
+    /* margin-top: -120px;
+    margin-bottom: 220px; */
    
   }
   .lapsitopsi{
@@ -516,13 +589,15 @@ a {text-decoration: none;}
     margin-bottom: 10px;
   }
 
-  .DrugiTekst{ max-height: 200px;
+  .DrugiTekst{ 
+    line-height:100%;
+    margin-top: 15px;
     font-size: 18px;
     color: white;
-    margin-left: 35px;
+    /* margin-left: 35px; */
 
     overflow-y: auto;
-   max-height: 330px;
+   /* max-height: 330px; */
                 
   }
   .overlay .modalContainer .modalRight .content .info{
@@ -533,7 +608,8 @@ a {text-decoration: none;}
   .slike-proba{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    justify-content: space-around;
+    /* margin-top: 20px; */
    
    
     /* transform: scale(1.5) ;     */

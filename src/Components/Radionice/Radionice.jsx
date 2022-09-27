@@ -69,11 +69,12 @@ const Radionice = () => {
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Nije potrebno",
-      predavac: "Predavač: Boris Vajagić, Teodora Gavrilović",
+      predavac: "Predavači: Boris Vajagić, Teodora Gavrilović",
       drugiTekst:
-        "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",
-      slikaPredavaca2: Boris,
-      slikaPredavaca1: Teodora,
+        "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. ",
+      slikaPredavaca2: Teodora,
+      drugiTekst2: "Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",
+      slikaPredavaca1: Boris,
       laptop: false,
     },
     {
@@ -97,11 +98,12 @@ const Radionice = () => {
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Osnove programiranja",
       potrebanSoft: "Potreban softver: IntelliJ IDEA i JDK 8+",
-      predavac: "Predavač: Veljko Blagojević i Filip Filipović",
+      predavac: "Predavači: Veljko Blagojević i Filip Filipović",
       drugiTekst:
-        "Veljko je student četvrte godine Fakulteta Organizacionih Nauka. Pored fakulteta se interesovao i učio dodatno o objektno-orijentisanom programiranju i Javi, što ga je dovelo na poziciju praktikanta u globalnoj korporaciji BlackRock. Tu je radio na back-end delu veb aplikacije korišćene od strane klijenata ogromnog portfolija, zajedno sa kolegama koji poseduju ogromni nivo iskustva i znanja. Filip je student četvrte godine i demonstrator na Računarskom fakultetu. Sa Javom se prvi put susreo na prvoj godini fakulteta, i od tad mu je prvi izbor za pravljenje kompleksnih sistema i aplikacija. Znanje je produbio na praksi u BlackRock-u, gde je radio u Javi na novom proizvodu sa kolegama koji su eksperti u radu sa ovim programskim jezikom. Odlučio se da se pridruži ovom projektu jer je tokom držanja demonstracija zavoleo da prenosi znanje drugima kako bi im pomogao da se pronađu i nađu ono čime bi se jednog dana bavili.",
+        "Veljko je student četvrte godine Fakulteta Organizacionih Nauka. Pored fakulteta se interesovao i učio dodatno o objektno-orijentisanom programiranju i Javi, što ga je dovelo na poziciju praktikanta u globalnoj korporaciji BlackRock. Tu je radio na back-end delu veb aplikacije korišćene od strane klijenata ogromnog portfolija, zajedno sa kolegama koji poseduju ogromni nivo iskustva i znanja.",
       slikaPredavaca1: Veljko,
       slikaPredavaca2: Filip,
+      drugiTekst2: " Filip je student četvrte godine i demonstrator na Računarskom fakultetu. Sa Javom se prvi put susreo na prvoj godini fakulteta, i od tad mu je prvi izbor za pravljenje kompleksnih sistema i aplikacija. Znanje je produbio na praksi u BlackRock-u, gde je radio u Javi na novom proizvodu sa kolegama koji su eksperti u radu sa ovim programskim jezikom. Odlučio se da se pridruži ovom projektu jer je tokom držanja demonstracija zavoleo da prenosi znanje drugima kako bi im pomogao da se pronađu i nađu ono čime bi se jednog dana bavili.",
       laptop: false,
     },
     {
