@@ -30,11 +30,11 @@ const AboutFonis = () => {
             <foreignObject x="1.1%" y="1.5%" width="775" height="560">
               <p className="caption1">O PROJEKTU</p>
               <p className="tekst1">
-                „Studenti studentima“ je projekat Udruženja<br></br>studenata
+                <i>Studenti studentima</i> je projekat Udruženja<br></br>studenata
                 informatike FONIS koji se tradicionalno<br></br>održava već dugi
-                niz godina, a za cilj ima prenošenje<br></br>različitih znanja,
+                niz godina, a za cilj ima prenošenje<br></br>različitih znanja
                 kako iz IT oblasti, tako i iz menadžmenta<br></br>i
-                dizajna.Glavna zamisao projekta jeste spajanje studenata
+                dizajna. Glavna zamisao projekta jeste spajanje studenata
                 <br></br>koji žele da nauče ili usavrše znanja iz određene
                 oblasti IT-ja, dizajna ili menadžmenta sa studentima koji svoje
                 znanje žele da podele sa drugima. Na ovaj način studenti nalaze
@@ -88,7 +88,7 @@ const AboutFonis = () => {
                 Zajedničkim zalaganjem svih članova,<br></br> FONIS već dugi niz
                 godina održava više edukativnih i takmičarskih projekata
                 <br></br> iz sveta IT-ja, među kojima je i upravo<br></br>{" "}
-                projekat „Studenti studentima“.
+                projekat <i>Studenti studentima</i>.
               </p>
             </foreignObject>
           </switch>
