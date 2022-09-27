@@ -57,7 +57,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: Adobe After Effects",
       predavac: "Predavač: Predrag Tanasković",
       drugiTekst:
-        "Predrag je student treće godine Fakulteta organizacionih nauka na smeru informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Phoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u njegovom najboljem svetlu. Kroz izradu videa, Instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
+        "Predrag je student treće godine Fakulteta organizacionih nauka na smeru informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u njegovom najboljem svetlu. Kroz izradu videa, Instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
       slikaPredavaca1: Pedja,
       slikaPredavaca2: null,
       laptop: true,
