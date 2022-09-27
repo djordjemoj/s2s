@@ -118,7 +118,7 @@ const Prijava = () => {
                     // label={isLaptopNecessary1? "jeste" : "nije"}
                     name="emailPriv"
                     type="email"
-                    placeholder="Unesi svoju email adresu"
+                    placeholder="Unesi svoju mejl adresu"
                   />
                 </div>
                 <div className="telefonDiv pitanjeX">
@@ -133,7 +133,7 @@ const Prijava = () => {
                 <div className="fakultetDiv pitanjeX">
                   <div className="brojPitanja">4</div>
                   <CustomSelect
-                    label="Izaberi koji fakultet studiraš"
+                    label="Izaberi fakultet na kom studiraš"
                     name="fakultet"
                     placeholder="Fakultet"
                   >
@@ -150,7 +150,7 @@ const Prijava = () => {
                 <div className="godinaDiv pitanjeX">
                   <div className="brojPitanja">5</div>
                   <CustomSelect
-                    label="Izaberite svoju godinu studija"
+                    label="Izaberi svoju godinu studija"
                     name="godinaStudija"
                     placeholder="Godina studija"
                   >
@@ -233,8 +233,8 @@ const Prijava = () => {
                 </div> */}
                 <div className="obavestenje pitanjeX">
                   <h3>
-                    Za radionice:<br></br>ASP.NET behind the scenes<br></br>Kako napraviti [prvu] igricu<br></br>Adobe After Effects<br></br>
-                    Kako napraviti kriptovalutu<br></br>Uvod u Python kroz pravljenje igrica<br></br>
+                    Za radionice:<br></br><i>ASP.NET behind the scenes</i><br></br><i>Kako napraviti [prvu] igricu</i><br></br><i>Adobe After Effects</i><br></br>
+                    <i>Kako napraviti kriptovalutu</i><br></br><i>Uvod u Python kroz pravljenje igrica</i><br></br>
                       <span>potrebno je da poneseš sopstveni laptop.</span>
                   </h3>
                 </div>

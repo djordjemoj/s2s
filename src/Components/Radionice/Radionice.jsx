@@ -36,14 +36,14 @@ const Radionice = () => {
     {
       naslov: "ASP.NET behind the scenes",
       prviTekst:
-        "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice baš naziva C#. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.Net-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",
+        "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice baš naziva C#. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.NET-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",
       nivo: "Nivo: Napredni",
       predznanje: "Potrebno predznanje: Osnove OOP ",
       potrebanSoft:
         "Potreban softver: Visual Studio 2022, Postman, Visual Studio Code",
       predavac: "Predavač: Luka Miljković",
       drugiTekst:
-        "Luka je student master studija na Fakultetu organizacionih nauka, smer informacioni sistemi i tehnologije, modul informacioni sistemi. Diplomirao je takođe na Fakultetu organizacionih nauka 2021. godine, na smeru Informacioni sistemi i tehnologije, a bio je u upravnom odboru FONIS-a u školskoj 2020/21 godini. Trenutno radi u kompaniji NCR na poziciji PS softver inženjera. Krenuo je da programira na fakultetu i dosta mu se svidelo. Kroz studije je shvatio da ga najviše interesuje back-end programiranje kao i baze podataka. C# i .NET je prvi put radio na trećoj godini fakulteta i mnogo mu se svidelo na prvi pogled, tako da je odlučio da se dodatno bavi ovim programskim jezikom. Trenutno radi na master radu koji se bavi analizom komunikacionih protokola u .NET aplikacijama.",
+        "Luka je student master studija na Fakultetu organizacionih nauka, smer informacioni sistemi i tehnologije, modul informacioni sistemi. Diplomirao je takođe na Fakultetu organizacionih nauka 2021. godine, na smeru Informacioni sistemi i tehnologije, a bio je u Upravnom odboru FONIS-a u školskoj 2020/21 godini. Trenutno radi u kompaniji NCR na poziciji PS softver inženjera. Krenuo je da programira na fakultetu i dosta mu se svidelo. Kroz studije je shvatio da ga najviše interesuje back-end programiranje kao i baze podataka. C# i .NET je prvi put radio na trećoj godini fakulteta i mnogo mu se svidelo na prvi pogled, tako da je odlučio da se dodatno bavi ovim programskim jezikom. Trenutno radi na master radu koji se bavi analizom komunikacionih protokola u .NET aplikacijama.",
       slikaPredavaca1: Luka,
       slikaPredavaca2: null,
       laptop: true,
@@ -57,7 +57,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: Adobe After Effects",
       predavac: "Predavač: Predrag Tanasković",
       drugiTekst:
-        "Predrag je student treće godine Fakulteta Organizacionih Nauka na smeru Informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Phoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u njegovom najboljem svetlu. Kroz izradu videa, instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
+        "Predrag je student treće godine Fakulteta organizacionih nauka na smeru informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Phoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u njegovom najboljem svetlu. Kroz izradu videa, Instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
       slikaPredavaca1: Pedja,
       slikaPredavaca2: null,
       laptop: true,
@@ -65,7 +65,7 @@ const Radionice = () => {
     {
       naslov: "Make IT Agile",
       prviTekst:
-        "Tvoja želja da budeš uspešan član tima IT projekta može se pretvoriti u cilj i realnost. Kako? Na radionici  „Make IT Agile“ naši predavači će te upoznati sa osnovama agilnog razvoja koji predstavlja svakodnevnicu sve većeg broja IT stručnjaka. Agilno upravljanje je deo projektnog menadžmenta koji pomera tradicionalni pristup, waterfall, ka modernom i savremenom. Govori o kulturi i samostalnosti razvojnog tima, a akcenat stavlja na saradnju sa krajnjim korisnikom. Suština ovog pristupa su kratke iteracije kroz koje tim procenjuje prethodno ostvarene rezultate i uočava moguće nedostatke. Bazira se na fleksibilnosti i uči nas kako se prilagoditi promenama upravo kroz konstantnu komunikaciju sa klijentom. Zbog svoje kompaktnosti, postaje vodeći trend i možemo ga uočiti u radu najprestižnijih IT kompanija.Naši predavači će ti približiti Scrum pristup i kroz praktične primere predstaviti najzastupljenije alate za agilni razvoj i upravljanje projektima u softverskoj industriji.",
+        "Tvoja želja da budeš uspešan član tima IT projekta može se pretvoriti u cilj i realnost. Kako? Na radionici  „Make IT Agile“ naši predavači će te upoznati sa osnovama agilnog razvoja koji predstavlja svakodnevnicu sve većeg broja IT stručnjaka. Agilno upravljanje je deo projektnog menadžmenta koji pomera tradicionalni pristup, waterfall, ka modernom i savremenom. Govori o kulturi i samostalnosti razvojnog tima, a akcenat stavlja na saradnju sa krajnjim korisnikom. Suština ovog pristupa su kratke iteracije kroz koje tim procenjuje prethodno ostvarene rezultate i uočava moguće nedostatke. Bazira se na fleksibilnosti i uči nas kako se prilagoditi promenama upravo kroz konstantnu komunikaciju sa klijentom. Zbog svoje kompaktnosti, postaje vodeći trend i možemo ga uočiti u radu najprestižnijih IT kompanija. Naši predavači će ti približiti Scrum pristup i kroz praktične primere predstaviti najzastupljenije alate za agilni razvoj i upravljanje projektima u softverskoj industriji.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Nije potrebno",
@@ -86,7 +86,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: Nije potrebno",
       predavac: "Predavač: Danilo Vasović",
       drugiTekst:
-        "Danilo je student druge godine FON-a.Grafičkim dizajnom se bavi već skoro osam godina i radio je za 4 firme u tom polju. Tokom svih tih godina, uvek je tražio program koji najviše može da mu olakša posao. Figma je svakako velika prekretnica u tom smislu. Pre svega smatra da je bolja od ostalih dizajnerskih programa, baš zbog toga što joj se pristupa preko pretraživača, a sav vaš rad je istog trenutka sačuvan na internetu. Takođe jedna od prednosti koje bi naveo jeste svakako mogućnost rada u grupi, što dodatno olakšava rad na zajedničkim projektima s drugim dizajnerima. Velika prilagodljivost, olakšano korišćenje i povećana pokretljivost su svakako epiteti koje bi dodelio figmi. Smatra da poznavanje ovog programa može da pomogne i olakša ljudima iz oblasti dizajna, bilo da oni prave izgled zida za instagram ili da prave izgled internet stranice.",
+        "Danilo je student druge godine FON-a. Grafičkim dizajnom se bavi već skoro osam godina i radio je za 4 firme u tom polju. Tokom svih tih godina, uvek je tražio program koji najviše može da mu olakša posao. Figma je svakako velika prekretnica u tom smislu. Pre svega smatra da je bolja od ostalih dizajnerskih programa, baš zbog toga što joj se pristupa preko pretraživača, a sav vaš rad je istog trenutka sačuvan na internetu. Takođe jedna od prednosti koje bi naveo jeste svakako mogućnost rada u grupi, što dodatno olakšava rad na zajedničkim projektima s drugim dizajnerima. Velika prilagodljivost, olakšano korišćenje i povećana pokretljivost su svakako epiteti koje bi dodelio Figmi. Smatra da poznavanje ovog programa može da pomogne i olakša ljudima iz oblasti dizajna, bilo da oni prave izgled zida za instagram ili da prave izgled internet stranice.",
       slikaPredavaca1: Coda,
       slikaPredavaca2: null,
       laptop: false,
@@ -100,7 +100,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: IntelliJ IDEA i JDK 8+",
       predavac: "Predavači: Veljko Blagojević i Filip Filipović",
       drugiTekst:
-        "Veljko je student četvrte godine Fakulteta Organizacionih Nauka. Pored fakulteta se interesovao i učio dodatno o objektno-orijentisanom programiranju i Javi, što ga je dovelo na poziciju praktikanta u globalnoj korporaciji BlackRock. Tu je radio na back-end delu veb aplikacije korišćene od strane klijenata ogromnog portfolija, zajedno sa kolegama koji poseduju ogromni nivo iskustva i znanja.",
+        "Veljko je student četvrte godine Fakulteta organizacionih nauka. Pored fakulteta se interesovao i učio dodatno o objektno-orijentisanom programiranju i Javi, što ga je dovelo na poziciju praktikanta u globalnoj korporaciji BlackRock. Tu je radio na back-end delu veb aplikacije korišćene od strane klijenata ogromnog portfolija, zajedno sa kolegama koji poseduju ogromni nivo iskustva i znanja.",
       slikaPredavaca1: Veljko,
       slikaPredavaca2: Filip,
       drugiTekst2: " Filip je student četvrte godine i demonstrator na Računarskom fakultetu. Sa Javom se prvi put susreo na prvoj godini fakulteta, i od tad mu je prvi izbor za pravljenje kompleksnih sistema i aplikacija. Znanje je produbio na praksi u BlackRock-u, gde je radio u Javi na novom proizvodu sa kolegama koji su eksperti u radu sa ovim programskim jezikom. Odlučio se da se pridruži ovom projektu jer je tokom držanja demonstracija zavoleo da prenosi znanje drugima kako bi im pomogao da se pronađu i nađu ono čime bi se jednog dana bavili.",
@@ -109,7 +109,7 @@ const Radionice = () => {
     {
       naslov: "Kako napraviti kriptovalutu",
       prviTekst:
-        "Nastanak prve kriptovalute 2009. godine, Bitcoin-a, doveo je do enormne ekspanzije interesovanja za Blockchain tehnologijom. Ceo svet je počeo da se pita šta je kod nje toliko revolucionarno. Radi se o tehnologiji koja ima potencijal da iz korena promeni način funkcionisanja finansija, upravljanja imovinom, osiguranja, vođenja organizacije, lanaca snabdevanja, upravljanja ličnim podacima, ali i mnogih drugih oblasti krucijalnih za svet u kojem živimo.Blockchain u svojoj osnovi predstavlja javnu, decentralizovanu i distribuiranu bazu podataka koja čuva rekorde o vlasništvu nad nekom digitalnom imovinom. Kada se podatak jednom upiše u njega tu ostaje zauvek.Ukoliko želiš naučiti kako da napraviš kompletnu blockchain mrežu od nule, kao i crypto coin na toj mreži u Node.js platformi, ova radionica je pravi izbor za tebe. Prijavi se i zajedno sa našim predavačem savladaj osnove blockchain tehnologije.",
+        "Nastanak prve kriptovalute 2009. godine, Bitcoin-a, doveo je do enormne ekspanzije interesovanja za Blockchain tehnologijom. Ceo svet je počeo da se pita šta je kod nje toliko revolucionarno. Radi se o tehnologiji koja ima potencijal da iz korena promeni način funkcionisanja finansija, upravljanja imovinom, osiguranja, vođenja organizacije, lanaca snabdevanja, upravljanja ličnim podacima, ali i mnogih drugih oblasti krucijalnih za svet u kojem živimo. Blockchain u svojoj osnovi predstavlja javnu, decentralizovanu i distribuiranu bazu podataka koja čuva rekorde o vlasništvu nad nekom digitalnom imovinom. Kada se podatak jednom upiše u njega tu ostaje zauvek.Ukoliko želiš naučiti kako da napraviš kompletnu blockchain mrežu od nule, kao i crypto coin na toj mreži u Node.js platformi, ova radionica je pravi izbor za tebe. Prijavi se i zajedno sa našim predavačem savladaj osnove blockchain tehnologije.",
       nivo: "Nivo: Srednji",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: NodeJS i neki IDE",
@@ -123,13 +123,13 @@ const Radionice = () => {
     {
       naslov: "Uvod u Python kroz pravljenje igrica",
       prviTekst:
-        "Da li si znaš da prema nedavnom istraživanju u Velikoj Britaniji Python je pretekao francuski kao najpopularniji jezik koji se uči u osnovnim školama? Popularan programski jezik opšte namene, Python, koji se koristi u savremenom razvoju softvera i analizi podataka pruža idealan alat za razvoj funkcionalnih aplikacija poput Dropbox-a, Spotify-a, Uber-a i Pinterest-a. Srećom za početnike, Python ima jednostavnu sintaksu laku za korišćenje koja ga čini odličnim jezikom za učenje. Otkrij sve mogućnosti koje ti Python pruža i oprobaj se u kreiranju sledeće popularne aplikacije!",
+        "Da li znaš da prema nedavnom istraživanju u Velikoj Britaniji Python je pretekao francuski kao najpopularniji jezik koji se uči u osnovnim školama? Popularan programski jezik opšte namene, Python, koji se koristi u savremenom razvoju softvera i analizi podataka pruža idealan alat za razvoj funkcionalnih aplikacija poput Dropbox-a, Spotify-a, Uber-a i Pinterest-a. Srećom za početnike, Python ima jednostavnu sintaksu laku za korišćenje koja ga čini odličnim jezikom za učenje. Otkrij sve mogućnosti koje ti Python pruža i oprobaj se u kreiranju sledeće popularne aplikacije!",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Python i neki IDE",
       predavac: "Predavač: Nikola Radojević",
       drugiTekst:
-        "Nikola je student četvrte godine Elektrotehnickog fakulteta. Zaposlen je kao programer u firmi „Skylead“. Programiranjem se bavi od osnovne škole. U slobodno vreme pravi igrice, simulacije i drugo. Python je jedan od prvih programskih jezika koje je naučio, i to baš kroz pravljenje igrica. Python je, takođe, koristan i u drugim oblastima poput obrade podataka, mašinskog učenja, naučnih izračunavanja itd...",
+        "Nikola je student četvrte godine Elektrotehnickog fakulteta. Zaposlen je kao programer u firmi „Skylead“. Programiranjem se bavi od osnovne škole. U slobodno vreme pravi igrice, simulacije i drugo. Python je jedan od prvih programskih jezika koje je naučio, i to baš kroz pravljenje igrica. Python je, takođe, koristan i u drugim oblastima poput obrade podataka, mašinskog učenja, naučnih izračunavanja i mnogih drugih.",
       slikaPredavaca1: Nikola,
       slikaPredavaca2: null,
       laptop: true,
@@ -137,13 +137,13 @@ const Radionice = () => {
     {
       naslov: "From Zero to Hero",
       prviTekst:
-        "Da li si znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti React-a kao što su VirtualDom, Components, JSX, State, Hooks i još mnogo toga. Takodje na radionici će biti obradjen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
+        "Da li znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti React-a kao što su VirtualDom, Components, JSX, State, Hooks i još mnogo toga. Takođe na radionici će biti obrađen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
       nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Osnove HTML, CSS i JS",
+      predznanje: "Potrebno predznanje: Osnove HTML-a, CSS-a i JS-a",
       potrebanSoft: "Potreban softver: VS Code, Node.js i Git",
       predavac: "Predavač: Nikola Mirilo",
       drugiTekst:
-        "Nikola je student četvrte godine na Fakultetu organizacionih nauka na smeru Operacioni menadžment. Veb Developmentom je počeo da se bavi pre 3 godine, a React-om pre godinu i po dana. Zaposlen je u kompaniji Adacta kao projektni menadžer, a pored toga radi i na razvoju frontend-a SaaS aplikacije za start-up pod imenom Swapabee.",
+        "Nikola je student četvrte godine na Fakultetu organizacionih nauka na smeru operacioni menadžment. Web development-om je počeo da se bavi pre 3 godine, a React-om pre godinu i po dana. Zaposlen je u kompaniji Adacta kao projektni menadžer, a pored toga radi i na razvoju frontend-a SaaS aplikacije za start-up pod imenom Swapabee.",
       slikaPredavaca1: Mirilo,
       slikaPredavaca2: null,
       laptop: false,
@@ -169,10 +169,10 @@ const Radionice = () => {
         "Znaš li da je video igra tvog detinjstva, Angry Birds, napravljena baš u Unity-ju? Unity predstavlja integrisano razvojno okruženje za razvoj 2D i 3D interaktivnih multimedijalnih aplikacija i igara za računare, konzole, mobilne uređaje i veb sajtove, sa mogućnošću izvršavanja na preko 20 podržanih platformi. Uprkos širokom spektru mogućnosti koje ovaj program nudi, veoma je jednostavan za korišćenje. Ukoliko si strastveni obožavalac video igara ili pak želiš da se oprobaš u nečemu novom, ovo je prava radionica za tebe. Prijavi se i zajedno sa nama savladaj osnove Unity-ja. Možda će jednog dana baš tvoja igrica biti izvor zabave širom sveta.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
-      potrebanSoft: "Potreban softver: Visual studio i Unity ekstenzija",
+      potrebanSoft: "Potreban softver: Visual studio, Unity ekstenzija, Unity",
       predavac: "Predavač: Lazar Cvetković",
       drugiTekst:
-        "Lazar je student druge godine na Fakultetu organizacionih nauka. Obožava igrice od malena i baš zbog toga se odlučio da se bavi njihovim razvojem putem Unity-ja. Do sada je učestvovao na tri hakatona za pravljenje igrica, od kojih je pobedio na dva. ",
+        "Lazar je student treće godine na Fakultetu organizacionih nauka. Obožava igrice od malena i baš zbog toga se odlučio da se bavi njihovim razvojem putem Unity-ja. Do sada je učestvovao na tri hakatona za pravljenje igrica, od kojih je pobedio na dva. ",
       slikaPredavaca1: Laki,
       slikaPredavaca2: null,
       laptop: true,

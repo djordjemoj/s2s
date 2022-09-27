@@ -24,7 +24,7 @@ const Faq = (props) => {
           dvaRedaPitanje={false}
           question={"Na koji način se mogu prijaviti za učešće na S2S-u?"}
           odgRed1={""}
-          odgRed2={`Prijavljivanje se vrši popunjavanjem  forme na sajtu.`}
+          odgRed2={`Prijavljivanje se vrši popunjavanjem forme na sajtu.`}
           odgRed3={""}
           odgRed4={""}
           answer={""}
@@ -45,7 +45,7 @@ const Faq = (props) => {
           dvaRedaPitanje={false}
           question={"Do kada će biti otvorene prijave? "}
           odgRed1={""}
-          odgRed2={"Forme za prijavu će biti otvorene do 9.10. 23.59h."}
+          odgRed2={"Forma za prijavu će biti otvorene do 9.10. u 23.59h."}
           odgRed3={""}
           odgRed4={""}
           answer={""}
@@ -71,7 +71,7 @@ const Faq = (props) => {
             "Prisustvo na panel diskusiji je preporučljivo svim polaznicima koji su"
           }
           odgRed3={
-            "zainteresovani da čuju nešto više o putu od praktikanta do seniora."
+            "zainteresovani da čuju nešto više (o putu od praktikanta do seniora.) <- ISPRAVITI OVO, ne znamo sta ce biti na panelu"
           }
           odgRed4={""}
           answer={""}
