@@ -36,24 +36,6 @@
 }
 
 .Text-animacija-placeholder {
-<<<<<<< HEAD
-    width: 110%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 20%;
-    color: #ffffff;
-    /* outline: 2px solid black; */
-    font-size: 24px;
-    font-family: Jost-500Bold;
-    font-style: normal;
-    /* line-height: 69px; */
-    padding-top: 30%;
-    align-items: center;
-    text-align: center;
-    font-weight: 700;
-
-=======
   width: 110%;
   display: flex;
   flex-direction: row;
@@ -69,7 +51,6 @@
   align-items: center;
   text-align: center;
   font-weight: 700;
->>>>>>> d5310b7b092392a83f99fd7900cf98d72dc00ae7
 }
 
 .text-animacija #learning {
@@ -145,16 +126,9 @@
 }
 
 @media screen and (max-width: 340px) {
-<<<<<<< HEAD
-    .Text-animacija-placeholder {
-
-        font-size: 20px;
-    }
-=======
   .Text-animacija-placeholder {
     font-size: 18px;
   }
->>>>>>> d5310b7b092392a83f99fd7900cf98d72dc00ae7
 }
 
 /* mali tableti */
