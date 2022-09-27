@@ -10,7 +10,7 @@ import seoSlika from "../../assets/radioniceSeo.png";
 import unity from "../../assets/radioniceUnity.png";
 import nodeSlika from "../../assets/radioniceNode.png";
 import agile from "../../assets/radioniceAgile.png";
-import Modal from "./Modal";
+import Modal2 from "./Modal2";
 import Boris from "../../assets/Boris.png";
 import Branislav from "../../assets/Branislav.png";
 import Coda from "../../assets/Coda.png";
@@ -136,7 +136,7 @@ const Radionice = () => {
       naslov: "From Zero to Hero",
       prviTekst:
         "Da li si znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti React-a kao što su VirtualDom, Components, JSX, State, Hooks i još mnogo toga. Takodje na radionici će biti obradjen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
-      nivo: "Nivo: Srednji",
+      nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Osnove HTML, CSS i JS",
       potrebanSoft: "Potreban softver: VS Code, Node.js i Git",
       predavac: "Predavač: Nikola Mirilo",
@@ -190,7 +190,7 @@ const Radionice = () => {
   return (
     <div id="radionice">
       <div className="prviZnak"></div>
-      <Modal
+      <Modal2
         open={openModal}
         onClose={() => setOpenModal(false)}
         modali={trenutniModal}

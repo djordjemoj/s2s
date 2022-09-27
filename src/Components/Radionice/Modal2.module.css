@@ -1,0 +1,153 @@
+
+.modalTop{
+    height: 70px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 1px solid green; */
+    
+    /* align-items: center; */
+}
+
+.naslovModala2{
+    /* display: none; */
+    /* max-width: 40%; */
+    height: 70px;
+    line-height: 70px;
+    color: #199AD4;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    vertical-align: middle;
+    
+}
+.naslovModala2H1{
+    font-size: 150%;
+    text-align: center;
+    display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+.praviLapTop{
+    /* width: fit-content; */
+    transform: scale(0.7);
+    /* max-width: 30px; */
+}
+
+
+@media screen and (min-width: 700px){
+   /* ne dirati modal  */
+   .praviLapTop{
+    /* width: fit-content; */
+    transform: none;
+    /* max-width: 30px; */
+}
+
+    .lapsitopsi{
+
+      }
+    .modalContainer { overflow-y: scroll; 
+
+    }
+    .overlay .modalContainer .modalRight .content .info{
+
+    }
+
+    .slike-proba{
+
+    }
+    .DrugiTekst{ max-height: 200px;
+
+    }
+    .overlay .modalContainer .modalRight h3{
+
+    }
+    .overlay .modalContainer .modalRight img{
+      margin-top: 0px;
+      width: 110px;
+    }
+    }
+    
+  /* desktop */
+  @media screen and (min-width: 900px){
+  
+    .overlay {
+
+    }
+  
+    .overlay .modalContainer .modalRight img{
+      /* margin-top: -230px; */
+      width: 120px;
+    }
+  
+    .overlay .modalContainer .modalRight h1{
+      color: #199AD4;
+    }
+  
+    .overlay .modalContainer .modalRight h3{
+
+    }
+  
+    .prviTekst{
+
+    }
+  
+    .DrugiTekst{ max-height: 200px;
+
+    }
+  
+    .overlay .modalContainer .modalRight .content .info{
+    }
+  
+    .modalContainer { 
+    }
+  
+  
+    .modalRight {
+    }
+  
+    .closeBtn {
+    }
+  
+    .content {
+
+    }
+
+    .slike-proba{
+    }
+    .lapsitopsi{
+
+    }
+  }
+  @media screen and (min-width: 1500px){
+    .modalContainer { overflow-y: scroll; 
+    }
+    .closeBtn {
+    }
+    .prviTekst{
+    }
+    .overlay .modalContainer .modalRight img{
+    }
+    .overlay .modalContainer .modalRight h3{
+    }
+  
+    .DrugiTekst{ max-height: 200px;
+
+                  
+    }
+    .overlay .modalContainer .modalRight .content .info{
+
+    }
+    .slike-proba{
+
+  
+    }
+    /* .slike-proba img {
+      width: 100%;
+    } */
+    
+      .lapsitopsi{
+
+    }
+  }
+  
