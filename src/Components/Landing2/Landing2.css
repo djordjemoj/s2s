@@ -47,7 +47,7 @@
     height: 20%;
     color: #ffffff;
     /* outline: 2px solid black; */
-    font-size: 22px;
+    font-size: 24px;
     font-family: Jost-500Bold;
     font-style: normal;
     /* line-height: 69px; */
@@ -144,7 +144,7 @@
 @media screen and (max-width: 340px) {
     .Text-animacija-placeholder {
 
-        font-size: 18px;
+        font-size: 20px;
     }
 }
 

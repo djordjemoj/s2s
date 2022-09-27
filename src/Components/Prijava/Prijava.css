@@ -78,7 +78,7 @@ cursor: pointer;
   /* border: 3px solid white; */
   border: 3px solid #f99f20a6;
  /* background-color: #0f69c4; */
- background-color: rgba(19, 183, 237, 0.878);
+ background-color: var(--accent-color);
   /* padding: 20%; */
   /* padding: 15px; */
   /* padding-top: 15px; */
@@ -328,6 +328,7 @@ label {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
 }
 
 .dugmeSubmit {
@@ -338,12 +339,13 @@ label {
   background-color: orange;
   margin: 10px;
   border-radius: 10px;
-  font-size: 30px;
+  font-size: 26px;
   color: rgba(255, 255, 255, 0.922);
   box-shadow: var(--boksShedou);
   font-weight: 700;
   font-style: italic;
   cursor: pointer;
+  text-align: center;
   
 }
 input {
