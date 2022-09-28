@@ -18,7 +18,7 @@ body {
 }
 a {text-decoration: none;}
 .overlay .modalContainer :nth-child(0){
-  border: 2px solid rgb(214, 91, 91);
+  /* border: 2px solid rgb(214, 91, 91); */
 }
 
 .overlay .modalContainer .modalRight {
@@ -163,7 +163,7 @@ a {text-decoration: none;}
   vertical-align: middle;
   line-height: normal;
   text-align: center;
-
+  text-shadow: 1.1em 1.1em 0 hsl(200 50% 30%);
 
 }
 .DrugiTekst::-webkit-scrollbar {
@@ -177,13 +177,13 @@ a {text-decoration: none;}
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 9% 50%);
   background-color: #F9EEE1;
   display: flex;
-  flex-direction: row ;
+  flex-direction: row 
   flex-wrap: wrap;
   justify-content: center;
   text-align: center; */
   
-  margin-top: 4vw;
-  margin-bottom: 4vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
 
   width: 100%;
   height: fit-content;
@@ -196,7 +196,7 @@ a {text-decoration: none;}
 .infoKocka{
   background-color: #F9EEE1;
   border-radius: 20px;
-  border: 10px solid rgba(154, 174, 224, 0.817);
+  border: 10px outset rgb(176, 208, 239);
   display: flex;
   flex-direction: column;
   column-gap: 7px;
@@ -419,7 +419,8 @@ a {text-decoration: none;}
     transform: none;
   }
   .slike-proba :nth-child(1){
-  
+    padding-top: 0px;
+    padding-bottom: 0px;
     transform: none;
   }
   .lapsitopsi{
@@ -597,12 +598,11 @@ a {text-decoration: none;}
   .modalContainer { overflow-y: scroll; 
     max-width: 850px;
     /* max-height: 1000px; */
-  height: 825px;
-  max-height: 900px;
+  /* height: 800px; */
+  max-height: 600px;
      font-size: 22px; /*bilo 36 */
-    padding-top: 30px;
-    transform: translate(-50%, -37%);
-
+    padding-top: 15px;
+    transform: translate(-50%, -10%);
   }
   .closeBtn {
     position: fixed;
@@ -647,6 +647,7 @@ a {text-decoration: none;}
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    padding: none;
     /* margin-top: 20px; */
    
    
