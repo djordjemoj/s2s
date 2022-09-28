@@ -2,6 +2,7 @@ import React from "react";
 import "../Footer/Footer.css";
 import LOGO from "../../assets/s2slogo.png";
 import FONISLOGO from "../../assets/fonislogo.png";
+import { HashLink } from "react-router-hash-link";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -69,24 +70,24 @@ const Footer = () => {
       </div>
 
       <div className="second footer-deo">
-        <svg
-          className="base"
-          width="588"
-          height="382"
-          viewBox="0 0 421 383"
-          fill="none"
-        >
-          <path
-            d="M415.301 199.761C418.242 194.473 418.242 188.04 415.301 182.751L320.088 11.5357C317.001 5.9836 311.147 2.54076 304.794 2.54076H115.65C109.297 2.54076 103.444 5.9836 100.356 11.5357L5.14352 182.751C2.20254 188.04 2.20251 194.473 5.14352 199.761L100.356 370.977C103.444 376.529 109.297 379.972 115.65 379.972H304.794C311.147 379.972 317.001 376.529 320.088 370.977L415.301 199.761Z"
-            fill="var(--accent-color)"
-            stroke="black"
-            stroke-width="5"
-          />
-        </svg>
+        <HashLink to="#POZDRAV">
+          <svg
+            className="base"
+            width="588"
+            height="382"
+            viewBox="0 0 421 383"
+            fill="none"
+          >
+            <path
+              d="M415.301 199.761C418.242 194.473 418.242 188.04 415.301 182.751L320.088 11.5357C317.001 5.9836 311.147 2.54076 304.794 2.54076H115.65C109.297 2.54076 103.444 5.9836 100.356 11.5357L5.14352 182.751C2.20254 188.04 2.20251 194.473 5.14352 199.761L100.356 370.977C103.444 376.529 109.297 379.972 115.65 379.972H304.794C311.147 379.972 317.001 376.529 320.088 370.977L415.301 199.761Z"
+              fill="var(--accent-color)"
+              stroke="black"
+              stroke-width="5"
+            />
+          </svg>
 
-        <a href="#">
           <img className="second-img" src={LOGO} alt="LOGO" />
-        </a>
+        </HashLink>
       </div>
       <div className="third footer-deo">
         <svg
@@ -174,7 +175,7 @@ const Footer = () => {
                   fill="#199AD4"
                 />
               </svg>
-              
+
               <div className="grid-third-logo">
                 <FontAwesomeIcon
                   className="gl"

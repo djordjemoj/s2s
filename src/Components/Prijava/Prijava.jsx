@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Form, Formik } from "formik";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import { advancedSchema } from "./schemas/yupSheme";
@@ -12,46 +12,74 @@ import {
   trackWindowScroll,
 } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
+import { HashLink } from "react-router-hash-link";
+import { motion } from "framer-motion";
 import S2SLOGO from "../../assets/s2slogo.png";
 
-const onSubmit = async (values, actions) => {
-  // console.log(JSON.stringify(values));
-  // alert(JSON.stringify(values));
+const Prijava = () => {
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalMessage, setModalMessage] = useState("");
 
-  let postBody = {
-    imePrezime: values.imePrezime,
-    emailPriv: values.emailPriv,
-    newsletter: values.newsletter,
-    brojTelefona: values.brojTelefona,
-    fakultet: values.fakultet,
-    godinaStudija: values.godinaStudija,
-    daLiJeRanijeUcestvovao: values.daLiJeRanijeUcestvovao,
-    generalnaMotivacija: values.generalnaMotivacija,
-    panelDaLi: values.panelDaLi,
-    radionicaDaLi: values.radionicaDaLi,
-    pitanjaPanelistima: values.pitanjaPanelistima,
-    prvaRadionica: values.prvaRadionica,
-    prvaMotivacija: values.prvaMotivacija,
-    drugaRadionica: values.drugaRadionica,
-    drugaMotivacija: values.drugaMotivacija,
-    laptop: values.laptop,
+  const openModal = (poruka) => {
+    setModalMessage(poruka);
+    setModalOpen(true);
+  };
+  const closeModal = () => {
+    setModalMessage("");
+    setModalOpen(false);
   };
 
-  axios
-    .post("https://backs2stesting.herokuapp.com/api/prijave", postBody)
-    .catch((e) => {
-      console.log(e);
-      alert(e);
-    });
-  alert("Uspešno ste se prijavili!");
+  const onSubmit = async (values, actions) => {
+    // console.log(JSON.stringify(values));
+    // alert(JSON.stringify(values));
 
-  await new Promise((resolve) => setTimeout(resolve, 1000));
-  actions.resetForm();
-};
+    let postBody = {
+      imePrezime: values.imePrezime,
+      emailPriv: values.emailPriv,
+      newsletter: values.newsletter,
+      brojTelefona: values.brojTelefona,
+      fakultet: values.fakultet,
+      godinaStudija: values.godinaStudija,
+      daLiJeRanijeUcestvovao: values.daLiJeRanijeUcestvovao,
+      generalnaMotivacija: values.generalnaMotivacija,
+      panelDaLi: values.panelDaLi,
+      radionicaDaLi: values.radionicaDaLi,
+      pitanjaPanelistima: values.pitanjaPanelistima,
+      prvaRadionica: values.prvaRadionica,
+      prvaMotivacija: values.prvaMotivacija,
+      drugaRadionica: values.drugaRadionica,
+      drugaMotivacija: values.drugaMotivacija,
+      laptop: values.laptop,
+    };
 
-const Prijava = () => {
+    axios
+      .post("https://backs2stesting.herokuapp.com/api/prijave", postBody)
+      .catch((e) => {
+        // console.log(e);
+        // alert(e);
+        openModal(e);
+      });
+    // alert("Uspešno ste se prijavili!");
+    openModal("Uspesno poslata prijava");
+
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    actions.resetForm();
+  };
   return (
     <Scrollbars style={{ height: "100vh" }}>
+      {modalOpen ? (
+        <div className="success-modal-container">
+          <div className="success-modal-content">
+            <p className="textUModaluPrijava">{modalMessage}</p>
+            <HashLink to="/#" className="hashZatvoriModal">
+              <button className="dugmeZatvoriModal" onClick={closeModal}>
+                <span>POČETNA</span>
+              </button>
+            </HashLink>
+          </div>
+        </div>
+      ) : null}
+
       <div className="Prijava-ceo">
         <div className="PrijavaTop">
           <a className="PrijavaTop-logo" href="#">
@@ -233,9 +261,18 @@ const Prijava = () => {
                 </div> */}
                 <div className="obavestenje pitanjeX">
                   <h3>
-                    Za radionice:<br></br><i>ASP.NET behind the scenes</i><br></br><i>Kako napraviti [prvu] igricu</i><br></br><i>Adobe After Effects</i><br></br>
-                    <i>Kako napraviti kriptovalutu</i><br></br><i>Uvod u Python kroz pravljenje igrica</i><br></br>
-                      <span>potrebno je da poneseš sopstveni laptop.</span>
+                    Za radionice:<br></br>
+                    <i>ASP.NET behind the scenes</i>
+                    <br></br>
+                    <i>Kako napraviti [prvu] igricu</i>
+                    <br></br>
+                    <i>Adobe After Effects</i>
+                    <br></br>
+                    <i>Kako napraviti kriptovalutu</i>
+                    <br></br>
+                    <i>Uvod u Python kroz pravljenje igrica</i>
+                    <br></br>
+                    <span>potrebno je da poneseš sopstveni laptop.</span>
                   </h3>
                 </div>
 
@@ -282,13 +319,19 @@ const Prijava = () => {
                       <option value="dotNet">ASP.NET behind the scenes</option>
                       <option value="ae">Adobe After Effects</option>
                       <option value="agile">Make IT Agile</option>
-                      <option value="figma">Osnovi i izrada prototipa u Figmi</option>
+                      <option value="figma">
+                        Osnovi i izrada prototipa u Figmi
+                      </option>
                       <option value="java">Uvod u Javu</option>
                       <option value="node">Kako napraviti kriptovalutu</option>
-                      <option value="python">Uvod u Python kroz pravljenje igrica</option>
+                      <option value="python">
+                        Uvod u Python kroz pravljenje igrica
+                      </option>
                       <option value="react">From Zero to Hero</option>
                       <option value="seo">Kako SEO utiče na poslovanje</option>
-                      <option value="unity">Kako napraviti [prvu] igricu</option>
+                      <option value="unity">
+                        Kako napraviti [prvu] igricu
+                      </option>
                     </CustomSelect>
                   </div>
                   {/* ovo za radionicu se prikazuje samo ako je ispunjen neki uslov
@@ -337,13 +380,19 @@ const Prijava = () => {
                       <option value="dotNet">ASP.NET behind the scenes</option>
                       <option value="ae">Adobe After Effects</option>
                       <option value="agile">Make IT Agile</option>
-                      <option value="figma">Osnovi i izrada prototipa u Figmi</option>
+                      <option value="figma">
+                        Osnovi i izrada prototipa u Figmi
+                      </option>
                       <option value="java">Uvod u Javu</option>
                       <option value="node">Kako napraviti kriptovalutu</option>
-                      <option value="python">Uvod u Python kroz pravljenje igrica</option>
+                      <option value="python">
+                        Uvod u Python kroz pravljenje igrica
+                      </option>
                       <option value="react">From Zero to Hero</option>
                       <option value="seo">Kako SEO utiče na poslovanje</option>
-                      <option value="unity">Kako napraviti [prvu] igricu</option>
+                      <option value="unity">
+                        Kako napraviti [prvu] igricu
+                      </option>
                     </CustomSelect>
                   </div>
                   {/* {isLaptopNecessary2 === true && (

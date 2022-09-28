@@ -2,7 +2,9 @@ import React from 'react'
 import "../Loader/Loader.css";
 const Loader = () => {
   return (
-    <div className='Ceo-loader'><div class="hexagon-loader">
+    <div className='Ceo-loader'>
+    <div className='ceo-loader-container'>
+    <div class="hexagon-loader">
     <div class="hexagon-loader__top-container">
       <div class="pulsing-hexagon__background pulsing-hexagon--hexagon-1">
         <div class="pulsing-hexagon pulsing-hexagon--hexagon-1"></div>
@@ -17,8 +19,8 @@ const Loader = () => {
       </div>   
     </div>
     <div class="spinning-circle"></div>
-  </div></div>
+  </div></div></div>
   )
 }
 
-export default Loader
+export default Loader;
