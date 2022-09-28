@@ -24,11 +24,12 @@
     
 }
 .naslovModala2H1{
-    font-size: 200%;
+    font-size:large;
     text-align: center;
     display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  /* margin-bottom: 5%; */
 }
 .praviLapTop{
     /* width: fit-content; */
@@ -44,6 +45,8 @@
 
 
 @media screen and (min-width: 700px){
+  .naslovModala2H1{
+    font-size:200%;}
    /* ne dirati modal  */
    .praviLapTop{
     /* width: fit-content; */

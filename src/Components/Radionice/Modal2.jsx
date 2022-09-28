@@ -66,7 +66,7 @@ pa zato mozda nece moci flex*/}
             <div className="info2">
                 <div className="infoKocka">
              <p>
-                      {modali.nivo} <br />
+                      <span className="potrebanNivoText">{modali.nivo}</span> <br />
                       {modali.predznanje} <br />
                       {modali.potrebanSoft} <br />{" "}
                     </p></div>
