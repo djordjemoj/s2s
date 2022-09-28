@@ -63,7 +63,7 @@ a {
   left: 50%;
   transform: translate(-50%, -45%);
   /* display: flex; */
-  background-color: #0c5073;
+  background-color: var(--accent-color);
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
 }
@@ -92,7 +92,7 @@ a {
   text-align: center;
   margin-bottom: 5vw;
 
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   position: relative;
   /* border: 2px solid red; */
 }
@@ -188,7 +188,7 @@ a {
 .infoKocka {
   background-color: #f9eee1;
   border-radius: 20px;
-  border: 10px outset rgb(176, 208, 239);
+  border: 6px outset rgb(176, 208, 239);
   display: flex;
   flex-direction: column;
   column-gap: 7px;
@@ -239,7 +239,7 @@ a {
     overflow-y: scroll;
     max-width: 390px;
     max-height: 600px;
-    font-size: 10px; /*bilo 36 */
+    /* font-size: 50px; bilo 36 */
     /* padding-top: 15px; */
   }
   .overlay .modalContainer .modalRight img {
@@ -332,7 +332,6 @@ a {
     left: 50%;
     transform: translate(-50%, -45%);
     /* display: flex; */
-    background-color: #0c5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
   }
@@ -356,7 +355,7 @@ a {
     /* justify-content: center; */
     text-align: center;
 
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
   }
 
   .bold {
@@ -376,8 +375,10 @@ a {
 }
 
 @media screen and (min-width: 700px) {
+
   .infoKocka {
     width: 65%;
+    border: 10px outset rgb(176, 208, 239);
   }
   .probaDiv {
     display: flex;
@@ -410,7 +411,6 @@ a {
     left: 50%;
     transform: translate(-50%, -10%);
     /* display: flex; */
-    background-color: #0c5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
   }
@@ -468,7 +468,7 @@ a {
   }
 
   .prviTekst {
-    font-size: small;
+    font-size: medium;
     /* margin-top: 5px; */
     color: rgba(255, 255, 255, 0.87);
   }
@@ -499,7 +499,6 @@ a {
     left: 50%;
     transform: translate(-50%, -35%); */
     /* display: flex; */
-    background-color: #0c5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
   }
@@ -524,7 +523,7 @@ a {
     /* justify-content: center; */
     text-align: center;
 
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
   }
 
   .bold {
