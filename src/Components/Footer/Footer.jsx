@@ -25,10 +25,10 @@ const Footer = () => {
           <switch>
             <foreignObject
               x="10%"
-              y="10%"
+              y="8%"
               width="450"
               height="1000"
-              fontSize="32px"
+              fontSize="37px"
             >
               <p
                 style={{

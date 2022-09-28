@@ -29,6 +29,8 @@
 }
 
 .naslovPredavaci {
+  
+  
   color: #199ad4;
   width: 90%;
   margin: 0 auto;
@@ -76,3 +78,12 @@
     max-height: 200px;
   }
 }
+/* @media screen and (max-width: 420) {
+  .modalContainer {
+    overflow-y: scroll;
+  }
+  .DrugiTekst {
+    max-height: 200px;
+  }
+} */
+
