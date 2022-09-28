@@ -24,7 +24,7 @@ body {
     /* background-color: var(--accent-color-prozirna); */
     background-color: var(--accent-color);
     border-top: 2.5px solid rgba(0, 0, 0, 0.833);
-    border-bottom: 2.5px solid rgba(0, 0, 0, 0.833);
+    border-bottom: 2.5px solid rgba(0, 0, 0, 0.5);
     padding: 0;
     position: fixed;
     width: 100%;
