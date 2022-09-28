@@ -4,21 +4,21 @@ const menuItems = [
     url: "#oS2S",
     cName: "nav-links",
   },
-  // {
-  //   title: "PANEL",
-  //   url: "#panel-diskusija",
-  //   cName: "nav-links",
-  // },
+  {
+    title: "PANEL",
+    url: "#panel-diskusija",
+    cName: "nav-links",
+  },
   {
     title: "RADIONICE",
     url: "#radionice",
     cName: "nav-links",
   },
-  {
-    title: "AGENDA",
-    url: "#agenda",
-    cName: "nav-links",
-  },
+  // {
+  //   title: "AGENDA",
+  //   url: "#agenda",
+  //   cName: "nav-links",
+  // },
   {
     title: "FAQ",
     url: "#faq",

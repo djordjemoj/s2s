@@ -28,21 +28,28 @@
     box-sizing: border-box;
   } */
   .Ceo-loader{
-    /* width: 100vw;
-    height: 10000vh; */
+    width: 100%;
+    height: 100vh;
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    height: 100vh;
-    /* background-color: #0154a7; */
+
+    /* height: 100vh; */
+    /* background-color: #0154a700; */
+  background-color: rgb(33, 96, 138, 1) ;
+
     /* border: 2px solid black; */
     
   }
+  .ceo-loader-container{
+    padding-top: 45vh;
+  }
 
   .hexagon-loader {
-    /* margin: 3rem; */
-    margin-top: 40vh;
+    margin: 3rem;
+    /* margin-top: 40vh; */
     position: relative;
+    /* border: 3px solid red; */
     
     
   }
@@ -102,7 +109,7 @@
     margin-left: -5em;
     border-radius: 50%;
     animation: spin 1.5s alternate ease-in-out infinite;
-    z-index: -1;
+    z-index: 1;
   }
   
   @keyframes scaleHexagon {
