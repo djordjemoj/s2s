@@ -8,13 +8,12 @@ import { motion } from "framer-motion";
 import { HashLink } from "react-router-hash-link";
 import Pozadina from "../../assets/pozadinaFinal.png";
 
-
 const Landing2 = () => {
   return (
     <div className="Ceo-Landing">
       <motion.div
         className="divPozadina"
-        style={{ width: "100%", height: "100%" }}
+        style={{ width: "100%" }}
         initial={{ background: null }}
         animate={{
           backgroundColor: ["rgb(33, 96, 138, 1) ", "rgb(33, 96, 138, 0) "],
@@ -28,8 +27,6 @@ const Landing2 = () => {
 
           delay: 0.9,
         }}
-
-        
       ></motion.div>
       <a name="top"></a>
       <div className="Landing-container">
