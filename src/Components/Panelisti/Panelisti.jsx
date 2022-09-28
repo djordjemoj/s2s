@@ -127,9 +127,6 @@ const Panelisti = () => {
               Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
               Fusce mollis non justo sit amet faucibus. Curabitur sagittis
               sagittis mauris nec faucibus.
-              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
-              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
-              sagittis mauris nec faucibus.
             </h4>
           </div>
           <div className="PanelText PanelTextDesno">
@@ -138,9 +135,7 @@ const Panelisti = () => {
               Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
               Fusce mollis non justo sit amet faucibus. Curabitur sagittis
               sagittis mauris nec faucibus.
-              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
-              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
-              sagittis mauris nec faucibus.
+              
             </h4>
           </div>
 

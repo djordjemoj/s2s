@@ -80,7 +80,11 @@
     /* background-color: brown; */
     /* border: 2px solid blue; */
     z-index: 20;
-    font-size: small;
+    line-height: 11px;
+    font-size: 10px;
+    word-spacing: -3px;
+    word-spacing: -2px;
+
   }
   .PanelTextLevo{
     width: 43%;
@@ -96,7 +100,7 @@
   }
   .LogoPanel{
     width: 40%;
-    top:4%;
+    top:3.8%;
     height: 5%;
     left: 54%;
   }
@@ -155,6 +159,9 @@
     }
     .PanelText{
       font-size: medium;
+      line-height: normal;
+    /* font-size: 10px; */
+    word-spacing: -1px;
     }
 
   }

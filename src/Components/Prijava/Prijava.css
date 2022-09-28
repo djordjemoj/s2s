@@ -138,7 +138,7 @@ cursor: pointer;
   /* border: 3px solid white; */
   border: 3px solid #f99f20a6;
  /* background-color: #0f69c4; */
- background-color: var(--accent-color);
+ background-color: var(--accent-color-lighter);
   /* padding: 20%; */
   /* padding: 15px; */
   /* padding-top: 15px; */
