@@ -1,6 +1,8 @@
 import React from "react";
 import { Scrollbars } from "react-custom-scrollbars-2";
 import Laptop from "../../assets/laptop.png";
+import { motion } from "framer-motion";
+import { HashLink } from "react-router-hash-link";
 
 const Modal = ({ open, onClose, modali }) => {
   if (!open) return null;
@@ -24,21 +26,15 @@ const Modal = ({ open, onClose, modali }) => {
           <div className="closeBtn" onClick={onClose}>
             X
           </div>
-          
-          
+
           <div className="content">
-          {modali.laptop && (
-                <img className="lapsitopsi" src={Laptop} ></img>
-              )}
-            <h1>
-            
-          {modali.naslov}</h1>
+            {modali.laptop && <img className="lapsitopsi" src={Laptop}></img>}
+            <h1>{modali.naslov}</h1>
             <div className="probaDiv-first">
               <p className="prviTekst">{modali.prviTekst}</p>
             </div>
-            
+
             <div className="info">
-            
               <svg
                 width="586"
                 height="156"
@@ -68,7 +64,6 @@ const Modal = ({ open, onClose, modali }) => {
                         textAlign: "left",
                       }}
                     >
-                        
                       {modali.nivo} <br />
                       {modali.predznanje} <br />
                       {modali.potrebanSoft} <br />{" "}
@@ -84,14 +79,11 @@ const Modal = ({ open, onClose, modali }) => {
             <div className="probaDiv">
               <div className="slike-proba">
                 {slika2}
-                
-                
+
                 <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
-               
               </div>
-              
+
               <p
-              
                 className="DrugiTekst"
                 style={{
                   // overflowY: "auto",
@@ -100,11 +92,21 @@ const Modal = ({ open, onClose, modali }) => {
                 }}
               >
                 {modali.drugiTekst}
-                
               </p>
             </div>
+            {/* <motion.div
+          className="dugme-Prijavise"
+          whileHover={{ scale: 1.2 }}
+          onHoverStart={(e) => {}}
+          onHoverEnd={(e) => {}}
+        >
+          <HashLink to="/prijava" class="dugmeZaPrijavu-hashlink">
+            <button type="button" class="dugmeZaPrijavu">
+              PRIJAVI SE
+            </button>
+          </HashLink>
+        </motion.div> */}
           </div>
-          
         </div>
       </div>
     </div>

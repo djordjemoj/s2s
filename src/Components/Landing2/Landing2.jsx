@@ -2,9 +2,6 @@ import React from "react";
 import "../Landing2/Landing2.css";
 import S2SLOGO from "../../assets/s2slogo.png";
 import { motion } from "framer-motion";
-// import { useNavigate } from 'react-router';
-// import Background from "../../assets/pozadina.png";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import { HashLink } from "react-router-hash-link";
 import Pozadina from "../../assets/pozadinaFinal.png";
 

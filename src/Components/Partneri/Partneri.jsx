@@ -2,6 +2,8 @@ import React from "react";
 import "../Partneri/Partneri.css";
 import Slider from "react-slick";
 
+import GRID from "../../assets/grid/logoWhite.png"
+
 import DragiBravo from "../../assets/partneriLogo/dragibravo.jpeg";
 import LogoPartner1 from "../../assets/partneriLogo/glassart.png";
 import LogoPartner2 from "../../assets/partneriLogo/beerpong.png";
@@ -136,7 +138,7 @@ const Partneri = () => {
   return (
     <div className="Partneri" id="nasi-partneri">
       <div className="Partneri-svi">
-        {/* <div className="Pokrovitelji-panel">
+        <div className="Pokrovitelji-panel">
           <p
             className="Partneri-text"
             style={
@@ -151,7 +153,7 @@ const Partneri = () => {
           </p>
           <motion.div
             className="Pokrovitelj-hex"
-            whileInView={{ scale: 1.15 }}
+            whileInView={{ scale: 1.2 }}
             initial={{}}
             // transition={{ duraton: 1, delay: 0.3, ease: "easeInOut" }}
             transition={{
@@ -162,16 +164,15 @@ const Partneri = () => {
               delay: "0.2",
             }}
           >
-            <img src={Adacta}></img>
+            <img src={GRID}></img>
           </motion.div>
-
-        </div> */}
+        </div>
         <div className="Godisnji-partneri slider-partneri">
           <p className="Partneri-text">GODIŠNJI PARTNERI</p>
           <Slider {...settingsPartneri} className="SliderCeo">
             {godisnjiPartneri.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera}>
+                <a href={img.linkPartnera} target="_blank">
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
@@ -188,7 +189,7 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri2.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera}>
+                <a href={img.linkPartnera} target="_blank">
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
@@ -206,11 +207,13 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri3.map((img) => (
               <div className="Jedan-partner">
+              <a href={img.linkPartnera} target="_blank">
                 <img
                   className="Jedan-partner-slika"
                   src={img}
                   alt={"menjaj"}
                 ></img>
+                </a>
               </div>
             ))}
           </Slider>
