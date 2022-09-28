@@ -1,29 +1,35 @@
-
 /* promenjive */
 
 /* fontovi */
 /* mobilni je baza */
-*{ box-sizing: border-box; 
-  --main-color: #1E5D88;
-  --main-white-color: #F9EEE1;
-  }
-html,body{ height: 100%; width: 100%; }
+* {
+  box-sizing: border-box;
+  --main-color: #1e5d88;
+  --main-white-color: #f9eee1;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 /* @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,300|Ubuntu+Condensed|Ubuntu+Mono); */
 /* body {background: var(--main-color);} */
-a {text-decoration: none;}
+a {
+  text-decoration: none;
+}
 
-#radionice{
+#radionice {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   padding-left: 1%;
   padding-right: 1%;
-  margin-bottom: -30px;  
+  margin-bottom: -30px;
   margin-top: 70px;
 }
 
-.prviZnak{
+.prviZnak {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
@@ -40,13 +46,13 @@ a {text-decoration: none;}
   align-items: center;
 } */
 
-.radioniceDivider{
+.radioniceDivider {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
 }
 
-.page{
+.page {
   margin: 0;
   padding: 0;
   display: flex;
@@ -55,29 +61,30 @@ a {text-decoration: none;}
   min-height: 350px;
 }
 
-.container{
+.container {
   width: 100%;
   margin-top: -110px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
-.container .hexagonArea{
+.container .hexagonArea {
   display: flex;
+  /* margin-top: -15px; */
+  /* justify-content: space-around; */
 }
 
-/* .container .hexagonArea.first{
-  margin-left: 28%;
-  align-self: auto;
+.container .hexagonArea.first {
+  /* margin: 22px; */
 }
 
-.container .hexagonArea.second{
-} */
+.container .hexagonArea.second {
+}
 
-.container .hexagonArea .hexagon{
+.container .hexagonArea .hexagon {
   position: relative;
   width: 100px;
   height: 100px;
@@ -86,22 +93,22 @@ a {text-decoration: none;}
   margin-top: -7px;
   margin-bottom: -7px;
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-  background: #F9EEE1;
+  background: #f9eee1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   cursor: pointer;
-  transform: .5s;
+  transform: 0.5s;
 }
 
-.container .hexagonArea .hexagon img{
+.container .hexagonArea .hexagon img {
   width: 40px;
   margin-bottom: 1px;
   margin-top: 4%;
 }
 
-.container .hexagonArea .hexagon .popupButton{
+.container .hexagonArea .hexagon .popupButton {
   display: none;
   position: relative;
   top: 30px;
@@ -113,17 +120,15 @@ a {text-decoration: none;}
   cursor: pointer;
 }
 
-.container .hexagonArea .hexagon .radionicaNaziv{
+.container .hexagonArea .hexagon .radionicaNaziv {
   font-size: 12px;
   display: none;
   color: white;
   /* margin-top: 5px; */
 }
 
-
-
 /* extra mali mobilni */
-@media screen and (max-width: 381px){
+@media screen and (max-width: 381px) {
   /* .container .hexagonArea.first{
     margin-left: 14.5%;
     align-self: center;
@@ -131,47 +136,48 @@ a {text-decoration: none;}
 }
 
 /* mali tableti */
-@media screen and (min-width: 620px){
-
-
+@media screen and (min-width: 620px) {
 }
 
 /* veliki tableti i mali  */
-@media screen and (min-width: 960px){
-
-  
+@media screen and (min-width: 960px) {
 }
 
 /* desktop */
-@media screen and (min-width: 1200px){
-  
+@media screen and (min-width: 1200px) {
+  .container .hexagonArea {
+    display: flex;
+    margin-top: -18px;
+    /* justify-content: space-around; */
+  }
 
-  .container .hexagonArea .hexagon:hover .radionicaNaziv{
+  .container .hexagonArea .hexagon:hover .radionicaNaziv {
     display: block;
     position: absolute;
     z-index: 1;
   }
-  
-  .container .hexagonArea .hexagon:hover img{
+
+  .container .hexagonArea .hexagon:hover img {
     opacity: 0.3;
+    filter: blur(3px);
   }
-  
-  .container .hexagonArea .hexagon .blanket{
+
+  .container .hexagonArea .hexagon .blanket {
     opacity: 0.5;
-    background: #199AD4;
+    background: #199ad4;
   }
-  
-  .container .hexagonArea .hexagon:hover .blanket{
+
+  .container .hexagonArea .hexagon:hover .blanket {
     display: block;
     opacity: 0.5;
   }
-  
-  .container .hexagonArea .hexagon:hover{
-    background: #199AD4;
-    transition: 0.5s;
+
+  .container .hexagonArea .hexagon:hover {
+    background: #199ad4;
+    transition: 4.5s;
   }
-  
-  .container .hexagonArea .hexagon:hover .popupButton{
+
+  .container .hexagonArea .hexagon:hover .popupButton {
     display: block;
     position: absolute;
     opacity: 0;
@@ -180,7 +186,7 @@ a {text-decoration: none;}
     z-index: 2;
   }
 
-  #radionice{
+  #radionice {
     margin-bottom: 20px;
   }
   /* body{
@@ -191,7 +197,7 @@ a {text-decoration: none;}
     width: fit-content;
     overflow: hidden;  
   } */
-      
+
   /* .radioniceZnak{
     top: 0px;
     display: flex;
@@ -210,7 +216,7 @@ a {text-decoration: none;}
     margin-bottom: -130px;
   } */
 
-  .page{
+  .page {
     margin: 0;
     padding: 0;
     display: flex;
@@ -218,21 +224,20 @@ a {text-decoration: none;}
     align-items: center;
     /* border: 2px solid black; */
     position: relative;
-    
+
     /* min-height: 100vh; */
   }
 
-  .container{
+  .container {
     margin-top: -150px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     /* border: 2px solid black; */
     /* margin-right: 50px; */
-
   }
 
   /* .container .hexagonArea{
@@ -241,11 +246,11 @@ a {text-decoration: none;}
     left: 21.5%;
   }
   */
-  .container .hexagonArea.second{
+  .container .hexagonArea.second {
     left: 8px;
-  } 
+  }
 
-  .container .hexagonArea .hexagon{
+  .container .hexagonArea .hexagon {
     position: relative;
     width: 220px;
     height: 245px;
@@ -254,21 +259,21 @@ a {text-decoration: none;}
     margin-right: 5px;
     margin-top: -22px;
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    background: #F9EEE1;
+    background: #f9eee1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     cursor: pointer;
-    transform: .5s;
+    transform: 0.5s;
   }
 
-  .container .hexagonArea .hexagon img{
+  .container .hexagonArea .hexagon img {
     width: 50%;
     margin-bottom: 5px;
   }
 
-  .container .hexagonArea .hexagon .popupButton{
+  .container .hexagonArea .hexagon .popupButton {
     display: none;
     position: relative;
     top: 30px;
@@ -280,61 +285,57 @@ a {text-decoration: none;}
     border-radius: 15px;
   }
 
-  .container .hexagonArea .hexagon .radionicaNaziv{
+  .container .hexagonArea .hexagon .radionicaNaziv {
     font-size: 35px;
     display: none;
     color: white;
     /* margin-top: 0%; */
   }
 
-  .container .hexagonArea .hexagon:hover .radionicaNaziv{
+  .container .hexagonArea .hexagon:hover .radionicaNaziv {
     display: block;
     position: absolute;
     z-index: 1;
   }
 
-  
-  .container .hexagonArea .hexagon:hover img{
+  .container .hexagonArea .hexagon:hover img {
     opacity: 0.3;
   }
 
-  .container .hexagonArea .hexagon .blanket{
+  .container .hexagonArea .hexagon .blanket {
     opacity: 0.5;
-    background: #199AD4;
+    background: #199ad4;
   }
 
-  .container .hexagonArea .hexagon:hover .blanket{
+  .container .hexagonArea .hexagon:hover .blanket {
     display: block;
     opacity: 0.5;
   }
 
-  .container .hexagonArea .hexagon:hover{
-    background: #199AD4;
-    transition: 0.5s;
+  .container .hexagonArea .hexagon:hover {
+    background: #199ad4;
+    transition: 0.5s ease-out;
   }
 
-  .container .hexagonArea .hexagon:hover .popupButton{
+  .container .hexagonArea .hexagon:hover .popupButton {
     display: block;
     position: absolute;
     margin-top: 130px;
     transition: 2s;
     opacity: 1;
   }
-
 }
 
-  /* ultrawide i sve vece od fhd */
-@media screen and (min-width: 1920px){
-
-    body{
-      font-size: 20px;
-    }
-
-    .radioniceZnak{
-      width: 10%;
-    }
-    .page{
-      margin-right: 50px;
-    }
-  
+/* ultrawide i sve vece od fhd */
+@media screen and (min-width: 1920px) {
+  body {
+    font-size: 20px;
   }
+
+  .radioniceZnak {
+    width: 10%;
+  }
+  .page {
+    margin-right: 50px;
+  }
+}

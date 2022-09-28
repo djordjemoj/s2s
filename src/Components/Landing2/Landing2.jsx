@@ -42,7 +42,7 @@ const Landing2 = () => {
           <motion.div
             className="img-mainLogo"
             initial={{ x: "1500px", y: "-3000px" }}
-            animate={{ x: "0%", y: "0%" }}
+            animate={{ x: "-1%", y: "0%" }}
             // exit={{ opacity: 0 }}
             transition={{
               type: "spring",

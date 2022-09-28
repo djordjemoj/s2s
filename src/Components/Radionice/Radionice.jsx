@@ -264,7 +264,7 @@ const Radionice = () => {
             <div className="hexagon" onClick={() => handlePromenaModala(5)}>
               <h2 className="radionicaNaziv">Blockchain</h2>
               <div className="blanket"></div>
-              <img src={nodeSlika} alt="" />
+              <img src={nodeSlika} style={{ scale: "1.4 " }} alt="" />
               <button
                 className="popupButton"
                 onClick={() => handlePromenaModala(5)}
@@ -299,7 +299,7 @@ const Radionice = () => {
             <div className="hexagon" onClick={() => handlePromenaModala(8)}>
               <h2 className="radionicaNaziv">SEO</h2>
               <div className="blanket"></div>
-              <img src={seoSlika} alt="" />
+              <img src={seoSlika} style={{ scale: "1.5 " }} alt="" />
               <button
                 className="popupButton"
                 onClick={() => handlePromenaModala(8)}
