@@ -1,64 +1,59 @@
-
-
 /* fontovi */
 /* mobilni je baza */
-*{ box-sizing: border-box; 
-  --main-color: #1E5D88;
-  --main-white-color: #F9EEE1;
+* {
+  box-sizing: border-box;
+  --main-color: #1e5d88;
+  --main-white-color: #f9eee1;
   /* outline: 2px solid black; */
-  
-  
-  }
-html,body{ height: 100%; width: 100%; }
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 /* @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,300|Ubuntu+Condensed|Ubuntu+Mono); */
 body {
   /* background: none; */
-
-  
 }
-a {text-decoration: none;}
-.overlay .modalContainer :nth-child(0){
+a {
+  text-decoration: none;
+}
+.overlay .modalContainer :nth-child(0) {
   /* border: 2px solid rgb(214, 91, 91); */
 }
 
 .overlay .modalContainer .modalRight {
-
 }
 
-.overlay .modalContainer .modalRight img{
+.overlay .modalContainer .modalRight img {
   margin-top: 5px;
-   width: 90px;
-   /* height: 100%; */
-   /* width: 100%; */
+  width: 90px;
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
-.overlay .modalContainer .modalRight h1{
-  color: #199AD4;
+.overlay .modalContainer .modalRight h1 {
+  color: #199ad4;
 }
 
-.overlay .modalContainer .modalRight h3{
-  color: #199AD4;
+.overlay .modalContainer .modalRight h3 {
+  color: #199ad4;
   margin-left: 50px;
   margin-top: 3px;
 }
 
-.prviTekst{
+.prviTekst {
   font-size: 15px;
-  text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.281);
-  
+  text-shadow: 0.08em 0.08em 0 rgba(0, 0, 0, 0.349);
 }
 
-
-
-
-.overlay .modalContainer .modalRight .content .info{
+.overlay .modalContainer .modalRight .content .info {
   margin-left: -90px;
   transform: scaleX(66%) scaleY(66%);
 }
 
-
-
-.modalContainer { overflow-y: scroll; 
+.modalContainer {
+  overflow-y: scroll;
   /* max-width: 450px; */
   width: 90%;
   max-height: 90vh;
@@ -68,10 +63,9 @@ a {text-decoration: none;}
   left: 50%;
   transform: translate(-50%, -45%);
   /* display: flex; */
-  background-color: #0C5073;
+  background-color: #0c5073;
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
   border-radius: 8px;
-  
 }
 .modalContainer::-webkit-scrollbar {
   display: none;
@@ -79,7 +73,6 @@ a {text-decoration: none;}
 
 .modalRight {
   width: 100%;
-  
 }
 
 .closeBtn {
@@ -98,17 +91,17 @@ a {text-decoration: none;}
   /* justify-content: center; */
   text-align: center;
   margin-bottom: 5vw;
-  
+
   padding: 1rem 2rem;
   position: relative;
   /* border: 2px solid red; */
 }
-.lapsitopsi{
+.lapsitopsi {
   position: absolute;
   left: -20px;
   top: -4.8%;
   width: 10%;
-  transform: scale(0.4) ;
+  transform: scale(0.4);
 
   /* width: 1; */
   /* left: 20px;
@@ -120,17 +113,16 @@ a {text-decoration: none;}
   font-weight: 600;
 }
 
-.probaDiv{
+.probaDiv {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   height: fit-content;
   /* border: 2px solid red; */
-  
 }
 
-.slike-proba{
+.slike-proba {
   /* margin-top: 15px; */
   display: flex;
   flex-direction: row;
@@ -140,38 +132,37 @@ a {text-decoration: none;}
   width: 250px;
   margin: 0 auto;
 }
-.slike-proba :nth-child(1){
+.slike-proba :nth-child(1) {
   /* display: none; */
   padding-top: 60px;
   padding-bottom: 55px;
 
   transform: scale(2.8);
 }
-.DrugiTekst{ 
+.DrugiTekst {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-top: 15px;
-  line-height:100%;
+  line-height: 100%;
   /* margin-left: 80px; */
   /* display: none; */
 }
-.DrugiTekst p{
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.87);; 
+.DrugiTekst p {
+  /* font-size: 13px; */
+  color: rgba(255, 255, 255, 0.87);
   text-align: left;
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
   text-align: center;
   text-shadow: 0.1em 0.1em 0 rgba(0, 0, 0, 0.281);
-
 }
 .DrugiTekst::-webkit-scrollbar {
   display: none;
   /* width: 5px; */
 }
-.content .info2{
+.content .info2 {
   /* height: 200px;
   
   margin-bottom: 5%;
@@ -182,7 +173,7 @@ a {text-decoration: none;}
   flex-wrap: wrap;
   justify-content: center;
   text-align: center; */
-  
+
   margin-top: 3vw;
   margin-bottom: 3vw;
 
@@ -194,8 +185,8 @@ a {text-decoration: none;}
   /* border: 2px solid red; */
   /* clip-path: polygon(0% 0%, 75% 0%, 86% 50%, 75% 100%, 0% 100%); */
 }
-.infoKocka{
-  background-color: #F9EEE1;
+.infoKocka {
+  background-color: #f9eee1;
   border-radius: 20px;
   border: 10px outset rgb(176, 208, 239);
   display: flex;
@@ -205,18 +196,17 @@ a {text-decoration: none;}
   width: 85%;
   margin-left: 2%;
   box-shadow: 0.05em 0.08em 0 rgba(0, 0, 0, 0.281);
-
 }
-.content .info2 p{
+.content .info2 p {
   text-align: center;
-  color: #0C5073;
+  color: #0c5073;
   font-weight: 600;
   font-size: large;
-  
+
   /* width: %; */
 }
-.potrebanNivoText{
-  color: #F99D1D;
+.potrebanNivoText {
+  color: #f99d1d;
 }
 
 .overlay {
@@ -228,7 +218,7 @@ a {text-decoration: none;}
   z-index: 101;
 }
 
-.overlay .modalContainer .modalRight .content .info{
+.overlay .modalContainer .modalRight .content .info {
   margin-left: 83px;
   transform: scaleX(40%) scaleY(40%);
   display: flex;
@@ -236,57 +226,54 @@ a {text-decoration: none;}
   /* width: 100%; */
 }
 
-
-
 @media screen and (max-width: 450px) {
-  .lapsitopsi{
+  .lapsitopsi {
     /* position: absolute; */
     position: absolute;
-  left: -10px;
-  top: -4.8%;
-  width: 10%;
-  transform: scale(0.4) ;
-    }
-  .modalContainer { overflow-y: scroll; 
+    left: -10px;
+    top: -4.8%;
+    width: 10%;
+    transform: scale(0.4);
+  }
+  .modalContainer {
+    overflow-y: scroll;
     max-width: 390px;
     max-height: 600px;
-     font-size: 10px; /*bilo 36 */
+    font-size: 10px; /*bilo 36 */
     /* padding-top: 15px; */
   }
-  .overlay .modalContainer .modalRight img{
+  .overlay .modalContainer .modalRight img {
     /* margin-top: -150px; */
-    
-     width: 70px;
-     /* height: 100%; */
-     /* width: 100%; */
+
+    width: 70px;
+    /* height: 100%; */
+    /* width: 100%; */
   }
-  .prviTekst{
-    font-size: 10px;
-    color: rgba(255, 255, 255, 0.87);;
+  .prviTekst {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.87);
   }
-  .DrugiTekst{ 
-    line-height:100%;
-    font-size: 10px;
-    color: rgba(255, 255, 255, 0.87);;
+  .DrugiTekst {
+    line-height: 100%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.87);
     /* margin-left: 30px; */
     overflow-y: auto;
-   
   }
 
-  .overlay .modalContainer .modalRight .content .info{
+  .overlay .modalContainer .modalRight .content .info {
     margin-left: -100px;
-  margin-top: -40px;
-  margin-bottom: -30px;
-  font-size: 20px;
-  line-height: 23px;
-  /* right: 500px; */
+    margin-top: -40px;
+    margin-bottom: -30px;
+    font-size: 20px;
+    line-height: 23px;
+    /* right: 500px; */
     transform: scaleX(45%) scaleY(45%) translateX(70%);
   }
-  
 }
 
-@media screen and (min-width: 395px){
-  .slike-proba{
+@media screen and (min-width: 395px) {
+  .slike-proba {
     /* margin-top: 15px; */
     display: flex;
     flex-direction: row;
@@ -296,145 +283,125 @@ a {text-decoration: none;}
     width: 250px;
     margin: 0 auto;
   }
- 
-  
-  .overlay .modalContainer .modalRight img{
-    /* margin-top: -150px; */
-    
-     width: 70px;
-     /* height: 100%; */
-     /* width: 100%; */
+
+  .overlay .modalContainer .modalRight img {
+    width: 70px;
   }
-  
-  .overlay .modalContainer .modalRight h1{
-    color: #199AD4;
+
+  .overlay .modalContainer .modalRight h1 {
+    color: #199ad4;
   }
-  
-  .overlay .modalContainer .modalRight h3{
-    color: #199AD4;
+  .overlay .modalContainer .modalRight h3 {
+    color: #199ad4;
     margin-left: 50px;
     margin-top: 0px;
     margin-bottom: 3px;
   }
-  
-  .prviTekst{
-    font-size: 12px;
-    color: rgba(255, 255, 255, 0.87);;
+
+  .prviTekst {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.87);
   }
-  
-  .DrugiTekst{ 
-    line-height:100%;
-    font-size: 10px;
-    color: rgba(255, 255, 255, 0.87);;
+
+  .DrugiTekst {
+    line-height: 100%;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.87);
     /* margin-left: 30px; */
     overflow-y: auto;
-   
   }
-  
-  .overlay .modalContainer .modalRight .content .info{
+
+  .overlay .modalContainer .modalRight .content .info {
     margin-left: -80px;
-  margin-top: -30px;
-  margin-bottom: -20px;
-  font-size: 25px;
+    margin-top: -30px;
+    margin-bottom: -20px;
+    font-size: 25px;
     transform: scaleX(50%) scaleY(50%) translateX(60%);
   }
 
-  .modalContainer { overflow-y: scroll; 
+  .modalContainer {
+    overflow-y: scroll;
     /* max-width: 450px; */
     width: 80%;
     /* max-height: 600px; */
     /* height: 100vh; */
-    max-width:390px;
+    max-width: 390px;
     max-height: 565px;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -45%);
     /* display: flex; */
-    background-color: #0C5073;
+    background-color: #0c5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
   }
-  
-  
+
   .modalRight {
     width: 100%;
-    
   }
-  
+
   .closeBtn {
     position: fixed;
     top: 8px;
     right: 15px;
     font-size: 30px;
-  transform: scaleX(1.2);
+    transform: scaleX(1.2);
     z-index: 500;
   }
-  
+
   .content {
     /* display: flex;
     flex-direction: column; */
     /* justify-content: center; */
     text-align: center;
-    
+
     padding: 1rem 2rem;
   }
-  
+
   .bold {
     font-weight: 600;
   }
-  
-  .probaDiv{
+
+  .probaDiv {
     display: flex;
   }
-  
-  .lapsitopsi{
+
+  .lapsitopsi {
     /* left: 60px; */
-    left: 10px; 
-    
+    left: 10px;
+
     /* transform: scale(0.4) translate(-55%, -50%); */
   }
-  
-  
 }
 
-@media screen and (min-width: 700px){
-
-
-
-  .infoKocka{
-  width: 65%;
-
+@media screen and (min-width: 700px) {
+  .infoKocka {
+    width: 65%;
   }
-  .probaDiv{
+  .probaDiv {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
     height: fit-content;
   }
-  
-  .slike-proba{
+
+  .slike-proba {
     margin-top: 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     transform: none;
   }
-  .slike-proba :nth-child(1){
+  .slike-proba :nth-child(1) {
     padding-top: 0px;
     padding-bottom: 0px;
     transform: none;
   }
-  .lapsitopsi{
-    /* position: absolute; */
-    position: absolute;
-  left: -10px;
-  top: -4.8%;
-  width: 10%;
-  transform: scale(0.4) ;
-    }
-  .modalContainer { overflow-y: scroll; 
+
+  .modalContainer {
+    overflow-y: scroll;
     max-width: 600px;
     width: 100%;
     max-height: 600px;
@@ -443,55 +410,38 @@ a {text-decoration: none;}
     left: 50%;
     transform: translate(-50%, -10%);
     /* display: flex; */
-    background-color: #0C5073;
+    background-color: #0c5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
   }
-  .overlay .modalContainer .modalRight .content .info{
-    margin-left:65px;
-    margin-top: 15px;
-    transform: scaleX(75%) scaleY(75%) translateX(22%);
-    line-height: 26px;
-  }
-  /* .slike-proba{
-    display: flex;
-    flex-direction: column;
-     margin-top: -12px;
-    margin-bottom: 220px; 
-     padding-top: 0px; 
-  } */
-  .slike-proba{
+
+  .slike-proba {
     justify-content: space-around;
     display: flex;
     flex-direction: column;
     /* margin-top: -130px;
     margin-bottom: 220px; */
-   
   }
-  .DrugiTekst{ 
-    line-height:100%;
-    /* font-size: small; */
-    color: rgba(255, 255, 255, 0.87);;
-    /* margin-left: 250px; */
-    
+  .DrugiTekst {
+    line-height: 100%;
+    color: rgba(255, 255, 255, 0.87);
     overflow-y: auto;
-   /* max-height: 240px; */
+    font-size: large;
   }
-  .overlay .modalContainer .modalRight h3{
-    color: #199AD4;
+  .overlay .modalContainer .modalRight h3 {
+    color: #199ad4;
     margin-left: 150px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .overlay .modalContainer .modalRight img{
+  .overlay .modalContainer .modalRight img {
     margin-top: 0px;
     width: 110px;
   }
-  }
-  
-/* desktop */
-@media screen and (min-width: 900px){
+}
 
+/* desktop */
+@media screen and (min-width: 900px) {
   .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -501,45 +451,46 @@ a {text-decoration: none;}
     z-index: 101;
   }
 
-  .overlay .modalContainer .modalRight img{
+  .overlay .modalContainer .modalRight img {
     /* margin-top: -230px; */
     width: 120px;
   }
 
-  .overlay .modalContainer .modalRight h1{
-    color: #199AD4;
+  .overlay .modalContainer .modalRight h1 {
+    color: #199ad4;
   }
 
-  .overlay .modalContainer .modalRight h3{
-    color: #199AD4;
+  .overlay .modalContainer .modalRight h3 {
+    color: #199ad4;
     margin-left: 200px;
     margin-top: 20px;
     margin-bottom: 10px;
   }
 
-  .prviTekst{
+  .prviTekst {
     font-size: small;
     /* margin-top: 5px; */
-    color: rgba(255, 255, 255, 0.87);;
+    color: rgba(255, 255, 255, 0.87);
   }
 
-  .DrugiTekst{ 
-    line-height:100%;
-    font-size: small;
-    color: rgba(255, 255, 255, 0.87);;
+  .DrugiTekst {
+    line-height: 100%;
+    font-size: medium;
+    color: rgba(255, 255, 255, 0.87);
     /* margin-left: 250px; */
-    
+
     overflow-y: auto;
-   /* max-height: 150px; */
+    /* max-height: 150px; */
   }
 
-  .overlay .modalContainer .modalRight .content .info{
+  .overlay .modalContainer .modalRight .content .info {
     margin-left: 283px;
     margin-top: 15px;
     transform: scaleX(100%) scaleY(100%);
   }
 
-  .modalContainer { overflow-y: scroll; 
+  .modalContainer {
+    overflow-y: scroll;
     max-width: 900px;
     width: 100%;
     max-height: 565px;
@@ -548,11 +499,10 @@ a {text-decoration: none;}
     left: 50%;
     transform: translate(-50%, -35%); */
     /* display: flex; */
-    background-color: #0C5073;
+    background-color: #0c5073;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
     border-radius: 8px;
   }
-
 
   .modalRight {
     width: 100%;
@@ -573,37 +523,29 @@ a {text-decoration: none;}
     flex-direction: column; */
     /* justify-content: center; */
     text-align: center;
-    
+
     padding: 1rem 2rem;
   }
 
   .bold {
     font-weight: 600;
   }
-  .slike-proba{
+  .slike-proba {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     /* margin-top: -120px;
     margin-bottom: 220px; */
-   
-  }
-  .lapsitopsi{
-    /* left: 20px; */
-    
-    /* transform: scale(0.5) translate(-50%, -60%); */
-    /* width: 30px;*/
-    /* height: 30px;  */
-    /* height: 40px; */
   }
 }
-@media screen and (min-width: 1500px){
-  .modalContainer { overflow-y: scroll; 
+@media screen and (min-width: 1500px) {
+  .modalContainer {
+    overflow-y: scroll;
     max-width: 850px;
     /* max-height: 1000px; */
-  /* height: 800px; */
-  max-height: 600px;
-     font-size: 22px; /*bilo 36 */
+    /* height: 800px; */
+    max-height: 600px;
+    font-size: 22px; /*bilo 36 */
     padding-top: 15px;
     transform: translate(-50%, -10%);
   }
@@ -615,59 +557,32 @@ a {text-decoration: none;}
     transform: scaleX(1.2);
     z-index: 500;
   }
-  .prviTekst{
+  .prviTekst {
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.87);;
+    color: rgba(255, 255, 255, 0.87);
   }
-  .overlay .modalContainer .modalRight img{
-    /* margin-top: -230px; */
+  .overlay .modalContainer .modalRight img {
     width: 150px;
   }
-  .overlay .modalContainer .modalRight h3{
+  /* .overlay .modalContainer .modalRight h3{
     color: #199AD4;
     margin-left: 200px;
     margin-top: 15px;
     margin-bottom: 10px;
-  }
-
-  .DrugiTekst{ 
-    line-height:100%;
+    display: none;
+  } */
+  .DrugiTekst {
+    line-height: 100%;
     margin-top: 15px;
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.87);;
-    /* margin-left: 35px; */
-
+    color: rgba(255, 255, 255, 0.87);
     overflow-y: auto;
-   /* max-height: 330px; */
-                
   }
-  .overlay .modalContainer .modalRight .content .info{
-    margin-left: 222px;
-    margin-top: 10px;
-    transform: scaleX(90%) scaleY(90%);
-  }
-  .slike-proba{
+
+  .slike-proba {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: none;
-    /* margin-top: 20px; */
-   
-   
-    /* transform: scale(1.5) ;     */
-
-  }
-  /* .slike-proba img {
-    width: 100%;
-  } */
-  
-    .lapsitopsi{
-      position: absolute;
-      position: absolute;
-    left: -25px;
-    top: -9%;
-    width: 10%;
-    transform: scale(0.4) ;
-      
   }
 }

@@ -40,8 +40,6 @@
     /* clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0); */
     /* background: #02316e72; */
     /* border: 3px solid rgba(0, 0, 0, 0.5); */
-    
-    
   }
   .PanelistaJedan{
     top: 30.5%;
@@ -75,7 +73,62 @@
     
   }
 
-  
+  .PanelText{
+    position: absolute;
+    width: 32%;
+    height: 10%;
+    /* background-color: brown; */
+    /* border: 2px solid blue; */
+    z-index: 20;
+    font-size: small;
+  }
+  .PanelTextLevo{
+    width: 43%;
+    height: 13%;
+    top: 12%;
+    left: 4%;
+  }
+  .PanelTextDesno{
+    width: 40%;
+    height: 13%;
+    top: 15%;
+    left: 56%;
+  }
+  .LogoPanel{
+    width: 40%;
+    top:4%;
+    height: 5%;
+    left: 54%;
+  }
+  .LogoPanel a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+  }
+  .LogoPanel img{
+    width: 100%;
+    height: 100%;
+  }
+  .PanelText1{
+    width: 39%;
+    top: 34.5%;
+    left: 56%;
+  }
+  .PanelText2{
+    width: 33%;
+    top: 52.2%;
+    left:6%;
+  }
+  .PanelText3{
+    width: 39%;
+    top: 71.5%;
+    left: 56%;
+  }
+  .PanelText4{
+    width: 33%;
+    top: 89.2%;
+    left:6%;
+  }
   
   /* extra mali mobilni */
   @media screen and (max-width: 340px) {
@@ -100,6 +153,9 @@
     .slikaNaslovaRadionica{
       width: 90%
     }
+    .PanelText{
+      font-size: medium;
+    }
 
   }
   
@@ -110,6 +166,9 @@
     }
     .slikaNaslovaRadionica{
       width: 80%
+    }
+    .PanelText{
+      font-size: 1.1em;
     }
 
   }
@@ -128,7 +187,9 @@
       margin-bottom: 100px;
 
     }
-    
+    .PanelText{
+      font-size: large;
+    }
 
   
   }
@@ -147,6 +208,8 @@
       margin-bottom: 100px;
 
     }
-
+    .PanelText{
+      font-size: larger;
+    }
   
   }

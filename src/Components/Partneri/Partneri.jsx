@@ -2,6 +2,8 @@ import React from "react";
 import "../Partneri/Partneri.css";
 import Slider from "react-slick";
 
+import GRID from "../../assets/grid/logoWhite.png"
+
 import DragiBravo from "../../assets/partneriLogo/dragibravo.jpeg";
 import LogoPartner1 from "../../assets/partneriLogo/glassart.png";
 import LogoPartner2 from "../../assets/partneriLogo/beerpong.png";
@@ -151,7 +153,7 @@ const Partneri = () => {
           </p>
           <motion.div
             className="Pokrovitelj-hex"
-            whileInView={{ scale: 1.15 }}
+            whileInView={{ scale: 1.2 }}
             initial={{}}
             // transition={{ duraton: 1, delay: 0.3, ease: "easeInOut" }}
             transition={{
@@ -162,7 +164,7 @@ const Partneri = () => {
               delay: "0.2",
             }}
           >
-            <img src={Guarana}></img>
+            <img src={GRID}></img>
           </motion.div>
         </div>
         <div className="Godisnji-partneri slider-partneri">

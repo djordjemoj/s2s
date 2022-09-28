@@ -2,6 +2,7 @@ import React from "react";
 import "../Panelisti/Panelisti.css";
 import SlikaTim0 from "../../assets/questionmark2.png";
 import NaslovRadonice from "../../assets/radioniceNaslov.png";
+import GRID from "../../assets/grid/logoWhite.png"
 
 const Panelisti = () => {
   return (
@@ -120,6 +121,67 @@ const Panelisti = () => {
           <div className="Panelista PanelistaCetiri">
             <img className="PanelistaCetiri-slika" src={SlikaTim0}></img>
           </div>
+          <div className="PanelText PanelTextLevo">
+            <h4>
+              {" "}
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+            </h4>
+          </div>
+          <div className="PanelText PanelTextDesno">
+            <h4>
+              {" "}
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+            </h4>
+          </div>
+
+          <div className="PanelText LogoPanel">
+            <a href="" target="_blank">
+            <img src={GRID}></img>
+            </a>
+          </div>
+
+          <div className="PanelText PanelText1">
+            <h4>
+              {" "}
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+            </h4>
+          </div>
+          <div className="PanelText PanelText2">
+            <h4>
+              {" "}
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+            </h4>
+          </div>
+          <div className="PanelText PanelText3">
+            <h4>
+              {" "}
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+            </h4>
+          </div>
+          <div className="PanelText PanelText4">
+            <h4>
+              {" "}
+              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
+              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
+              sagittis mauris nec faucibus.
+            </h4>
+          </div>
         </div>
       </div>
       <div className="radionice_svg_top ">
@@ -149,7 +211,7 @@ const Panelisti = () => {
                 RADIONICE
               </text>
             </svg> */}
-        <img  className="slikaNaslovaRadionica" src={NaslovRadonice}></img>
+        <img className="slikaNaslovaRadionica" src={NaslovRadonice}></img>
       </div>
     </div>
   );
