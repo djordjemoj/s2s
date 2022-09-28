@@ -100,7 +100,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: IntelliJ IDEA i JDK 8+",
       predavac: "Predavači: Veljko Blagojević i Filip Filipović",
       drugiTekst:
-        "Veljko je student četvrte godine Fakulteta organizacionih nauka. Pored fakulteta se interesovao i učio dodatno o objektno-orijentisanom programiranju i Javi, što ga je dovelo na poziciju praktikanta u globalnoj korporaciji BlackRock. Tu je radio na back-end delu veb aplikacije korišćene od strane klijenata ogromnog portfolija, zajedno sa kolegama koji poseduju ogromni nivo iskustva i znanja.",
+        "Veljko je student četvrte godine Fakulteta organizacionih nauka. Pored fakulteta se interesovao i učio dodatno o objektno-orijentisanom programiranju i Javi, što ga je dovelo na poziciju praktikanta u globalnoj korporaciji BlackRock. Tu je radio na back-end delu veb aplikacije korišćene od strane klijenata ogromnog portfolija, zajedno sa kolegama koji poseduju ogromni nivo iskustva i znanja. Pored toga je i Java praktikant u Levi9.",
       slikaPredavaca1: Veljko,
       slikaPredavaca2: Filip,
       drugiTekst2: " Filip je student četvrte godine i demonstrator na Računarskom fakultetu. Sa Javom se prvi put susreo na prvoj godini fakulteta, i od tad mu je prvi izbor za pravljenje kompleksnih sistema i aplikacija. Znanje je produbio na praksi u BlackRock-u, gde je radio u Javi na novom proizvodu sa kolegama koji su eksperti u radu sa ovim programskim jezikom. Odlučio se da se pridruži ovom projektu jer je tokom držanja demonstracija zavoleo da prenosi znanje drugima kako bi im pomogao da se pronađu i nađu ono čime bi se jednog dana bavili.",

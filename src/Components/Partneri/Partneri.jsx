@@ -136,7 +136,7 @@ const Partneri = () => {
   return (
     <div className="Partneri" id="nasi-partneri">
       <div className="Partneri-svi">
-        {/* <div className="Pokrovitelji-panel">
+        <div className="Pokrovitelji-panel">
           <p
             className="Partneri-text"
             style={
@@ -162,16 +162,15 @@ const Partneri = () => {
               delay: "0.2",
             }}
           >
-            <img src={Adacta}></img>
+            <img src={Guarana}></img>
           </motion.div>
-
-        </div> */}
+        </div>
         <div className="Godisnji-partneri slider-partneri">
           <p className="Partneri-text">GODIŠNJI PARTNERI</p>
           <Slider {...settingsPartneri} className="SliderCeo">
             {godisnjiPartneri.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera}>
+                <a href={img.linkPartnera} target="_blank">
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
@@ -188,7 +187,7 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri2.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera}>
+                <a href={img.linkPartnera} target="_blank">
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
@@ -206,11 +205,13 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri3.map((img) => (
               <div className="Jedan-partner">
+              <a href={img.linkPartnera} target="_blank">
                 <img
                   className="Jedan-partner-slika"
                   src={img}
                   alt={"menjaj"}
                 ></img>
+                </a>
               </div>
             ))}
           </Slider>

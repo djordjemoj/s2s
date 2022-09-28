@@ -327,7 +327,7 @@ const Prijava = () => {
                       <option value="python">
                         Uvod u Python kroz pravljenje igrica
                       </option>
-                      <option value="react">From Zero to Hero</option>
+                      <option value="react">React: From Zero to Hero</option>
                       <option value="seo">Kako SEO utiče na poslovanje</option>
                       <option value="unity">
                         Kako napraviti [prvu] igricu
@@ -388,7 +388,7 @@ const Prijava = () => {
                       <option value="python">
                         Uvod u Python kroz pravljenje igrica
                       </option>
-                      <option value="react">From Zero to Hero</option>
+                      <option value="react">React: From Zero to Hero</option>
                       <option value="seo">Kako SEO utiče na poslovanje</option>
                       <option value="unity">
                         Kako napraviti [prvu] igricu
