@@ -14,14 +14,14 @@
 * {
   /* font-family: Jost-500Medium; */
   /* overflow-x: hidden; */
-  --accent-color:  #043f5c;
-  --accent-color-lighter:  #12587b;
+  --accent-color:  #085b85;
+  --accent-color-lighter:  #14638a;
 
   --accent-color-prozirna:  #0d6591fb;
 
 }
 body{
-  background: url("./assets/pozadinaFinal.png")!important;
+  background: url("./assets/pozadinaFinalNoBlur.png")!important;
 }
 
 
