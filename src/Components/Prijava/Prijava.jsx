@@ -60,7 +60,7 @@ const Prijava = () => {
         openModal(e);
       });
     // alert("Uspešno ste se prijavili!");
-    openModal("Uspesno poslata prijava");
+    openModal("Uspešno poslata prijava!");
 
     await new Promise((resolve) => setTimeout(resolve, 1000));
     actions.resetForm();

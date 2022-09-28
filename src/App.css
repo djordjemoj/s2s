@@ -20,6 +20,9 @@
   --accent-color-prozirna:  #0d6591fb;
 
 }
+body{
+  background: url("./assets/pozadinaFinal.png")!important;
+}
 
 
 /* extra mali mobilni */
