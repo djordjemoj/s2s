@@ -123,12 +123,10 @@
 
 }
 .PanelTextDesno {
-  outline: 1px solid red;
-
-  width: 48%;
+  width: 52%;
   height: 14.3%;
   top: 14.5%;
-  left: 49.8%;
+  left: 46.8%;
   text-align: right;
   overflow-y: scroll;
 
@@ -210,13 +208,20 @@
   }
   .PanelText {
     /* font-size: 1.1em; */
-    width: 45%;
+    width: 44.5%;
     font-size: 1.7vw;
             padding-left: 0.8px;
             /* font-size: large; */
             line-height: 100%;
             letter-spacing: -0.3px;
             word-spacing: -.5px;
+  }
+  .PanelTextDesno {
+    letter-spacing: -0.8px;
+  top: 15%;
+    
+    width: 53%;
+  left: 45%;
   }
 }
 
@@ -237,6 +242,13 @@
     width: 42%;
     font-size: 1.3vw;
     line-height: 100%;
+
+  }
+  .PanelTextDesno {
+    letter-spacing: -0.8px;
+    
+    width: 53%;
+  left: 44%;
 
   }
 }
