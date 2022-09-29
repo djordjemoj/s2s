@@ -20,7 +20,7 @@
     /* justify-content: center; */
     position: relative;
     width: 100%;
-        outline: 3px solid rgb(191, 255, 0);
+        /* outline: 3px solid rgb(191, 255, 0); */
 
 }
 .about{
@@ -32,7 +32,7 @@
 }
 .TekstAbout{
     position: absolute;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     width: 54%;
     height: 52%;
     z-index: 20;

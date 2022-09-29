@@ -124,28 +124,26 @@ const Panelisti = () => {
           <div className="PanelText PanelTextLevo">
             <h4>
               {" "}
-              Panel diskusija, koja je i ove godine nezaobilazni deo projekta
-              „Studenti studentima“, okupiće stručnjake kompanije <i>Grid Dynamics</i>.
-              Ovi mladi i istovremeno jako iskusni ljudi će ti predstaviti
-              benefite koje profesionalna praksa sa sobom nosi i dati smernice
-              za dalji razvoj u kompaniji uspešnoj kao <i>Grid Dynamics</i>. Pored toga
-              otkriće ti i šta da očekuješ na samoj praksi i kako da je najbolje
-              iskoristiš za svoje profesionalno usavršavanje.
+              Panel diskusija, koja je i ove godine<br></br>nezaobilazni deo
+              projekta „Studenti studentima“, okupiće stručnjake kompanije{" "}
+              <i>Grid Dynamics</i>. Ovi mladi i istovremeno jako iskusni ljudi
+              će ti predstaviti benefite koje profesionalna praksa sa sobom nosi
+              i dati smernice za dalji razvoj u kompaniji uspešnoj kao{" "}
+              <i>Grid Dynamics</i>. Pored toga otkriće ti i šta da očekuješ na
+              samoj praksi i kako da je najbolje iskoristiš za svoje
+              profesionalno usavršavanje.
             </h4>
           </div>
           <div className="PanelText PanelTextDesno">
             <h4>
               {" "}
-              <i>Grid Dynamics</i> je kompanija koja se bavi razvojem softvera. Najveći
-              broj klijenata im dolazi iz Fintech i Retail industrije, a pored
-              razvoja softverskih rešenja u oblasti veb development-a rade i na
-              projektima iz domena Data Science-a, Machine Learning-a i
-              BigData-e. Takođe, rade sa mnogim open-source tehnologijama i
-              razvijaju platforme za usavršavanje svojih inženjera.
-              Pridruživanjem Gridu postajete deo velike i globalne porodice i
-              sasvim sigurno dobijate priliku da sarađujete sa ljudima koji
-              imaju kreativan pristup razmišljanju i rešavanju problema. To je
-              ono što ih čini jakom i uspešnom kompanijom!
+              <i>Grid Dynamics</i> je kompanija koja se bavi <br></br>razvojem softvera u
+              oblasti veb<br></br>development-a i projektima iz domena<br></br>Data Science-a,
+              Machine Learning-a i<br></br>BigData-e. Najveći broj klijenata im dolazi<br></br>
+              iz Fintech i Retail industrije. Pridruživanjem<br></br>Gridu dobijate
+              priliku da sarađujete sa ljudima<br></br>koji imaju kreativan pristup
+              rešavanju problema.<br></br>To je ono što ih čini jakom i uspešnom
+              kompanijom!
             </h4>
           </div>
 
