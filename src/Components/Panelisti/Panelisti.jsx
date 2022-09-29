@@ -126,40 +126,26 @@ const Panelisti = () => {
               {" "}
               Panel diskusija, koja je i ove godine nezaobilazni deo projekta
               „Studenti studentima“, okupiće stručnjake kompanije Grid Dynamics.
-              <br></br>
-              Ovi mladi i istovremeno jako iskusni ljudi će ti kroz temu
-              dočarati kako izgleda rad u ovoj poznatoj IT kompaniji.
-              Predstaviće ti benefite koje profesionalna praksa sa sobom nosi i
-              dati smernice za dalji razvoj.<br></br>
-              Daće ti odgovore na sva tvoja pitanja, razrešiti nedoumice i
-              podeliti korisne savete kako dobiti praksu u kompaniji uspešnoj
-              kao Grid Dynamics. Pored toga otkriće ti i šta da očekuješ na
-              samoj praksi i kako da je naajbolje iskoristiš za svoje
-              profesionalno usavršavanje.
+              Ovi mladi i istovremeno jako iskusni ljudi će ti predstaviti
+              benefite koje profesionalna praksa sa sobom nosi i dati smernice
+              za dalji razvoj u kompaniji uspešnoj kao Grid Dynamics. Pored toga
+              otkriće ti i šta da očekuješ na samoj praksi i kako da je najbolje
+              iskoristiš za svoje profesionalno usavršavanje.
             </h4>
           </div>
           <div className="PanelText PanelTextDesno">
             <h4>
               {" "}
-              Grid Dynamics je kompanija koja se bavi razvojem softvera za
-              klijente iz USA i proglašena je za jednog od vodećih provajdera
-              ovih usluga za Fortune 500 klijente koji prolaze kroz proces
-              digitalne transformacije.<br></br>Najveći broj klijenata im dolazi
-              iz Fintech i Retail industrije, a pored razvoja softverskih
-              rešenja u oblasti veb development-a rade i na projektima iz domena
-              Data Science-a, Machine Learning-a i BigData-e. Takođe, rade sa
-              mnogim open-source tehnologijama i razvijaju platforme za
-              usavršavanje svojih inženjera.<br></br>
-              <br></br>
-              Veruju da svaki pojedinac može da dostigne svoj maksimum ukoliko
-              mu se omoguće mnogobrojne opcije za profesionalno usavršavanje i
-              dovoljno podrške. Grid Dynamics zato ulaže u kreiranje atraktivnog
-              i funkcionalnog kancelarijskog prostora, sadržajnog benefit paketa
-              i fenomenalnih dogadjaja.<br></br> Pridruživanjem Gridu postajete
-              deo velike i globalne porodice i sasvim sigurno dobijate priliku
-              da sarađujete sa ljudima koji imaju kreativan pristup razmišljanju
-              i rešavanju problema. To je ono što ih čini jakom i uspešnom
-              kompanijom!
+              Grid Dynamics je kompanija koja se bavi razvojem softvera. Najveći
+              broj klijenata im dolazi iz Fintech i Retail industrije, a pored
+              razvoja softverskih rešenja u oblasti veb development-a rade i na
+              projektima iz domena Data Science-a, Machine Learning-a i
+              BigData-e. Takođe, rade sa mnogim open-source tehnologijama i
+              razvijaju platforme za usavršavanje svojih inženjera.
+              Pridruživanjem Gridu postajete deo velike i globalne porodice i
+              sasvim sigurno dobijate priliku da sarađujete sa ljudima koji
+              imaju kreativan pristup razmišljanju i rešavanju problema. To je
+              ono što ih čini jakom i uspešnom kompanijom!
             </h4>
           </div>
 

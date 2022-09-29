@@ -14,51 +14,94 @@
 
     margin-bottom: 2vh;
 }
+.about-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    position: relative;
+    width: 100%;
+        outline: 3px solid rgb(191, 255, 0);
 
-.about {
-    height: 50%;
 }
+.about{
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    /* border: 3px solid rgb(191, 255, 0); */
+}
+.TekstAbout{
+    position: absolute;
+    outline: 1px solid red;
+    width: 54%;
+    height: 52%;
+    z-index: 20;
+}
+.PrviTekstAbout{
+    top: 1.5%;
+    left: 1%;
+}
+.DrugiTekstAbout{
+    top: 46%;
+    left: 55.6%;
+    width: 43%;
 
-.slika1 {
-    clip-path: polygon(0 0, 60% 0, 103% 91%, 0% 91%);
 }
 
 .caption1 {
     font-weight: bold;
-    color: #F99D1D;
-    font-size: 40px;
+    color: #e78e11;
+    /* font-size: 40px; */
+    font-size: 3vw;
+    z-index: 221;   
+    padding-bottom: 1.2px; 
 }
-
+.caption2 {
+    font-weight: bold;
+    color: #e78e11;
+    /* font-size: 40px; */
+    font-size: 3vw;
+    z-index: 221;   
+    padding-bottom: 1.5px; 
+    text-align: right;
+}
 .tekst1 {
     font-weight: 600;
     text-align: left;
-    font-size: 26.6px;
-    margin-top: 8px;
-    letter-spacing: -0.1px;
-    word-spacing: -2.1px;
-    line-height: 29px;
+    font-size: 2vw;
+    padding-left: 0.8px;
+    /* font-size: large; */
+    line-height: 2vw;
+    letter-spacing: -0.3px;
+    word-spacing: -.5px;
+    z-index: 222;   
+    color: black; 
+
 }
 
 .tekst2 {
     font-weight: 600;
     text-align: right;
-    font-size: 26.6px;
-    margin-top: 8px;
-    letter-spacing: 0px;
-    word-spacing: -1.5px;
-    line-height: 29px;
+    font-size: 2vw;
+    /* padding-right: .8px; */
+    /* font-size: large; */
+    line-height: 2.1vw;
+    letter-spacing: -0.3px;
+    word-spacing: -.5px;
+    z-index: 222;   
+    color: black; 
+
 }
 
-.caption2 {
-    font-weight: bold;
-    color: #F99D1D;
-    font-size: 40px;
-    text-align: right;
+
+
+.slika1 {
+    clip-path: polygon(0 0, 60% 0, 103% 91%, 0% 91%);
 }
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {
-    .caption1 {
+    /* .caption1 {
         font-size: 30px;
     }
 
@@ -72,12 +115,66 @@
 
     .caption2 {
         font-size: 30px;
-    }
+    } */
 }
 
 /* mali tableti */
-@media screen and (min-width: 620px) {
-    .caption1 {
+@media screen and (min-width: 1000px) {
+
+    .about {
+        position: relative;
+        width: 80%;
+    }
+        .TekstAbout{
+            width: 54%;
+            height: 51%;
+        }
+        .PrviTekstAbout{
+            top: 1.5%;
+            left: 11%;
+            width: 42%;
+
+        }
+        .caption1 {
+            font-weight: bold;
+            /* font-size: 40px; */
+            font-size: 2vw;
+            padding-bottom: 1.5%; 
+        }
+        .tekst1 {
+            /* font-size: 80%; */
+            font-size: 1.22vw;
+            padding-left: 0.8px;
+            /* font-size: large; */
+            line-height: 103%;
+            letter-spacing: -0.3px;
+            word-spacing: -.5px;
+            z-index: 222;   
+        }
+        .DrugiTekstAbout{
+            top: 46%;
+            left: 55.5%;
+            width: 33%;
+        }
+        .caption2 {
+            font-weight: bold;
+            /* font-size: 40px; */
+            font-size: 2vw;
+            padding-bottom: 1.5%; 
+            text-align: right;
+        }
+        .tekst2 {
+           /* font-size: 80%; */
+           font-size: 1.22vw;
+           padding-left: 0.8px;
+           /* font-size: large; */
+           line-height: 103%;
+           letter-spacing: -0.3px;
+           word-spacing: -.5px;
+           z-index: 222;   
+        }
+
+    /* .caption1 {
         font-size: 35px;
     }
 
@@ -87,12 +184,12 @@
 
     .caption2 {
         font-size: 35px;
-    }
+    } */
 }
 
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px) {
-    .caption1 {
+    /* .caption1 {
         font-size: 40px;
     }
 
@@ -102,12 +199,12 @@
 
     .caption2 {
         font-size: 40px;
-    }
+    } */
 }
 
 /* desktop */
 @media screen and (min-width: 1200px) {
-    .caption1 {
+    /* .caption1 {
         font-size: 40px;
     }
 
@@ -117,12 +214,12 @@
 
     .caption2 {
         font-size: 40px;
-    }
+    } */
 }
 
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {
-    .caption1 {
+    /* .caption1 {
         font-size: 40px;
     }
 
@@ -132,5 +229,5 @@
 
     .caption2 {
         font-size: 40px;
-    }
+    } */
 }

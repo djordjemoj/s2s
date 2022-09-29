@@ -58,21 +58,17 @@ const Faq = (props) => {
           odgRed1={"U okviru prijava odlučujete se za dve radionice,"}
           odgRed2={"od kojih je jedna prvi izbor, a druga alternativa."}
           odgRed3={"Nije moguće prisustvovati na više radionica,"}
-          odgRed4={
-            "zbog njihove istovremene vremenske realizacije."
-          }
+          odgRed4={"zbog njihove istovremene vremenske realizacije."}
           answer={"   "}
         />
         <FaqItem
           dvaRedaPitanje={false}
           question={"Da li je obavezno prisustvo i na panelu i na radionici?"}
-          odgRed2={"Možete se opredeliti i samo za panel diskusiju ili samo za radioncu,"}
-          odgRed3={
-            "mi svakako preporučujemo i jedno i drugo."
+          odgRed2={
+            "Možete se opredeliti i samo za panel diskusiju ili samo za radioncu,"
           }
-          odgRed1={
-            ""
-          }
+          odgRed3={"mi svakako preporučujemo i jedno i drugo."}
+          odgRed1={""}
           odgRed4={""}
           answer={""}
         />
@@ -97,16 +93,10 @@ const Faq = (props) => {
           question={"Da li je potrebno predznanje za radionice?"}
           // question2={" poneti neku opremu?"}
           dvaRedaPitanje={false}
-          odgRed1={
-            "Za određene radionice na projektu je potrebno,"
-          }
-          odgRed2={
-            "dok za druge nije jer se počinje od osnova."
-          }
-          odgRed3={
-            "U opisu radionica je naznačeno u kojoj je"
-          }
-          odgRed4={" oblasti potrebno imate predznanje."}
+          odgRed1={"Za određene radionice na projektu je potrebno,"}
+          odgRed2={"dok za druge nije jer se počinje od osnova."}
+          odgRed3={"U opisu radionica je naznačeno u kojoj je"}
+          odgRed4={" oblasti potrebno da imate predznanje."}
           answer={"   "}
         />
       </div>
