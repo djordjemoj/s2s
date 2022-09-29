@@ -68,14 +68,15 @@
 .tekst1 {
     font-weight: 600;
     text-align: left;
-    font-size: 2vw;
-    padding-left: 2px;
+    font-size: 1.95vw;
+    padding-left: 1px;
     /* font-size: large; */
-    line-height: 2.05vw;
+    line-height: 2vw;
     letter-spacing: -0.215px;
     word-spacing: -.5px;
     z-index: 222;   
-    color: black; 
+    color: rgba(1, 10, 28, 0.818); 
+    
 
 }
 
@@ -85,11 +86,11 @@
     font-size: 2vw;
     padding-right: 1.2px;
     /* font-size: large; */
-    line-height: 2.13vw;
+    line-height: 2.1vw;
     letter-spacing: -0.15px;
     word-spacing: -.5px;
     z-index: 222;   
-    color: black; 
+    color: rgba(1, 10, 28, 0.818); 
 
 }
 

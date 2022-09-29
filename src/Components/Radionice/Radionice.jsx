@@ -160,7 +160,7 @@ const Radionice = () => {
         "Potreban softver: Meta SEO Inspector, Screaming Frog, Google Trends, Ahrefs",
       predavac: "Predavač: Mihailo Miljković",
       drugiTekst:
-        "Mihailo je student druge godine na Univerzitetu Metropolitan, na smeru biznis i marketing. Zaposlen je u kompaniji Digital Silk na poziciji SEO Specialist. SEO-om se bavi 4 godine. Kroz niz sopstvenih projekata i mini startup-ova, došao je u kontakt sa vlasnicima firmi koji su bili zainteresovani za usluge i konsultacije u vezi SEO-a. Vredna poznanstva su mu omogućila prvo veliko iskustvo, zaposlenje u američkoj kompaniji Amerikos LLC. Radio je na pozicijma SEO &amp g Content Manager-a i Marketing Executive Manager-a, gde je sarađivao sa CEO-om kompanije i glavnim stejkholderima. Sada, kao zaposleni u Digital Silk-u sarađuje sa prestižnim organizacijama kao što su P&amp;G, HP, Xerox, Stündenglass, Sandler, i druge. Kroz posao i realne projekte može savršeno da ukombinuje teorijsko znanje koje dobija na fakultetu, stvarajući tako odličnu atmosferu za učenje i napredak.",
+        "Mihailo je student druge godine na Univerzitetu Metropolitan, na smeru biznis i marketing. Zaposlen je u kompaniji Digital Silk na poziciji SEO Specialist. SEO-om se bavi 4 godine. Kroz niz sopstvenih projekata i mini startup-ova, došao je u kontakt sa vlasnicima firmi koji su bili zainteresovani za usluge i konsultacije u vezi SEO-a. Vredna poznanstva su mu omogućila prvo veliko iskustvo, zaposlenje u američkoj kompaniji Amerikos LLC. Radio je na pozicijma SEO &amp g Content Manager-a i Marketing Executive Manager-a, gde je sarađivao sa CEO-om kompanije i glavnim stejkholderima. Sada, kao zaposleni u Digital Silk-u sarađuje sa prestižnim organizacijama kao što su P,&amp G, HP, Xerox, Stündenglass, Sandler, i druge. Kroz posao i realne projekte može savršeno da ukombinuje teorijsko znanje koje dobija na fakultetu, stvarajući tako odličnu atmosferu za učenje i napredak.",
       slikaPredavaca1: MihajloSeo,
       slikaPredavaca2: null,
       laptop: true,
@@ -174,7 +174,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: Visual studio, Unity ekstenzija, Unity",
       predavac: "Predavač: Lazar Cvetković",
       drugiTekst:
-        "Lazar je student treće godine na Fakultetu organizacionih nauka, na smeru informacioni sistemi i tehnologije. Član je Udruženja studenata informatike FONIS, gde je trenutno i član Upravnog odbora za upravljanje ljudskim resursima. Obožava igrice od malena i baš zbog toga se odlučio da se bavi njihovim razvojem putem Unity-ja. Do sada je učestvovao na četiri hakatona za pravljenje igrica, od kojih je pobedio na 48 časovnom game jam-u i osvojio 3.mesto na Solana Summer Camp Hackathon-u u gaming kategoriji za blokčejn. Pored toga je vrstan u fotografiji i šahu, gde ima osvojenu prvu kategoriju.",
+        "Lazar je student treće godine na Fakultetu organizacionih nauka, na smeru informacioni sistemi i tehnologije. Član je Udruženja studenata informatike FONIS, gde je trenutno i član Upravnog odbora za upravljanje ljudskim resursima. Obožava igrice od malena i baš zbog toga se odlučio da se bavi njihovim razvojem putem Unity-ja. Do sada je učestvovao na četiri hakatona za pravljenje igrica, od kojih je pobedio na 48-časovnom game jam-u i osvojio 3. mesto na Solana Summer Camp Hackathon-u u gaming kategoriji za blokčejn. Pored toga je vrstan u fotografiji i šahu, gde ima osvojenu prvu kategoriju.",
       slikaPredavaca1: Laki,
       slikaPredavaca2: null,
       laptop: true,
