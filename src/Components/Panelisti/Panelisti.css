@@ -95,13 +95,16 @@
 
 .PanelText {
   position: absolute;
-  width: 32%;
+  width: 35%;
   height: 10%;
   /* background-color: brown; */
   /* border: 2px solid blue; */
   z-index: 20;
-  line-height: 11px;
-  font-size: smaller;
+  /* line-height: 11px; */
+  /* font-size: smaller; */
+  line-height: 2.03vw;
+
+  font-size: 2vw;
   /* word-spacing: -3px; */
   word-spacing: -1px;
   
@@ -110,19 +113,22 @@
   display: none;
 }
 .PanelTextLevo {
-  width: 43%;
-  height: 14.5%;
-  top: 10.8%;
+
+  width: 46%;
+  height: 17.5%;
+  top: 11%;
   left: 2%;
   text-align: left;
   overflow-y: scroll;
 
 }
 .PanelTextDesno {
-  width: 41%;
+  outline: 1px solid red;
+
+  width: 48%;
   height: 14.3%;
   top: 14.5%;
-  left: 57%;
+  left: 49.8%;
   text-align: right;
   overflow-y: scroll;
 
@@ -180,22 +186,22 @@
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
-  .Panelisti-content {
+  /* .Panelisti-content {
     width: 90%;
   }
   .slikaNaslovaRadionica {
     width: 90%;
-  }
-  .PanelText {
+  } */
+  /* .PanelText {
     font-size: medium;
     line-height: normal;
-    /* font-size: 10px; */
+
     word-spacing: -1px;
-  }
+  } */
 }
 
 /* veliki tableti i mali  */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1000px) {
   .Panelisti-content {
     width: 80%;
   }
@@ -203,15 +209,22 @@
     width: 80%;
   }
   .PanelText {
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
+    width: 45%;
+    font-size: 1.7vw;
+            padding-left: 0.8px;
+            /* font-size: large; */
+            line-height: 100%;
+            letter-spacing: -0.3px;
+            word-spacing: -.5px;
   }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px) {
-  body {
+  /* body {
     font-size: 20px;
-  }
+  } */
   .Panelisti-content {
     width: 65%;
   }
@@ -220,15 +233,19 @@
     margin-bottom: 100px;
   }
   .PanelText {
-    font-size: large;
+    /* font-size: large; */
+    width: 42%;
+    font-size: 1.3vw;
+    line-height: 100%;
+
   }
 }
 
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {
-  body {
+  /* body {
     font-size: 20px;
-  }
+  } */
   .Panelisti-content {
     width: 50%;
   }
@@ -237,6 +254,8 @@
     margin-bottom: 100px;
   }
   .PanelText {
-    font-size: larger;
+    /* font-size: larger; */
+    font-size: 1vw;
+
   }
 }

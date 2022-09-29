@@ -125,10 +125,10 @@ const Panelisti = () => {
             <h4>
               {" "}
               Panel diskusija, koja je i ove godine nezaobilazni deo projekta
-              „Studenti studentima“, okupiće stručnjake kompanije Grid Dynamics.
+              „Studenti studentima“, okupiće stručnjake kompanije <i>Grid Dynamics</i>.
               Ovi mladi i istovremeno jako iskusni ljudi će ti predstaviti
               benefite koje profesionalna praksa sa sobom nosi i dati smernice
-              za dalji razvoj u kompaniji uspešnoj kao Grid Dynamics. Pored toga
+              za dalji razvoj u kompaniji uspešnoj kao <i>Grid Dynamics</i>. Pored toga
               otkriće ti i šta da očekuješ na samoj praksi i kako da je najbolje
               iskoristiš za svoje profesionalno usavršavanje.
             </h4>
@@ -136,7 +136,7 @@ const Panelisti = () => {
           <div className="PanelText PanelTextDesno">
             <h4>
               {" "}
-              Grid Dynamics je kompanija koja se bavi razvojem softvera. Najveći
+              <i>Grid Dynamics</i> je kompanija koja se bavi razvojem softvera. Najveći
               broj klijenata im dolazi iz Fintech i Retail industrije, a pored
               razvoja softverskih rešenja u oblasti veb development-a rade i na
               projektima iz domena Data Science-a, Machine Learning-a i
