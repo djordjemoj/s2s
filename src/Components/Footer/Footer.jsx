@@ -25,10 +25,10 @@ const Footer = () => {
           <switch>
             <foreignObject
               x="10%"
-              y="8%"
+              y="6%"
               width="450"
               height="1000"
-              fontSize="37px"
+              fontSize="35px"
             >
               <p
                 style={{
@@ -70,7 +70,7 @@ const Footer = () => {
       </div>
 
       <div className="second footer-deo">
-        <HashLink to="#POZDRAV">
+        <HashLink to="#">
           <svg
             className="base"
             width="588"
