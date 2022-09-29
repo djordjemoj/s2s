@@ -29,7 +29,7 @@ const Agenda = () => {
       <div className="Agenda-container">
         <div className="Agenda-dugmad">
           <div className="Radionice_bottom_svg">
-            <svg
+            {/* <svg
               className="cudanSVG"
               width="697"
               height="252"
@@ -55,9 +55,9 @@ const Agenda = () => {
                 fill="black"
                 mask="url(#path-1-inside-1_622_4693)"
               />
-            </svg> 
+            </svg>  */}
           </div>
-           <motion.div
+           {/* <motion.div
             className="Subota ag-dug  cursor-pointer"
             whileHover={{ scale: 1.08 }}
             onHoverStart={(e) => {}}
@@ -80,8 +80,8 @@ const Agenda = () => {
                 fill="black"
               />
             </svg>
-          </motion.div>
-          <div className="Agenda-agenda ag-dug ">
+          </motion.div> */}
+          {/* <div className="Agenda-agenda ag-dug ">
             <svg
               viewBox="0 0 338 380"
               fill="none"
@@ -114,9 +114,9 @@ const Agenda = () => {
                 stroke-width="5"
               />
             </svg>
-          </div> 
+          </div>  */}
 
-           <motion.div
+           {/* <motion.div
             className="Nedelja ag-dug cursor-pointer"
             whileHover={{ scale: 1.08 }}
             onHoverStart={(e) => {}}
@@ -139,7 +139,7 @@ const Agenda = () => {
                 fill="black"
               />
             </svg>
-          </motion.div> 
+          </motion.div>  */}
         </div>
 
         <div className="Dropdown-subota Dropdown">
@@ -1081,6 +1081,7 @@ const Agenda = () => {
 
         <motion.div
           className="Kraj-agende"
+          style={{marginTop: "10vh"}}
           animate={{ y: visibleSubota ? "-100%" : "+0%" }} 
           transition={{ duration: "1" }}
         >

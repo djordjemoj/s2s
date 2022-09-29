@@ -2,7 +2,7 @@ import React from "react";
 import "../Panelisti/Panelisti.css";
 import SlikaTim0 from "../../assets/questionmark2.png";
 import NaslovRadonice from "../../assets/radioniceNaslov.png";
-import GRID from "../../assets/grid/logoWhite.png"
+import GRID from "../../assets/grid/logoWhite.png";
 
 const Panelisti = () => {
   return (
@@ -10,13 +10,13 @@ const Panelisti = () => {
       <div className="Panelisti-container">
         <div className="Panelisti-content">
           <svg width="1000" viewBox="0 0 707 1030" fill="none">
-            <path
+            {/* <path
               d="M371.333 350.952L674.227 350.952C678.921 350.952 682.727 354.758 682.727 359.452L682.727 454.351C682.727 459.046 678.921 462.851 674.227 462.851L370.489 462.851C364.086 462.851 359.982 456.04 362.975 450.379L384.533 409.598C386.393 406.08 386.301 401.849 384.29 398.414L363.997 363.746C360.68 358.08 364.767 350.952 371.333 350.952Z"
               fill="#F9EEE1"
               stroke="black"
               stroke-width="3"
-            />
-            <path
+            /> */}
+            {/* <path
               d="M115.22 466.042L47.9189 466.042C43.2245 466.042 39.4189 462.237 39.4189 457.542L39.4189 357.856C39.4189 353.162 43.2245 349.356 47.9189 349.356L115.455 349.356C122.066 349.356 126.146 356.571 122.74 362.236L98.5506 402.468C96.3343 406.154 96.3603 410.769 98.6182 414.43L122.455 453.081C125.947 458.744 121.874 466.042 115.22 466.042Z"
               fill="#F9EEE1"
               stroke="black"
@@ -33,8 +33,8 @@ const Panelisti = () => {
               fill="#F9EEE1"
               stroke="black"
               stroke-width="3"
-            />
-            <path
+            /> */}
+            {/* <path
               d="M285.993 530.748L44.7271 530.748C40.0327 530.748 36.2271 534.554 36.2271 539.248L36.2271 638.403C36.2271 643.097 40.0327 646.903 44.7271 646.903L286.247 646.903C292.75 646.903 296.844 639.897 293.652 634.231L270.799 593.66C268.8 590.111 268.827 585.768 270.872 582.245L293.345 543.514C296.633 537.847 292.544 530.748 285.993 530.748Z"
               fill="#F9EEE1"
               stroke="black"
@@ -45,7 +45,7 @@ const Panelisti = () => {
               fill="#F9EEE1"
               stroke="black"
               stroke-width="3"
-            />
+            /> */}
             <path
               d="M345.572 301.007L321.883 275.763L398.268 199.252L399.246 198.273L398.348 197.219L350.457 141.063H686.088C696.305 141.063 704.588 149.346 704.588 159.563V282.507C704.588 292.724 696.305 301.007 686.088 301.007H345.572Z"
               fill="#F9CA87"
@@ -72,7 +72,7 @@ const Panelisti = () => {
               d="M474.929 27V41H478.309V27H474.929ZM477.049 29.78H479.789C480.469 29.78 481.002 29.9333 481.389 30.24C481.775 30.5467 481.969 30.9933 481.969 31.58C481.969 32.1533 481.775 32.5933 481.389 32.9C481.002 33.2067 480.469 33.36 479.789 33.36H477.049V36.14H479.789C480.975 36.14 481.969 35.96 482.769 35.6C483.582 35.2267 484.195 34.7 484.609 34.02C485.022 33.3267 485.229 32.5133 485.229 31.58C485.229 30.62 485.022 29.8 484.609 29.12C484.195 28.44 483.582 27.92 482.769 27.56C481.969 27.1867 480.975 27 479.789 27H477.049V29.78ZM490.17 34C490.17 33.1733 490.33 32.4467 490.65 31.82C490.983 31.18 491.443 30.68 492.03 30.32C492.63 29.96 493.33 29.78 494.13 29.78C494.943 29.78 495.643 29.96 496.23 30.32C496.816 30.68 497.27 31.18 497.59 31.82C497.91 32.4467 498.07 33.1733 498.07 34C498.07 34.8267 497.903 35.56 497.57 36.2C497.25 36.8267 496.79 37.32 496.19 37.68C495.603 38.04 494.916 38.22 494.13 38.22C493.33 38.22 492.63 38.04 492.03 37.68C491.443 37.32 490.983 36.8267 490.65 36.2C490.33 35.56 490.17 34.8267 490.17 34ZM486.59 34C486.59 35.08 486.77 36.0733 487.13 36.98C487.503 37.8867 488.023 38.6733 488.69 39.34C489.37 40.0067 490.17 40.5267 491.09 40.9C492.01 41.26 493.023 41.44 494.13 41.44C495.223 41.44 496.23 41.26 497.15 40.9C498.07 40.5267 498.863 40.0067 499.53 39.34C500.21 38.6733 500.73 37.8867 501.09 36.98C501.463 36.0733 501.65 35.08 501.65 34C501.65 32.92 501.463 31.9333 501.09 31.04C500.716 30.1467 500.19 29.3733 499.51 28.72C498.83 28.0667 498.03 27.5667 497.11 27.22C496.203 26.86 495.21 26.68 494.13 26.68C493.063 26.68 492.07 26.86 491.15 27.22C490.23 27.5667 489.43 28.0667 488.75 28.72C488.07 29.3733 487.536 30.1467 487.15 31.04C486.776 31.9333 486.59 32.92 486.59 34ZM516.21 34.98L512.37 26.3L508.57 34.98L505.81 27H501.81L507.87 41.82L512.37 33.38L516.89 41.82L522.95 27H518.93L516.21 34.98ZM526.759 41H533.819V38.22H526.759V41ZM526.759 29.78H533.819V27H526.759V29.78ZM526.759 35H533.419V32.28H526.759V35ZM524.519 27V41H527.759V27H524.519ZM540.069 34.66L543.989 41H547.949L543.569 34.66H540.069ZM536.569 27V41H539.949V27H536.569ZM538.689 29.86H541.429C541.883 29.86 542.269 29.9333 542.589 30.08C542.923 30.2267 543.176 30.44 543.349 30.72C543.523 30.9867 543.609 31.3133 543.609 31.7C543.609 32.0867 543.523 32.42 543.349 32.7C543.176 32.9667 542.923 33.1733 542.589 33.32C542.269 33.4533 541.883 33.52 541.429 33.52H538.689V36.14H541.669C542.869 36.14 543.869 35.9467 544.669 35.56C545.469 35.1733 546.076 34.64 546.489 33.96C546.903 33.2667 547.109 32.4733 547.109 31.58C547.109 30.6733 546.903 29.88 546.489 29.2C546.076 28.5067 545.469 27.9667 544.669 27.58C543.869 27.1933 542.869 27 541.669 27H538.689V29.86ZM551.759 41H558.819V38.22H551.759V41ZM551.759 29.78H558.819V27H551.759V29.78ZM551.759 35H558.419V32.28H551.759V35ZM549.519 27V41H552.759V27H549.519ZM561.569 27V41H565.049V27H561.569ZM566.569 41C568.103 41 569.429 40.7133 570.549 40.14C571.669 39.5667 572.536 38.76 573.149 37.72C573.763 36.6667 574.069 35.4267 574.069 34C574.069 32.56 573.763 31.32 573.149 30.28C572.536 29.24 571.669 28.4333 570.549 27.86C569.429 27.2867 568.103 27 566.569 27H563.809V30H566.449C566.983 30 567.496 30.0667 567.989 30.2C568.496 30.3333 568.936 30.5533 569.309 30.86C569.696 31.1667 570.003 31.58 570.229 32.1C570.456 32.6067 570.569 33.24 570.569 34C570.569 34.76 570.456 35.4 570.229 35.92C570.003 36.4267 569.696 36.8333 569.309 37.14C568.936 37.4467 568.496 37.6667 567.989 37.8C567.496 37.9333 566.983 38 566.449 38H563.809V41H566.569ZM584.753 34.04H587.373C588.347 34.04 589.2 33.9067 589.933 33.64C590.68 33.36 591.267 32.96 591.693 32.44C592.133 31.92 592.353 31.2933 592.353 30.56C592.353 29.76 592.133 29.1 591.693 28.58C591.267 28.0467 590.68 27.6533 589.933 27.4C589.2 27.1333 588.347 27 587.373 27H582.233V41H587.713C588.82 41 589.78 40.8667 590.593 40.6C591.407 40.32 592.033 39.8933 592.473 39.32C592.927 38.7467 593.153 37.9933 593.153 37.06C593.153 36.3533 592.993 35.7533 592.673 35.26C592.367 34.7533 591.953 34.34 591.433 34.02C590.913 33.6867 590.333 33.4467 589.693 33.3C589.053 33.1533 588.393 33.08 587.713 33.08H584.753V34.92H587.333C587.667 34.92 587.967 34.9533 588.233 35.02C588.513 35.0733 588.76 35.1667 588.973 35.3C589.187 35.4333 589.353 35.6067 589.473 35.82C589.593 36.0333 589.653 36.2867 589.653 36.58C589.653 37.0333 589.547 37.3933 589.333 37.66C589.133 37.9133 588.86 38.1 588.513 38.22C588.167 38.3267 587.773 38.38 587.333 38.38H585.613V29.62H587.013C587.6 29.62 588.053 29.74 588.373 29.98C588.693 30.22 588.853 30.58 588.853 31.06C588.853 31.38 588.78 31.6533 588.633 31.88C588.487 32.0933 588.273 32.26 587.993 32.38C587.727 32.5 587.4 32.56 587.013 32.56H584.753V34.04ZM602.769 27L600.029 32.26L597.289 27H593.409L598.309 35.32V41H601.749V35.3L606.649 27H602.769ZM607.972 39.64C607.972 40.1467 608.152 40.58 608.512 40.94C608.872 41.3 609.319 41.48 609.852 41.48C610.412 41.48 610.866 41.3 611.212 40.94C611.559 40.58 611.732 40.1467 611.732 39.64C611.732 39.1333 611.559 38.7 611.212 38.34C610.866 37.98 610.412 37.8 609.852 37.8C609.319 37.8 608.872 37.98 608.512 38.34C608.152 38.7 607.972 39.1333 607.972 39.64ZM607.972 32.16C607.972 32.6667 608.152 33.1067 608.512 33.48C608.872 33.84 609.319 34.02 609.852 34.02C610.412 34.02 610.866 33.84 611.212 33.48C611.559 33.1067 611.732 32.6667 611.732 32.16C611.732 31.6533 611.559 31.22 611.212 30.86C610.866 30.5 610.412 30.32 609.852 30.32C609.319 30.32 608.872 30.5 608.512 30.86C608.152 31.22 607.972 31.6533 607.972 32.16Z"
               fill="black"
             />
-            <path
+            {/* <path
               d="M371.605 732.096L674.5 732.096C679.194 732.096 683 735.902 683 740.596L683 835.495C683 840.19 679.194 843.995 674.5 843.995L370.762 843.995C364.359 843.995 360.255 837.184 363.248 831.523L384.806 790.742C386.666 787.224 386.574 782.993 384.563 779.558L364.27 744.89C360.953 739.224 365.04 732.096 371.605 732.096Z"
               fill="#F9EEE1"
               stroke="black"
@@ -89,8 +89,8 @@ const Panelisti = () => {
               fill="#F9EEE1"
               stroke="black"
               stroke-width="3"
-            />
-            <path
+            /> */}
+            {/* <path
               d="M115.177 847.187L45.0007 847.187C40.3063 847.187 36.5007 843.381 36.5007 838.687L36.5007 739C36.5007 734.306 40.3063 730.5 45.0007 730.5L115.422 730.5C122.089 730.5 126.16 737.825 122.642 743.487L97.7981 783.467C95.4633 787.224 95.4906 791.988 97.8683 795.718L122.345 834.118C125.951 839.777 121.887 847.187 115.177 847.187Z"
               fill="#F9EEE1"
               stroke="black"
@@ -107,9 +107,9 @@ const Panelisti = () => {
               fill="#F9EEE1"
               stroke="black"
               stroke-width="3"
-            />
+            /> */}
           </svg>
-          <div className="Panelista PanelistaJedan">
+          {/* <div className="Panelista PanelistaJedan">
             <img className="PanelistaJedan-slika" src={SlikaTim0}></img>
           </div>
           <div className="Panelista PanelistaDva">
@@ -120,32 +120,56 @@ const Panelisti = () => {
           </div>
           <div className="Panelista PanelistaCetiri">
             <img className="PanelistaCetiri-slika" src={SlikaTim0}></img>
-          </div>
+          </div> */}
           <div className="PanelText PanelTextLevo">
             <h4>
               {" "}
-              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
-              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
-              sagittis mauris nec faucibus.
+              Panel diskusija, koja je i ove godine nezaobilazni deo projekta
+              „Studenti studentima“, okupiće stručnjake kompanije Grid Dynamics.
+              <br></br>
+              Ovi mladi i istovremeno jako iskusni ljudi će ti kroz temu
+              dočarati kako izgleda rad u ovoj poznatoj IT kompaniji.
+              Predstaviće ti benefite koje profesionalna praksa sa sobom nosi i
+              dati smernice za dalji razvoj.<br></br>
+              Daće ti odgovore na sva tvoja pitanja, razrešiti nedoumice i
+              podeliti korisne savete kako dobiti praksu u kompaniji uspešnoj
+              kao Grid Dynamics. Pored toga otkriće ti i šta da očekuješ na
+              samoj praksi i kako da je naajbolje iskoristiš za svoje
+              profesionalno usavršavanje.
             </h4>
           </div>
           <div className="PanelText PanelTextDesno">
             <h4>
               {" "}
-              Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
-              Fusce mollis non justo sit amet faucibus. Curabitur sagittis
-              sagittis mauris nec faucibus.
-              
+              Grid Dynamics je kompanija koja se bavi razvojem softvera za
+              klijente iz USA i proglašena je za jednog od vodećih provajdera
+              ovih usluga za Fortune 500 klijente koji prolaze kroz proces
+              digitalne transformacije.<br></br>Najveći broj klijenata im dolazi
+              iz Fintech i Retail industrije, a pored razvoja softverskih
+              rešenja u oblasti veb development-a rade i na projektima iz domena
+              Data Science-a, Machine Learning-a i BigData-e. Takođe, rade sa
+              mnogim open-source tehnologijama i razvijaju platforme za
+              usavršavanje svojih inženjera.<br></br>
+              <br></br>
+              Veruju da svaki pojedinac može da dostigne svoj maksimum ukoliko
+              mu se omoguće mnogobrojne opcije za profesionalno usavršavanje i
+              dovoljno podrške. Grid Dynamics zato ulaže u kreiranje atraktivnog
+              i funkcionalnog kancelarijskog prostora, sadržajnog benefit paketa
+              i fenomenalnih dogadjaja.<br></br> Pridruživanjem Gridu postajete
+              deo velike i globalne porodice i sasvim sigurno dobijate priliku
+              da sarađujete sa ljudima koji imaju kreativan pristup razmišljanju
+              i rešavanju problema. To je ono što ih čini jakom i uspešnom
+              kompanijom!
             </h4>
           </div>
 
           <div className="PanelText LogoPanel">
-            <a href="" target="_blank">
-            <img src={GRID}></img>
+            <a href="https://www.griddynamics.com/" target="_blank">
+              <img src={GRID}></img>
             </a>
           </div>
 
-          <div className="PanelText PanelText1">
+          {/* <div className="PanelText PanelText1">
             <h4>
               {" "}
               Cras nec finibus massa. Nullam at ex a ipsum sodales pellentesque.
@@ -176,7 +200,7 @@ const Panelisti = () => {
               Fusce mollis non justo sit amet faucibus. Curabitur sagittis
               sagittis mauris nec faucibus.
             </h4>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="radionice_svg_top ">
