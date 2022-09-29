@@ -54,7 +54,7 @@
     /* font-size: 40px; */
     font-size: 3vw;
     z-index: 221;   
-    padding-bottom: 1.2px; 
+    padding-bottom: 3px; 
 }
 .caption2 {
     font-weight: bold;
@@ -62,34 +62,35 @@
     /* font-size: 40px; */
     font-size: 3vw;
     z-index: 221;   
-    padding-bottom: 1.5px; 
+    padding-bottom: 3px; 
     text-align: right;
 }
 .tekst1 {
     font-weight: 600;
     text-align: left;
-    font-size: 2vw;
-    padding-left: 2px;
+    font-size: 1.85vw;
+    padding-left: 1px;
     /* font-size: large; */
-    line-height: 2.05vw;
+    line-height: 1.95vw;
     letter-spacing: -0.215px;
     word-spacing: -.5px;
     z-index: 222;   
-    color: black; 
+    color: rgba(1, 10, 28, 0.858); 
+    
 
 }
 
 .tekst2 {
     font-weight: 600;
     text-align: right;
-    font-size: 2vw;
+    font-size: 1.85vw;
     padding-right: 1.2px;
     /* font-size: large; */
-    line-height: 2.13vw;
+    line-height: 2vw;
     letter-spacing: -0.15px;
     word-spacing: -.5px;
     z-index: 222;   
-    color: black; 
+    color: rgba(1, 10, 28, 0.858); 
 
 }
 
@@ -100,22 +101,29 @@
 }
 
 /* extra mali mobilni */
-@media screen and (max-width: 340px) {
-    /* .caption1 {
-        font-size: 30px;
+@media screen and (min-width: 405px) {
+    .tekst2 {
+        font-weight: 600;
+        text-align: right;
+        font-size: 1.8vw;
+        padding-right: 1.2px;
+        /* font-size: large; */
+        line-height: 1.95vw;
+        letter-spacing: -0.15px;
+        word-spacing: -.5px;
+        z-index: 222;   
+        color: rgba(1, 10, 28, 0.858); 
+    
     }
-
     .tekst1 {
+        font-weight: 600;
         text-align: left;
-        font-size: 23.6px;
-    }
-    .tekst2{
-        font-size: 24px;
-    }
+        font-size: 1.75vw;
+        padding-left: 1px;
+        /* font-size: large; */
+        line-height: 1.9vw;
 
-    .caption2 {
-        font-size: 30px;
-    } */
+    }
 }
 
 /* mali tableti */

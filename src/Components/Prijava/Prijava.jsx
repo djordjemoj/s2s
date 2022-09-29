@@ -114,7 +114,7 @@ const Prijava = () => {
             newsletter: false,
             daLiJeRanijeUcestvovao: "",
             generalnaMotivacija: "",
-            panelDaLi: true,
+            panelDaLi: false,
             radionicaDaLi: true,
             pitanjaPanelistima: "",
             prvaRadionica: "",
@@ -235,17 +235,19 @@ const Prijava = () => {
                 </div>
               </div>
               <div className="DrugaPolPitanja">
-                {/* <div className="panelDiv pitanjeX pitanjeVeciMarginBottom">
+                 <div className="panelDiv pitanjeX pitanjeVeciMarginBottom">
                   <div className="brojPitanja">9</div>
                   <div className="container-checkbox">
-                    <CustomCheckbox
-                      // className="MojCheckbox ne treba mi jer moze samo name da se stavi u css jer mu je to klasa
-                      label="Želim da se prijavim za panel diskusiju"
-                      type="checkbox"
-                      name="panelDaLi"
-                    />
+                    
+                    <CustomSelect
+                    label="Želim da se prijavim za panel diskusiju"
+                    name="panelDaLi"
+                  >
+                    <option value={false}>Ne</option>
+                    <option value={true}>Da</option>
+                  </CustomSelect>
                   </div>
-                </div> */}
+                </div> 
 
                 {/* <div className="radionicaDiv pitanjeX pitanjeVeciMarginBottom">
                   <div className="brojPitanja">10</div>
@@ -277,7 +279,7 @@ const Prijava = () => {
                 </div>
 
                 <div className="laptopPitanje pitanjeX">
-                  <div className="brojPitanja">9</div>
+                  <div className="brojPitanja">10</div>
                   <CustomSelect
                     label="Da li bi poneo/la svoj laptop?"
                     name="laptop"
