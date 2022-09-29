@@ -30,19 +30,20 @@ const AboutFonis = () => {
             <foreignObject x="1.1%" y="1.5%" width="775" height="560">
               <p className="caption1">O PROJEKTU</p>
               <p className="tekst1">
-                <i>Studenti studentima</i> je projekat Udruženja<br></br>studenata
-                informatike FONIS koji se tradicionalno<br></br>održava već dugi
-                niz godina, a za cilj ima prenošenje<br></br>različitih znanja
-                kako iz IT oblasti, tako i iz menadžmenta<br></br>i
-                dizajna. Glavna zamisao projekta jeste spajanje studenata
-                <br></br>koji žele da nauče ili usavrše znanja iz određene
-                oblasti IT-ja, dizajna ili menadžmenta sa studentima koji svoje
-                znanje žele da podele sa drugima. Na ovaj način studenti nalaze
-                inspiraciju za rad na ličnom napretku, širenje spektra znanja i
-                nalaze polje svog interesovanja. <br></br> Učešće na S2S-u je
-                besplatno i svi studenti iz Srbije mogu učestvovati, bez obzira
-                na Univerzitet ili usmerenje. <br></br> Ako ste zainteresovani
-                za sticanje novih veština u <br></br>društvu kolega, nemojte
+                <i>Studenti studentima</i> je projekat Udruženja<br></br>
+                studenata informatike FONIS koji se tradicionalno<br></br>
+                održava već dugi niz godina, a za cilj ima prenošenje<br></br>
+                različitih znanja kako iz IT oblasti, tako i iz menadžmenta
+                <br></br>i dizajna. Glavna zamisao projekta jeste spajanje
+                studenata
+                <br></br>koji žele da usavrše svoja znanja i veštine sa
+                studentima koji svoje znanje i iskustvo žele da podele sa
+                drugima. Na ovaj način studenti nalaze inspiraciju za rad na
+                ličnom napretku i širenju spektra znanja, a takođe nalaze i
+                polje svog interesovanja. <br></br> Učešće na S2S-u je besplatno
+                i svi studenti iz Srbije mogu učestvovati, bez obzira na
+                Univerzitet ili usmerenje. <br></br> Ako ste zainteresovani za
+                sticanje novih veština u <br></br>društvu kolega, nemojte
                 propustiti ovu jedinstvenu <br></br> priliku za to. Čekamo vas!
               </p>
             </foreignObject>

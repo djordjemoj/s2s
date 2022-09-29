@@ -2,7 +2,7 @@ import React from "react";
 import "../Partneri/Partneri.css";
 import Slider from "react-slick";
 
-import GRID from "../../assets/grid/logoWhite.png"
+import GRID from "../../assets/grid/logoWhite.png";
 
 import DragiBravo from "../../assets/partneriLogo/dragibravo.jpeg";
 import LogoPartner1 from "../../assets/partneriLogo/glassart.png";
@@ -161,10 +161,12 @@ const Partneri = () => {
               stiffness: 200,
               mass: 3.9,
               damping: 9,
-              delay: "0.2",
+              delay: 0.5,
             }}
           >
-            <img src={GRID}></img>
+            <a href="https://www.griddynamics.com/" target="_blank">
+              <img src={GRID}></img>
+            </a>
           </motion.div>
         </div>
         <div className="Godisnji-partneri slider-partneri">

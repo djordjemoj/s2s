@@ -36,14 +36,14 @@ const Radionice = () => {
     {
       naslov: "ASP.NET behind the scenes",
       prviTekst:
-        "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice baš naziva C#. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.NET-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",
+        "Svako ko se bavi muzikom zna za notu C#, međutim to ime igra veliku ulogu i u programiranju, s obzirom na to da se jedan od najpopularnijih programskih jezika današnjice naziva baš tako. Ove godine na projektu S2S u organizaciji FONIS-a, imaćeš priliku da saznaš kako se to kreira Web API u C#-u pomoću ASP.NET-a. Na početku radionice će se proći osnove objektno-orijentisanog programiranja,  kao i šta je to Web API, REST i kako izgleda back-end većine modernih veb aplikacija. Nakon toga ćeš imati priliku da to znanje primeniš na projektu gde ćeš kreirati API, bazu podataka uz pomoć Entity Framework-a i izvršiti sve CRUD operacije nad tim API-jem, koji ćeš kasnije testirati uz pomoć Postman-a.",
       nivo: "Nivo: Napredni",
       predznanje: "Potrebno predznanje: Osnove OOP ",
       potrebanSoft:
         "Potreban softver: Visual Studio 2022, Postman, Visual Studio Code",
       predavac: "Predavač: Luka Miljković",
       drugiTekst:
-        "Luka je student master studija na Fakultetu organizacionih nauka, smer informacioni sistemi i tehnologije, modul informacioni sistemi. Diplomirao je takođe na Fakultetu organizacionih nauka 2021. godine, na smeru Informacioni sistemi i tehnologije, a bio je u Upravnom odboru FONIS-a u školskoj 2020/21 godini. Trenutno radi u kompaniji NCR na poziciji PS softver inženjera. Krenuo je da programira na fakultetu i dosta mu se svidelo. Kroz studije je shvatio da ga najviše interesuje back-end programiranje kao i baze podataka. C# i .NET je prvi put radio na trećoj godini fakulteta i mnogo mu se svidelo na prvi pogled, tako da je odlučio da se dodatno bavi ovim programskim jezikom. Trenutno radi na master radu koji se bavi analizom komunikacionih protokola u .NET aplikacijama.",
+        "Luka je student master studija na Fakultetu organizacionih nauka, na smeru informacioni sistemi i tehnologije i modulu informacioni sistemi. Diplomirao je takođe na Fakultetu organizacionih nauka 2021. godine, a bio je i član Upravnog odbora FONIS-a u školskoj 2020/21 godini. Trenutno radi u kompaniji NCR na poziciji PS softver inženjera. Krenuo je da programira na fakultetu. Kroz studije je shvatio da ga najviše interesuje back-end programiranje kao i baze podataka. C# i .NET je prvi put radio na trećoj godini fakulteta i to ga je odmah privuklo, tako da je odlučio da se dodatno bavi ovim programskim jezikom. Trenutno radi na master radu koji se bavi analizom komunikacionih protokola u .NET aplikacijama.",
       slikaPredavaca1: Luka,
       slikaPredavaca2: null,
       laptop: true,
@@ -51,13 +51,13 @@ const Radionice = () => {
     {
       naslov: "Adobe After Effects",
       prviTekst:
-        "Želiš da otkriješ tajne filmske industrije? Odaćemo ti jednu: Adobe After Effects. Pomoću ovog programa možeš učiniti šta god poželiš, bilo da je to unapređivanje već snimljenog sadržaja ili stvaranje nečega sasvim novog. Savremenim alatima koje After Effects sadrži, pokriva veliki broj aktuelnih tehnika čija je upotreba danas veoma rasprostranjena. Zakorači u svet animacija i video editovanja i otkrij mogućnosti koje u sebi krije.",
+        "Želiš da otkriješ tajne filmske industrije? Odaćemo ti jednu - Adobe After Effects. Pomoću ovog programa možeš učiniti šta god poželiš, bilo da je to unapređivanje već snimljenog sadržaja ili stvaranje nečega sasvim novog. Savremenim alatima koje After Effects sadrži, pokriva veliki broj aktuelnih tehnika čija je upotreba danas veoma rasprostranjena. Zakorači u svet animacija i video editovanja i otkrij mogućnosti koje u sebi krije.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Adobe After Effects",
       predavac: "Predavač: Predrag Tanasković",
       drugiTekst:
-        "Predrag je student treće godine Fakulteta organizacionih nauka na smeru informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u njegovom najboljem svetlu. Kroz izradu videa, Instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
+        "Predrag je student treće godine Fakulteta organizacionih nauka na smeru informacioni sistemi i tehnologije i član FONIS-a već 2 godine. Video editing-om i grafičkim dizajnom se bavi već 6 godina u programima: Adobe Premiere Pro, Adobe After Effects, Adobe Photoshop, Adobe Illustrator, Sony Vegas Pro i dr. U slobodno vreme igra folklor, bavi se muzikom i deejay-ingom kroz šta je implementirao svoje znanje o video editingu. Kroz ovu radionicu bi želeo da predstavi After Effects u najboljem svetlu. Kroz izradu videa, Instagram storija i animaciju logoa, polaznici radionice će naučiti da naprave zanimljive i interaktivne video snimke za društvene mreže.",
       slikaPredavaca1: Pedja,
       slikaPredavaca2: null,
       laptop: true,
@@ -74,20 +74,20 @@ const Radionice = () => {
         "Boris je student četvrte godine Fakulteta organizacionih nauka. U prethodnoj školskoj godini obavljao je ulogu predsednika Udruženja studenata informatike FONIS, demonstratora na Katedri za elektronsko poslovanje i lidera tima za informacione tehnologije u Centru za profesionalnu sertifikaciju menaždera FON-a. Ove godine nalazi se u ulozi člana Upravnog odbora za upravljanje projektima gde se stara o uspehu svih projekata koje FONIS organizuje. Trenutno je i praktikant u kompaniji Seven Bridges na poziciji Product Management Intern. Smatra da se mnogi aspekti našeg života mogu posmatrati kao projekti kojima se može pristupiti agilno. ",
       slikaPredavaca2: Teodora,
       drugiTekst2:
-        "Teodora je student master studija na FON-u, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može se vam bude višak.",
+        "Teodora je student master studija na Fakultetu organizacionih nauka, gde je završila i osnovne studije. Dugogodišnji je član FONIS-a, a u tom periodu angažovala se na velikom broju projekata i aktivnosti. Posebno se izdvaja pozicija kordinatora FON Hakatona i vođenje resora za Upravljanje znanjem pri Upravnom odboru. Kroz organizaciju je razvijala svoje veštine upravljanja i liderstvo, te zavolela upravo ovaj aspekt IT industrije, pa se odlučila za karijeru u ovom pravcu. Trenutno je stipendista kompanije Levi9, gde će raditi na poziciji Delivery manager-a. Veruje da bilo da želite da budete programer ili menadžer, mekih veština i razumevanja procesa čiji ste deo, nikad ne može da bude dosta.",
       slikaPredavaca1: Boris,
       laptop: false,
     },
     {
       naslov: "Osnovi i izrada prototipa u Figmi",
       prviTekst:
-        "„Bez alata nema zanata“. Upravo ćeš na ovoj radionici savladati osnovne alate u Figmi, najpopularnijem softveru za stvaranje korisničkog interfejsa i korisničkog iskustva u poslednjih par godina. Figma je uređivač vektorske grafike i alat za izradu prototipa koji je prvenstveno zasnovan na pretraživaču. Rad u zajednici i alati jednostavni za koršćenje samo su neke prednosti ovog programa. Ako si kreativan i svoju budućnost vidiš u dizajnu, prijavi se i sa nama napravi svoje prve korake.",
+        "„Bez alata nema zanata“. Upravo ćeš na ovoj radionici savladati osnovne alate u Figmi, najpopularnijem softveru za stvaranje korisničkog interfejsa i korisničkog iskustva u poslednjih nekoliko godina. Figma je uređivač vektorske grafike i alat za izradu prototipa koji je prvenstveno zasnovan na pretraživaču. Rad u zajednici i alati jednostavni za koršćenje samo su neke od prednosti ovog programa. Ako si kreativan i svoju budućnost vidiš u dizajnu, prijavi se i sa nama napravi svoje prve korake.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Nije potrebno",
       predavac: "Predavač: Danilo Vasović",
       drugiTekst:
-        "Danilo je student druge godine FON-a. Grafičkim dizajnom se bavi već skoro osam godina i radio je za 4 firme u tom polju. Tokom svih tih godina, uvek je tražio program koji najviše može da mu olakša posao. Figma je svakako velika prekretnica u tom smislu. Pre svega smatra da je bolja od ostalih dizajnerskih programa, baš zbog toga što joj se pristupa preko pretraživača, a sav vaš rad je istog trenutka sačuvan na internetu. Takođe jedna od prednosti koje bi naveo jeste svakako mogućnost rada u grupi, što dodatno olakšava rad na zajedničkim projektima s drugim dizajnerima. Velika prilagodljivost, olakšano korišćenje i povećana pokretljivost su svakako epiteti koje bi dodelio Figmi. Smatra da poznavanje ovog programa može da pomogne i olakša ljudima iz oblasti dizajna, bilo da oni prave izgled zida za instagram ili da prave izgled internet stranice.",
+        "Danilo je student druge godine Fakulteta organizacionih nauka.  Grafičkim dizajnom se bavi već skoro 8 godina i radio je za četiri firme u toj oblasti. Tokom svih tih godina, uvek je tražio program koji najviše može da mu olakša posao. Figma je svakako velika prekretnica u tom smislu. Pre svega smatra da je bolja od ostalih dizajnerskih programa, baš zbog toga što joj se pristupa preko pretraživača, a sav vaš rad je istog trenutka sačuvan na internetu. Takođe jedna od prednosti koje bi naveo jeste svakako mogućnost rada u grupi, što dodatno olakšava rad na zajedničkim projektima s drugim dizajnerima. Velika prilagodljivost, olakšano korišćenje i povećana pokretljivost su svakako epiteti koje bi dodelio Figmi. Smatra da poznavanje ovog programa može da pomogne i olakša ljudima u oblasti dizajna, bilo da oni prave izgled zida za instagram ili izgled internet stranice.",
       slikaPredavaca1: Coda,
       slikaPredavaca2: null,
       laptop: false,
@@ -105,19 +105,19 @@ const Radionice = () => {
       slikaPredavaca1: Veljko,
       slikaPredavaca2: Filip,
       drugiTekst2:
-        " Filip je student četvrte godine i demonstrator na Računarskom fakultetu. Sa Javom se prvi put susreo na prvoj godini fakulteta, i od tad mu je prvi izbor za pravljenje kompleksnih sistema i aplikacija. Znanje je produbio na praksi u BlackRock-u, gde je radio u Javi na novom proizvodu sa kolegama koji su eksperti u radu sa ovim programskim jezikom. Odlučio se da se pridruži ovom projektu jer je tokom držanja demonstracija zavoleo da prenosi znanje drugima kako bi im pomogao da se pronađu i nađu ono čime bi se jednog dana bavili.",
+        " Filip je student četvrte godine i demonstrator na Računarskom fakultetu. Sa Javom se prvi put susreo na prvoj godini fakulteta, i od tad mu je ona prvi izbor za pravljenje kompleksnih sistema i aplikacija. Znanje je produbio na praksi u BlackRock-u, gde je radio u Javi na novom proizvodu sa kolegama koji su eksperti za rad u ovom programskim jezikom. Odlučio se da se pridruži ovom projektu jer je tokom držanja demonstracija zavoleo da prenosi znanje drugima kako bi im pomogao da pronađu ono čime bi se jednog dana bavili.",
       laptop: false,
     },
     {
       naslov: "Kako napraviti kriptovalutu",
       prviTekst:
-        "Nastanak prve kriptovalute 2009. godine, Bitcoin-a, doveo je do enormne ekspanzije interesovanja za Blockchain tehnologijom. Ceo svet je počeo da se pita šta je kod nje toliko revolucionarno. Radi se o tehnologiji koja ima potencijal da iz korena promeni način funkcionisanja finansija, upravljanja imovinom, osiguranja, vođenja organizacije, lanaca snabdevanja, upravljanja ličnim podacima, ali i mnogih drugih oblasti krucijalnih za svet u kojem živimo. Blockchain u svojoj osnovi predstavlja javnu, decentralizovanu i distribuiranu bazu podataka koja čuva rekorde o vlasništvu nad nekom digitalnom imovinom. Kada se podatak jednom upiše u njega tu ostaje zauvek.Ukoliko želiš naučiti kako da napraviš kompletnu blockchain mrežu od nule, kao i crypto coin na toj mreži u Node.js platformi, ova radionica je pravi izbor za tebe. Prijavi se i zajedno sa našim predavačem savladaj osnove blockchain tehnologije.",
+        "Nastanak prve kriptovalute 2009. godine, Bitcoin-a, doveo je do enormne ekspanzije interesovanja za Blockchain tehnologijom. Ceo svet je počeo da se pita šta je kod nje toliko revolucionarno. Radi se o tehnologiji koja ima potencijal da iz korena promeni način funkcionisanja finansija, upravljanja imovinom, osiguranja, vođenja organizacije, lanaca snabdevanja, upravljanja ličnim podacima, ali i mnogih drugih oblasti krucijalnih za svet u kojem živimo.Blockchain u svojoj osnovi predstavlja javnu, decentralizovanu i distribuiranu bazu podataka koja čuva zapise o vlasništvu nad nekom digitalnom imovinom. Kada se podatak jednom upiše u njega tu ostaje zauvek.Ukoliko želiš naučiti kako da napraviš kompletnu blockchain mrežu od nule, kao i crypto coin na toj mreži u Node.js platformi, ova radionica je pravi izbor za tebe. Prijavi se i zajedno sa našim predavačem savladaj osnove blockchain tehnologije.",
       nivo: "Nivo: Srednji",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: NodeJS i neki IDE",
       predavac: "Predavač: Branislav Stojanović",
       drugiTekst:
-        "Branislav je student četvrte godine IT smera na FON-u. Ujedno je zaposlen kao softver inženjer u kompaniji Blink.ing gde primarno radi u NodeJS tehnologiji. Oblasti za koje gaji veliku strast i interesovanje su cybersecurity i blockchain, a takođe voli da prenosi i deli svojem znanje zbog čega se odlučio da drži ovu radionicu.",
+        "Branislav je student četvrte godine IT smera na Fakultetu organizacionih nauka. Ujedno je zaposlen kao softver inženjer u kompaniji Blink.ing gde primarno radi u NodeJS tehnologiji. Oblasti prema kojima gaji veliku strast i interesovanje su cybersecurity i blockchain, a takođe voli da prenosi i deli svoje znanje zbog čega se i odlučio da drži ovu radionicu.",
       slikaPredavaca1: Branislav,
       slikaPredavaca2: null,
       laptop: true,
@@ -125,13 +125,13 @@ const Radionice = () => {
     {
       naslov: "Uvod u Python kroz pravljenje igrica",
       prviTekst:
-        "Da li znaš da prema nedavnom istraživanju u Velikoj Britaniji Python je pretekao francuski kao najpopularniji jezik koji se uči u osnovnim školama? Popularan programski jezik opšte namene, Python, koji se koristi u savremenom razvoju softvera i analizi podataka pruža idealan alat za razvoj funkcionalnih aplikacija poput Dropbox-a, Spotify-a, Uber-a i Pinterest-a. Srećom za početnike, Python ima jednostavnu sintaksu laku za korišćenje koja ga čini odličnim jezikom za učenje. Otkrij sve mogućnosti koje ti Python pruža i oprobaj se u kreiranju sledeće popularne aplikacije!",
+        "Da li znaš da je prema nedavnom istraživanju u Velikoj Britaniji Python pretekao francuski kao najpopularniji jezik koji se uči u osnovnim školama? Popularan programski jezik opšte namene, Python, koji se koristi u savremenom razvoju softvera i analizi podataka, pruža idealan alat za razvoj funkcionalnih aplikacija poput Dropbox-a, Spotify-a, Uber-a i Pinterest-a. Otkrij sve mogućnosti koje ti ovaj programski jezik pruža i oprobaj se u kreiranju sledeće popularne aplikacije!",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Nije potrebno",
       potrebanSoft: "Potreban softver: Python i neki IDE",
       predavac: "Predavač: Nikola Radojević",
       drugiTekst:
-        "Nikola je student četvrte godine Elektrotehnickog fakulteta. Zaposlen je kao programer u firmi „Skylead“. Programiranjem se bavi od osnovne škole. U slobodno vreme pravi igrice, simulacije i drugo. Python je jedan od prvih programskih jezika koje je naučio, i to baš kroz pravljenje igrica. Python je, takođe, koristan i u drugim oblastima poput obrade podataka, mašinskog učenja, naučnih izračunavanja i mnogih drugih.",
+        "Nikola je student četvrte godine Elektrotehničkog fakulteta. Zaposlen je kao programer u firmi Skylead. Programiranjem se bavi od osnovne škole. U slobodno vreme pravi igrice, simulacije i mnoge druge stvari. Python je jedan od prvih programskih jezika koje je naučio, i to baš kroz pravljenje igrica. Nikola navodi da je Python koristan i u drugim oblastima, poput obrade podataka, mašinskog učenja, naučnih izračunavanja i mnogih drugih.",
       slikaPredavaca1: Nikola,
       slikaPredavaca2: null,
       laptop: true,
@@ -139,7 +139,7 @@ const Radionice = () => {
     {
       naslov: "From Zero to Hero",
       prviTekst:
-        "Da li znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti React-a kao što su VirtualDom, Components, JSX, State, Hooks i još mnogo toga. Takođe na radionici će biti obrađen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
+        "Da li znaš da je React trenutno najpopularnija biblioteka za kreiranje veb aplikacija i da je  jedna od najtraženijih pozicija na tržištu baš React developer? Na ovogodišnjem projektu imaćeš priliku da dva dana učestvuješ na radionici iz React-a na kojoj će se preći osnovni koncepti ove tehnologije kao što su VirtualDom, Components, JSX, State, Hooks i mnogi drugi. Takođe na radionici će biti obrađen i Sass,  jedan od najmodernijih načina stilizovanja aplikacija, koji  je za razliku od CSS-a, skriptni jezik sa izrazima, varijablama i funkcijama i samim tim i dosta moćniji. Pridruži nam se i otkrij sve tajne ovog izvanrednog programa.",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: Osnove HTML-a, CSS-a i JS-a",
       potrebanSoft: "Potreban softver: VS Code, Node.js i Git",
@@ -153,14 +153,14 @@ const Radionice = () => {
     {
       naslov: "Kako SEO utiče na poslovanje",
       prviTekst:
-        "„SEO je umetnost i nauka objavljivanja informacija u formatu koji će uveriti pretraživače da vaš sadržaj zadovoljava potrebe njihovih korisnika za relevantne upite.“ SEO je relativno mlada oblast, ali i kao takva je već prošla kroz svoje uspone i padove. Dokazala se kao značajna pomoć preduzećima svih veličina i pronašla je svoje mesto u današnjem turbulentnom internet marketing svetu. Ona predstavlja skup radnji i aktivnosti koje se izvršavaju kako na samoj strani sajta tako i van nje. Omogućava održavanje optimizovanosti i praćenje sajta, statistiku poseta i analizu konkurencije, a postoji i čitava lista aktivnosti podeljena po oblastima koje za cilj imaju sa jedne strane da podignu vaše pozicije, a sa druge strane da povećaju broj relevantnih posetilaca na tvoj sajt. Pridruži nam se i postani ključna karika uspeha svog budućeg tima!",
+        "„SEO (Search Engine Optimization) je umetnost i nauka objavljivanja informacija u formatu koji će uveriti pretraživače da vaš sadržaj zadovoljava potrebe njihovih korisnika za relevantne upite.“ Omogućava održavanje optimizovanosti i praćenje sajta, statistiku poseta i analizu konkurencije, a postoji i čitava lista aktivnosti podeljena po oblastima koje za cilj imaju sa jedne strane da podignu tvoju poziciju, a sa druge strane da povećaju broj relevantnih posetilaca na tvom sajtu. Pridruži nam se i postani ključna karika uspeha svog budućeg tima!",
       nivo: "Nivo: Osnovni",
       predznanje: "Potrebno predznanje: osnove digitalnog marketinga",
       potrebanSoft:
         "Potreban softver: Meta SEO Inspector, Screaming Frog, Google Trends, Ahrefs",
       predavac: "Predavač: Mihailo Miljković",
       drugiTekst:
-        "Mihailo je student druge godine na Univerzitetu Metropolitan, smer Biznis i Marketing, ima dvadeset godina i radim u kompaniji Digital Silk na poziciji SEO Specialist. SEO-om se bavi 4 godina, gde je krenuo sa izučavanjem osnovnih stvari vezanih za digitalni marketing (i SEO kao jedan od glavnih digitalnih kanala), da bi se kroz vreme sve više fokusirao na SEO. Kroz niz sopstvenih projekata i mini start up-ova, došao je u kontakt sa vlasnicima firmi koji su bili zainteresovani za usluge i konsultacije u vezi SEO-a. Vredna poznanstva su mu omogućila prvo veliko iskustvo, zaposlenje u američkoj kompaniji Amerikos LLC, koja se bavi teaching-om u ESL industriji, kao i konsultantskim poslovima u coach-ing industriji. Prva pozicija u kompaniji je bila SEO & Content Manager, da bi, nakon pola godine, postao Marketing Executive Manager, gde je imao prilike da direktno sarađuje sa CEO-om kompanije i glavnim Stakeholder-ima. Nakon toga (od početka 2022. godine), se zaposlio na poziciji SEO Specialist u kompaniji Digital Silk, koja je jedna od vodećih svetskih digitalnih agencija, služeći klijentima iz različitih sfera, od Startup-ova do Fortune 500 kompanija. Neki od klijenata: P&G (Procter & Gamble), HP, Xerox, MMF (Međunarodni Monetarni Fond), Stündenglass, Sandler, itd. Kroz posao i realne projekte može savršeno da ukombinujem teorijsko znanje koje dobija na fakultetu, stvarajući tako odličnu atmosferu za učenje i napredak. ",
+        "Mihailo je student druge godine na Univerzitetu Metropolitan, na smeru biznis i marketing. Zaposlen je u kompaniji Digital Silk na poziciji SEO Specialist. SEO-om se bavi 4 godine. Kroz niz sopstvenih projekata i mini startup-ova, došao je u kontakt sa vlasnicima firmi koji su bili zainteresovani za usluge i konsultacije u vezi SEO-a. Vredna poznanstva su mu omogućila prvo veliko iskustvo, zaposlenje u američkoj kompaniji Amerikos LLC. Radio je na pozicijma SEO &amp; Content Manager-a i Marketing Executive Manager-a, gde je sarađivao sa CEO-om kompanije i glavnim stejkholderima. Sada, kao zaposleni u Digital Silk-u sarađuje sa prestižnim organizacijama kao što su P&amp;G, HP, Xerox, Stündenglass, Sandler, i druge. Kroz posao i realne projekte može savršeno da ukombinuje teorijsko znanje koje dobija na fakultetu, stvarajući tako odličnu atmosferu za učenje i napredak.",
       slikaPredavaca1: MihajloSeo,
       slikaPredavaca2: null,
       laptop: true,
