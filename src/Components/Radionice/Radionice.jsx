@@ -174,7 +174,7 @@ const Radionice = () => {
       potrebanSoft: "Potreban softver: Visual studio, Unity ekstenzija, Unity",
       predavac: "Predavač: Lazar Cvetković",
       drugiTekst:
-        "Lazar je student treće godine na Fakultetu organizacionih nauka. Obožava igrice od malena i baš zbog toga se odlučio da se bavi njihovim razvojem putem Unity-ja. Do sada je učestvovao na tri hakatona za pravljenje igrica, od kojih je pobedio na dva. ",
+        "Lazar je student treće godine na Fakultetu organizacionih nauka, na smeru informacioni sistemi i tehnologije. Član je Udruženja studenata informatike FONIS, gde je trenutno i član Upravnog odbora za upravljanje ljudskim resursima. Obožava igrice od malena i baš zbog toga se odlučio da se bavi njihovim razvojem putem Unity-ja. Do sada je učestvovao na četiri hakatona za pravljenje igrica, od kojih je pobedio na 48 časovnom game jam-u i osvojio 3.mesto na Solana Summer Camp Hackathon-u u gaming kategoriji za blokčejn. Pored toga je vrstan u fotografiji i šahu, gde ima osvojenu prvu kategoriju.",
       slikaPredavaca1: Laki,
       slikaPredavaca2: null,
       laptop: true,

@@ -1081,7 +1081,7 @@ const Agenda = () => {
 
         <motion.div
           className="Kraj-agende"
-          style={{marginTop: "10vh"}}
+          style={{marginTop: "10%"}}
           animate={{ y: visibleSubota ? "-100%" : "+0%" }} 
           transition={{ duration: "1" }}
         >

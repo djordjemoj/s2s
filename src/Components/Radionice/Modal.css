@@ -61,7 +61,7 @@ a {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -45%);
+  transform: translate(-50%, -37%);
   /* display: flex; */
   background-color: var(--accent-color);
   box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
@@ -95,18 +95,6 @@ a {
   padding: 1rem 1rem;
   position: relative;
   /* border: 2px solid red; */
-}
-.lapsitopsi {
-  position: absolute;
-  left: -20px;
-  top: -4.8%;
-  width: 10%;
-  transform: scale(0.4);
-
-  /* width: 1; */
-  /* left: 20px;
-  
-  translate(-55%, -50%); */
 }
 
 .bold {
@@ -163,16 +151,6 @@ a {
   /* width: 5px; */
 }
 .content .info2 {
-  /* height: 200px;
-  
-  margin-bottom: 5%;
-  clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 9% 50%);
-  background-color: #F9EEE1;
-  display: flex;
-  flex-direction: row 
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center; */
 
   margin-top: 3vw;
   margin-bottom: 3vw;
@@ -227,18 +205,12 @@ a {
 }
 
 @media screen and (max-width: 450px) {
-  .lapsitopsi {
-    /* position: absolute; */
-    position: absolute;
-    left: -10px;
-    top: -4.8%;
-    width: 10%;
-    transform: scale(0.4);
-  }
+
   .modalContainer {
     overflow-y: scroll;
     max-width: 390px;
-    max-height: 600px;
+    max-height: 55vh;
+    /* vrn */
     /* font-size: 50px; bilo 36 */
     /* padding-top: 15px; */
   }
@@ -326,7 +298,7 @@ a {
     /* max-height: 600px; */
     /* height: 100vh; */
     max-width: 390px;
-    max-height: 565px;
+    max-height: 80vh;
     position: fixed;
     top: 50%;
     left: 50%;
