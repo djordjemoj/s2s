@@ -1,6 +1,6 @@
 {
   "name": "s2s-frontend",
-  "homepage": "https://s2s.fonis.rs/2022/#", 
+  
   "version": "0.1.0",
   "private": true,
   "dependencies": {
