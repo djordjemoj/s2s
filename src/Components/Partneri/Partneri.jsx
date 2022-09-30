@@ -13,6 +13,8 @@ import LogoPartner5 from "../../assets/partneriLogo/futrola.png";
 import LogoPartner6 from "../../assets/partneriLogo/Gifty.png";
 import LogoPartner7 from "../../assets/partneriLogo/naucidizajn.jpg";
 import LogoPartner8 from "../../assets/partneriLogo/kolacic.png";
+import LogoPartner9 from "../../assets/partneriLogo/choco.jpeg";
+import LogoPartner10 from "../../assets/partneriLogo/gorstak.png";
 
 import DevIT from "../../assets/godisnji/devit.png";
 import Digitec from "../../assets/godisnji/digitec.png";
@@ -122,6 +124,14 @@ const Partneri = () => {
     {
       logoPartnera: LogoPartner8,
       linkPartnera: "http://www.kolacicsrece.com/",
+    },
+    {
+      logoPartnera: LogoPartner9,
+      linkPartnera: "https://www.instagram.com/choco.dreamer/",
+    },
+    {
+      logoPartnera: LogoPartner10,
+      linkPartnera: "https://gorstak.org/",
     },
   ];
   // const logoPartneri3 = [

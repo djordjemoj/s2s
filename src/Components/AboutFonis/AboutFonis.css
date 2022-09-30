@@ -66,7 +66,7 @@
     text-align: right;
 }
 .tekst1 {
-    font-weight: 600;
+    font-weight: 500;
     text-align: left;
     font-size: 1.85vw;
     padding-left: 1px;
@@ -75,13 +75,13 @@
     letter-spacing: -0.215px;
     word-spacing: -.5px;
     z-index: 222;   
-    color: rgba(1, 10, 28, 0.858); 
+    color: rgba(1, 10, 28, 0.98); 
     
 
 }
 
 .tekst2 {
-    font-weight: 600;
+    font-weight: 500;
     text-align: right;
     font-size: 1.85vw;
     padding-right: 1.2px;
@@ -103,7 +103,6 @@
 /* extra mali mobilni */
 @media screen and (min-width: 405px) {
     .tekst2 {
-        font-weight: 600;
         text-align: right;
         font-size: 1.8vw;
         padding-right: 1.2px;
@@ -116,7 +115,6 @@
     
     }
     .tekst1 {
-        font-weight: 600;
         text-align: left;
         font-size: 1.75vw;
         padding-left: 1px;

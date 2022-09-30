@@ -119,7 +119,6 @@
   top: 11%;
   left: 2%;
   text-align: left;
-  overflow-y: scroll;
 
 }
 .PanelTextDesno {
@@ -128,7 +127,6 @@
   top: 14.5%;
   left: 46.8%;
   text-align: right;
-  overflow-y: scroll;
 
 }
 .LogoPanel {

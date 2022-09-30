@@ -155,12 +155,12 @@ const Radionice = () => {
       prviTekst:
         "„SEO (Search Engine Optimization) je umetnost i nauka objavljivanja informacija u formatu koji će uveriti pretraživače da vaš sadržaj zadovoljava potrebe njihovih korisnika za relevantne upite.“ Omogućava održavanje optimizovanosti i praćenje sajta, statistiku poseta i analizu konkurencije, a postoji i čitava lista aktivnosti podeljena po oblastima koje za cilj imaju sa jedne strane da podignu tvoju poziciju, a sa druge strane da povećaju broj relevantnih posetilaca na tvom sajtu. Pridruži nam se i postani ključna karika uspeha svog budućeg tima!",
       nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: osnove digitalnog marketinga",
+      predznanje: "Potrebno predznanje: osnove digitalnog marketinga, osnovni pojmovi iz poslovanja",
       potrebanSoft:
         "Potreban softver: Meta SEO Inspector, Screaming Frog, Google Trends, Ahrefs",
       predavac: "Predavač: Mihailo Miljković",
       drugiTekst:
-        "Mihailo je student druge godine na Univerzitetu Metropolitan, na smeru biznis i marketing. Zaposlen je u kompaniji Digital Silk na poziciji SEO Specialist. SEO-om se bavi 4 godine. Kroz niz sopstvenih projekata i mini startup-ova, došao je u kontakt sa vlasnicima firmi koji su bili zainteresovani za usluge i konsultacije u vezi SEO-a. Vredna poznanstva su mu omogućila prvo veliko iskustvo, zaposlenje u američkoj kompaniji Amerikos LLC. Radio je na pozicijma SEO &amp g Content Manager-a i Marketing Executive Manager-a, gde je sarađivao sa CEO-om kompanije i glavnim stejkholderima. Sada, kao zaposleni u Digital Silk-u sarađuje sa prestižnim organizacijama kao što su P,&amp G, HP, Xerox, Stündenglass, Sandler, i druge. Kroz posao i realne projekte može savršeno da ukombinuje teorijsko znanje koje dobija na fakultetu, stvarajući tako odličnu atmosferu za učenje i napredak.",
+        "Mihailo je student druge godine na Univerzitetu Metropolitan, na smeru biznis i marketing. Zaposlen je u kompaniji Digital Silk na poziciji SEO Specialist. SEO-om se bavi 4 godine. Kroz niz sopstvenih projekata i mini startup-ova, došao je u kontakt sa vlasnicima firmi koji su bili zainteresovani za usluge i konsultacije u vezi SEO-a. Vredna poznanstva su mu omogućila prvo veliko iskustvo, zaposlenje u američkoj kompaniji Amerikos LLC. Radio je na pozicijma SEO & Content Manager-a i Marketing Executive Manager-a, gde je sarađivao sa CEO-om kompanije i glavnim stejkholderima. Sada, kao zaposleni u Digital Silk-u sarađuje sa prestižnim organizacijama kao što su P&G, HP, Xerox, Stündenglass, Sandler, i druge. Kroz posao i realne projekte može savršeno da ukombinuje teorijsko znanje koje dobija na fakultetu, stvarajući tako odličnu atmosferu za učenje i napredak.",
       slikaPredavaca1: MihajloSeo,
       slikaPredavaca2: null,
       laptop: true,
@@ -170,7 +170,7 @@ const Radionice = () => {
       prviTekst:
         "Znaš li da je video igra tvog detinjstva, Angry Birds, napravljena baš u Unity-ju? Unity predstavlja integrisano razvojno okruženje za razvoj 2D i 3D interaktivnih multimedijalnih aplikacija i igara za računare, konzole, mobilne uređaje i veb sajtove, sa mogućnošću izvršavanja na preko 20 podržanih platformi. Uprkos širokom spektru mogućnosti koje ovaj program nudi, veoma je jednostavan za korišćenje. Ukoliko si strastveni obožavalac video igara ili pak želiš da se oprobaš u nečemu novom, ovo je prava radionica za tebe. Prijavi se i zajedno sa nama savladaj osnove Unity-ja. Možda će jednog dana baš tvoja igrica biti izvor zabave širom sveta.",
       nivo: "Nivo: Osnovni",
-      predznanje: "Potrebno predznanje: Nije potrebno",
+      predznanje: "Potrebno predznanje: poželjno je osnovno znanje programiranja, ali nije obavezno",
       potrebanSoft: "Potreban softver: Visual studio, Unity ekstenzija, Unity",
       predavac: "Predavač: Lazar Cvetković",
       drugiTekst:
