@@ -16,7 +16,7 @@ const AboutFonis = () => {
         <div className="about about-container">
           <div className="PrviTekstAbout TekstAbout">
             <h1 className="caption1">O PROJEKTU</h1>
-            <p className="tekst1">
+            <h3 className="tekst1">
               <i>Studenti studentima</i> je projekat Udruženja<br></br>
               studenata informatike FONIS koji se tradicionalno <br></br>održava već dugi
               niz godina, a za cilj ima prenošenje<br></br> znanja kako iz IT
@@ -29,11 +29,11 @@ const AboutFonis = () => {
              na Univerzitet ili usmerenje.<br></br> Ako ste zainteresovani za sticanje
               novih veština<br></br> u društvu kolega, nemojte propustiti ovu<br></br> jedinstvenu
               priliku za to. <br></br>Čekamo vas!
-            </p>
+            </h3>
           </div>
           <div className="DrugiTekstAbout TekstAbout">
-            <p className="caption2">O FONIS-u</p>
-            <p className="tekst2">
+            <h1 className="caption2">O FONIS-u</h1>
+            <h3 className="tekst2">
               Udruženje studenata informatike<br></br> FONIS je studentska, nevladina i<br></br>
               neprofitna organizacija sa sedištem<br></br> na Fakultetu organizacionih
               nauka.<br></br>Organizacijom i realizacijom <br></br>brojnih seminara, stručnih
@@ -43,7 +43,7 @@ const AboutFonis = () => {
               članova, <br></br>FONIS već dugi niz godina održava više<br></br>edukativnih i
               takmičarskih projekata iz<br></br> sveta IT-ja, među kojima je i upravo{" "}
               <br></br>projekat <i>Studenti studentima</i>.
-            </p>
+            </h3>
           </div>
 
           <svg

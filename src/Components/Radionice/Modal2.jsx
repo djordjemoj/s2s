@@ -1,7 +1,10 @@
 import React from "react";
-import { Scrollbars } from "react-custom-scrollbars-2";
 import Laptop from "../../assets/laptop.png";
 import classes from "../Radionice/Modal2.module.css";
+import {
+  LazyLoadImage,
+} from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Modal2 = ({ open, onClose, modali }) => {
   if (!open) return null;
@@ -13,15 +16,24 @@ const Modal2 = ({ open, onClose, modali }) => {
     predavac2 = <div className="probaDiv">
     <div className="slike-proba">
       
-        
-      <img src={modali.slikaPredavaca2} alt="Predavac na s2s" />
+    <LazyLoadImage
+              alt="Predavac na s2s"
+              src={modali.slikaPredavaca2} 
+              // width="100%"
+              // height="100%"
+              className="predavacSlikaLazy"
+              effect="blur"
+              // placeholder={"<span>Loading..</span>"}
+              // placeholderSrc={logoplaceholder}
+            />
+      {/* <img src={modali.slikaPredavaca2} alt="Predavac na s2s" ></img> */}
       
     </div>
 
     <div
       className="DrugiTekst"
     >
-      <p>{modali.drugiTekst2}</p>
+      <h4>{modali.drugiTekst2}</h4>
     </div>
   </div>;
   }
@@ -60,7 +72,7 @@ pa zato mozda nece moci flex*/}
 
           <div className="content">
             <div className="probaDiv-first">
-              <p className="prviTekst">{modali.prviTekst}</p>
+              <h4 className="prviTekst">{modali.prviTekst}</h4>
             </div>
 
             <div className="info2">
@@ -79,13 +91,23 @@ pa zato mozda nece moci flex*/}
               <div className="slike-proba">
                 
 
-                <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
+              <LazyLoadImage
+              alt="Predavac na s2s"
+              src={modali.slikaPredavaca1} 
+              // width="100%"
+              // height="100%"
+              className="predavacSlikaLazy"
+              effect="blur"
+              // placeholder={"<span>Loading..</span>"}
+              // placeholderSrc={logoplaceholder}
+            />
+                {/* <img src={modali.slikaPredavaca1} alt="Predavac na s2s" /> */}
               </div>
 
               <div
                 className="DrugiTekst"
               >
-                <p>{modali.drugiTekst}</p>
+                <h4>{modali.drugiTekst}</h4>
               </div>
             </div>
             {predavac2}

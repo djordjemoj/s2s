@@ -1,251 +1,238 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-
-
-
 .orgtim-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
-
-
-
 
 .OrgTim3 {
-
-    margin-top: 5%;
-    width: 100%;
-    position: relative;
-
+  margin-top: 5%;
+  width: 100%;
+  position: relative;
 }
-.Orgtim-naslov{
-    position: absolute;
-    width: 100%;
-    /* height: 100px; */
-    /* top: 3%; */
-    /* border: 2px solid red; */
-    
+.Orgtim-naslov {
+  position: absolute;
+  width: 100%;
+  /* height: 100px; */
+  /* top: 3%; */
+  /* border: 2px solid red; */
 }
-.Orgtim-naslov h1{
-    
-    height: 100%;
-    text-align: center;
-    /* margin-top: 1.5%; */
-    color: #db8d21;
-    /* font-family: Jost-700Bold; */
-    font-size: 24px;
-    font-weight: 700;
-    /* font-weight: 500; */
-    /* font-size: 1.6rem; */
+.Orgtim-naslov h1 {
+  height: 100%;
+  text-align: center;
+  /* margin-top: 1.5%; */
+  color: #db8d21;
+  /* font-family: Jost-700Bold; */
+  font-size: 24px;
+  font-weight: 700;
+  /* font-weight: 500; */
+  /* font-size: 1.6rem; */
 }
 
 .slick-slide {
-    /* margin-bottom: 100px; */
+  /* margin-bottom: 100px; */
 }
 
 .OrgTim3 .slick-track {
-    margin-top: 10%;
-    
-    /* outline: 1px solid rgb(89, 0, 255); */
+  margin-top: 10%;
 
+  /* outline: 1px solid rgb(89, 0, 255); */
 }
 
-
 .slick-slide img {
-
-    margin: auto;
-    width: 70%;
-
-
+  margin: auto;
+  width: 70%;
 }
 
 .slick-list {
-    /* outline: 3px solid red; */
-    margin-top: 5%;
-
+  /* outline: 3px solid red; */
+  margin-top: 5%;
 }
 
 .slide {
-    transition: transform 1000ms ease;
-    transform: scale(0.4) translate3d(0%, -75%, 0px);
-    /* modzda neka funkcija gore */
-    /* margin: 0 auto; */
-    /* outline: 2px solid black; */
-
-    width: 100%;
-    opacity: 0.7;
-    /* transform: translate3d(0%, -50px, 0px); */
-    /* position: relative; */
-
-
+  transition: transform 1000ms ease;
+  transform: scale(0.4) translate3d(0%, -75%, 0px);
+  width: 100%;
+  opacity: 0.7;
 }
 
 .activeSlide {
-    transform: scale(1);
-    opacity: 1;
-    /* transform: scale(1) translate3d(0%, 30px, 0px); */
-
-
+  transform: none;
+  opacity: 1;
 }
 
 .Koor-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    /* outline: 1px solid red; */
-    position: absolute;
-
-    /* height: 500px;
-    width: 200px; */
-    /* outline: 2px solid green; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* outline: 1px solid red; */
+  position: absolute;
 }
 
 .Koor-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 55%;
-    position: relative;
-    top: -23%;
-    left: 22%;
-    /* outline: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 55%;
+  position: relative;
+  top: -23%;
+  left: 22%;
+  /* outline: 1px solid red; */
 }
 
 .Koor-info svg {
-    width: 96%;
-    font-weight: 900;
-    fill: #db8d21;
+  width: 96%;
+  font-weight: 900;
+  fill: #db8d21;
 }
 
 .Koor-ime {
-    font-size: 200%;
+  font-size: 200%;
 }
-.Koor-pozicija{
-    font-size: 190%;
+.Koor-pozicija {
+  font-size: 190%;
 }
 
 .Koor-slika {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 31%;
-    position: absolute;
-    background: black;
-    border: 0.7px solid black;
-    position: relative;
-    top: -11.3%;
-    left: 0%;
-    z-index: 30;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 31%;
+  position: absolute;
+  background: black;
+  border: 0.7px solid black;
+  position: relative;
+  top: -11.3%;
+  left: 0%;
+  z-index: 30;
 }
 
 .Koor-slika img {
-    width: 100%;
-    /* outline: 3px solid black; */
-    /* outline: 2px solid red;
+  width: 100%;
+  /* outline: 3px solid black; */
+  /* outline: 2px solid red;
   outline-offset: -1px; ovo je za SVG a ne za clip*/
 }
+/* .CitatKoor {
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  background-color: rgba(0, 0, 17, 0.54);
+}
+.CitatKoor p {
+  margin: 0 auto;
+  width: 60%;
+  z-index: 555;
+  opacity: 1;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: medium;
+}
+
+.CitatKoor:hover {
+  opacity: 1;
+} */
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {
-    .Orgtim-naslov h1{
-        font-size: 20px;
-    }
+  .Orgtim-naslov h1 {
+    font-size: 20px;
+  }
 }
 
 /* mali tableti */
 @media screen and (min-width: 620px) {
-    .slick-track {
-        margin-top: 5%;
-        /* outline: 1px solid rgb(89, 0, 255); */
-    
-    }
-    .Koor-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        /* outline: 1px solid red; */
-        position: absolute;
-        /* height: 500px; */
+  .slick-track {
+    margin-top: 5%;
+    /* outline: 1px solid rgb(89, 0, 255); */
+  }
+  .Koor-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* outline: 1px solid red; */
+    position: absolute;
+    /* height: 500px; */
+  }
 
-    }
+  .Koor-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    position: relative;
+    top: -19.9%;
+    left: 24.3%;
+    /* outline: 1px solid red; */
+  }
 
-    .Koor-info {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 50%;
-        position: relative;
-        top: -19.9%;
-        left: 24.3%;
-        /* outline: 1px solid red; */
-    }
+  .Koor-ime {
+    font-size: 150%;
+  }
+  .Koor-pozicija {
+    font-size: 130%;
+  }
 
-    .Koor-ime {
-        font-size: 150%;
-    }
-    .Koor-pozicija{
-        font-size: 130%;
-    }
+  .Koor-info svg {
+    width: 40%;
+  }
 
-    .Koor-info svg {
-        width: 40%;
-    }
+  .Koor-slika {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30%;
+    position: absolute;
+    background: none;
+    border: none;
+    position: relative;
+    top: -9.8%;
+    left: 22.7%;
+    z-index: 30;
+    color: #5b606a;
+  }
 
-    .Koor-slika {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        width: 30%;
-        position: absolute;
-        background: none;
-        border: none;
-        position: relative;
-        top: -9.8%;
-        left: 22.7%;
-        z-index: 30;
-        color: #5b606a;
-    }
-
-    .Koor-slika img {
-        width: 40%;
-    }
-    .Orgtim-naslov p{
-        font-size: 30px
-    }
+  .Koor-slika img {
+    width: 40%;
+  }
+  .Orgtim-naslov p {
+    font-size: 30px;
+  }
+  .CitatKoor {
+    width: 40%;
+  }
 }
 
 /* veliki tableti i mali  */
 @media screen and (min-width: 960px) {
-    .Orgtim-naslov h1{
-        font-size: 32px;
-    }
+  .Orgtim-naslov h1 {
+    font-size: 32px;
+  }
 }
 
 /* desktop */
 @media screen and (min-width: 1200px) {
-
-    .Orgtim-naslov h1{
-        font-size: 36px;
-        
-    }
-    body {
-        font-size: 20px;
-    }
-    .Orgtim-naslov p{
-        /* font-size: 35 */
-    }
-
+  .Orgtim-naslov h1 {
+    font-size: 36px;
+  }
+  body {
+    font-size: 20px;
+  }
+  .Orgtim-naslov p {
+    /* font-size: 35 */
+  }
 }
 
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {
-
-    .Orgtim-naslov h1{
-        font-size: 40px;
-        
-    }
-
+  .Orgtim-naslov h1 {
+    font-size: 40px;
+  }
 }

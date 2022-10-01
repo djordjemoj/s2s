@@ -9,7 +9,6 @@ import axios from "axios";
 import "./Prijava.css";
 import {
   LazyLoadImage,
-  trackWindowScroll,
 } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { HashLink } from "react-router-hash-link";

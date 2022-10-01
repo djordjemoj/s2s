@@ -79,40 +79,30 @@
   left: 43%;
 }
 .Panelista img {
-  /* display: none; */
   width: 100%;
-  /* position: relative; */
-  /* top: 200%; */
-  /* width: 100%; */
-  /* clip-path: path("M208.376 108.036L164.985 186.567C161.728 192.462 155.525 196.121 148.79 196.12L63.5317 196.109C56.7971 196.108 50.5949 192.448 47.3393 186.552L3.96682 108.011C0.892375 102.444 0.893204 95.6876 3.96902 90.121L47.3608 11.5905C50.6178 5.69586 56.8209 2.03684 63.5556 2.03767L148.814 2.04815C155.548 2.04897 161.751 5.70952 165.006 11.605L208.379 90.1461C211.453 95.7135 211.452 102.47 208.376 108.036Z"); */
-  /* clip-path: path('M0.5,1 C0.5,1,0,0.7,0,0.3 A0.25,0.25,1,1,1,0.5,0.3 A0.25,0.25,1,1,1,1,0.3 C1,0.7,0.5,1,0.5,1 Z'); */
-  /* clip-path: polygon( "75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0"); */
-  /* clip-path: path("M1.54 288v324.52a117.34 117.34 0 0 0 58.68 101.62l281 162.24a117.31 117.31 0 0 0 117.35 0l281-162.24a117.34 117.34 0 0 0 58.68-101.62V288a117.35 117.35 0 0 0-58.68-101.63l-281-162.24a117.36 117.36 0 0 0-117.35 0l-281 162.24A117.35 117.35 0 0 0 1.54 288z"); */
-  /* clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); */
-  /* clip-path: inset(); */
-  /* clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0); */
 }
 
 .PanelText {
   position: absolute;
+  font-weight: 500;
+
   width: 35%;
   height: 10%;
-  /* background-color: brown; */
-  /* border: 2px solid blue; */
   z-index: 20;
-  /* line-height: 11px; */
-  /* font-size: smaller; */
-  line-height: 2.03vw;
+  line-height: 2vw;
 
   font-size: 2vw;
-  /* word-spacing: -3px; */
-  word-spacing: -1px;
+  word-spacing: -1.4px;
   
+}
+.PanelText h4{
+  font-weight: 500;
 }
 .PanelText::-webkit-scrollbar {
   display: none;
 }
 .PanelTextLevo {
+  font-weight: 200;
 
   width: 46%;
   height: 17.5%;

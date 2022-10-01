@@ -135,7 +135,7 @@ const Orgtim3 = () => {
         </div>
         <Slider {...settings}>
           {images.map((img, idx) => (
-            <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
+            <div className={idx === imageIndex ? "slide activeSlide" : "slide"} >
               <img
                 src={img}
                 alt={img}
@@ -171,6 +171,14 @@ const Orgtim3 = () => {
                 "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
             }}
           ></img>
+            {/* <div className="CitatKoor" style={{
+                clipPath:
+                  "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
+                WebkitClipPath:
+                  "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
+              }} >
+              <p>Neki citati ali sta cemo ako su malo duzini</p>
+            </div> */}
         </div>
         <div className="Koor-info">
           <svg viewBox="0 0 618 156" fill="none">
