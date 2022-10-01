@@ -1,10 +1,6 @@
 import React from "react";
 import Laptop from "../../assets/laptop.png";
 import classes from "../Radionice/Modal2.module.css";
-import {
-  LazyLoadImage,
-} from "react-lazy-load-image-component";
-import "react-lazy-load-image-component/src/effects/blur.css";
 
 const Modal2 = ({ open, onClose, modali }) => {
   if (!open) return null;
@@ -13,32 +9,18 @@ const Modal2 = ({ open, onClose, modali }) => {
   if (modali.slikaPredavaca2 === null) {
     predavac2 = <span></span>;
   } else {
-    predavac2 = <div className="probaDiv">
-    <div className="slike-proba">
-      
-    <LazyLoadImage
-              alt="Predavac na s2s"
-              src={modali.slikaPredavaca2} 
-              // width="100%"
-              // height="100%"
-              className="predavacSlikaLazy"
-              effect="blur"
-              // placeholder={"<span>Loading..</span>"}
-              // placeholderSrc={logoplaceholder}
-            />
-      {/* <img src={modali.slikaPredavaca2} alt="Predavac na s2s" ></img> */}
-      
-    </div>
+    predavac2 = (
+      <div className="probaDiv">
+        <div className="slike-proba">
+          <img src={modali.slikaPredavaca2} alt="Predavac na s2s"></img>
+        </div>
 
-    <div
-      className="DrugiTekst"
-    >
-      <h4>{modali.drugiTekst2}</h4>
-    </div>
-  </div>;
+        <div className="DrugiTekst">
+          <h4>{modali.drugiTekst2}</h4>
+        </div>
+      </div>
+    );
   }
-   
-
 
   return (
     <div onClick={onClose} className="overlay">
@@ -76,42 +58,27 @@ pa zato mozda nece moci flex*/}
             </div>
 
             <div className="info2">
-                <div className="infoKocka">
-             <p>
-                      <span className="potrebanNivoText">{modali.nivo}</span> <br />
-                      {modali.predznanje} <br />
-                      {modali.potrebanSoft} <br />{" "}
-                    </p></div>
-              
+              <div className="infoKocka">
+                <p>
+                  <span className="potrebanNivoText">{modali.nivo}</span> <br />
+                  {modali.predznanje} <br />
+                  {modali.potrebanSoft} <br />{" "}
+                </p>
+              </div>
             </div>
 
             <h2 className={classes.naslovPredavaci}>{modali.predavac}</h2>
-            
+
             <div className="probaDiv">
               <div className="slike-proba">
-                
-
-              <LazyLoadImage
-              alt="Predavac na s2s"
-              src={modali.slikaPredavaca1} 
-              // width="100%"
-              // height="100%"
-              className="predavacSlikaLazy"
-              effect="blur"
-              // placeholder={"<span>Loading..</span>"}
-              // placeholderSrc={logoplaceholder}
-            />
-                {/* <img src={modali.slikaPredavaca1} alt="Predavac na s2s" /> */}
+                <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
               </div>
 
-              <div
-                className="DrugiTekst"
-              >
+              <div className="DrugiTekst">
                 <h4>{modali.drugiTekst}</h4>
               </div>
             </div>
             {predavac2}
-             
           </div>
         </div>
       </div>

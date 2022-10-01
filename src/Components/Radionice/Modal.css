@@ -19,7 +19,7 @@ a {
   text-decoration: none;
 }
 
-.overlay .modalContainer .modalRight .predavacSlikaLazy {
+.overlay .modalContainer .modalRight img {
   margin-top: 5px;
   width: 90px;
   /* height: 100%; */
@@ -214,7 +214,7 @@ a {
     /* font-size: 50px; bilo 36 */
     /* padding-top: 15px; */
   }
-  .overlay .modalContainer .modalRight .predavacSlikaLazy {
+  .overlay .modalContainer .modalRight img {
     /* margin-top: -150px; */
 
     width: 70px;
@@ -256,8 +256,8 @@ a {
     margin: 0 auto;
   }
 
-  .overlay .modalContainer .modalRight .predavacSlikaLazy {
-    width: 30px;
+  .overlay .modalContainer .modalRight img {
+    width: 70px;
   }
 
   .overlay .modalContainer .modalRight h1 {
@@ -406,7 +406,7 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .overlay .modalContainer .modalRight .predavacSlikaLazy {
+  .overlay .modalContainer .modalRight img {
     margin-top: 0px;
     width: 110px;
   }
@@ -423,7 +423,7 @@ a {
     z-index: 101;
   }
 
-  .overlay .modalContainer .modalRight .predavacSlikaLazy {
+  .overlay .modalContainer .modalRight img {
     /* margin-top: -230px; */
     width: 120px;
   }
@@ -532,7 +532,7 @@ a {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.87);
   }
-  .overlay .modalContainer .modalRight .predavacSlikaLazy {
+  .overlay .modalContainer .modalRight img {
     width: 150px;
   }
   /* .overlay .modalContainer .modalRight h3{

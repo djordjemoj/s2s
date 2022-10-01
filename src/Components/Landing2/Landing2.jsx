@@ -3,12 +3,12 @@ import "../Landing2/Landing2.css";
 import S2SLOGO from "../../assets/s2slogo.png";
 import { motion } from "framer-motion";
 import { HashLink } from "react-router-hash-link";
-import Pozadina from "../../assets/pozadinaFinal.png";
+// import Pozadina from "../../assets/pozadinaFinal.png";
 
 const Landing2 = () => {
   return (
     <div className="Ceo-Landing">
-      <motion.div
+      {/* <motion.div
         className="divPozadina"
         style={{ width: "100%" }}
         initial={{ background: null }}
@@ -24,7 +24,7 @@ const Landing2 = () => {
 
           delay: 0.9,
         }}
-      ></motion.div>
+      ></motion.div> */}
       <a name="top"></a>
       <div className="Landing-container">
         <div className="Text-animacija-placeholder">

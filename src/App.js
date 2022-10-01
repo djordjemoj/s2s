@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import Loader from "./Components/Loader/Loader";
 import "./App.css";
 import { motion } from "framer-motion";
-import Pozadina from "./assets/pozadinaFinal.png";
 
 // import Home from "./Home";
 // import Prijava from "./Components/Prijava/Prijava";
