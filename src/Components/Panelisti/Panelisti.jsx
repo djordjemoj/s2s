@@ -1,6 +1,5 @@
 import React from "react";
 import "../Panelisti/Panelisti.css";
-import SlikaTim0 from "../../assets/questionmark2.png";
 import NaslovRadonice from "../../assets/radioniceNaslov.png";
 import GRID from "../../assets/grid/logoWhite.png";
 
@@ -137,13 +136,14 @@ const Panelisti = () => {
           <div className="PanelText PanelTextDesno">
             <h4>
               {" "}
-              <i>Grid Dynamics</i> je kompanija koja se bavi <br></br>razvojem softvera u
-              oblasti veb<br></br>development-a i projektima iz domena<br></br>Data Science-a,
-              Machine Learning-a i<br></br>BigData-e. Najveći broj klijenata im dolazi<br></br>
-              iz Fintech i Retail industrije. Pridruživanjem<br></br>Gridu dobijate
-              priliku da sarađujete sa ljudima<br></br>koji imaju kreativan pristup
-              rešavanju problema.<br></br>To je ono što ih čini jakom i uspešnom
-              kompanijom!
+              <i>Grid Dynamics</i> je kompanija koja se bavi <br></br>razvojem
+              softvera u oblasti veb<br></br>development-a i projektima iz
+              domena<br></br>Data Science-a, Machine Learning-a i<br></br>
+              BigData-e. Najveći broj klijenata im dolazi<br></br>
+              iz Fintech i Retail industrije. Pridruživanjem<br></br>Gridu
+              dobijate priliku da sarađujete sa ljudima<br></br>koji imaju
+              kreativan pristup rešavanju problema.<br></br>To je ono što ih
+              čini jakom i uspešnom kompanijom!
             </h4>
           </div>
 
