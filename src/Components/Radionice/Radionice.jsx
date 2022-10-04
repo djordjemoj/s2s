@@ -120,7 +120,7 @@ const Radionice = () => {
         "Branislav je student četvrte godine IT smera na Fakultetu organizacionih nauka. Ujedno je zaposlen kao softver inženjer u kompaniji Blink.ing gde primarno radi u NodeJS tehnologiji. Oblasti prema kojima gaji veliku strast i interesovanje su cybersecurity i blockchain, a takođe voli da prenosi i deli svoje znanje zbog čega se i odlučio da drži ovu radionicu.",
       slikaPredavaca1: Branislav,
       slikaPredavaca2: null,
-      laptop: true,
+      laptop: false,
     },
     {
       naslov: "Uvod u Python kroz pravljenje igrica",

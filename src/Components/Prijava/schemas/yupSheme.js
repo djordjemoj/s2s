@@ -69,7 +69,7 @@ export const advancedSchema = yup.object().shape({
 
   panelDaLi: yup.boolean().oneOf([true, false], ""),
 
-  radionicaDaLi: yup.boolean().oneOf([true, false], ""),
+  // radionicaDaLi: yup.boolean().oneOf([true, false], ""),
 
   // pitanjaPanelistima: yup
   //   .string()
@@ -81,75 +81,104 @@ export const advancedSchema = yup.object().shape({
 
   //   })
   //   .required(""),
-  pitanjaPanelistima: yup.string(),
+  // pitanjaPanelistima: yup.string(),
   //ovo je logika za to da li je nesto *Obavezno polje, takodje mozemo da stavimo za laptop
 
+  // prvaRadionica: yup
+  //   .string()
+  //   .oneOf(
+  //     [
+  //       "java",
+  //       "python",
+  //       "react",
+  //       "figma",
+  //       "dotNet",
+  //       "ae",
+  //       "node",
+  //       "seo",
+  //       "unity",
+  //       "agile",
+  //     ],
+  //     "Niste izabrali radionicu"
+  //   )
+  //   .required("*Obavezno polje"),
+
   prvaRadionica: yup
-    .string()
-    .oneOf(
-      [
-        "java",
-        "python",
-        "react",
-        "figma",
-        "dotNet",
-        "ae",
-        "node",
-        "seo",
-        "unity",
-        "agile",
-      ],
-      "Niste izabrali radionicu"
-    )
-    .required("*Obavezno polje"),
+        .string().when(
+        "laptop", {
+              is: true,
+              then: yup
+                .string().oneOf(
+                      [
+                        "java",
+                        "python",
+                        "react",
+                        "figma",
+                        "dotNet",
+                        "ae",
+                        "node",
+                        "seo",
+                        "unity",
+                        "agile",
+                      ],
+                      "Nisi izabrao/la radionicu"),
+                
+                otherwise: yup
+                .string().oneOf(
+                      [
+                        "java",
+                        "react",
+                        "figma",
+                        "seo",
+                        "node",
+                        "agile",
+                      ],"Ukoliko zeliš da slušaš ovu radionicu, neophodno je da poneseš svoj laptop"),
+                    }),
+        
 
   prvaMotivacija: yup
-    .string()
-    .min(3, "Napišite zbog čega se prijavljujete na primarnu radionicu:")
-    .required("*Obavezno polje"),
-
+  .string()
+    .min(5, "Napiši zbog čega se prijavljuješ na primarnu radionicu:"),
+      
+    
   drugaRadionica: yup
-    .string()
-    .oneOf(
-      [
-        "java",
-        "python",
-        "react",
-        "figma",
-        "dotNet",
-        "ae",
-        "node",
-        "seo",
-        "unity",
-        "agile",
-      ],
-      "Niste Izabrali radionicu"
-    ),
+  .string().when(
+  "laptop", {
+        is: true,
+        then: yup
+          .string().oneOf(
+                [
+                  "java",
+                  "python",
+                  "react",
+                  "figma",
+                  "dotNet",
+                  "ae",
+                  "node",
+                  "seo",
+                  "unity",
+                  "agile",
+                ],
+                "Nisi izabrao/la radionicu"),
+          
+                otherwise: yup
+          .string().oneOf(
+                [
+                  "java",
+                  "react",
+                  "figma",
+                  "seo",
+                  "node",
+                  "agile",
+                ],"Ukoliko zeliš da slušaš ovu radionicu, neophodno je da poneseš svoj laptop"),
+              }),
 
   drugaMotivacija: yup
-    .string()
-    .min(3, "Napišite zbog čega se prijavljujete na alternativnu radionicu:"),
-
-  radionicaDaLi: yup.boolean().oneOf([true, false], "").required("ob"),
+  .string()
+    .min(5, "Napiši zbog čega se prijavljuješ na primarnu radionicu:")
+    ,
 
   laptop: yup.boolean().oneOf([true, false], "").required("*Obavezno polje"),
 
-  // laptop: yup
-  //   .string()
-  //   .when("prvaRadionica", {
-  //     is: "figma"z,
-  //     then: yup
-  //       .string()
-  //       .min(3, "Morate napisati bar nešto"),
 
-  //   })
-  //   .required(""),
-
-  // jobType: yup
-  //   .string()
-  //   .oneOf(["designer", "developer", "manager", "other"], "Invalid Job Type")
-  //   .required("*Obavezno polje"),
-  // acceptedTos: yup
-  //   .boolean()
-  //   .oneOf([true], "Please accept the terms of service"),
 });

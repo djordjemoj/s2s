@@ -9,6 +9,7 @@ import axios from "axios";
 import "./Prijava.css";
 import {
   LazyLoadImage,
+  trackWindowScroll,
 } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { HashLink } from "react-router-hash-link";
@@ -52,7 +53,11 @@ const Prijava = () => {
     };
 
     axios
-      .post("https://backs2stesting.herokuapp.com/api/prijave", postBody)
+      .post(
+        "https://backs2stesting.herokuapp.com/api/prijave"
+      //  " http://localhost:5000/api/prijave"
+      
+      , postBody)
       .catch((e) => {
         // console.log(e);
         // alert(e);
@@ -269,8 +274,6 @@ const Prijava = () => {
                     <br></br>
                     <i>Adobe After Effects</i>
                     <br></br>
-                    <i>Kako napraviti kriptovalutu</i>
-                    <br></br>
                     <i>Uvod u Python kroz pravljenje igrica</i>
                     <br></br>
                     <span>potrebno je da poneseš sopstveni laptop.</span>
@@ -305,7 +308,7 @@ const Prijava = () => {
                   // style={{ display: true? "none" : "auto" }}
                 >
                   <div className="prviIzborDiv pitanjeX">
-                    <div className="brojPitanja">10</div>
+                    <div className="brojPitanja">11</div>
                     <CustomSelect
                       label="Odaberi radionicu na kojoj bi primarno želeo/la da prisustvuješ:"
                       name="prvaRadionica"
@@ -316,7 +319,7 @@ const Prijava = () => {
                       //   funkcijaProveri1(e.target.value);
                       // }}
                     >
-                      <option value="">Primarna radionica</option>
+                      <option value="nista">Primarna radionica</option>
                       <option value="dotNet">ASP.NET behind the scenes</option>
                       <option value="ae">Adobe After Effects</option>
                       <option value="agile">Make IT Agile</option>
@@ -358,7 +361,7 @@ const Prijava = () => {
                potrebno je da ponesete lap top
               Ponecu svoj lap top checkbox  ako ne (required)*/}
                   <div className="prvaMotivacijaDiv pitanjeX">
-                    <div className="brojPitanja">11</div>
+                    <div className="brojPitanja">12</div>
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="prvaMotivacija"
@@ -366,7 +369,7 @@ const Prijava = () => {
                     ></CustomTextArea>
                   </div>
                   <div className="drugiIzborDiv pitanjeX">
-                    <div className="brojPitanja">12</div>
+                    <div className="brojPitanja">13</div>
                     <CustomSelect
                       label="Odaberi alternativnu radionicu kojoj želiš da prisustvuješ:"
                       name="drugaRadionica"
@@ -410,7 +413,7 @@ const Prijava = () => {
                     </div>
                   )} */}
                   <div className="drugaMotivacija pitanjeX">
-                    <div className="brojPitanja">13</div>
+                    <div className="brojPitanja">14</div>
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="drugaMotivacija"
