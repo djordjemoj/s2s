@@ -15,6 +15,9 @@ import LogoPartner7 from "../../assets/partneriLogo/naucidizajn.jpg";
 import LogoPartner8 from "../../assets/partneriLogo/kolacic.png";
 import LogoPartner9 from "../../assets/partneriLogo/choco.jpeg";
 import LogoPartner10 from "../../assets/partneriLogo/gorstak.png";
+import LogoPartner11 from "../../assets/partneriLogo/moritz.png";
+import LogoPartner12 from "../../assets/partneriLogo/bananicaart.jpg";
+import LogoPartner13 from "../../assets/partneriLogo/chipsyway.png";
 
 import DevIT from "../../assets/godisnji/devit.png";
 import Digitec from "../../assets/godisnji/digitec.png";
@@ -132,6 +135,18 @@ const Partneri = () => {
     {
       logoPartnera: LogoPartner10,
       linkPartnera: "https://gorstak.org/",
+    },
+    {
+      logoPartnera: LogoPartner11,
+      linkPartnera: "https://www.instagram.com/bananica.art/",
+    },
+    {
+      logoPartnera: LogoPartner12,
+      linkPartnera: "https://www.instagram.com/moritzeisserbia/",
+    },
+    {
+      logoPartnera: LogoPartner13,
+      linkPartnera: "http://www.chipsway.rs/",
     },
   ];
   // const logoPartneri3 = [
