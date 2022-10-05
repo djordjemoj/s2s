@@ -9,11 +9,11 @@ import axios from "axios";
 import "./Prijava.css";
 import {
   LazyLoadImage,
-  trackWindowScroll,
+  // trackWindowScroll,
 } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 import { HashLink } from "react-router-hash-link";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import S2SLOGO from "../../assets/s2slogo.png";
 
 const Prijava = () => {
@@ -54,10 +54,11 @@ const Prijava = () => {
 
     axios
       .post(
-        "https://backs2stesting.herokuapp.com/api/prijave"
-      //  " http://localhost:5000/api/prijave"
-      
-      , postBody)
+        "https://backs2stesting.herokuapp.com/api/prijave",
+        //  " http://localhost:5000/api/prijave"
+
+        postBody
+      )
       .catch((e) => {
         // console.log(e);
         // alert(e);
@@ -239,19 +240,18 @@ const Prijava = () => {
                 </div>
               </div>
               <div className="DrugaPolPitanja">
-                 <div className="panelDiv pitanjeX pitanjeVeciMarginBottom">
+                <div className="panelDiv pitanjeX pitanjeVeciMarginBottom">
                   <div className="brojPitanja">9</div>
                   <div className="container-checkbox">
-                    
                     <CustomSelect
-                    label="Želim da se prijavim za panel diskusiju"
-                    name="panelDaLi"
-                  >
-                    <option value={false}>Ne</option>
-                    <option value={true}>Da</option>
-                  </CustomSelect>
+                      label="Želim da se prijavim za panel diskusiju"
+                      name="panelDaLi"
+                    >
+                      <option value={false}>Ne</option>
+                      <option value={true}>Da</option>
+                    </CustomSelect>
                   </div>
-                </div> 
+                </div>
 
                 {/* <div className="radionicaDiv pitanjeX pitanjeVeciMarginBottom">
                   <div className="brojPitanja">10</div>

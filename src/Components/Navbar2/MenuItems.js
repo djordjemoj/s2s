@@ -14,11 +14,11 @@ const menuItems = [
     url: "#radionice",
     cName: "nav-links",
   },
-  // {
-  //   title: "AGENDA",
-  //   url: "#agenda",
-  //   cName: "nav-links",
-  // },
+  {
+    title: "AGENDA",
+    url: "#agenda",
+    cName: "nav-links",
+  },
   {
     title: "FAQ",
     url: "#faq",

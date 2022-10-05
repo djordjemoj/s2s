@@ -1,7 +1,9 @@
 import React from "react";
 import Laptop from "../../assets/laptop.png";
 import classes from "../Radionice/Modal2.module.css";
-
+import {
+  LazyLoadImage,
+} from "react-lazy-load-image-component";
 const Modal2 = ({ open, onClose, modali }) => {
   if (!open) return null;
 
@@ -12,7 +14,9 @@ const Modal2 = ({ open, onClose, modali }) => {
     predavac2 = (
       <div className="probaDiv">
         <div className="slike-proba">
-          <img src={modali.slikaPredavaca2} alt="Predavac na s2s"></img>
+          {/* <div></div> */}
+          <LazyLoadImage src={modali.slikaPredavaca2} alt="Predavac na s2s" ></LazyLoadImage>
+          {/* <img src={modali.slikaPredavaca2} alt="Predavac na s2s"></img> */}
         </div>
 
         <div className="DrugiTekst">
@@ -38,7 +42,8 @@ const Modal2 = ({ open, onClose, modali }) => {
 pa zato mozda nece moci flex*/}
           {/* <div className={classes.deoZaLaptop}> */}
           {modali.laptop && (
-            <img className={classes.praviLapTop} src={Laptop}></img>
+            <img className={classes.praviLapTop} src={Laptop} alt="laptop je obavezan"></img>
+
           )}
 
           <div className={classes.naslovModala2}>
@@ -71,7 +76,9 @@ pa zato mozda nece moci flex*/}
 
             <div className="probaDiv">
               <div className="slike-proba">
-                <img src={modali.slikaPredavaca1} alt="Predavac na s2s" />
+                {/* <img src={modali.slikaPredavaca1} alt="Predavac na s2s" /> */}
+          <LazyLoadImage src={modali.slikaPredavaca1} alt="Predavac na s2s" ></LazyLoadImage>
+
               </div>
 
               <div className="DrugiTekst">

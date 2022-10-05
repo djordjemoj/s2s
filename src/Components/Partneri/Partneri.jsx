@@ -93,12 +93,20 @@ const Partneri = () => {
   ];
   const logoPartneri2 = [
     {
+      logoPartnera: LogoPartner13,
+      linkPartnera: "http://www.chipsway.rs/",
+    },
+    {
       logoPartnera: DragiBravo,
       linkPartnera: "https://www.instagram.com/dragibravo/",
     },
     {
       logoPartnera: LogoPartner1,
       linkPartnera: "https://www.instagram.com/glassart.srbija/",
+    },
+    {
+      logoPartnera: LogoPartner4,
+      linkPartnera: "https://brados.rs/",
     },
     {
       logoPartnera: LogoPartner2,
@@ -109,16 +117,12 @@ const Partneri = () => {
       linkPartnera: "https://www.instagram.com/danzadelarte/?hl=en",
     },
     {
-      logoPartnera: LogoPartner4,
-      linkPartnera: "https://brados.rs/",
-    },
-    {
-      logoPartnera: LogoPartner5,
-      linkPartnera: "https://www.instagram.com/la_futrola/",
-    },
-    {
       logoPartnera: LogoPartner6,
       linkPartnera: "https://gifty.rs/",
+    },
+    {
+      logoPartnera: LogoPartner12,
+      linkPartnera: "https://www.instagram.com/moritzeisserbia/",
     },
     {
       logoPartnera: LogoPartner7,
@@ -133,20 +137,16 @@ const Partneri = () => {
       linkPartnera: "https://www.instagram.com/choco.dreamer/",
     },
     {
+      logoPartnera: LogoPartner5,
+      linkPartnera: "https://www.instagram.com/la_futrola/",
+    },
+    {
       logoPartnera: LogoPartner10,
       linkPartnera: "https://gorstak.org/",
     },
     {
       logoPartnera: LogoPartner11,
       linkPartnera: "https://www.instagram.com/bananica.art/",
-    },
-    {
-      logoPartnera: LogoPartner12,
-      linkPartnera: "https://www.instagram.com/moritzeisserbia/",
-    },
-    {
-      logoPartnera: LogoPartner13,
-      linkPartnera: "http://www.chipsway.rs/",
     },
   ];
   // const logoPartneri3 = [

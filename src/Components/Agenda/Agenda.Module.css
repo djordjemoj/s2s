@@ -1,45 +1,27 @@
-/* promenjive */
-
-/* fontovi */
-/* mobilni je baza */
-/* body {
-  background-image: url("/src/assets/hexespng.png");
-  background-repeat: repeat;
-  background-size: 25%;
-  transition: 1s, ease-in;
-} */
-
-
 .Agenda-sve {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
-  
 }
 
 .Agenda-container {
-
   width: 100%;
   flex-direction: column;
+  font-size: 125%;
   /* outline: 2px solid black; */
-
 }
-.Radionice_bottom_svg{
+.Radionice_bottom_svg {
   width: 100%;
-  /* height: 300px; */
-  /* background-color: blue; */
   margin: 0 auto;
   margin-left: 4.5%;
 }
-.cudanSVG{
+.cudanSVG {
   width: 97%;
   height: auto;
 }
 
 .Agenda-dugmad {
-
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -51,10 +33,9 @@
 .ag-dug {
   width: 27%;
   position: relative;
-
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
@@ -62,8 +43,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;  overflow-x: visible;
-
+  flex-wrap: wrap;
+  overflow-x: visible;
+  
 }
 
 .DropdownGrid {
@@ -77,14 +59,14 @@
   column-gap: 1.5vw;
   overflow-x: visible;
 }
-.Dropdown-nedelja{
+.Dropdown-nedelja {
   /* overflow-x: hidden; */
   position: relative;
   margin-left: 8%;
   /* margin-bottom: -50px; */
 }
-.Dropdown-subota{
-  margin-right: 1%
+.Dropdown-subota {
+  margin-right: 1%;
 }
 
 .ag-item {
@@ -92,7 +74,6 @@
   background-color: #fff1ff3b; */
   /* row-gap: 50px; */
   position: relative;
-
 }
 
 .ag-item svg {
@@ -122,36 +103,37 @@
   justify-content: center;
 }
 
-.ag-item-desno-rect-nedelja{
+.ag-item-desno-rect-nedelja {
   grid-column: 5/ 7;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.ag-item-levo-rect-nedelja{
+.ag-item-levo-rect-nedelja {
   grid-column: 2/ 4;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.ag-item-desno-hex-nedelja{
+.ag-item-desno-hex-nedelja {
   grid-column: 4/ 6;
 }
-.ag-item-levo-hex-nedelja{
+.ag-item-levo-hex-nedelja {
   grid-column: 3/5;
 }
 
+.agenda-grid-item-1 {
+}
 
-.agenda-grid-item-1 {}
-
-.agenda-grid-item-2 {}
+.agenda-grid-item-2 {
+}
 
 .agenda-grid-item-3 {
   top: -20px;
 }
 
 .agenda-grid-item-4 {
-  top: -20px
+  top: -20px;
 }
 
 .agenda-grid-item-5 {
@@ -183,7 +165,7 @@
 }
 
 .agenda-grid-item-12 {
-  top: -100px
+  top: -100px;
 }
 
 .agenda-grid-item-13 {
@@ -214,10 +196,6 @@
   top: -180px;
 } */
 
-
-
-
-
 .Kraj-agende svg {
   position: relative;
   display: flex;
@@ -233,7 +211,6 @@
   /* overflow: auto; */
   /* height: 1000px; */
   /* TEST */
-
 }
 
 /* extra mali mobilni */
@@ -259,22 +236,18 @@
 
 /* desktop */
 @media screen and (min-width: 1200px) {
-
   body {
     font-size: 20px;
   }
 
   .Agenda-container {
     width: 60%;
+    font-size: 100%;
   }
-
-
-
 }
 
 /* ultrawide i sve vece od fhd */
 @media screen and (min-width: 1920px) {
-
   body {
     font-size: 20px;
   }
@@ -282,5 +255,4 @@
   .Agenda-container {
     width: 45%;
   }
-
 }

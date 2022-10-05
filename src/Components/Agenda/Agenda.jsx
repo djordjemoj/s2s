@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "../Agenda/Agenda.Module.css";
 
@@ -29,7 +29,7 @@ const Agenda = () => {
       <div className="Agenda-container">
         <div className="Agenda-dugmad">
           <div className="Radionice_bottom_svg">
-            {/* <svg
+            <svg
               className="cudanSVG"
               width="697"
               height="252"
@@ -55,9 +55,9 @@ const Agenda = () => {
                 fill="black"
                 mask="url(#path-1-inside-1_622_4693)"
               />
-            </svg>  */}
+            </svg>
           </div>
-           {/* <motion.div
+          <motion.div
             className="Subota ag-dug  cursor-pointer"
             whileHover={{ scale: 1.08 }}
             onHoverStart={(e) => {}}
@@ -80,8 +80,8 @@ const Agenda = () => {
                 fill="black"
               />
             </svg>
-          </motion.div> */}
-          {/* <div className="Agenda-agenda ag-dug ">
+          </motion.div>
+          <div className="Agenda-agenda ag-dug ">
             <svg
               viewBox="0 0 338 380"
               fill="none"
@@ -114,9 +114,9 @@ const Agenda = () => {
                 stroke-width="5"
               />
             </svg>
-          </div>  */}
+          </div>
 
-           {/* <motion.div
+          <motion.div
             className="Nedelja ag-dug cursor-pointer"
             whileHover={{ scale: 1.08 }}
             onHoverStart={(e) => {}}
@@ -139,14 +139,14 @@ const Agenda = () => {
                 fill="black"
               />
             </svg>
-          </motion.div>  */}
+          </motion.div>
         </div>
 
         <div className="Dropdown-subota Dropdown">
           <motion.div
             animate={{ height: visibleSubota ? "auto" : "1px" }}
             initial={{ height: "1px" }}
-            transition={{ duration: 1.5, ease: [0.5, 0.48, 0.45, 0.96] }} 
+            transition={{ duration: 1.5, ease: [0.5, 0.48, 0.45, 0.96] }}
             style={{
               overflow: "hidden",
             }}
@@ -178,7 +178,7 @@ const Agenda = () => {
                   fontWeight="650"
                   dominant-baseline="middle"
                 >
-                  13.00
+                  14.15
                 </text>
               </svg>
             </motion.div>
@@ -247,7 +247,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  Prvi deo radionice
+                  Pauza
                 </text>
               </svg>
             </motion.div>
@@ -277,7 +277,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  13.45
+                  14.45
                 </text>
               </svg>
             </motion.div>
@@ -342,7 +342,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  Pauza
+                  Prvi deo radionice
                 </text>
               </svg>
             </motion.div>
@@ -376,7 +376,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  Drugi deo radionice
+                  Pauza
                 </text>
               </svg>
             </motion.div>
@@ -407,7 +407,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  15.20
+                  16.15
                 </text>
               </svg>
             </motion.div>
@@ -437,7 +437,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  16.45
+                  16.35
                 </text>
               </svg>
             </motion.div>
@@ -472,12 +472,141 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  Pauza
+                  Drugi deo radionice
                 </text>
               </svg>
             </motion.div>
             <motion.div
               className="ag-item agenda-grid-item-11 ag-item-levo-rect"
+              animate={{ x: visibleSubota ? "0%" : "-250%" }}
+              transition={{
+                type: "spring",
+                stiffness: 150,
+                mass: 0.5,
+                damping: 29,
+                delay: "1.3",
+              }}
+            >
+              <svg viewBox="0 0 204 114" fill="none">
+                <rect
+                  x="2.55566"
+                  y="2.57617"
+                  width="198"
+                  height="108"
+                  rx="7.5"
+                  fill="#F9EEE1"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <text
+                  x="50%"
+                  y="50%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="600"
+                  dominant-baseline="middle"
+                >
+                  Pauza
+                </text>
+              </svg>
+            </motion.div>
+            <motion.div
+              className="ag-item agenda-grid-item-12 ag-item-desno-hex"
+              animate={{ x: visibleSubota ? "0%" : "250%" }}
+              transition={{
+                type: "spring",
+                stiffness: 500,
+                mass: 0.3,
+                damping: 22,
+                delay: "1.3",
+              }}
+            >
+              <svg viewBox="0 0 173 184" fill="none">
+                <path
+                  d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z"
+                  fill="#F9CA87"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <text
+                  x="50%"
+                  y="50%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="600"
+                  dominant-baseline="middle"
+                >
+                  17.50
+                </text>
+              </svg>
+            </motion.div>
+            <motion.div
+              className="ag-item agenda-grid-item-13 ag-item-levo-hex "
+              animate={{ x: visibleSubota ? "0%" : "-200%" }}
+              transition={{
+                type: "spring",
+                stiffness: 500,
+                mass: 0.3,
+                damping: 22,
+                delay: "1.4",
+              }}
+            >
+              <svg viewBox="0 0 173 184" fill="none">
+                <path
+                  d="M78.026 178.972L12.2212 142.784C6.62868 139.708 3.154 133.832 3.154 127.45L3.15399 56.7289C3.15399 50.3464 6.62867 44.4701 12.2212 41.3946L78.0259 5.20662C83.277 2.31893 89.6404 2.31893 94.8914 5.20662L160.696 41.3946C166.289 44.4701 169.763 50.3464 169.763 56.7288L169.763 127.45C169.763 133.832 166.289 139.708 160.696 142.784L94.8915 178.972C89.6404 181.86 83.277 181.86 78.026 178.972Z"
+                  fill="#F9CA87"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <text
+                  x="50%"
+                  y="50%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="600"
+                  dominant-baseline="middle"
+                >
+                  18.10
+                </text>
+              </svg>
+            </motion.div>
+            <motion.div
+              className="ag-item agenda-grid-item-14 ag-item-desno-rect"
+              default
+              animate={{ x: visibleSubota ? "0%" : "200%" }}
+              transition={{
+                type: "spring",
+                stiffness: 150,
+                mass: 0.5,
+                damping: 29,
+                delay: "1.4",
+              }}
+            >
+              <svg viewBox="0 0 204 114" fill="none">
+                <rect
+                  x="2.55566"
+                  y="2.57617"
+                  width="198"
+                  height="108"
+                  rx="7.5"
+                  fill="#F9EEE1"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <text
+                  x="50%"
+                  y="50%"
+                  fill="black"
+                  textAnchor="middle"
+                  fontWeight="600"
+                  dominant-baseline="middle"
+                >
+                  Treći deo radionice
+                </text>
+              </svg>
+            </motion.div>
+            <motion.div
+              className="ag-item agenda-grid-item-16 ag-item-levo-rect"
               animate={{ x: visibleSubota ? "0%" : "-250%" }}
               transition={{
                 type: "spring",
@@ -506,12 +635,12 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  Treci deo radionice
+                  Kraj prvog dana
                 </text>
               </svg>
             </motion.div>
             <motion.div
-              className="ag-item agenda-grid-item-12 ag-item-desno-hex"
+              className="ag-item agenda-grid-item-15 ag-item-desno-hex"
               animate={{ x: visibleSubota ? "0%" : "250%" }}
               transition={{
                 type: "spring",
@@ -536,18 +665,18 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  16.55
+                  19.10
                 </text>
               </svg>
             </motion.div>
           </motion.div>
         </div>
 
-        <div className="Dropdown-nedelja" >
+        <div className="Dropdown-nedelja">
           <motion.div
             animate={{ height: visibleNedelja ? "auto" : "1px" }}
             initial={{ height: "1px" }}
-            transition={{ duration: 2.1, ease: [0.5, 0.48, 0.45, 0.96] }} 
+            transition={{ duration: 2.1, ease: [0.5, 0.48, 0.45, 0.96] }}
             style={{
               overflow: "hidden",
             }}
@@ -613,7 +742,7 @@ const Agenda = () => {
                   fontWeight="650"
                   dominant-baseline="middle"
                 >
-                  11.00
+                  10.30
                 </text>
               </svg>
             </motion.div>
@@ -645,7 +774,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  12.45
+                  12.30
                 </text>
               </svg>
             </motion.div>
@@ -728,7 +857,6 @@ const Agenda = () => {
                 damping: 22,
                 delay: "0.6",
               }}
-              
             >
               <svg viewBox="0 0 173 184" fill="none">
                 <path
@@ -745,7 +873,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  13.05
+                  13.00
                 </text>
               </svg>
             </motion.div>
@@ -777,7 +905,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  14.20
+                  14.15
                 </text>
               </svg>
             </motion.div>
@@ -811,7 +939,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  Pauza - obrok
+                  Pauza
                 </text>
               </svg>
             </motion.div>
@@ -876,7 +1004,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  14.55
+                  14.50
                 </text>
               </svg>
             </motion.div>
@@ -907,7 +1035,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  16.10
+                  16.05
                 </text>
               </svg>
             </motion.div>
@@ -1007,7 +1135,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  16.30
+                  16.25
                 </text>
               </svg>
             </motion.div>
@@ -1038,7 +1166,7 @@ const Agenda = () => {
                   fontWeight="600"
                   dominant-baseline="middle"
                 >
-                  17.50
+                  17.45
                 </text>
               </svg>
             </motion.div>
@@ -1081,8 +1209,9 @@ const Agenda = () => {
 
         <motion.div
           className="Kraj-agende"
-          style={{marginTop: "10%"}}
-          animate={{ y: visibleSubota ? "-100%" : "+0%" }} 
+          animate={{
+            marginTop: visibleNedelja || visibleSubota ? "-180px" : "0%",
+          }}
           transition={{ duration: "1" }}
         >
           <svg viewBox="0 0 1355 223" fill="none">

@@ -25,6 +25,7 @@ import Veljko from "../../assets/Veljko.png";
 import MihajloSeo from "../../assets/MihajloSeo.png";
 import "../Radionice/Modal.css";
 
+
 // function obavestenje() {
 //   alert("Hello! I am an alert box!!");
 // }
