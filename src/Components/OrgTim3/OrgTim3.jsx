@@ -78,12 +78,24 @@ const Orgtim3 = () => {
     "PROGRAM TIMA",
     "ZA LJUDSKE RESURSE",
   ];
+  const citati = [
+    "PROJEKTA",
+    "DIZAJN TIMA",
+    "INFORMACIONE TEHNOLOGIJE",
+    "ZA ODNOSE SA JAVNOŠĆU",
+    "ZA LOGISTIKU",
+    "KORPORATIVNE ODNOSE",
+    "PROGRAM TIMA",
+    "ZA LJUDSKE RESURSE",
+  ];
+
 
   const [imageIndex, setImageIndex] = useState(0);
   const [koorIndex, setKoorIndex] = useState(0);
   const [koorIme, setKoorIme] = useState(0);
   const [koorPozicija, setKoorPozicija] = useState(0);
   const [koorPozicija2, setKoorPozicija2] = useState(0);
+  const [citat, setCitat] = useState(0);
 
   //   moze da se stavi on swipe da prekine da se vrti samo, ili pause on focuss, PAUSE ON HOVER STAVITI NA PARTNERE
 
@@ -124,6 +136,7 @@ const Orgtim3 = () => {
     setKoorIme(next);
     setKoorPozicija(next);
     setKoorPozicija2(next);
+    setCitat(next);
     // alert("sao");
   }
 
@@ -177,7 +190,7 @@ const Orgtim3 = () => {
                 WebkitClipPath:
                   "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
               }} >
-              <p>Neki citati ali sta cemo ako su malo duzini</p>
+              <p>{citati[citat]}</p>
             </div> */}
         </div>
         <div className="Koor-info">

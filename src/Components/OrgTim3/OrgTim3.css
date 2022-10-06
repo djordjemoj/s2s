@@ -116,7 +116,7 @@
   /* outline: 2px solid red;
   outline-offset: -1px; ovo je za SVG a ne za clip*/
 }
-/* .CitatKoor {
+.CitatKoor {
   position: absolute;
   width: 40%;
   height: 100%;
@@ -137,8 +137,9 @@
 }
 
 .CitatKoor:hover {
+  transition: opacity 0.5s;
   opacity: 1;
-} */
+}
 
 /* extra mali mobilni */
 @media screen and (max-width: 340px) {

@@ -109,6 +109,7 @@ a {
 }
 
 .slike-proba {
+  /* border: 2px solid red; */
   /* margin-top: 15px; */
   display: flex;
   flex-direction: row;
