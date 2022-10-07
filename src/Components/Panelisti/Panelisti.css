@@ -4,28 +4,24 @@
   justify-content: center;
   /* flex-wrap: wrap; */
   width: 100%;
-  margin-bottom: -100%;
+  /* margin-bottom: -100%;  */
   /* TEST OVO OBRISI KAD DOBIJEMO PANELISTE */
 }
-@media screen and (min-width: 620px) {
-  .Panelisti-container {
-    margin-bottom: -95%;
-  }
+.biografijaH4 {
+  font-size: 108%;
+  line-height: 105%;
+  height: 100%;
+  padding: 8px 3px 9px 3px;
+  
+  color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-@media screen and (min-width: 960px) {
-  .Panelisti-container {
-    margin-bottom: -85%;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .Panelisti-container {
-    margin-bottom: -70%;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .Panelisti-container {
-    margin-bottom: -55%;
-  }
+.biografijaH4 span{
+  font-weight: 600;
+  font-size: 125%;
+  
 }
 
 .Panelisti-content {
@@ -59,6 +55,7 @@
   padding-left: 0.5%;
   padding-top: -0.6%;
   /* clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0); */
+  /* z-index: 999; */
   /* background: #02316e72; */
   /* border: 3px solid rgba(0, 0, 0, 0.5); */
 }
@@ -93,9 +90,8 @@
 
   font-size: 2vw;
   word-spacing: -1.4px;
-  
 }
-.PanelText h4{
+.PanelText h4 {
   font-weight: 500;
 }
 .PanelText::-webkit-scrollbar {
@@ -109,7 +105,6 @@
   top: 11%;
   left: 2%;
   text-align: left;
-
 }
 .PanelTextDesno {
   width: 52%;
@@ -117,14 +112,12 @@
   top: 14.5%;
   left: 46.8%;
   text-align: right;
-
 }
 .LogoPanel {
   width: 40%;
   top: 3.8%;
   height: 5%;
   left: 54%;
-  
 }
 .LogoPanel a {
   text-decoration: none;
@@ -138,21 +131,28 @@
   /* overflow-y: hidden; */
 }
 .PanelText1 {
-  width: 39%;
+  width: 39.5%;
   top: 34.5%;
   left: 56%;
+  text-align: right;
 }
 .PanelText2 {
   width: 33%;
   top: 52.2%;
   left: 6%;
+  text-align: left;
+
 }
 .PanelText3 {
+  text-align: right;
+
   width: 39%;
   top: 71.5%;
   left: 56%;
 }
 .PanelText4 {
+  text-align: left;
+
   width: 33%;
   top: 89.2%;
   left: 6%;
@@ -198,18 +198,41 @@
     /* font-size: 1.1em; */
     width: 44.5%;
     font-size: 1.7vw;
-            padding-left: 0.8px;
-            /* font-size: large; */
-            line-height: 100%;
-            letter-spacing: -0.3px;
-            word-spacing: -.5px;
+    padding-left: 0.8px;
+    /* font-size: large; */
+    line-height: 100%;
+    letter-spacing: -0.3px;
+    word-spacing: -0.5px;
   }
   .PanelTextDesno {
     letter-spacing: -0.8px;
-  top: 15%;
-    
+    top: 15%;
+
     width: 53%;
-  left: 45%;
+    left: 45%;
+  }
+  .PanelText1 {
+    width: 39.5%;
+    top: 34.5%;
+    left: 56%;
+  }
+  .PanelText2 {
+    width: 33%;
+    top: 52.2%;
+    left: 6%;
+  }
+  .PanelText3 {
+    width: 39%;
+    top: 71.5%;
+    left: 56%;
+  }
+  .PanelText4 {
+    width: 33%;
+    top: 89.2%;
+    left: 6%;
+  }
+  .biografijaH4 {
+    font-size: 108%;
   }
 }
 
@@ -230,14 +253,35 @@
     width: 42%;
     font-size: 1.3vw;
     line-height: 100%;
-
   }
   .PanelTextDesno {
     letter-spacing: -0.8px;
-    
-    width: 53%;
-  left: 44%;
 
+    width: 53%;
+    left: 44%;
+  }
+  .PanelText1 {
+    width: 39.5%;
+    top: 34.5%;
+    left: 56%;
+  }
+  .PanelText2 {
+    width: 33%;
+    top: 52.2%;
+    left: 6%;
+  }
+  .PanelText3 {
+    width: 39%;
+    top: 71.5%;
+    left: 56%;
+  }
+  .PanelText4 {
+    width: 33%;
+    top: 89.2%;
+    left: 6%;
+  }
+  .biografijaH4 {
+    font-size: 108%;
   }
 }
 
@@ -256,6 +300,28 @@
   .PanelText {
     /* font-size: larger; */
     font-size: 1vw;
-
   }
+  .PanelText1 {
+    width: 39.5%;
+    top: 34.5%;
+    left: 56%;
+  }
+  .PanelText2 {
+  width: 33%;
+  top: 52.2%;
+  left: 6%;
+}
+.PanelText3 {
+  width: 39%;
+  top: 71.5%;
+  left: 56%;
+}
+.PanelText4 {
+  width: 33%;
+  top: 89.2%;
+  left: 6%;
+}
+.biografijaH4 {
+  font-size: 108%;
+}
 }

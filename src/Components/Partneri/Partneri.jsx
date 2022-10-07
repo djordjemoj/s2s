@@ -18,6 +18,10 @@ import LogoPartner10 from "../../assets/partneriLogo/gorstak.png";
 import LogoPartner11 from "../../assets/partneriLogo/moritz.png";
 import LogoPartner12 from "../../assets/partneriLogo/bananicaart.jpg";
 import LogoPartner13 from "../../assets/partneriLogo/chipsyway.png";
+import LogoPartner14 from "../../assets/partneriLogo/nestle.png";
+import LogoPartner15 from "../../assets/partneriLogo/jafa.png";
+import LogoPartner16 from "../../assets/partneriLogo/grand.png";
+import LogoPartner17 from "../../assets/partneriLogo/jdp.png";
 
 import DevIT from "../../assets/godisnji/devit.png";
 import Digitec from "../../assets/godisnji/digitec.png";
@@ -111,6 +115,22 @@ const Partneri = () => {
     {
       logoPartnera: LogoPartner2,
       linkPartnera: "http://www.facebook.com/beerpongbarbelgrade/",
+    },
+    {
+      logoPartnera: LogoPartner15,
+      linkPartnera: "http://www.jaffa.rs/",
+    },
+    {
+      logoPartnera: LogoPartner14,
+      linkPartnera: "https://www.nestle.rs/",
+    },
+    {
+      logoPartnera: LogoPartner16,
+      linkPartnera: "http://grandkafa.rs",
+    },
+    {
+      logoPartnera: LogoPartner17,
+      linkPartnera: "https://www.jdp.rs/rs/",
     },
     {
       logoPartnera: LogoPartner3,

@@ -79,14 +79,14 @@ const Orgtim3 = () => {
     "ZA LJUDSKE RESURSE",
   ];
   const citati = [
-    "PROJEKTA",
-    "DIZAJN TIMA",
-    "INFORMACIONE TEHNOLOGIJE",
-    "ZA ODNOSE SA JAVNOŠĆU",
-    "ZA LOGISTIKU",
-    "KORPORATIVNE ODNOSE",
-    "PROGRAM TIMA",
-    "ZA LJUDSKE RESURSE",
+    "Normalno da moj plan radi, ipak sam ja savršen",
+    "Radite li vi nešto osim što čekate da vam ja šaljem dizajn???!!!",
+    "Krajnji neprofesionalizam, stavili ste me u ⬣ doviđenja",
+    "Bez Mihajla i Vuka nista ne bih uspela!",
+    "Pet a cat when u encounter one on the street",
+    "Imaćeš pare, ne brini Kosta",
+    "Ee do kad je rok?",
+    "Šefica sam jednog HaRema",
   ];
 
 
@@ -184,14 +184,14 @@ const Orgtim3 = () => {
                 "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
             }}
           ></img>
-            {/* <div className="CitatKoor" style={{
+            <div className="CitatKoor" style={{
                 clipPath:
                   "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
                 WebkitClipPath:
                   "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
               }} >
               <p>{citati[citat]}</p>
-            </div> */}
+            </div>
         </div>
         <div className="Koor-info">
           <svg viewBox="0 0 618 156" fill="none">
