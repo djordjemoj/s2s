@@ -12,7 +12,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 const Footer = () => {
   return (
-    <div className="CeoFooter" id="kontakt">
+    <div className="CeoFooter" >
       <div className="first footer-deo">
         <svg className="base" viewBox="0 0 588 382" fill="none">
           <path
@@ -69,7 +69,7 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="second footer-deo">
+      <div className="second footer-deo" id="kontakt">
         <HashLink to="#">
           <svg
             className="base"

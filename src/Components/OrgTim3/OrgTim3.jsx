@@ -76,7 +76,7 @@ const Orgtim3 = () => {
   const citati = [
     "Normalno da moj plan radi, ipak sam ja savršen",
     "Radite li vi nešto osim što čekate da vam ja šaljem dizajn???!!!",
-    "Krajnji neprofesionalizam, stavili ste me u ⬣ doviđenja",
+    "Krajnji neprofesionalizam, stavili ste me u ⬣ doviđenja!",
     "Nikad bolja PRomocija",
     "Pet a cat when u encounter one on the street",
     "Imaćeš pare, ne brini Kosta",
