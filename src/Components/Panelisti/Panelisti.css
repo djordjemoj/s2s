@@ -11,17 +11,17 @@
   font-size: 108%;
   line-height: 105%;
   height: 100%;
-  padding: 8px 15px 9px 3px;
+  padding: 8px 10px 9px 3px;
   
   color: #ff9500;
   display: flex;
   flex-direction: column;
   font-weight: bold !important;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .biografijaH4 span{
   font-weight: 700;
-  font-size: 130%;
+  font-size: 118%;
   color: black;
   text-transform: uppercase;
   
