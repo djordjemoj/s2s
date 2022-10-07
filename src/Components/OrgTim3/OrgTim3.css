@@ -118,13 +118,14 @@
 }
 .CitatKoor {
   position: absolute;
-  width: 40%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   opacity: 0;
   background-color: rgba(0, 0, 17, 0.54);
+  line-height: smaller;
 }
 .CitatKoor p {
   margin: 0 auto;
@@ -133,7 +134,7 @@
   opacity: 1;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
-  font-size: medium;
+  font-size: small;
 }
 
 .CitatKoor:hover {

@@ -274,6 +274,8 @@ const Prijava = () => {
                     <br></br>
                     <i>Adobe After Effects</i>
                     <br></br>
+                    <i>Kako SEO utiče na poslovanje</i>
+                    <br></br>
                     <i>Uvod u Python kroz pravljenje igrica</i>
                     <br></br>
                     <span>potrebno je da poneseš sopstveni laptop.</span>
