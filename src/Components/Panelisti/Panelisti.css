@@ -11,16 +11,19 @@
   font-size: 108%;
   line-height: 105%;
   height: 100%;
-  padding: 8px 3px 9px 3px;
+  padding: 8px 15px 9px 3px;
   
-  color: rgba(0, 0, 0, 0.85);
+  color: #ff9500;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  font-weight: bold !important;
+  justify-content: space-evenly;
 }
 .biografijaH4 span{
-  font-weight: 600;
-  font-size: 125%;
+  font-weight: 700;
+  font-size: 130%;
+  color: black;
+  text-transform: uppercase;
   
 }
 
@@ -134,24 +137,24 @@
   width: 39.5%;
   top: 34.5%;
   left: 56%;
-  text-align: right;
+  text-align: center;
 }
 .PanelText2 {
   width: 33%;
   top: 52.2%;
   left: 6%;
-  text-align: left;
+  text-align: center;
 
 }
 .PanelText3 {
-  text-align: right;
+  text-align: center;
 
   width: 39%;
   top: 71.5%;
   left: 56%;
 }
 .PanelText4 {
-  text-align: left;
+  text-align: center;
 
   width: 33%;
   top: 89.2%;
@@ -233,6 +236,7 @@
   }
   .biografijaH4 {
     font-size: 108%;
+    font-weight: bold !important;
   }
 }
 
@@ -282,6 +286,7 @@
   }
   .biografijaH4 {
     font-size: 108%;
+    font-weight: bold !important;
   }
 }
 
@@ -323,5 +328,6 @@
 }
 .biografijaH4 {
   font-size: 108%;
+  font-weight: bold !important;
 }
 }
