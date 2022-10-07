@@ -2,13 +2,8 @@ import "../OrgTim3/OrgTim3.css";
 import { useState } from "react";
 import Slider from "react-slick";
 
-// import {
-//   LazyLoadImage,
-//   trackWindowScroll,
-// } from "react-lazy-load-image-component";
-// import "react-lazy-load-image-component/src/effects/blur.css";
 
-import SlikaTim0 from "../../assets/slikeTimova/tim0.png";
+import SlikaTim0 from "../../assets/slikeTimova/tim0.jpg";
 import SlikaTim1 from "../../assets/slikeTimova/tim1.jpg";
 import SlikaTim2 from "../../assets/slikeTimova/tim2.JPG";
 import SlikaTim3 from "../../assets/slikeTimova/tim3.jpg";
@@ -81,8 +76,8 @@ const Orgtim3 = () => {
   const citati = [
     "Normalno da moj plan radi, ipak sam ja savršen",
     "Radite li vi nešto osim što čekate da vam ja šaljem dizajn???!!!",
-    "Krajnji neprofesionalizam, stavili ste me u ⬣ doviđenja",
-    "Bez Mihajla i Vuka nista ne bih uspela!",
+    "Krajnji neprofesionalizam, stavili ste me u ⬣ doviđenja!",
+    "Nikad bolja PRomocija",
     "Pet a cat when u encounter one on the street",
     "Imaćeš pare, ne brini Kosta",
     "Ee do kad je rok?",
