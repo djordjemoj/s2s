@@ -162,14 +162,14 @@ const Panelisti = () => {
             <h4 className="biografijaH4">
               {" "}
               <span>Katarina Stojiljković</span>
-              Glavni menadžer korisničkog interfejsa za naš nalog u Srbiji i mentor za UI prakse.
+              Glavni menadžer korisničkog interfejsa za naš nalog u Srbiji i mentor za UI prakse
             </h4>
           </div>
           <div className="PanelText PanelText2">
           <h4 className="biografijaH4">
               {" "}
               <span>Mladen Pavličević</span>
-              Lider za specijalizaciju u Javi u Srbiji, kao i mentor za Java prakse.
+              Lider za specijalizaciju u Javi u Srbiji, kao i mentor za Java prakse
 
             </h4>
           </div>
@@ -177,7 +177,7 @@ const Panelisti = () => {
           <h4 className="biografijaH4">
               {" "}
               <span>Marko Nikolić </span>
-              Staff Data Scientist u Grid Dynamics-u.
+              Staff Data Scientist
             </h4>
           </div>
           <div className="PanelText PanelText4">
