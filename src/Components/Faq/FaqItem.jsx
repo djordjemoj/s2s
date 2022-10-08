@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import classes from "./Faq.module.css";
 import { motion } from "framer-motion";
 import LOGO from "../../assets/s2slogo.png";
@@ -52,32 +52,7 @@ const FaqItem = (props) => {
             {/* <div className = {classes.slicicaUpitnik}>?</div> */}
           </div>
           <div className={classes.pitanjeContainer}>
-            {/* <svg
-            // className="base"
-            className={classes.basePitanje}
-            width="1045"
-            height="85"
-            viewBox="0 0 1045 69"
-            // fill="none"
-          >
-            <path
-              d="M2.81255 15.1993C-0.413203 9.53279 3.67915 2.49417 10.1995 2.49417L1035 2.49423C1039.69 2.49423 1043.5 6.29981 1043.5 10.9942L1043.5 38.4942L1043.5 65.9941C1043.5 70.6885 1039.69 74.4941 1035 74.4941L10.1996 74.4941C3.67923 74.494 -0.413131 67.4554 2.81262 61.7889L12.8348 44.1835C14.8427 40.6563 14.8427 36.332 12.8348 32.8049L2.81255 15.1993Z"
-              fill="#F9EEE1"
-              stroke="black"
-              stroke-width="3"
-            />
-            <switch>
-              <foreignObject
-                className={classes.PravaVelicinaTeksta}
-                x="5%"
-                y="18%" //ovde sam promenila, bilo je 20
-                // fontSize="1rem"
-                style={{ width: "100%", height: "100%" }}
-              >
-                {props.question}
-              </foreignObject>
-            </switch>
-          </svg> */}
+
             <svg
               className={classes.basePitanje}
               // width="1047"
@@ -92,19 +67,7 @@ const FaqItem = (props) => {
                 stroke="black"
                 stroke-width="5"
               />
-              {/* <switch>
-              <foreignObject
-                className={classes.PravaVelicinaTeksta}
-                // width="9px"
-                x="5%"  
-                y= { props.dvaRedaPitanje ===  true ? "10%" :"30%" }//ovde sam promenila, bilo je 20
-                // fontSize="1rem"
-                
-                style={{ width: "100%", height: "100%" }}
-              >
-                {props.question}
-              </foreignObject>
-            </switch> */}
+           
               <text
                 className={classes.PravaVelicinaTeksta}
                 x="50%"
@@ -150,19 +113,7 @@ const FaqItem = (props) => {
             WebkitTapHighlightColor: "rgba(0,0,0,0)", //ovo mu nista ne znaci
           }}
         >
-          {/* <svg
-            className={classes.base}
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 76 68"
-            fill="none"
-          >
-            <path
-              d="M50.9618 65.4932C53.8701 65.4318 56.545 63.8874 58.0524 61.3994L72.388 37.7369C73.9948 35.0847 74.0298 31.768 72.4793 29.0825L59.5743 6.73048C58.0239 4.04499 55.134 2.41694 52.0338 2.48237L24.3736 3.06612C21.4653 3.12751 18.7904 4.67188 17.2831 7.15986L2.94744 30.8224C1.34065 33.4745 1.30566 36.7913 2.85613 39.4767L15.7611 61.8288C17.3116 64.5143 20.2014 66.1423 23.3017 66.0769L50.9618 65.4932Z"
-              fill="#F9EEE1"
-              stroke="black"
-              stroke-width="3"
-            />
-          </svg> */}
+          
           <div className={classes.base}>
             <svg
               className={classes.faqVelikiHex}
@@ -179,28 +130,7 @@ const FaqItem = (props) => {
             <img className={classes.slicicaLogo} src={LOGO} alt="LOGO" />
           </div>
 
-          {/* </motion.div> */}
-
-          {/* <motion.div
-          animate={{
-            height: visibleAnswer ? "auto" : "0rem",
-            opacity: visibleAnswer ? 1 : 0,
-            scale: visibleAnswer ? 1 : 0,
-          }}
-          initial={{ height: "0rem", opacity: 0, scale: 0 }}
-          //   OVO isto
-
-          transition={{ duration: 1 }} //za gore
-          style={{
-            overflow: "hidden",
-            color: "black",
-            fontSize: "25px",
-            lineHeight: "25px",
-            cursor: "pointer",
-          }}
-          className={classes.Answer}
-          onClick={() => setVisibleAnswer(!visibleAnswer)}
-        > */}
+          
           <svg
             className={classes.base2}
             // width="571"
@@ -214,21 +144,7 @@ const FaqItem = (props) => {
               stroke="black"
               stroke-width="3"
             />
-            {/* <switch>
-              <foreignObject
-                x="3%"
-                y="5%"
-                width="97%"
-                height="90%"
-                // height="1000"
-                // fontSize="0.8rem" //bilo je 1rem
-                letterSpacing="0.2px"
-                style={{ width: "97%", height: "100%" }}
-                className={classes.PravaVelicinaTekstaOdgovor}
-              >
-                {props.answer}
-              </foreignObject>
-            </switch> */}
+         
             <text
               className={classes.PravaVelicinaTekstaOdgovor}
               x="50%"
@@ -276,9 +192,6 @@ const FaqItem = (props) => {
           </svg>
         </motion.div>
 
-        {/* </div> */}
-
-        {/* <div className={classes.Bottom}></div> */}
       </div>
     </>
   );

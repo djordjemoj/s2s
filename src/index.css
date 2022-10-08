@@ -14,6 +14,7 @@
   /* overflow-x  : hidden; */
   font-family: 'Jost', sans-serif;
   scroll-behavior: smooth;
+  /* scrollbar-width: 3px !important; */
   -webkit-tap-highlight-color: #ffffff00;
 }
 body{

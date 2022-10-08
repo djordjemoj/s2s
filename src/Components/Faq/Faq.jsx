@@ -1,23 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import classes from "./Faq.module.css";
 import FaqItem from "./FaqItem";
 
-const Faq = (props) => {
+const Faq = () => {
   return (
     <div
-      style={
-        {
-          // minHeight: "70vh",
-          // background:
-          //   "linear-gradient(180deg, #0C4471 0%, #00233F 100%), #002440",
-          // zIndex: 10,
-          // position: "relative",
-          // border: "2px solid red"
-        }
-      }
       className="FaqSvaPitanja"
-      id="faq"
+      
     >
       <div className={classes.Faq}>
         <FaqItem

@@ -33,21 +33,13 @@ flex-direction: column;
   z-index: 10;
   position: relative;
 }
-/* .proba{
-  width: 20%;
-} */
-/*
-.FaqItem div {
-} */
 
 .Question{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   width: 100%;
-  /* margin-top: 5%; */
-  /* height: 100%; */
-  /* outline: 2px solid green;   */
+
 }
 .baseMaliHex{
   width: 15%;
@@ -78,9 +70,6 @@ flex-direction: column;
   width: 100%;
   /* outline: 3px solid red; */
   height: 100%;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: flex-start; */
 
 }
 
@@ -97,11 +86,7 @@ flex-direction: column;
 /* SVE ZA ODGOVOR POCINJE OVDE --------------------------------- */
 .Answer{
   width: 100%;
-  /* height:100%; */
-  /* margin-top: -30px; */
-  /* margin-bottom: 40px; */
-  /* margin-top: 5%;
-  margin-bottom: 5%; */
+
   display: flex;
   flex-direction: row;
   
@@ -134,26 +119,6 @@ flex-direction: column;
   /* border: 2px solid red; */
 }
 
-
-/* svg.base{
-  width: 100%;
-  height: 100%;
-} */
-/* .Answer1{
-  position: relative;
-width: 16%;
-margin-top: -30px;
-  margin-bottom: 40px;
- 
-} */
-/* .proba{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);  
-} */
 
 
 .PravaVelicinaTekstaOdgovor{

@@ -21,10 +21,6 @@ const Home = () => {
           height: "100vh",
         }}
       >
-        {/* <motion.div
-          className="pozadinaOverlay"
-          style={{ background: "url(/src/assets/pozadina2.png)", zIndex: "1000"}}
-        > */}
           <Navbar2 />
           <Landing2 />
           <AboutFonis />
@@ -35,7 +31,6 @@ const Home = () => {
           <Partneri />
           <OrgTim3 />
           <Footer />
-        {/* </motion.div> */}
       </Scrollbars>
     </>
   );

@@ -10,7 +10,7 @@ import viktor from "../../assets/panel/viktorF.png";
 
 const Panelisti = () => {
   return (
-    <div className="Panelisti-sve" id="panel-diskusija">
+    <div className="Panelisti-sve" >
       <div className="Panelisti-container">
         <div className="Panelisti-content">
           <svg width="1000" viewBox="0 0 707 1030" fill="none">
@@ -114,16 +114,16 @@ const Panelisti = () => {
             />
           </svg>
           <div className="Panelista PanelistaJedan">
-            <img className="PanelistaJedan-slika" src={katarina}></img>
+            <img alt ="panelista" className="PanelistaJedan-slika" src={katarina}></img>
           </div>
           <div className="Panelista PanelistaDva">
-            <img className="PanelistaDva-slika" src={mladen}></img>
+            <img alt ="panelista" className="PanelistaDva-slika" src={mladen}></img>
           </div>
           <div className="Panelista PanelistaTri">
-            <img className="PanelistaTri-slika" src={marko}></img>
+            <img alt ="panelista" className="PanelistaTri-slika" src={marko}></img>
           </div>
           <div className="Panelista PanelistaCetiri">
-            <img className="PanelistaCetiri-slika" src={viktor}></img>
+            <img alt ="panelista" className="PanelistaCetiri-slika" src={viktor}></img>
           </div>
           <div className="PanelText PanelTextLevo">
             <h4>
@@ -154,8 +154,8 @@ const Panelisti = () => {
           </div>
 
           <div className="PanelText LogoPanel">
-            <a href="https://www.griddynamics.com/" target="_blank">
-              <img src={GRID}></img>
+            <a href="https://www.griddynamics.com/"  target="_blank" rel="noreferrer noopener">
+              <img alt ="GridDynamics" src={GRID}></img>
             </a>
           </div>
 
@@ -190,9 +190,9 @@ const Panelisti = () => {
           </div>
         </div>
       </div>
-      <div className="radionice_svg_top ">
+      <div className="radionice_svg_top "id="radioniceLinkovanje">
         
-        <img className="slikaNaslovaRadionica" src={NaslovRadonice}></img>
+        <img alt ="radionice s2s" className="slikaNaslovaRadionica" src={NaslovRadonice}></img>
       </div>
     </div>
   );

@@ -87,7 +87,7 @@ const Prijava = () => {
 
       <div className="Prijava-ceo">
         <div className="PrijavaTop">
-          <a className="PrijavaTop-logo" href="#">
+          <a className="PrijavaTop-logo" href="/#">
             <LazyLoadImage
               alt="s2sLogo"
               src={S2SLOGO}
