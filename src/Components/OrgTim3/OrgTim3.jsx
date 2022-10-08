@@ -104,7 +104,7 @@ const Orgtim3 = () => {
     centerMode: true,
     centerPadding: 0,
     WebkitTapHighlightColor: "rgba(0,0,0,0)",
-    swipeToSlide: false,
+    swipeToSlide: true,
     autoplay: true,
     pauseOnHover: true,
     pauseOnFocus: true,
