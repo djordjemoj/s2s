@@ -142,7 +142,7 @@ const Partneri = () => {
     },
     {
       logoPartnera: LogoPartner12,
-      linkPartnera: "https://www.instagram.com/moritzeisserbia/",
+      linkPartnera: "https://www.instagram.com/bananica.art/",
     },
     {
       logoPartnera: LogoPartner7,
@@ -166,7 +166,7 @@ const Partneri = () => {
     },
     {
       logoPartnera: LogoPartner11,
-      linkPartnera: "https://www.instagram.com/bananica.art/",
+      linkPartnera: "https://www.instagram.com/moritzeisserbia/",
     },
   ];
   // const logoPartneri3 = [
@@ -209,8 +209,8 @@ const Partneri = () => {
               delay: 0.5,
             }}
           >
-            <a href="https://www.griddynamics.com/" target="_blank">
-              <img src={GRID}></img>
+            <a href="https://www.griddynamics.com/"  target="_blank" rel="noreferrer noopener">
+              <img alt="GRIDDYNAMICS" src={GRID}></img>
             </a>
           </motion.div>
         </div>
@@ -219,7 +219,7 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {godisnjiPartneri.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera} target="_blank">
+                <a href={img.linkPartnera}  target="_blank" rel="noreferrer noopener">
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
@@ -236,7 +236,7 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri2.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera} target="_blank">
+                <a href={img.linkPartnera}  target="_blank" rel="noreferrer noopener">
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
@@ -254,7 +254,7 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri3.map((img) => (
               <div className="Jedan-partner">
-              <a href={img.linkPartnera} target="_blank">
+              <a href={img.linkPartnera}  target="_blank" rel="noreferrer noopener">
                 <img
                   className="Jedan-partner-slika"
                   src={img}

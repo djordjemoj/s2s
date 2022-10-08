@@ -1,10 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import menuItems from "./MenuItems";
 import "./Navbar2.css";
 import { HashLink } from "react-router-hash-link";
 import { Twirl as Hamburger } from "hamburger-react";
 import maliLogo from "../../assets/smallLogo.png";
-// import Logo from "../../../public/"
 
 const Navbar2 = () => {
   const [active, setActive] = useState(false);

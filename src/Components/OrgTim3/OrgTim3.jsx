@@ -154,6 +154,7 @@ const Orgtim3 = () => {
                     "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",
                 }}
               ></img>
+              
             </div>
           ))}
         </Slider>
@@ -162,6 +163,7 @@ const Orgtim3 = () => {
 
         <div
           className="Koor-slika"
+          id="kontakt"
           style={{
             clipPath:
               "polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0)",

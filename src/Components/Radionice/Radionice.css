@@ -34,18 +34,6 @@ a {
   justify-content: space-around;
   align-items: center;
 }
-
-/* .radioniceZnak{
-  position: relative;
-  margin-top: -70px;
-  margin-bottom: 40px;
-  width: 300px;
-  overflow: visible;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-} */
-
 .radioniceDivider {
   flex-direction: row;
   justify-content: space-around;
@@ -126,13 +114,6 @@ a {
   color: white;
   /* margin-top: 5px; */
 }
-
-/* extra mali mobilni */
-/* @media screen and (min-width: 381px) { */
-  /* .container .hexagonArea.first{
-    margin-left: 14.5%;
-    align-self: center;
-  } */
 
   .container {
     /* display: none; */

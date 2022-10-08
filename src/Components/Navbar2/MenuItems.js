@@ -11,7 +11,7 @@ const menuItems = [
   },
   {
     title: "RADIONICE",
-    url: "#radionice",
+    url: "#radioniceLinkovanje",
     cName: "nav-links",
   },
   {

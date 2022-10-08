@@ -53,7 +53,7 @@ const Footer = () => {
                 NAŠ SAJT: <br />
                 <a
                   href="https://fonis.rs/"
-                  target="_blank"
+                   target="_blank" rel="noreferrer noopener"
                   style={{
                     color: "#ffa142c3",
                   }}
@@ -61,7 +61,7 @@ const Footer = () => {
                   fonis.rs
                 </a>
               </p>
-              <a href="https://fonis.rs/" target="_blank">
+              <a href="https://fonis.rs/"  target="_blank" rel="noreferrer noopener">
                 <img className="img-first" src={FONISLOGO} alt="FONIS" />
               </a>
             </foreignObject>
@@ -69,7 +69,7 @@ const Footer = () => {
         </svg>
       </div>
 
-      <div className="second footer-deo" id="kontakt">
+      <div className="second footer-deo" >
         <HashLink to="#">
           <svg
             className="base"
@@ -109,7 +109,7 @@ const Footer = () => {
             <a
               className="links"
               href="https://www.facebook.com/fonis.rs"
-              target="_blank"
+               target="_blank" rel="noreferrer noopener"
             >
               <svg
                 className="base"
@@ -135,7 +135,7 @@ const Footer = () => {
             <a
               className="links"
               href="https://www.instagram.com/fonis_fon/"
-              target="_blank"
+               target="_blank" rel="noreferrer noopener"
             >
               <svg
                 className="base"
@@ -161,7 +161,7 @@ const Footer = () => {
             <a
               className="links"
               href="https://www.linkedin.com/company/fonis/"
-              target="_blank"
+               target="_blank" rel="noreferrer noopener"
             >
               <svg
                 className="base"

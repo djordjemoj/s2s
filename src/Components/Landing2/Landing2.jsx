@@ -71,6 +71,7 @@ const Landing2 = () => {
           whileHover={{ scale: 1.2 }}
           onHoverStart={(e) => {}}
           onHoverEnd={(e) => {}}
+          id="oS2S"
         >
           <HashLink to="/prijava" class="dugmeZaPrijavu-hashlink">
             <button type="button" class="dugmeZaPrijavu">
@@ -79,7 +80,7 @@ const Landing2 = () => {
           </HashLink>
           {/* onClick={() => navigate('/prijava')} */}
         </motion.div>
-        <div className="empty-gradient"></div>
+        <div className="empty-gradient" ></div>
       </div>
 
       {/* <motion.div
