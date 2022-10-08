@@ -4,13 +4,15 @@ import NaslovRadonice from "../../assets/radioniceNaslov.png";
 import GRID from "../../assets/grid/logoWhite.png";
 import katarina from "../../assets/panel/katarinaF.png";
 // import katarina from "../../assets/Laki.png";
-import marko from "../../assets/panel/markoF.png";
-import mladen from "../../assets/panel/mladenF.png";
+import marko from "../../assets/panel/markoFF.png";
+import mladen from "../../assets/panel/mladenFF.png";
 import viktor from "../../assets/panel/viktorF.png";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Panelisti = () => {
   return (
-    <div className="Panelisti-sve" >
+    <div className="Panelisti-sve">
       <div className="Panelisti-container">
         <div className="Panelisti-content">
           <svg width="1000" viewBox="0 0 707 1030" fill="none">
@@ -114,21 +116,38 @@ const Panelisti = () => {
             />
           </svg>
           <div className="Panelista PanelistaJedan">
-            <img alt ="panelista" className="PanelistaJedan-slika" src={katarina}></img>
+            <img
+              alt="panelista"
+              className="PanelistaJedan-slika"
+              src={katarina}
+            ></img>
           </div>
           <div className="Panelista PanelistaDva">
-            <img alt ="panelista" className="PanelistaDva-slika" src={mladen}></img>
+            <img
+              alt="panelista"
+              className="PanelistaDva-slika"
+              src={mladen}
+            ></img>
           </div>
           <div className="Panelista PanelistaTri">
-            <img alt ="panelista" className="PanelistaTri-slika" src={marko}></img>
+            <img
+              alt="panelista"
+              className="PanelistaTri-slika"
+              src={marko}
+            ></img>
           </div>
           <div className="Panelista PanelistaCetiri">
-            <img alt ="panelista" className="PanelistaCetiri-slika" src={viktor}></img>
+            <img
+              alt="panelista"
+              className="PanelistaCetiri-slika"
+              src={viktor}
+            ></img>
           </div>
           <div className="PanelText PanelTextLevo">
             <h4>
               {" "}
-              <span className="PanelTema">„Preko trnja do seniora“</span><br></br>
+              <span className="PanelTema">„Preko trnja do seniora“</span>
+              <br></br>
               Panel diskusija, koja je i ove godine<br></br>nezaobilazni deo
               projekta „Studenti studentima“, okupiće stručnjake kompanije{" "}
               <i>Grid Dynamics</i>. Ovi mladi i istovremeno jako iskusni ljudi
@@ -154,8 +173,12 @@ const Panelisti = () => {
           </div>
 
           <div className="PanelText LogoPanel">
-            <a href="https://www.griddynamics.com/"  target="_blank" rel="noreferrer noopener">
-              <img alt ="GridDynamics" src={GRID}></img>
+            <a
+              href="https://www.griddynamics.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <img alt="GridDynamics" src={GRID}></img>
             </a>
           </div>
 
@@ -163,36 +186,50 @@ const Panelisti = () => {
             <h4 className="biografijaH4">
               {" "}
               <span>Katarina Stojiljković</span>
-              Glavni menadžer korisničkog interfejsa za naš nalog u Srbiji i mentor za UI prakse
-            </h4>
-          </div>
-          <div className="PanelText PanelText2">
-          <h4 className="biografijaH4">
-              {" "}
-              <span>Mladen Pavličević</span>
-              Lider za specijalizaciju u Javi u Srbiji, kao i mentor za Java prakse
+              {/* Glavni menadžer korisničkog interfejsa za naš nalog u Srbiji i
+              mentor za UI prakse */}
+             
+              <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/katarina-stojiljkovic-777752177/">UI Developer</a>
 
             </h4>
           </div>
+          <div className="PanelText PanelText2">
+            <h4 className="biografijaH4">
+              {" "}
+              <span>Mladen Pavličević</span>
+              {/* Lider za specijalizaciju u Javi u Srbiji, kao i mentor za Java
+              prakse */}
+              <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/mladen-pavlicevic-b15796149/">Java Software Engineer</a>
+            </h4>
+          </div>
           <div className="PanelText PanelText3">
-          <h4 className="biografijaH4">
+            <h4 className="biografijaH4">
               {" "}
               <span>Marko Nikolić </span>
-              Staff Data Scientist
+              
+              <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/marko-nikolic-phd-8443a783/">Staff Data Scientist</a>
+
+              {/* <FontAwesomeIcon  className="ikonicaLinked" icon={faLinkedin}></FontAwesomeIcon> */}
             </h4>
           </div>
           <div className="PanelText PanelText4">
-          <h4 className="biografijaH4">
+            <h4 className="biografijaH4">
               {" "}
               <span>Viktor Milovanović </span>
-                Junior QA engineer, nedavno je završio praksu u Grid Dynamics-u.
+              {/* Junior QA engineer, nedavno je završio praksu u Grid Dynamics-u. */}
+              
+              <a target="_blank" rel="noreferrer noopener" href="https://www.linkedin.com/in/viktor-milovanovic/">Junior QA Automation Engineer</a>
+
             </h4>
           </div>
         </div>
       </div>
-      <div className="radionice_svg_top "id="radioniceLinkovanje">
-        
-        <img alt ="radionice s2s" className="slikaNaslovaRadionica" src={NaslovRadonice}></img>
+      <div className="radionice_svg_top " id="radioniceLinkovanje">
+        <img
+          alt="radionice s2s"
+          className="slikaNaslovaRadionica"
+          src={NaslovRadonice}
+        ></img>
       </div>
     </div>
   );
