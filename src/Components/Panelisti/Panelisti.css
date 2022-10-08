@@ -4,8 +4,14 @@
   justify-content: center;
   /* flex-wrap: wrap; */
   width: 100%;
+  
   /* margin-bottom: -100%;  */
   /* TEST OVO OBRISI KAD DOBIJEMO PANELISTE */
+}
+.Panelisti-container a{
+  text-decoration: none;
+  color: #ff9500;
+  font-size: 105%;
 }
 .PanelTema{
   color: #0C5073;
@@ -15,7 +21,7 @@
 }
 
 .biografijaH4 {
-  font-size: 108%;
+  font-size: 112%;
   line-height: 105%;
   height: 100%;
   padding: 8px 10px 9px 3px;
@@ -24,7 +30,7 @@
   display: flex;
   flex-direction: column;
   font-weight: bold !important;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .biografijaH4 span{
   font-weight: 700;
@@ -88,6 +94,11 @@
 .Panelista img {
   width: 100%;
 }
+.ikonicaLinked{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
 
 .PanelText {
   position: absolute;
@@ -98,8 +109,8 @@
   z-index: 20;
   line-height: 2vw;
 
-  font-size: 2vw;
-  /* word-spacing: -1.4px; */
+  font-size: 1.9vw;
+  word-spacing: -.5px;
 }
 .PanelText h4 {
   font-weight: 500;
@@ -242,7 +253,7 @@
     left: 6%;
   }
   .biografijaH4 {
-    font-size: 108%;
+    font-size: 112%;
     font-weight: bold !important;
   }
 }
@@ -292,7 +303,7 @@
     left: 6%;
   }
   .biografijaH4 {
-    font-size: 108%;
+    font-size: 112%;
     font-weight: bold !important;
   }
 }
@@ -334,7 +345,7 @@
   left: 6%;
 }
 .biografijaH4 {
-  font-size: 108%;
+  font-size: 112%;
   font-weight: bold !important;
 }
 }

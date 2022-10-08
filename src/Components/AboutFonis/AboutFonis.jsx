@@ -22,7 +22,7 @@ const AboutFonis = () => {
               je besplatno i svi studenti iz Srbije mogu učestvovati, <br></br>bez obzira
              na Univerzitet ili usmerenje.<br></br> Ako ste zainteresovani za sticanje
               novih veština<br></br> u društvu kolega, nemojte propustiti ovu<br></br> jedinstvenu
-              priliku za to. <br></br>Čekamo vas!
+              priliku za to. Čekamo vas!
             </h3>
           </div>
           <div className="DrugiTekstAbout TekstAbout">
