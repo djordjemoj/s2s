@@ -6,6 +6,8 @@
   flex-direction: row;
   justify-content: center;
   width: 100%;
+  -webkit-tap-highlight-color: none;
+
 }
 
 .OrgTim3 {

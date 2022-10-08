@@ -138,7 +138,8 @@ export const advancedSchema = yup.object().shape({
 
   prvaMotivacija: yup
   .string()
-    .min(5, "Napiši zbog čega se prijavljuješ na primarnu radionicu:"),
+    // .min(2, "Napiši zbog čega se prijavljuješ na primarnu radionicu:")
+    ,
       
     
   drugaRadionica: yup
@@ -175,7 +176,7 @@ export const advancedSchema = yup.object().shape({
 
   drugaMotivacija: yup
   .string()
-    .min(5, "Napiši zbog čega se prijavljuješ na primarnu radionicu:")
+    // .min(2, "Napiši zbog čega se prijavljuješ na primarnu radionicu:")
     ,
 
   laptop: yup.boolean().oneOf([true, false], "").required("*Obavezno polje"),

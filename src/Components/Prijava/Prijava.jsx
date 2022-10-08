@@ -340,34 +340,13 @@ const Prijava = () => {
                       </option>
                     </CustomSelect>
                   </div>
-                  {/* ovo za radionicu se prikazuje samo ako je ispunjen neki uslov
-                  a ako nije, onda ne sme da bude required, smisli kako */}
-                  {/* {isLaptopNecessary1 === true && (
-                    <div className="laptopPitanje pitanjeX">
-                      <div className="brojPitanja">###</div>
-                      <CustomSelect
-                        label="Izabrana radionica zahteva da ponesete sopstveni laptop"
-                        name="laptop"
-                      >
-                        <option value="">Poneću sopstveni laptop</option>
-                        <option value={false}>Ne</option>
-                        <option value={true}>Da</option>
-                      </CustomSelect>
-                    </div>
-                  )} */}
-
-                  {/* ovde treba da bude ono ako je nesto od navedenog, 
-              da izadje ono za laptop, sto je obavezno za submit, 
-              al ne samo da izadje nego mozda da se tek tad renderuje &&
-              i kaze, ova radionica zahteva laptop, kako biste prisustvovali
-               potrebno je da ponesete lap top
-              Ponecu svoj lap top checkbox  ako ne (required)*/}
+                 
                   <div className="prvaMotivacijaDiv pitanjeX">
                     <div className="brojPitanja">12</div>
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="prvaMotivacija"
-                      placeholder="Unesi odgovor"
+                      placeholder="Kako bi se tvoja prijava istakla, napiši zbog čega se prijavljuješ za ovu radionicu: "
                     ></CustomTextArea>
                   </div>
                   <div className="drugiIzborDiv pitanjeX">
@@ -419,7 +398,9 @@ const Prijava = () => {
                     <CustomTextArea
                       label="Šta te najviše interesuje u vezi oblasti koja se prelazi na ovoj radionici? "
                       name="drugaMotivacija"
-                      placeholder="Unesite odgovor"
+                      // placeholder="Unesite odgovor"
+                      placeholder="Kako bi se tvoja prijava istakla, napiši zbog čega se prijavljuješ za ovu radionicu: "
+
                     ></CustomTextArea>
                   </div>
                 </div>

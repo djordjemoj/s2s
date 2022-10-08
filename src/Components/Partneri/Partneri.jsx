@@ -45,10 +45,10 @@ const Partneri = () => {
     pauseOnHover: true,
     pauseOnFocus: true,
     focusOnSelect: true,
-    autoplaySpeed: 3000,
-    draggable: true,
+    autoplaySpeed: 2000,
+    // draggable: true,
     arrows: false,
-    swipeToSlide: false,
+    swipeToSlide: true,
     responsive: [
       {
         breakpoint: 620,
