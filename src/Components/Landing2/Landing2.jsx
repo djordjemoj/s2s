@@ -2,31 +2,14 @@ import React from "react";
 import "../Landing2/Landing2.css";
 import S2SLOGO from "../../assets/s2slogo.png";
 import { motion } from "framer-motion";
-import { HashLink } from "react-router-hash-link";
+// import { HashLink } from "react-router-hash-link";
 // import Pozadina from "../../assets/pozadinaFinal.png";
 
 
 const Landing2 = () => {
   return (
     <div className="Ceo-Landing">
-      {/* <motion.div
-        className="divPozadina"
-        style={{ width: "100%" }}
-        initial={{ background: null }}
-        animate={{
-          backgroundColor: ["rgb(33, 96, 138, 1) ", "rgb(33, 96, 138, 0) "],
-          background: Pozadina,
-        }}
-        transition={{
-          type: "ease[1, 0.1, 0.8, 0.67]",
-          // stiffness: 500,
-          // mass: 0.3,
-          // damping: 20,
-
-          delay: 0.9,
-        }}
-      ></motion.div> */}
-      {/* <a name="top"></a> */}
+     
       <div className="Landing-container">
         <div className="Text-animacija-placeholder">
           <motion.div
@@ -73,11 +56,12 @@ const Landing2 = () => {
           onHoverEnd={(e) => {}}
           id="oS2S"
         >
-          <HashLink to="/prijava" class="dugmeZaPrijavu-hashlink">
+          {/* <HashLink to="/prijava" class="dugmeZaPrijavu-hashlink"> */}
             <button type="button" class="dugmeZaPrijavu">
-              PRIJAVI SE
+              Prijave su zatvorene.<br></br>
+              Hvala na velikom interesovanju!
             </button>
-          </HashLink>
+          {/* </HashLink> */}
           {/* onClick={() => navigate('/prijava')} */}
         </motion.div>
         <div className="empty-gradient" ></div>

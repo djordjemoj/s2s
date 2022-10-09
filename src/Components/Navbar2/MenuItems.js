@@ -40,11 +40,11 @@ const menuItems = [
     cName: "nav-links",
   },
 
-  {
-    title: "PRIJAVI SE",
-    url: "/prijava",
-    cName: "nav-links link-do-prijave",
-  },
+  // {
+  //   title: "PRIJAVI SE",
+  //   url: "/prijava",
+  //   cName: "nav-links link-do-prijave",
+  // },
 ];
 
 export default menuItems;
