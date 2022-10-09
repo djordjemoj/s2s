@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
 import Laptop from "../../assets/laptop.png";
 import classes from "../Radionice/Modal2.module.css";
 import {
   LazyLoadImage,
 } from "react-lazy-load-image-component";
+// import { MotionConfig } from "framer-motion";
 const Modal2 = ({ open, onClose, modali }) => {
   if (!open) return null;
 
@@ -28,7 +30,11 @@ const Modal2 = ({ open, onClose, modali }) => {
 
   return (
     <div onClick={onClose} className="overlay">
-      <div
+      <motion.div
+    initial={{opacity: 0.35, filter: "brightness(35%)", height: "0"}}
+    animate={{opacity: 1, filter: "brightness(100%)", height: "auto"}}
+    transition={{ duration: .4, ease:"easeOut" }}
+
         onClick={(e) => {
           e.stopPropagation();
         }}
@@ -88,7 +94,7 @@ pa zato mozda nece moci flex*/}
             {predavac2}
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
