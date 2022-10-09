@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Loader from "./Components/Loader/Loader";
 import "./App.css";
 
-const Prijava = lazy(() => import("./Components/Prijava/Prijava"));
+// const Prijava = lazy(() => import("./Components/Prijava/Prijava"));
 const Home = lazy(() => import("./Home"));
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       
         <Suspense fallback={<Loader />}>
           <Routes>
-            <Route path="/prijava" exact element={<Prijava />} />
+            {/* <Route path="/prijava" exact element={<Prijava />} /> */}
             <Route path="/" exact element={<Home />} />
           </Routes>
         </Suspense>
