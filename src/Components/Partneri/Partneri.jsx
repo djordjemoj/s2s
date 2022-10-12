@@ -4,6 +4,7 @@ import Slider from "react-slick";
 
 import GRID from "../../assets/grid/logoWhite.png";
 
+//naturalni i robni
 import DragiBravo from "../../assets/partneriLogo/dragibravo.jpeg";
 import LogoPartner1 from "../../assets/partneriLogo/glassart.png";
 import LogoPartner2 from "../../assets/partneriLogo/beerpong.png";
@@ -22,7 +23,22 @@ import LogoPartner14 from "../../assets/partneriLogo/nestle.png";
 import LogoPartner15 from "../../assets/partneriLogo/jafa.png";
 import LogoPartner16 from "../../assets/partneriLogo/grand.png";
 import LogoPartner17 from "../../assets/partneriLogo/jdp.png";
+import LogoPartner18 from "../../assets/partneriLogo/bilijar.jpg";
+import LogoPartner19 from "../../assets/partneriLogo/silver.png";
+import LogoPartner20 from "../../assets/partneriLogo/ucenje.png";
+// import LogoPartner21 from "../../assets/partneriLogo/jdp.png";
 
+//medijski
+import MedCentar from "../../assets/partneriLogo/medijski/center.png";
+import MedElab from "../../assets/partneriLogo/medijski/elab.png";
+import MedItnetwork from "../../assets/partneriLogo/medijski/itnetwork.png";
+import MedWannabe from "../../assets/partneriLogo/medijski/wanabe.png";
+import MedDGme from "../../assets/partneriLogo/medijski/dgme.png";
+import MedViser from "../../assets/partneriLogo/medijski/viser.png";
+import MedZivot from "../../assets/partneriLogo/medijski/zivot.png";
+import MedYouth from "../../assets/partneriLogo/medijski/youth.png";
+
+//godisnji
 import DevIT from "../../assets/godisnji/devit.png";
 import Digitec from "../../assets/godisnji/digitec.png";
 import FON from "../../assets/godisnji/fon.png";
@@ -168,17 +184,54 @@ const Partneri = () => {
       logoPartnera: LogoPartner11,
       linkPartnera: "https://www.instagram.com/moritzeisserbia/",
     },
+    {
+      logoPartnera: LogoPartner18,
+      linkPartnera:
+        "https://instagram.com/braca_bugi_beograd?igshid=YmMyMTA2M2Y=",
+    },
+    {
+      logoPartnera: LogoPartner19,
+      linkPartnera: "https://www.instagram.com/silver_dreams_jewelry/",
+    },
+    {
+      logoPartnera: LogoPartner20,
+      linkPartnera: "https://www.instagram.com/ucenje_za_tebe/",
+    },
   ];
-  // const logoPartneri3 = [
-  //   DragiBravo,
-  //   SlikaTim1,
-  //   SlikaTim2,
-  //   SlikaTim3,
-  //   SlikaTim4,
-  //   SlikaTim5,
-  //   SlikaTim6,
-  //   SlikaTim7,
-  // ];             OVI SU ZA MEDIJSKE
+  const logoPartneri3 = [
+    {
+      logoPartnera: MedCentar,
+      linkPartnera: "https://www.fonovcentar.rs/",
+    },
+    {
+      logoPartnera: MedItnetwork,
+      linkPartnera: "https://www.itnetwork.rs/",
+    },
+    {
+      logoPartnera: MedElab,
+      linkPartnera: "https://elab.fon.bg.ac.rs/",
+    },
+    {
+      logoPartnera: MedWannabe,
+      linkPartnera: "https://wannabemagazine.com/",
+    },
+    {
+      logoPartnera: MedDGme,
+      linkPartnera: "https://digitalizuj.me/",
+    },
+    {
+      logoPartnera: MedViser,
+      linkPartnera: "https://www.viser.edu.rs/stranica/studentski-parlament",
+    },
+    {
+      logoPartnera: MedZivot,
+      linkPartnera: "https://www.studentskizivot.com/",
+    },
+    {
+      logoPartnera: MedYouth,
+      linkPartnera: "https://youth.rs/",
+    },
+  ];
 
   return (
     <div className="Partneri" id="nasi-partneri">
@@ -209,7 +262,11 @@ const Partneri = () => {
               delay: 0.5,
             }}
           >
-            <a href="https://www.griddynamics.com/"  target="_blank" rel="noreferrer noopener">
+            <a
+              href="https://www.griddynamics.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <img alt="GRIDDYNAMICS" src={GRID}></img>
             </a>
           </motion.div>
@@ -219,7 +276,11 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {godisnjiPartneri.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera}  target="_blank" rel="noreferrer noopener">
+                <a
+                  href={img.linkPartnera}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
@@ -236,35 +297,41 @@ const Partneri = () => {
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri2.map((img) => (
               <div className="Jedan-partner">
-                <a href={img.linkPartnera}  target="_blank" rel="noreferrer noopener">
+                <a
+                  href={img.linkPartnera}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   <img
                     className="Jedan-partner-slika"
                     src={img.logoPartnera}
-                    alt={
-                      "Naturalni i robni partneri projekta Studenti Studentima"
-                    }
+                    alt={"Naturalni i robni partner"}
                   ></img>
                 </a>
               </div>
             ))}
           </Slider>
         </div>
-        {/* <div className="Medijski-partneri slider-partneri">
+        <div className="Medijski-partneri slider-partneri">
           <p className="Partneri-text">MEDIJSKI PARTNERI</p>
           <Slider {...settingsPartneri} className="SliderCeo">
             {logoPartneri3.map((img) => (
               <div className="Jedan-partner">
-              <a href={img.linkPartnera}  target="_blank" rel="noreferrer noopener">
-                <img
-                  className="Jedan-partner-slika"
-                  src={img}
-                  alt={"menjaj"}
-                ></img>
+                <a
+                  href={img.linkPartnera}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  <img
+                    className="Jedan-partner-slika"
+                    src={img.logoPartnera}
+                    alt={"Medijski partner"}
+                  ></img>
                 </a>
               </div>
             ))}
           </Slider>
-        </div> */}
+        </div>
       </div>
     </div>
   );
