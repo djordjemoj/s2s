@@ -13,7 +13,7 @@ import LogoPartner4 from "../../assets/partneriLogo/drbrado.png";
 import LogoPartner5 from "../../assets/partneriLogo/futrola.png";
 import LogoPartner6 from "../../assets/partneriLogo/Gifty.png";
 import LogoPartner7 from "../../assets/partneriLogo/naucidizajn.jpg";
-import LogoPartner8 from "../../assets/partneriLogo/kolacic.png";
+// import LogoPartner8 from "../../assets/partneriLogo/kolacic.png";
 import LogoPartner9 from "../../assets/partneriLogo/choco.jpeg";
 import LogoPartner10 from "../../assets/partneriLogo/gorstak.png";
 import LogoPartner11 from "../../assets/partneriLogo/moritz.png";
@@ -37,6 +37,19 @@ import MedDGme from "../../assets/partneriLogo/medijski/dgme.png";
 import MedViser from "../../assets/partneriLogo/medijski/viser.png";
 import MedZivot from "../../assets/partneriLogo/medijski/zivot.png";
 import MedYouth from "../../assets/partneriLogo/medijski/youth.png";
+import MedBest from "../../assets/partneriLogo/medijski/best.png";
+import MedEstiem from "../../assets/partneriLogo/medijski/estiem.png";
+import MedUnija from "../../assets/partneriLogo/medijski/unija.png";
+import MedSavez from "../../assets/partneriLogo/medijski/savez.png";
+import MedCs from "../../assets/partneriLogo/medijski/cs.png";
+import MedLc from "../../assets/partneriLogo/medijski/lc.png";
+import MedKreator from "../../assets/partneriLogo/medijski/kreator.png";
+import MedSemos from "../../assets/partneriLogo/medijski/semos.png";
+import MedRbg from "../../assets/partneriLogo/medijski/rbg.png";
+import MedRazvoj from "../../assets/partneriLogo/medijski/razvoj.jpg";
+import MedSot from "../../assets/partneriLogo/medijski/sot.png";
+import MedMf from "../../assets/partneriLogo/medijski/mf.jpg";
+import MedSc from "../../assets/partneriLogo/medijski/sc.png";
 
 //godisnji
 import DevIT from "../../assets/godisnji/devit.png";
@@ -164,10 +177,7 @@ const Partneri = () => {
       logoPartnera: LogoPartner7,
       linkPartnera: "https://www.instagram.com/naucidizajn/",
     },
-    {
-      logoPartnera: LogoPartner8,
-      linkPartnera: "http://www.kolacicsrece.com/",
-    },
+    // b
     {
       logoPartnera: LogoPartner9,
       linkPartnera: "https://www.instagram.com/choco.dreamer/",
@@ -221,7 +231,7 @@ const Partneri = () => {
     },
     {
       logoPartnera: MedViser,
-      linkPartnera: "https://www.viser.edu.rs/stranica/studentski-parlament",
+      linkPartnera: "https://www.viser.edu.rs/ ",
     },
     {
       logoPartnera: MedZivot,
@@ -230,6 +240,58 @@ const Partneri = () => {
     {
       logoPartnera: MedYouth,
       linkPartnera: "https://youth.rs/",
+    },
+    {
+      logoPartnera: MedBest,
+      linkPartnera: "https://best.rs/",
+    },
+    {
+      logoPartnera: MedEstiem,
+      linkPartnera: "https://www.estiem.org.rs/",
+    },
+    {
+      logoPartnera: MedUnija,
+      linkPartnera: "https://unijastudenatafona.org/",
+    },
+    {
+      logoPartnera: MedSavez,
+      linkPartnera: "https://www.instagram.com/ssfon_/",
+    },
+    {
+      logoPartnera: MedCs,
+      linkPartnera: "https://www.youtube.com/c/cysecor",
+    },
+    {
+      logoPartnera: MedLc,
+      linkPartnera: "http://www.eestecns.org/",
+    },
+    {
+      logoPartnera: MedKreator,
+      linkPartnera: "https://youth.rs/",
+    },
+    {
+      logoPartnera: MedSemos,
+      linkPartnera: "https://semosedu.com.mk/Pocetna.aspx",
+    },
+    {
+      logoPartnera: MedRbg,
+      linkPartnera: "https://sr-rs.facebook.com/RadioBeograd2/",
+    },
+    {
+      logoPartnera: MedRazvoj,
+      linkPartnera: "http://www.razvojkarijere.bg.ac.rs/",
+    },
+    {
+      logoPartnera: MedSot,
+      linkPartnera: "https://worldyouthwave.org/",
+    },
+    {
+      logoPartnera: MedMf,
+      linkPartnera: "https://www.mas.bg.ac.rs/",
+    },
+    {
+      logoPartnera: MedSc,
+      linkPartnera: "https://sicef.info/",
     },
   ];
 
