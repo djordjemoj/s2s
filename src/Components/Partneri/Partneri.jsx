@@ -267,7 +267,7 @@ const Partneri = () => {
     },
     {
       logoPartnera: MedKreator,
-      linkPartnera: "https://youth.rs/",
+      linkPartnera: "https://www.instagram.com/kreator_brend/",
     },
     {
       logoPartnera: MedSemos,
